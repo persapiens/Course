@@ -82,7 +82,7 @@ You will need the following information to help connect to this node.
 
 # Back to Ansible Server
 
-Create a `keys/node0.key` file that contains the private_key you previously copied. This will allow you to ssh into your node VM from the Ansible Server.
+Create a `keys/node0.key` file that contains the private_key you previously copied. This will allow you to ssh into your node VM from the Ansible Server. You may need to `chmod 500 keys/node0.key`.
 
 Create a `inventory` file that contains something like the following.  Note use your ip address and private_key:
     
