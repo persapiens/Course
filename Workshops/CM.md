@@ -7,9 +7,13 @@ The goal of this workshop is to demostrate how to use some tools to aid with the
 
 Install [vagrant](https://www.vagrantup.com/downloads.html).
 
-Initialize a virtual machine
+Initialize a virtual machine.  A list of virtual machine providers can be found [here](https://atlas.hashicorp.com/boxes/search).
 
     vagrant init hashicorp/precise32
+
+Init should initiatiate a download of the box, if not, you can manually add it as follows:
+
+    vagrant box add precise32 http://files.vagrantup.com/precise32.box
 
 Start up the virtual machine.
 
