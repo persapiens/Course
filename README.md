@@ -70,6 +70,8 @@ The following schedule is subject to change.
 
 ### Resources
 
+[Piazza Class Forum](https://piazza.com/class/i5dyy1jtzh4yy)
+
 ##### Books
 
 * [Ansible: Up and Running](http://www.ansiblebook.com/)
