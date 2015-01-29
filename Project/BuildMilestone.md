@@ -10,6 +10,12 @@ The build server must support the following properties.
 
 In creating your build server, you have the option of configuring an existing tool, such as Jenkins or GoCD, or of using a minimal build setup via scripts/code (e.g., automating the docker technique in the workshop).
 
+### Submission
+
+Email a link to your TA with a link to a repository that includes
+* your code, 
+* a README.md, with a \#\#\# Build section describing your setup.
+* test cases/scripts/screenshots that demostrate each build server capability.
 
 ### Evaluation
 
