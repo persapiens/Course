@@ -17,6 +17,8 @@ Email a link to your TA with a link to a repository that includes
 * a README.md, with a \#\#\# Build section describing your setup.
 * test cases/scripts/screenshots that demostrate each build server capability.
 
+Due Feb 9th midnight.
+
 ### Evaluation
 
 * Triggered Builds - 20%
