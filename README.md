@@ -41,9 +41,9 @@ The following schedule is subject to change.
 | Jan 13th | Core Concepts + Skills           | [Slides](https://docs.google.com/presentation/d/1gawFfJyPssbtiLs1-4FGow4Ph1-AHJeEo9B_S8Kvr70/edit)     |  &nbsp;               |
 | Jan 15th | Workshop: Git, Branches, Servers | [Site](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)     |  &nbsp;               |
 | Jan 20th | Configuration Management         | [Slides](https://docs.google.com/presentation/d/1sVDyCBwFnb1C0xKTswzmhsNn-FKwCXl434uZkAunI6M/edit#slide=id.g3ab49d3b9_154)     |  &nbsp;               |
-| Jan 22nd | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   | [Docker](), [Chef](), [Vagrant](), [Ansible]()     |  [HW #1 - Provisioning Servers](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md) |
-| Jan 27th | Build Management                 | &nbsp;     |  &nbsp;               |
-| Jan 29th | Workshop: Build Servers          | [Jenkins](), [CruiseControl]()     | &nbsp; |
+| Jan 22nd | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   | [Docker](https://www.docker.com/), [Chef](https://www.chef.io/chef/), [Vagrant](https://www.vagrantup.com/), [Ansible](http://www.ansible.com/get-started)     |  [HW #1 - Provisioning Servers](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md) |
+| Jan 27th | Build Management                 | [Slides](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/)     |  &nbsp;               |
+| Jan 29th | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          | [Jenkins](http://jenkins-ci.org/), [CruiseControl](http://cruisecontrol.sourceforge.net/), [GoCd](http://www.go.cd/)     | &nbsp; |
 | Feb 3rd  | Test Management                  | &nbsp;     |  MILESTONE: BUILD     |
 | Feb 5th  | Workshop: Test Suites            | &nbsp;     |  &nbsp;               |
 | Feb 10th | Static + Dynamic Analysis        | &nbsp;     |  &nbsp;               |
