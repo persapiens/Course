@@ -45,7 +45,7 @@ The following schedule is subject to change.
 | Jan 27th | Build Management                 | [Slides](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/)     |  &nbsp;               |
 | Jan 29th | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          | [Jenkins](http://jenkins-ci.org/), [CruiseControl](http://cruisecontrol.sourceforge.net/), [GoCd](http://www.go.cd/)     | &nbsp; |
 | Feb 3rd  | Test Management                  | [Slides](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)     |  [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/BuildMilestone.md)     |
-| Feb 5th  | Workshop: Test Suites            | &nbsp;     |  &nbsp;               |
+| Feb 5th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md)            | &nbsp;     |  &nbsp;               |
 | Feb 10th | Static + Dynamic Analysis        | &nbsp;     |  &nbsp;               |
 | Feb 12th | Workshop: Fuzzing                | &nbsp;     |  HW #2 - Test Suite Minimization |
 | Feb 17th | Tech Talks #1                    | &nbsp;     |  &nbsp;               |
