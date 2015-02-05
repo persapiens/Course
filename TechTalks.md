@@ -14,7 +14,7 @@ The following criteria will be used in evaluating your talk (each worth 10 point
 * justify his or her own opinions about the tool?
 * personalize the topic, such as by bringing in their own experiences?
 * demonstrates how to use the tool with simple example?
-* demonstration conveys value of tool? 
+* conveys value of tool in demonstration? 
 * facilitate a lively discussion of the tool?
 * acts as an expert about the tool, answering clarifying questions as they arise?
 
