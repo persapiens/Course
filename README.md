@@ -48,8 +48,8 @@ The following schedule is subject to change.
 | Feb 5th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md)            | &nbsp;     |  &nbsp;               |
 | Feb 10th | Static + Dynamic Analysis        | &nbsp;     |  &nbsp;               |
 | Feb 12th | Workshop: Fuzzing                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
-| Feb 17th | Tech Talks #1                    | &nbsp;     |  &nbsp;               |
-| Feb 19th | Project Planning                 | &nbsp;     |  &nbsp;               |
+| Feb 17th | Project Planning (no class)      | &nbsp;     |  &nbsp;               |
+| Feb 19th | Tech Talks #1                    | &nbsp;     |  &nbsp;               |
 | Feb 24th | Operations + Concepts            | &nbsp;     |  &nbsp;               |
 | Feb 26th | Tech Talks #2                    | &nbsp;     |  HW #3 - Mass Refactoring |
 | March 3rd| Infrastructure Management        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
