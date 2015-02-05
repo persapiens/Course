@@ -26,5 +26,5 @@ There are three days in the semester dedicated to tech talk presentations, each 
 * 2/26
 * 3/31
 
-[Please sign up](https://docs.google.com/spreadsheets/d/1O-wlyoBNE71SNnm_tehc5CzekDZt0pmMjlZw06RauVM/edit#gid=0) early to get the spot you want.
+[Please sign up](https://docs.google.com/spreadsheets/d/1O-wlyoBNE71SNnm_tehc5CzekDZt0pmMjlZw06RauVM/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
 
