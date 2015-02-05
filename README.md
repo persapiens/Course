@@ -49,9 +49,9 @@ The following schedule is subject to change.
 | Feb 10th | Static + Dynamic Analysis        | &nbsp;     |  &nbsp;               |
 | Feb 12th | Workshop: Fuzzing                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
 | Feb 17th | Project Planning (no class)      | &nbsp;     |  &nbsp;               |
-| Feb 19th | Tech Talks #1                    | &nbsp;     |  &nbsp;               |
+| Feb 19th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  &nbsp;               |
 | Feb 24th | Operations + Concepts            | &nbsp;     |  &nbsp;               |
-| Feb 26th | Tech Talks #2                    | &nbsp;     |  HW #3 - Mass Refactoring |
+| Feb 26th | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  HW #3 - Mass Refactoring |
 | March 3rd| Infrastructure Management        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
 | March 5th| Workshop: Queues, Proxies, Caches| &nbsp;     | MILESTONE: TEST+ANALYSIS |
 | March 7th-13th  | ~~~ Spring Break ~~~      | &nbsp;     | &nbsp;                |
@@ -59,7 +59,7 @@ The following schedule is subject to change.
 | March 19th | Workshop: Staging Servers      | &nbsp;     | &nbsp;                |
 | March 24th | Deployment                     | &nbsp;     | &nbsp;                |
 | March 26th | Workshop: Deflighting          | &nbsp;     | HW #4 - Data Migration                |
-| March 31st | Tech Talks #3                  | &nbsp;     | MILESTONE: DEPLOY     |
+| March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | MILESTONE: DEPLOY     |
 | April 2nd  | ~~~ Spring Holiday ~~~         | &nbsp;     | &nbsp;                |
 | April 7th  | Analysis + Monitoring          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments) | &nbsp;                   |
 | April 9th  | Workshop: A/B + Resilience Testing | [Chaos Monkey](https://github.com/Netflix/SimianArmy)     | &nbsp;                   |
