@@ -8,8 +8,8 @@ We've learned how to automatically generate tests, a process which can be trigge
 In our test generation workshop, we worked with automatically generating sample code.
 I've extended the driver to improve its ability to reach even more paths automatically. However, there are some paths still missing.
 
-Statements: 92.31% ( 48/52 )
-Branch: 62.5% ( 10/16 )
+* Statements: 92.31% ( 48/52 )
+* Branch: 62.5% ( 10/16 )
 
 Your assignment is to complete the automation of new tests to achieve 100% branch and statement coverage.
 
