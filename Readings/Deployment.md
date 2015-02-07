@@ -19,3 +19,6 @@ A list of deployment articles by various software companies
 * [deploying infrastructure](http://highscalability.com/blog/2011/12/12/netflix-developing-deploying-and-supporting-software-accordi.html)
 * [auto-scaling](http://techblog.netflix.com/2013/11/scryer-netflixs-predictive-auto-scaling.html)
 
+### Knight Capital Group
+
+[Knightmare: A DevOps Cautionary Tale](http://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/)
