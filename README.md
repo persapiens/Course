@@ -46,7 +46,7 @@ The following schedule is subject to change.
 | Jan 29th | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          | [Jenkins](http://jenkins-ci.org/), [CruiseControl](http://cruisecontrol.sourceforge.net/), [GoCd](http://www.go.cd/)     | &nbsp; |
 | Feb 3rd  | Test Management                  | [Slides](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)     |  [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/BuildMilestone.md)     |
 | Feb 5th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md)            | &nbsp;     |  &nbsp;               |
-| Feb 10th | Static + Dynamic Analysis        | &nbsp;     |  &nbsp;               |
+| Feb 10th | Static + Dynamic Analysis        | [Slides](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)     |  &nbsp;               |
 | Feb 12th | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
 | Feb 17th | Project Planning (no class)      | &nbsp;     |  &nbsp;               |
 | Feb 19th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  &nbsp;               |
