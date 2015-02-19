@@ -53,7 +53,7 @@ The following schedule is subject to change.
 | Feb 24th | Operations + Concepts            | &nbsp;     |  &nbsp;               |
 | Feb 26th | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  HW #3 - Mass Refactoring |
 | March 3rd| Infrastructure Management        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
-| March 5th| Workshop: Queues, Proxies, Caches| &nbsp;     | MILESTONE: TEST+ANALYSIS |
+| March 5th| Workshop: Queues, Proxies, Caches| &nbsp;     | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
 | March 7th-13th  | ~~~ Spring Break ~~~      | &nbsp;     | &nbsp;                |
 | March 17th | Staging Patterns               | &nbsp;     | &nbsp;                |
 | March 19th | Workshop: Staging Servers      | &nbsp;     | &nbsp;                |
