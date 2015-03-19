@@ -50,14 +50,15 @@ The following schedule is subject to change.
 | Feb 12th | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
 | Feb 17th | Project Planning (no class)      | &nbsp;     |  &nbsp;               |
 | Feb 19th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  &nbsp;               |
-| Feb 24th | Operations + Concepts            | &nbsp;     |  &nbsp;               |
-| Feb 26th | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  HW #3 - Mass Refactoring |
+| Feb 24th | SNOW DAY            | &nbsp;     |  &nbsp;               |
+| Feb 26th | SNOW DAY            | &nbsp;     |  |
 | March 3rd| [Infrastructure Management](https://onedrive.live.com/fullscreen?cid=ff912f1dfcf67a6d&id=documents&resid=FF912F1DFCF67A6D%211734&filename=DevOpsInfrastructure.pptx&wx=p&wv=s&wc=officeapps.live.com&wy=y&wdSlideId=273&wdModeSwitchTime=1425393995253)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
-| March 5th| Workshop: Queues, Proxies, Caches| &nbsp;     | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
+| March 5th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)
+| &nbsp;     | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
 | March 7th-13th  | ~~~ Spring Break ~~~      | &nbsp;     | &nbsp;                |
-| March 17th | Staging Patterns               | &nbsp;     | &nbsp;                |
+| March 17th | Redis               | &nbsp;     | &nbsp;                |
 | March 19th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp;                |
-| March 24th | Deployment                     | &nbsp;     | &nbsp;                |
+| March 24th | Staging + Deployment                     | &nbsp;     | &nbsp;                | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)
 | March 26th | Workshop: Deflighting          | &nbsp;     | HW #4 - Data Migration                |
 | March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | MILESTONE: DEPLOY     |
 | April 2nd  | ~~~ Spring Holiday ~~~         | &nbsp;     | &nbsp;                |
