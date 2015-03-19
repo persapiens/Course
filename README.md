@@ -56,7 +56,7 @@ The following schedule is subject to change.
 | March 5th| Workshop: Queues, Proxies, Caches| &nbsp;     | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
 | March 7th-13th  | ~~~ Spring Break ~~~      | &nbsp;     | &nbsp;                |
 | March 17th | Staging Patterns               | &nbsp;     | &nbsp;                |
-| March 19th | Workshop: Staging Servers      | &nbsp;     | &nbsp;                |
+| March 19th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp;                |
 | March 24th | Deployment                     | &nbsp;     | &nbsp;                |
 | March 26th | Workshop: Deflighting          | &nbsp;     | HW #4 - Data Migration                |
 | March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | MILESTONE: DEPLOY     |
