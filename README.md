@@ -56,9 +56,9 @@ The following schedule is subject to change.
 | March 5th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)
 | &nbsp;     | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
 | March 7th-13th  | ~~~ Spring Break ~~~      | &nbsp;     | &nbsp;                |
-| March 17th | Redis               | &nbsp;     | &nbsp;                |
+| March 17th | Redis               | &nbsp;     | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)                |
 | March 19th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp;                |
-| March 24th | Staging + Deployment                     | &nbsp;     | &nbsp;                | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)
+| March 24th | Staging + Deployment                     | &nbsp;     | &nbsp;                | 
 | March 26th | Workshop: Deflighting          | &nbsp;     | HW #4 - Data Migration                |
 | March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | MILESTONE: DEPLOY     |
 | April 2nd  | ~~~ Spring Holiday ~~~         | &nbsp;     | &nbsp;                |
