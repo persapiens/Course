@@ -2,7 +2,7 @@
 
 Understanding the basic building blocks that form complex infrastructure is an important precedent to being able to construct and deploy it.
 
-### 100% Branch and Statement Coverage
+### Building Infrastructure
 
 In our [redis workshop](https://github.com/CSC-DevOps/Queues), we worked with server-side web technologies combined with redis to demonstrate concepts related to caches and queues.
 
