@@ -49,5 +49,4 @@ Create a github repository (on github proper or NCSU), with a basic report in th
 
 Please email your TA with the link to your repository in order to submit.
 
-The assignment is due Tuesday, March 24th at midnight.
-
+The assignment is due Thursday, March 26th at midnight.
