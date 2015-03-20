@@ -24,7 +24,7 @@ Build a simple three tier web application (front-end/service/storage) with the f
 - Demonstrate caching: 75%
 - Demonstrate queue: 85%
 - Demonstrate more than one service instance running: 90%
-- Demonstrate proxy: 95%
+- Demonstrate proxy: 100%
 
 **--OR--**
 
