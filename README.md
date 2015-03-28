@@ -58,13 +58,13 @@ The following schedule is subject to change.
 | March 17th | Redis               | &nbsp;     | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)                |
 | March 19th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp;                |
 | March 24th | Staging + Deployment                     | [Slides](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)     | &nbsp;                | 
-| March 26th | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)          | &nbsp;     | HW #4 - Data Migration                |
-| March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | MILESTONE: DEPLOY     |
+| March 26th | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)          | &nbsp;     | [HW #4 - Data Migration](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)                |
+| March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment)     |
 | April 2nd  | ~~~ Spring Holiday ~~~         | &nbsp;     | &nbsp;                |
 | April 7th  | Analysis + Monitoring          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments) | &nbsp;                   |
 | April 9th  | Workshop: A/B + Resilience Testing | [Chaos Monkey](https://github.com/Netflix/SimianArmy)     | &nbsp;                   |
 | April 14th | Auditing              | &nbsp;     | &nbsp;                   |
-| April 16th | [Nick Carver, Operations @ Stack Overflow](http://nickcraver.com/blog/)            | &nbsp;     | MILESTONE: SPECIAL       |
+| April 16th | [Nick Carver, Operations @ Stack Overflow](http://nickcraver.com/blog/)            | &nbsp;     | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special)       |
 | April 21st | TBD/Demos             | &nbsp;     | &nbsp;                   |
 | April 23rd | TBD/Demos             | &nbsp;     | HW #5 - Server Inventory |
 
