@@ -62,7 +62,7 @@ The following schedule is subject to change.
 | March 31st | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment)     |
 | April 2nd  | ~~~ Spring Holiday ~~~         | &nbsp;     | &nbsp;                |
 | April 7th  | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments) | &nbsp;                   |
-| April 9th  | Workshop: A/B + Resilience Testing | [Chaos Monkey](https://github.com/Netflix/SimianArmy)     | &nbsp;                   |
+| April 9th  | [Workshop: Monitoring + Resilience Testing](https://github.com/CSC-DevOps/Monitoring) | [Chaos Monkey](https://github.com/Netflix/SimianArmy)     | &nbsp;                   |
 | April 14th | Tech Talk #4 / Auditing              | &nbsp;     | &nbsp;                   |
 | April 16th | [Nick Craver, Operations @ Stack Overflow](http://nickcraver.com/blog/)            | &nbsp;     | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special)       |
 | April 21st | TBD/Demos             | &nbsp;     | &nbsp;                   |
