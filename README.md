@@ -65,8 +65,8 @@ The following schedule is subject to change.
 | April 9th  | [Workshop: Monitoring + Resilience Testing](https://github.com/CSC-DevOps/Monitoring) | [Chaos Monkey](https://github.com/Netflix/SimianArmy)     | &nbsp;                   |
 | April 14th | Tech Talk #4 / [Auditing](https://docs.google.com/presentation/d/1lfx-hseYOuriY1STi7Cdtgbd1-LqMmqIxsaWh6ZT5y0/edit)              | &nbsp;     | &nbsp;                   |
 | April 16th | [Nick Craver, Operations @ Stack Overflow](http://nickcraver.com/blog/)            | [How We Upgrade a Live Data Center](http://blog.serverfault.com/2015/03/05/how-we-upgrade-a-live-data-center/)     | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special)       |
-| April 21st | TBD/Demos             | &nbsp;     | &nbsp;                   |
-| April 23rd | TBD/Demos             | &nbsp;     | HW #5 - Server Inventory |
+| April 21st | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp;                   |
+| April 23rd | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | <del>HW #5 - Server Inventory</del> |
 
 ### Resources
 
