@@ -41,7 +41,7 @@ The following schedule is subject to change.
 | Class    | Topics                           |  Resources |  Deadlines |
 |----------|----------------------------------|------------| ----------            |
 | Aug 20th  | Hello                            | [Previous Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit#gid=0)     |  &nbsp;               | 
-| Aug 25th | Core Concepts + Skills           | [Slides](https://docs.google.com/presentation/d/1gawFfJyPssbtiLs1-4FGow4Ph1-AHJeEo9B_S8Kvr70/edit)     |  &nbsp;               |
+| Aug 25th | [Core Concepts + Skills](https://docs.google.com/presentation/d/1gawFfJyPssbtiLs1-4FGow4Ph1-AHJeEo9B_S8Kvr70/edit)           | &nbsp;     |  &nbsp;               |
 | Aug 27th | [Workshop: Git, Branches, Servers, Hooks](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop) *internal link* | &nbsp; |  HW #0 - Hooks               |
 | Sep 1st | [Configuration Management](https://docs.google.com/presentation/d/1sVDyCBwFnb1C0xKTswzmhsNn-FKwCXl434uZkAunI6M/edit#slide=id.g3ab49d3b9_154)         | &nbsp;     |  &nbsp;  |
 | Sep 3rd | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   | [Docker](https://www.docker.com/), [Chef](https://www.chef.io/chef/), [Vagrant](https://www.vagrantup.com/), [Ansible](http://www.ansible.com/get-started)     |  [HW #1 - Provisioning Servers](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md) |
