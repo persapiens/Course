@@ -31,7 +31,7 @@ Details on requirements for milestones will be released throughout the course.  
 * DEPLOY
 * SPECIAL
 
-## Schedule and Topics - Spring 2015
+## Schedule and Topics - Fall 2015
 
 The following schedule is subject to change.
 
@@ -39,37 +39,35 @@ The following schedule is subject to change.
 |----------|----------------------------------|------------| ----------            |
 | Aug 20th  | Hello                            | &nbsp;     |  &nbsp;               | 
 | Aug 25th | Core Concepts + Skills           | [Slides](https://docs.google.com/presentation/d/1gawFfJyPssbtiLs1-4FGow4Ph1-AHJeEo9B_S8Kvr70/edit)     |  &nbsp;               |
-| Aug 27th | Workshop: Git, Branches, Servers | [Site](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)     |  &nbsp;               |
+| Aug 27th | Workshop: Git, Branches, Servers, Hooks | [Site](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)     |  &nbsp;               |
 | Sep 1st | Configuration Management         | [Slides](https://docs.google.com/presentation/d/1sVDyCBwFnb1C0xKTswzmhsNn-FKwCXl434uZkAunI6M/edit#slide=id.g3ab49d3b9_154)     |  &nbsp;               |
 | Sep 3rd | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   | [Docker](https://www.docker.com/), [Chef](https://www.chef.io/chef/), [Vagrant](https://www.vagrantup.com/), [Ansible](http://www.ansible.com/get-started)     |  [HW #1 - Provisioning Servers](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md) |
 | Sep 8th | Build Management                 | [Slides](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/)     |  &nbsp;               |
 | Sep 10th | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          | [Jenkins](http://jenkins-ci.org/), [CruiseControl](http://cruisecontrol.sourceforge.net/), [GoCd](http://www.go.cd/)     | &nbsp; |
-| Sep 15th  | Test Management                  | [Slides](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)     |  [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/BuildMilestone.md)     |
-| Sep 17th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md)            | &nbsp;     |  &nbsp;               |
-| Sep 22nd | Static + Dynamic Analysis        | [Slides](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)     |  &nbsp;               |
-| Sep 24th | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
-| Sep 29th | Project Planning (no class)      | &nbsp;     |  &nbsp;               |
-| Oct 1st |  &nbsp;                    | &nbsp;     |  &nbsp;               |
+| Sep 15th  | Parsing + Static Analysis                  |      |  [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/BuildMilestone.md)     |
+| Sep 17th  | [Workshop: Code Complexity]()            | &nbsp;     |  &nbsp;               |
+| Sep 22nd  | Test Management                  | [Slides](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)     |  &nbsp;     |
+| Sep 24th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md)            | &nbsp;     |  &nbsp;               |
+| Sep 29th | Static + Dynamic Analysis        | [Slides](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)     |  &nbsp;               |
+| Oct 1st | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
 | Oct 6th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  | &nbsp;     |  &nbsp;    |
 | Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
 | Oct 13th| [Infrastructure Management](https://onedrive.live.com/redir?resid=FF912F1DFCF67A6D%211734)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
-| Oct 15th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
-| XXX  | ~~~ Spring Break ~~~      | &nbsp;     | &nbsp;                |
-| Oct 20th | Feature Flags/Property Sets/Redis               | &nbsp;     | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)                |
-| Oct 22th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp;                |
-| Oct 27th | Staging + Deployment                     | [Slides](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)     | &nbsp;                | 
-| Oct 29th | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)          | &nbsp;     | [HW #4 - Data Migration](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)                |
-| XXXX | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                  | &nbsp;     | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment)     |
-| XXXX  | ~~~ Spring Holiday ~~~         | &nbsp;     | &nbsp;                |
-| Nov 3rd  | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments), [Zynga](http://blog.amplitude.com/2015/06/24/zynga-analytics-at-its-peak/) | &nbsp;                   |
-| Nov 5th  | [Workshop: Monitoring + Resilience Testing](https://github.com/CSC-DevOps/Monitoring) | [Chaos Monkey](https://github.com/Netflix/SimianArmy)     | &nbsp;                   |
-| Nov 10th | Tech Talk #4 / [Auditing](https://docs.google.com/presentation/d/1lfx-hseYOuriY1STi7Cdtgbd1-LqMmqIxsaWh6ZT5y0/edit)              | &nbsp;     | &nbsp;                   |
-| Nov 12th | [Nick Craver, Operations @ Stack Overflow](http://nickcraver.com/blog/)            | [How We Upgrade a Live Data Center](http://blog.serverfault.com/2015/03/05/how-we-upgrade-a-live-data-center/)     | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special)       |
-| Nov 17th | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp;                   |
-| Nov 19th | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | <del>HW #5 - Server Inventory</del> |
-| Nov 24th | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | <del>HW #5 - Server Inventory</del> |
-| Dec 1st | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | <del>HW #5 - Server Inventory</del> |
-| Dec 3rd | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | <del>HW #5 - Server Inventory</del> |
+| Oct 15th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
+| Oct 20th | TBD | &nbsp; |
+| Oct 22th | TBD/[Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; |
+| Oct 27th | Feature Flags/Property Sets/Redis               | &nbsp;     | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)  | 
+| Oct 29th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp; |
+| Nov 3rd  |  Staging + Deployment                     | [Slides](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)     | &nbsp; |
+| Nov 5th  | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)          | &nbsp;     | [HW #4 - Data Migration](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)  |
+| Nov 10th | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments), [Zynga](http://blog.amplitude.com/2015/06/24/zynga-analytics-at-its-peak/)      |
+| Nov 12th | [Workshop: Monitoring + Resilience Testing](https://github.com/CSC-DevOps/Monitoring) | [Chaos Monkey](https://github.com/Netflix/SimianArmy) | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment) |
+| Nov 17th | [Auditing](https://docs.google.com/presentation/d/1lfx-hseYOuriY1STi7Cdtgbd1-LqMmqIxsaWh6ZT5y0/edit)/Guest Speaker/[Tech Talks #4](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)             | &nbsp;     | &nbsp;                   |
+| Nov 19th | Guest Speaker/[Tech Talks #4](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special) | 
+| Nov 24th | No class.             | &nbsp;     | &nbsp; |
+| Dec 1st | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp; |
+| Dec 3rd | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp; |
+| Dec 8th | Final Exam (1-4pm)     | &nbsp;     | &nbsp; |
 
 
 ### Resources
