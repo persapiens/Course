@@ -49,8 +49,8 @@ The following schedule is subject to change.
 | Sep 22nd | Static + Dynamic Analysis        | [Slides](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)     |  &nbsp;               |
 | Sep 24th | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
 | Sep 29th | Project Planning (no class)      | &nbsp;     |  &nbsp;               |
-| Oct 1st | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | &nbsp;     |  &nbsp;               |
-| Oct 6th | SNOW DAY            | &nbsp;     |  &nbsp;               |
+| Oct 1st |  &nbsp;                    | &nbsp;     |  &nbsp;               |
+| Oct 6th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  | &nbsp;     |  &nbsp;    |
 | Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
 | Oct 13th| [Infrastructure Management](https://onedrive.live.com/redir?resid=FF912F1DFCF67A6D%211734)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
 | Oct 15th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md) |
