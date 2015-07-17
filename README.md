@@ -56,10 +56,10 @@ The following schedule is subject to change.
 | Oct 6th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  | &nbsp;     |  [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)    |
 | Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
 | Oct 13th| [Infrastructure Management](https://onedrive.live.com/redir?resid=FF912F1DFCF67A6D%211734)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
-| Oct 15th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; |  |
+| Oct 15th| [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md) |
 | Oct 20th | TBD | &nbsp; |
 | Oct 22th | TBD/[Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; |
-| Oct 27th | Feature Flags/Property Sets/Redis               | &nbsp;     | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)  | 
+| Oct 27th | Feature Flags/Property Sets/Redis               | &nbsp;     | &nbsp;  | 
 | Oct 29th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)      | &nbsp;     | &nbsp; |
 | Nov 3rd  |  Staging + Deployment                     | [Slides](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)     | &nbsp; |
 | Nov 5th  | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)          | &nbsp;     | [HW #4 - Data Migration](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)  |
