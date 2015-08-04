@@ -1,4 +1,7 @@
 
+### Static Analysis
+
+* [Infer @ FB](https://github.com/facebook/infer)
 
 ### Test Generation
 
