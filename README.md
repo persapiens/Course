@@ -75,7 +75,7 @@ The following schedule is subject to change.
 
 ### Resources
 
-[Piazza Class Forum](https://piazza.com/class/i5dyy1jtzh4yy)
+[Slack](https://csc-devops.slack.com/)
 
 ##### Books
 
