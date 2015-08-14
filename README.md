@@ -51,7 +51,7 @@ The following schedule is subject to change.
 | Sep 17th  | [Workshop: Code Complexity]()            | &nbsp;     |  &nbsp;               |
 | Sep 22nd  | [Test Management](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)                  | &nbsp;     |  &nbsp;     |
 | Sep 24th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md) | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
-| Sep 29th | [Static + Dynamic Analysis](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)        | &nbsp;     |  &nbsp;               |
+| Sep 29th | [Static + Dynamic Analysis](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)        | [SAGE](http://queue.acm.org/detail.cfm?id=2094081)     |  &nbsp;               |
 | Oct 1st | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |   |
 | Oct 6th | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  | &nbsp;     |  [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)    |
 | Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
