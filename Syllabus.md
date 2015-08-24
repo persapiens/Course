@@ -7,9 +7,10 @@ North Carolina State University
 | Instructor   | Dr. Christopher Parnin (cjparnin@ncsu.edu)|
 | Readings     | Provided by instructor   |
 | Credit-hours | 3                        |
-| Office Hours | EBII 3270, Thur 2:30pm-4:30pm *|
+| Office Hours | EBII 3270, Thur 2:30pm&mdash;4:30pm *|
 | Lecture      | EBII 1021, TuTh 12:50-2:05pm|
 | TA           | Shiou-Tian Hsu (shsu3@ncsu.edu )|
+| TA Office Hours |  EBII 1229B, 11:30am&mdash;12:50pm |
 
 * (*Note public office hours start at 3:00pm*)
 
