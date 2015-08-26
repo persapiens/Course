@@ -46,6 +46,7 @@ In your solution, provide the content of "post-commit". Finally, take a screenca
 * **Puzzle Solutions (4)**: 40%.
 * **Hooks Solution**: 20%
 * **Screencast**: 20%
+* **Following instructions**: 20%
 * **Bonus**: 4 additional levels: +5
 
 ### Screencasts/Demo Gifs Guidelines
