@@ -35,7 +35,7 @@ In your solution, provide the content of "post-commit". Finally, take a screenca
 
 * Create a github repo, `HW`, hosted on github or NCSU github:
 * Create a HW0.md
-* Place your solutions, screenshots, and links to screencast/gif
+* Place your solutions, screenshots, and links to screencast/gif in HW0.md
 
 **[Submit](https://docs.google.com/a/ncsu.edu/forms/d/1wnzpYY2O5E6OPTYh9BF0ucEJ4n2NAmSE3jCP1NeDgNA/viewform?usp=send_form)**
 
