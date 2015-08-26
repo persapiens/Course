@@ -57,14 +57,18 @@ Here are some guidelines and links for creating good screencasts. It is good to 
 * https://github.com/lepht/licecap (for simple .gif)
 * Add more recommendations in Slack
  
-#### Guidelines for both multimedia formats**:
+##### Guidelines for both multimedia formats:
+
 * Keep the content simple - A regular software engineer without knowing anything about your tool should be able to follow you
+
 ##### Guidelines for screencasts (video)
 
 * Mention your name, unity ID and the tool/source code which you will be testing/demoing when you begin
 * Use a headset microphone for good quality audio recording.
 * Create a script and rehearse that script
-* Guidelines for making a screencast:
+
+#### Guidelines for making a screencast:
+
 * https://wiki.duraspace.org/plugins/viewsource/viewpagesrc.action?pageId=30218666 (also good suggestions for podcasts)
 * From http://www.screencast.com/help/tutorial.aspx?id=403
 * Practice on screen movements as they can appear jerky when viewing but not as a user.
