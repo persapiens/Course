@@ -67,7 +67,7 @@ Here are some guidelines and links for creating good screencasts. It is good to 
 * Use a headset microphone for good quality audio recording.
 * Create a script and rehearse that script
 
-#### Guidelines for making a screencast:
+##### Guidelines for making a screencast:
 
 * https://wiki.duraspace.org/plugins/viewsource/viewpagesrc.action?pageId=30218666 (also good suggestions for podcasts)
 * From http://www.screencast.com/help/tutorial.aspx?id=403
