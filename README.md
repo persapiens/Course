@@ -85,6 +85,7 @@ The following schedule is subject to change.
 * [Designing Data-Intensive Applications](http://dataintensive.net/)
 * [Systems Performance: Enterprise and the Cloud](http://www.brendangregg.com/sysperfbook.html)
 * [The Practice of Cloud System Administration](http://the-cloud-book.com/)
+* [DevOps: A Software Architect's Perspective, SEI](http://www.amazon.com/DevOps-Software-Architects-Perspective-Engineering/dp/0134049845)
 
 ##### Glossary of Tools
 
