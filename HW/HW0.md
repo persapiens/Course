@@ -39,7 +39,7 @@ In your solution, provide the content of "post-commit". Finally, take a screenca
 
 **[Submit](https://docs.google.com/a/ncsu.edu/forms/d/1wnzpYY2O5E6OPTYh9BF0ucEJ4n2NAmSE3jCP1NeDgNA/viewform?usp=send_form)**
 
-**Homework is due, Wednesday Sept, 9th 2015.**
+**Homework is due, Wednesday Sept, 9th 2015, midnight**
 
 ### Evaluation
 
