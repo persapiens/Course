@@ -1,7 +1,7 @@
 Configuration Management Workshop
 ----------------------------------
 
-The goal of this workshop is to demostrate how to use some tools to aid with the creation of virtual machines and configure software on them.  At the end of this workshop, you should be able to automatically create a virtual machine and configure it to run a simple web server.
+The goal of this workshop is to demonstrate how to use some tools to aid with the creation of virtual machines and configure software on them.  At the end of this workshop, you should be able to automatically create a virtual machine and configure it to run a simple web server.
 
 # Creating Virtual Machine
 
