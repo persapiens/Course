@@ -139,3 +139,4 @@ PYTHONPATH=/home/vagrant/ansible/lib:
 MANPATH=/home/vagrant/ansible/docs/man:
 ```
 
+If you change your Vagrantfile, and not seeing a change (public ip address), then you need to run `vagrant reload` so that it can reboot machine and read config file.
