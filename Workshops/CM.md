@@ -74,7 +74,7 @@ We now want to create a new node that will be serving as our web server.  Normal
 * After running `vagrant init ...`, edit the Vagrantfile, and uncomment the following line: `#config.vm.network "public_network"`.  This will in effect cause the VM to have its own IP address that you can reach, instead of just using port forwarding.
 * When launching the VM, you may be asked which network to bridge off of, you can use the same interface as the "wireless" network.
 
-You will need the following information to help connect to this node.
+**You will need the following information to help connect to this node.**
 
 * Run vagrant ssh-config to get path of the private_key, open it up and copy contents into textfile.
 * Inside the node machine, run `ifconfig` and note the second ip address listed.
