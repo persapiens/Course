@@ -83,7 +83,7 @@ We now want to create a new node that will be serving as our web server.  Normal
 
 Create a `keys/node0.key` file that contains the private_key you previously copied. This will allow you to ssh into your node VM from the Ansible Server. You may need to `chmod 500 keys/node0.key`.
 
-Create a `inventory` file that contains something like the following.  Note use your ip address and private_key:
+Create a `inventory` file that contains something like the following.  **Note use your ip address and private_key**:
     
     node0 ansible_ssh_host=192.168.1.103 ansible_ssh_user=vagrant ansible_ssh_private_key_file=./keys/node0.key
 
