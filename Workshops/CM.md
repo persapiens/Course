@@ -7,7 +7,9 @@ The goal of this workshop is to demonstrate how to use some tools to aid with th
 
 Install [vagrant](https://www.vagrantup.com/downloads.html).
 
-Initialize a virtual machine.  A list of virtual machine providers can be found [here](https://atlas.hashicorp.com/boxes/search).
+You will also need a [virtual machine provider](https://docs.vagrantup.com/v2/providers/). [VirtualBox](https://www.virtualbox.org/wiki/Downloads) is recommended provider. If you're using Mac OS X, it is recommended you get the [latest test builds](https://www.virtualbox.org/wiki/Testbuilds).
+
+Initialize a virtual machine. `hashicorp/precise32` is one default image. A list of other virtual machine images can be found [here](https://atlas.hashicorp.com/boxes/search).
 
     vagrant init hashicorp/precise32
 
