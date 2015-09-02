@@ -11,24 +11,12 @@ Initialize a virtual machine.  A list of virtual machine providers can be found 
 
     vagrant init hashicorp/precise32
 
-Init should initiatiate a download of the box, if not, you can manually add it as follows:
-
-    vagrant box add precise32 http://files.vagrantup.com/precise32.box
-
 Start up the virtual machine.
 
     vagrant up
 
-If you see:
+Then    
 
-> No usable default provider could be found for your system.
-> Vagrant relies on interactions with 3rd party systems, known as
-"providers", to provide Vagrant with resources to run development
-environments. Examples are VirtualBox, VMware, Hyper-V.
-
-Then make sure to install a virtual machine system,  [e.g. VirtualBox](https://www.virtualbox.org/wiki/Downloads).
-
-    vagrant up
     vagrant ssh
 
 You should be able to connect to the machine.
@@ -70,18 +58,51 @@ Test ansible
 
 **Exit your virtual machine, or create new terminal in your host machine**.
 
-We now want to create a new node that will be serving as our web server.  Normally, this could be a server hosted on AWS or a droplet on digitalocean.  Instead, for testing purposes, we will be creating another local virtual machine.  Follow the instructions we previously followed for creating a virtual machine, but with some exceptions:
+We now want to create a new node that will be serving as our web server.  Normally, this could be a server hosted on AWS or a droplet on digitalocean.  Instead, for testing purposes, we will be creating another local virtual machine. Follow the instructions we previously followed for creating a virtual machine, but with some exceptions:
 
-* Make a new directory, called node, then run the commands in there.
-* After running `vagrant init ...`, edit the Vagrantfile, and uncomment the following line: `#config.vm.network "public_network"`.  This will in effect cause the VM to have its own IP address that you can reach, instead of just using port forwarding.
-* When launching the VM, you may be asked which network to bridge off of, you can use the same interface as the "wireless" network.
+#### Creating node virtual machine.
+
+Vagrant only allows one virtual machine configuration per directory. Make a new directory, called node, then run the commands in there.
+
+#### Enabling a reaching ip address.
+
+Virtual machines typically have [four ways](http://catlingmindswipe.blogspot.com/2012/06/how-to-virtualbox-networking-part-two.html) to set up the network:
+- Network Address Translation (NAT), *which is the default*,
+- Bridged,
+- Internal network
+- Host Only.
+
+Unlike the first virtual machine, you cannot use the default mode, because there will be no way for the ansible VM to talk to the node VM. Instead, you much choose between bridged or host-only.
+
+##### Host-only
+
+Uncomment the following line in Vagrantfile:
+```
+config.vm.network "private_network", ip: "192.168.33.10"
+```
+Then run, `vagrant reload`. **Bonus**: You can use hard-coded ip address.
+
+##### Bridged
+
+Uncomment the following line in Vagrantfile:
+```
+config.vm.network "public_network"
+```
+Then run, `vagrant reload`
+
+* When launching the VM, you may be asked which network to bridge off of, you can use the same interface as the "wireless" network, usually option 1.
+
+* Inside the node machine, run `ifconfig` and note the second ip address listed.
+
+#### Setting up ssh keys
 
 **You will need the following information to help connect to this node.**
 
-* Run vagrant ssh-config to get path of the private_key, open it up and copy contents into textfile.
-* Inside the node machine, run `ifconfig` and note the second ip address listed.
+* On the host machine, run `vagrant ssh-config` to get path of the private_key (IdentityFile), open it up and copy contents into textfile. In *nix, you can run `pbcopy < path/private_key` to copy contents into clipboard.
 
 # Back to Ansible Server
+
+#### Creating a private key to slave nodes.
 
 Create a `keys/node0.key` file that contains the private_key you previously copied. This will allow you to ssh into your node VM from the Ansible Server. You may need to `chmod 500 keys/node0.key`.
 
@@ -126,10 +147,31 @@ print( datastructure )
 
 Some errors you may receive:
 
+Init should initiatiate a download of the box, if not, you can manually add it as follows:
+
+    vagrant box add precise32 http://files.vagrantup.com/precise32.box
+
+If you see:
+
+> No usable default provider could be found for your system.
+> Vagrant relies on interactions with 3rd party systems, known as
+"providers", to provide Vagrant with resources to run development
+environments. Examples are VirtualBox, VMware, Hyper-V.
+
+Then make sure to install a virtual machine system,  [e.g. VirtualBox](https://www.virtualbox.org/wiki/Downloads).
+
+    vagrant up
+
 > The guest machine entered an invalid state while waiting for it
 to boot. In Virtual Box, can see: "Failed to load VMMR0.r0 (VERR_VMM_SMAP_BUT_AC_CLEAR)."
 
 * Latest version of Mac OS/laptops may have trouble with current VirtualBox release. Instead, download one of the [test builds](https://www.virtualbox.org/wiki/Testbuilds). 
+
+* If you change your Vagrantfile, and not seeing a change (public ip address), then you need to run `vagrant reload` so that it can reboot machine and read config file.
+
+* If you have trouble connecting to your node, simply run `ssh -i keys/node0.key 10.139.67.140` to make sure you can even ssh into your machine. Make sure you're using private version of key, and it has chmod 500 permissions.
+
+* If you have trouble getting a second ip, e.g., the node's ip, make sure you've properly bridged your connection. Inside the VM, you can't talk to the other VM's localhost, or even your hosts ip address (unless you've setup port forwarding). You need to allocate a ip address just for the node that is visible to everyone on your host machine, so you can see it while you're in the ansible VM. Incidentally, you know ssh-ing into the node machine can work, because you did `vagrant ssh` to get in the first place.
 
 > ImportError: Cannot find module runner
 
@@ -139,10 +181,7 @@ If you exit shell, you may not have python path persisted, this is what gets set
 PATH=/home/vagrant/ansible/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/vagrant_ruby/bin
 PYTHONPATH=/home/vagrant/ansible/lib:
 MANPATH=/home/vagrant/ansible/docs/man:
-```
+``` 
 
-* If you change your Vagrantfile, and not seeing a change (public ip address), then you need to run `vagrant reload` so that it can reboot machine and read config file.
 
-* If you have trouble connecting to your node, simply run `ssh -i keys/node0.key 10.139.67.140` to make sure you can even ssh into your machine. Make sure you're using private version of key, and it has chmod 500 permissions.
 
-* If you have trouble getting a second ip, e.g., the node's ip, make sure you've properly bridged your connection. Inside the VM, you can't talk to the other VM's localhost, or even your hosts ip address (unless you've setup port forwarding). You need to allocate a ip address just for the node that is visible to everyone on your host machine, so you can see it while you're in the ansible VM. Incidentally, you know ssh-ing into the node machine can work, because you did `vagrant ssh` to get in the first place.
