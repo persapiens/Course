@@ -54,7 +54,7 @@ Test ansible
 
     ansible all -m ping
 
-** Note, you should not expect to see anything working, quite yet, this just makes sure, python, etc. is setup properly. **
+**Note, you should not expect to see anything working, quite yet, this just makes sure, python, etc. is setup properly.**
 
 # Node Machine
 
