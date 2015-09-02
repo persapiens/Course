@@ -121,3 +121,12 @@ datastructure = runner.run()
 print( datastructure )
 ```    
     
+# Errors
+
+Some errors you may receive:
+
+> The guest machine entered an invalid state while waiting for it
+to boot. In Virtual Box, can see: "Failed to load VMMR0.r0 (VERR_VMM_SMAP_BUT_AC_CLEAR)."
+
+* Latest version of Mac OS/laptops may have trouble with current VirtualBox release. Instead, download one of the [test builds](https://www.virtualbox.org/wiki/Testbuilds). 
+
