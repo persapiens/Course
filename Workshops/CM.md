@@ -110,7 +110,7 @@ You need a way to automatically connect to your server without having to manuall
 
 Create a `keys/node0.key` file that contains the private_key you previously copied.  You may need to `chmod 500 keys/node0.key`.
 
-#### Creating a inventory file
+#### Creating an inventory file
 
 An inventory file allows ansible to define, group, and coordinate configuration management of multiple machines. At the most basic level, it basically lists the names of an asset and details about how to connect to it.
 
