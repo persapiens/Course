@@ -43,11 +43,8 @@ In general, Ansible (like Salt, Chef, and Puppet), use a central server that con
 We want to create a master server that runs Ansible. First, use a binary package manager to setup some basic stuff missing.
 
     sudo apt-get update
-    sudo apt-get install git
-    sudo apt-get install make
-    sudo apt-get install vim
-    sudo apt-get install python-dev    
-    sudo apt-get install python-pip
+    sudo apt-get install git make vim python-dev python-pip
+
 
 Now get ansible itself.
 
@@ -129,4 +126,14 @@ Some errors you may receive:
 to boot. In Virtual Box, can see: "Failed to load VMMR0.r0 (VERR_VMM_SMAP_BUT_AC_CLEAR)."
 
 * Latest version of Mac OS/laptops may have trouble with current VirtualBox release. Instead, download one of the [test builds](https://www.virtualbox.org/wiki/Testbuilds). 
+
+> ImportError: Cannot find module runner
+
+If you exit shell, you may not have python path persisted, this is what gets set when running `source ./hacking/env-setup`:
+
+```
+PATH=/home/vagrant/ansible/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/vagrant_ruby/bin
+PYTHONPATH=/home/vagrant/ansible/lib:
+MANPATH=/home/vagrant/ansible/docs/man:
+```
 
