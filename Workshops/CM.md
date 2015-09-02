@@ -66,7 +66,7 @@ We now want to create a new node that will be serving as our web server.  Normal
 
 Vagrant only allows one virtual machine configuration per directory. Make a new directory, called node, then run the commands in there.
 
-#### Enabling a reaching ip address.
+#### Enabling a reachable ip address.
 
 Virtual machines typically have [four ways](http://catlingmindswipe.blogspot.com/2012/06/how-to-virtualbox-networking-part-two.html) to set up the network:
 - Network Address Translation (NAT), *which is the default*,
