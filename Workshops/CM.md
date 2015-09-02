@@ -106,17 +106,27 @@ Then run, `vagrant reload`
 
 #### Creating a private key to slave nodes.
 
-Create a `keys/node0.key` file that contains the private_key you previously copied. This will allow you to ssh into your node VM from the Ansible Server. You may need to `chmod 500 keys/node0.key`.
+You need a way to automatically connect to your server without having to manually authenicate each connection. Using a public/private key for ssh, you can ssh into your node VM from the Ansible Server automatically.
+
+Create a `keys/node0.key` file that contains the private_key you previously copied.  You may need to `chmod 500 keys/node0.key`.
+
+#### Creating a inventory file
+
+An inventory file allows ansible to define, group, and coordinate configuration management of multiple machines. At the most basic level, it basically lists the names of an asset and details about how to connect to it.
 
 Create a `inventory` file that contains something like the following.  **Note use your ip address and private_key**:
     
     node0 ansible_ssh_host=192.168.1.103 ansible_ssh_user=vagrant ansible_ssh_private_key_file=./keys/node0.key
 
+#### Testing connection
+
 Now, run the ping test again to make sure you can actually talk to the node!
 
     ansible all -m ping -i inventory -vvvv
+
+#### Performing configuration management
     
-Let's install a web server, called nginx, on the node.
+Let's install a web server, called nginx (say like engine-X), on the node.
 
     ansible all -s -m apt -i inventory -a 'pkg=nginx state=installed update_cache=true'
     
@@ -125,6 +135,12 @@ Start the web server.
     ansible all -s -m shell -i inventory  -a 'nginx'
 
 Open a browser and enter in your node's ip address, e.g. http://192.168.1.103/
+
+Removing nginx.
+
+    ansible all -s -m apt -i inventory -a 'pkg=nginx state=absent update_cache=true'
+    
+Webserver should be dead.
 
 # Programming Ansible
 
