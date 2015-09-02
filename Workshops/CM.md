@@ -139,4 +139,8 @@ PYTHONPATH=/home/vagrant/ansible/lib:
 MANPATH=/home/vagrant/ansible/docs/man:
 ```
 
-If you change your Vagrantfile, and not seeing a change (public ip address), then you need to run `vagrant reload` so that it can reboot machine and read config file.
+* If you change your Vagrantfile, and not seeing a change (public ip address), then you need to run `vagrant reload` so that it can reboot machine and read config file.
+
+* If you have trouble connecting to your node, simply run `ssh -i keys/node0.key 10.139.67.140` to make sure you can even ssh into your machine. Make sure you're using private version of key, and it has chmod 500 permissions.
+
+* If you have trouble getting a second ip, e.g., the node's ip, make sure you've properly bridged your connection. Inside the VM, you can't talk to localhost, or even your hosts ip address (unless you've setup port forwarding). You need to allocate a ip address just for the node, so you can see it while you're in the ansible VM. Incidentally, you know ssh-ing into the node machine can work, because you did `vagrant ssh` to get in the first place.
