@@ -64,6 +64,8 @@ Test ansible
 
     ansible all -m ping
 
+** Note, you should not expect to see anything working, quite yet, this just makes sure, python, etc. is setup properly. **
+
 # Node Machine
 
 **Exit your virtual machine, or create new terminal in your host machine**.
