@@ -66,6 +66,8 @@ Test ansible
 
 # Node Machine
 
+**Exit your virtual machine, or create new terminal in your host machine**.
+
 We now want to create a new node that will be serving as our web server.  Normally, this could be a server hosted on AWS or a droplet on digitalocean.  Instead, for testing purposes, we will be creating another local virtual machine.  Follow the instructions we previously followed for creating a virtual machine, but with some exceptions:
 
 * Make a new directory, called node, then run the commands in there.
