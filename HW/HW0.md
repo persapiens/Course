@@ -33,6 +33,8 @@ In your solution, provide the content of "post-commit". Finally, take a screenca
 
 ### Submission
 
+Please refer to this [Markdown guide](http://daringfireball.net/projects/markdown/syntax) if you are not familiar with the syntax.
+
 * Create a github repo, `HW`, hosted on github or NCSU github:
 * Create a HW0.md
 * Place your solutions, screenshots, and links to screencast/gif in HW0.md
