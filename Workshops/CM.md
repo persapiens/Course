@@ -193,15 +193,3 @@ to boot. In Virtual Box, can see: "Failed to load VMMR0.r0 (VERR_VMM_SMAP_BUT_AC
 
 * If you have trouble getting a second ip, e.g., the node's ip, make sure you've properly bridged your connection. Inside the VM, you can't talk to the other VM's localhost, or even your hosts ip address (unless you've setup port forwarding). You need to allocate a ip address just for the node that is visible to everyone on your host machine, so you can see it while you're in the ansible VM. Incidentally, you know ssh-ing into the node machine can work, because you did `vagrant ssh` to get in the first place.
 
-> ImportError: Cannot find module runner
-
-If you exit shell, you may not have python path persisted, this is what gets set when running `source ./hacking/env-setup`:
-
-```
-PATH=/home/vagrant/ansible/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/opt/vagrant_ruby/bin
-PYTHONPATH=/home/vagrant/ansible/lib:
-MANPATH=/home/vagrant/ansible/docs/man:
-``` 
-
-
-
