@@ -1,36 +1,55 @@
-# HW #1 Provisioning Servers
+# HW #1 Provisioning and Configuring Servers
 
-Automatically provisioning a computational resource will be one of the most important skills for you to master in your career.  You have gained experience using [digitalocean](https://developers.digitalocean.com/v2/) to automatically create virtual images on a hosted server. 
+Automatically provisioning a computational resource will be one of the most important skills for you to master in your career.  You have gained experience using [digitalocean](https://developers.digitalocean.com/v2/) to automatically create virtual images on a hosted server.
 
-## Amazon Web Services (AWS)
+As part of any risk management strategy, it is also important to be able to have access to a variety of platforms to avoid vender lock-in and systematic failures.
+
+Finally, you need the ability to be able to configure systems so they can suitably host components of your deployment pipeline and production environments.
+
+In this homework assignment, you will complete the following tasks:
+
+* Be able to automatically provision, from **2 service providers**. If using digitalocean, I will keep the api key open for testing, but by submission, you must be able to obtain your own api key.
+* Be able to automatically create an inventory file (consumable by ansible) that describes the allocated servers.
+* Write an ansible playbook that will deploy a simple nginx webserver.
+* Use configuration management to be able to build your repo, e.g., package managers such as npm, maven, etc.
+ 
+## Service Providers
+
+### DigitialOcean
+
+You should be able to get free credits using the following code: `DROPLET10`.
+
+### Amazon Web Services (AWS)
 
 AWS is a rich computation platform for supporting many services. The goal of your homework assignment is to create  account with AWS, learn how to use its API, and perform a simple task with the service.
 
 AWS provides a [free tier plan](http://aws.amazon.com/free/), for 12 months, which is appropriate for learning the platform.
 
-Completing this homework will be essential for the remaining of the semester.
-
-### Components
-
 After creating an account, please read [this guide](https://d36cz9buwru1tt.cloudfront.net/AWS_Overview.pdf), in order to get an overview of the platform provided.  After reading this document (or others that you find), prepare a simple paragraph describing a service that you learned about. Next, please review the different ways of interfacing with the [AWS API](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/making-api-requests.html).  It is possible to use simple http requests, or you can also use language binding for the API (e.g. Java, .NET, ruby, javascript, etc.).
 
-After reviewing how you would like to connect to AWS, create a simple program that will 
-* Authenicate to AWS
-* Demonstrate a simple API call.
+### Azure
 
-After completing your program, write a simple description of what you did, and include a screenshot demonstrating your API call.
+You can use obtain a free student account through dreamspark for azure.
 
-### Submission
+### Other platforms
 
-Create a github repository (on github proper or NCSU), place your paragraph, screenshot, and API demonstration  in a README.md file.  Please refer to this [Markdown guide](http://daringfireball.net/projects/markdown/syntax) if you are not familiar with the syntax.
+In general, for this assignment, we will not be using Platform as a Service providers such as heroku. Later in the semester, you make use of these services.
+If you identify another platform you'd like to try, bring it to the attention of the professor first.
 
-Please email your TA with the link to your repository in order to submit.
+## Submission
 
-The assignment is due Friday, Jan 23rd at midnight.
+Please [submit your repo here](https://docs.google.com/a/ncsu.edu/forms/d/1jz9p1xAKg0-yuHhqQF0hUEhhFqy_2F3jju-mKvTszsk/viewform?usp=send_form).
 
-### Evaluation
+In your repository, have your code, playbook, and link to a screen.
 
-- 25% Creating account
-- 25% Paragraph
-- 25% Authenicate to service
-- 25% API Usage
+Record a screencast of the entire process, from provisioning servers, creating inventory, running ansible, to finally seeing webserver in browser.
+
+The assignment is due Wednesday, Sept 16th at midnight.
+
+## Evaluation
+
+- 40% Code for provisioning from two platforms.
+- 20% Automatically generating inventory file from code.
+- 20% Ansible Playbook.
+- 10% Configuration management of repo.
+- 10% Screencast and following instructions.
