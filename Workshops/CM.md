@@ -40,6 +40,7 @@ Now get ansible itself.
 
     git clone git://github.com/ansible/ansible.git --recursive
     cd ./ansible
+    git checkout tags/v1.9.2-1    
     source ./hacking/env-setup
 
 Install dependencies, using pip, a package manager for Python.
