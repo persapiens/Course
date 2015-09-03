@@ -44,7 +44,7 @@ Now get ansible itself.
 
 Install dependencies, using pip, a package manager for Python.
     
-    sudo pip install paramiko PyYAML Jinja2 httplib2
+    sudo pip install paramiko PyYAML Jinja2 httplib2 six
 
 Build the software.
 
