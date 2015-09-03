@@ -141,6 +141,10 @@ Open a browser and enter in your node's ip address, e.g. http://192.168.1.103/
 Removing nginx.
 
     ansible all -s -m apt -i inventory -a 'pkg=nginx state=absent update_cache=true'
+
+Actually, nginx is a metapackage, show you also need to run this:
+
+    ansible all -s -m shell -i inventory -a 'sudo apt-get -y autoremove'
     
 Webserver should be dead.
 
