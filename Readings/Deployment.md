@@ -22,3 +22,7 @@ A list of deployment articles by various software companies
 ### Knight Capital Group
 
 [Knightmare: A DevOps Cautionary Tale](http://dougseven.com/2014/04/17/knightmare-a-devops-cautionary-tale/)
+
+### Blogs
+
+* http://firstround.com/review/the-right-way-to-ship-software/
