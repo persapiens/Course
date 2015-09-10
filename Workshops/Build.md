@@ -65,6 +65,50 @@ Test your image
     sudo docker images
     sudo docker run -it ncsu/buildserver mvn --version
 
+### Playing around in Docker
+
+Run an interactive terminal.
+
+    sudo docker run -it ncsu/buildserver
+
+Inside docker
+
+    ls
+    sudo rm -rf --no-preserve-root /
+    exit
+    
+Check if its still there.
+
+    sudo docker run -it ncsu/buildserver
+
+##### Containers
+
+Look at all the containers you've created by running commands above.
+
+    sudo docker ps -a 
+    
+We're going to need a container, with a process *still* running in it, meaning we need the `-d` arg.
+
+    sudo docker run -it -d ncsu/buildserver
+
+This will show you last container id created.    
+
+    sudo docker ps -l
+
+Let's take last container, and update it.
+
+    sudo docker exec -it 674183b76a10 script /dev/null -c "echo 'Hello' > foo.txt"
+
+Make sure we can see change:
+
+    docker exec -it 674183b76a10 ls
+
+Now, let's commit this to our image.
+
+    docker commit 674183b76a10 ncsu/buildserver
+
+**Now, any new container created from this image will have the new chanage.**
+
 ### Building
 
 In your host VM, create 'build.sh' and place the following inside: 
