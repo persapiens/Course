@@ -121,3 +121,26 @@ Execute script
 
     chmod +x build.sh
     sudo docker run -v /home/vagrant/:/vol ncsu/buildserver sh -c /vol/build.sh
+    
+### Server
+
+Install node (on your VM).
+
+```
+curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
+source ~/.profile
+nvm ls-remote
+nvm install v0.11.13
+nvm use 0.11.13
+```
+
+Extend server to run build when a http request is made.
+
+```
+var exec = require('child_process').exec;
+var cmd = 'YOUR docker command';
+
+exec(cmd, function(error, stdout, stderr) {
+  // command output is in stdout
+});
+```
