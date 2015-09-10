@@ -115,6 +115,31 @@ nvm install v0.11.13
 nvm use 0.11.13
 ```
 
+A simple http server in node:
+
+```
+//Lets require/import the HTTP module
+var http = require('http');
+
+//Lets define a port we want to listen to
+const PORT=8080;
+
+//We need a function which handles requests and send response
+function handleRequest(request, response){
+    response.end('Building: ' + request.url);
+}
+
+//Create a server
+var server = http.createServer(handleRequest);
+
+//Lets start our server
+server.listen(PORT, function(){
+    //Callback triggered when server is successfully listening. Hurray!
+    console.log("Server listening on: http://localhost:%s", PORT);
+});
+```
+
+
 Extend server to run build when a http request is made.
 
 ```
@@ -125,6 +150,8 @@ exec(cmd, function(error, stdout, stderr) {
   // command output is in stdout
 });
 ```
+
+Update your VM to have a private network, visit http://192.168.33.10:8080, and trigger a build.
 
 # Errors
 
