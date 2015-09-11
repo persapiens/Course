@@ -11,6 +11,21 @@ Past versions:
 
 In the course, a mixture of traditional lectures with activities and in-class workshops will be used.  During lectures, we will cover core concepts related to a topic. During the in-class workshops, we will perform sample exercises with relevant tools that reinforce lecture material.  Evaluation will be based on tech talks, homework assignments, workshop attendance, and final project.
 
+After the course, students are able to:
+
+* Programmatically **provision** images.
+* Automatically apply **configuration management** to production environments.
+* Automatically create and maintain **build** environments.
+* Maintain test suites and measure **testing quality** and coverage.
+* Automatically **generate new tests**, using feedback-directed random testing, fuzzing, and data-flow analysis.
+* Programmatically measure **code quality** via static and dynamic code analysis.
+* Understand components of **infrastructure**.
+* Remotely regulate behavior of deployed software via **feature flags** and configuration servers.
+* Apply advanced strategies for **deployment** of software.
+* Monitor and analyze **telemetry** data.
+* Implement **resilience testing** on production environments (e.g., Chaos Monkey).
+
+
 ### Tech Talks
 
 Students in CSC 591 will organize in groups and present one tech talk during lecture.  For a *tech talk*, students are expected to cover one tool or technology revelant to DevOps in a 15-20 minute presentation.  Students should perform a small demo to help illustrate the tool. Three days during the semester will be reserved for these presentations.
