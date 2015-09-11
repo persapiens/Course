@@ -14,10 +14,7 @@ Create a VM to host your build server.  Note, it must be a 64 bit image, otherwi
 
 Use one of this options:
 
-* apt-get install docker.io
-* apt-get isntall lxc-docker (see below)
 * curl -sSL https://get.docker.com/ | sh
-
 
 ### Creating docker image
 
