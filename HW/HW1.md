@@ -31,6 +31,11 @@ After creating an account, please read [this guide](https://d36cz9buwru1tt.cloud
 
 You can use obtain a free student account through dreamspark for azure.
 
+### VCL
+
+You can connect to VCL over XML-RPC:
+https://arjie.com/2014/04/10/using-the-vcl-xml-rpc-interface-with-python/
+
 ### Other platforms
 
 In general, for this assignment, we will not be using Platform as a Service providers such as heroku. Later in the semester, you make use of these services.
