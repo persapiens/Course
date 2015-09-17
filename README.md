@@ -63,7 +63,7 @@ The following schedule is subject to change.
 | Sep 8th | [Build Management](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/)                  | &nbsp;    |  &nbsp;               |
 | Sep 10th | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          | [Jenkins](http://jenkins-ci.org/), [CruiseControl](http://cruisecontrol.sourceforge.net/), [GoCd](http://www.go.cd/)     | &nbsp; |
 | Sep 15th  | [Parsing Primer](https://docs.google.com/presentation/d/1PooLd3Bj3cORMyHxLlVV4mXJ52Ra6oFf57FHx23vtDc/edit#slide=id.p)                  |  [Mini-workshop](https://github.com/CSC-DevOps/Parsing)  |  [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)     |
-| Sep 17th  | [Workshop: Code Complexity]()            | &nbsp;     |  &nbsp;               |
+| Sep 17th  | [Workshop: Code Complexity](https://github.com/CSC-DevOps/Complexity)            | &nbsp;     |  &nbsp;               |
 | Sep 22nd  | [Test Management](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)                  | &nbsp;     |  &nbsp;     |
 | Sep 24th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md) | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
 | Sep 29th | [Static + Dynamic Analysis](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)        | [SAGE](http://queue.acm.org/detail.cfm?id=2094081)     |  &nbsp;               |
