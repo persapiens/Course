@@ -143,9 +143,26 @@ Extend server to run build when a http request is made.
 var exec = require('child_process').exec;
 var cmd = 'YOUR docker command';
 
-exec(cmd, function(error, stdout, stderr) {
-  // command output is in stdout
-});
+function handleRequest(request, response)
+{
+	console.log("Request received");
+
+	var child = exec(cmd, {maxBuffer: 1024 * 5000}, function(error, stdout, stderr) 
+	{
+		if( error )
+      	    console.log(error)
+	});
+
+	// Stream results
+	child.stdout.pipe( response );
+	child.stderr.pipe( process.stderr );
+
+	child.on('exit', function()
+	{
+   	    console.log('built');
+   	    return true;
+	});
+}
 ```
 
 Update your VM to have a private network, visit http://192.168.33.10:8080, and trigger a build.
