@@ -5,6 +5,11 @@ The build server will run in a vagrant created VM, and the build will run in a d
 
 ## VM
 
+If you have a USB with a box image, copy to the following folder.
+
+* Mac OS x: ~/.vagrant.d/boxes
+* Windows: C:/Users/USERNAME/.vagrant.d/boxes
+
 Create a VM to host your build server.  Note, it must be a 64 bit image, otherwise docker will not be supported!
 
     vagrant init ubuntu/trusty64
@@ -93,7 +98,7 @@ In your host VM, create 'build.sh' and place the following inside:
 
     git clone https://github.com/SkymindIO/nd4j
     cd nd4j
-    mvn clean install -DskipTests -Dmaven.javadoc.skip=true
+    mvn compile -DskipTests -Dmaven.javadoc.skip=true
 
 Execute script
 
