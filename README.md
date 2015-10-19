@@ -72,7 +72,7 @@ The following schedule is subject to change.
 | Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
 | Oct 13th| [Infrastructure Management](https://onedrive.live.com/redir?resid=FF912F1DFCF67A6D%211734)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
 | Oct 15th| [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md) |
-| Oct 20th | Feature Flags/Property Sets/Redis | &nbsp; |
+| Oct 20th | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/) | &nbsp; |
 | Oct 22th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues) | &nbsp; |
 | Oct 27th |  [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)              | &nbsp;     | &nbsp;  | 
 | Oct 29th |  [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)     | &nbsp;     | [HW #4 - Data Migration](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md) |
