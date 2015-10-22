@@ -47,6 +47,6 @@ Complete the workshop assignment with the following additional considerations:
 
 Create a github repository (on github proper or NCSU), with a basic report in the README.md file and your code in your repository.
 
-Please email your TA with the link to your repository in order to submit.
+[Submit link](https://docs.google.com/a/ncsu.edu/forms/d/14TuWQgDVUt0I4Q5DC-gI5kbakVBRkQnTZfrVAZ_e0fs/viewform?usp=send_form) to your repository, including your code, README, and screencast.
 
-The assignment is due Thursday, March 26th at midnight.
+The assignment is due Thursday, November 5th at midnight.
