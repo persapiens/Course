@@ -9,7 +9,7 @@ In our [redis workshop](https://github.com/CSC-DevOps/Queues), we worked with se
 Your assignment is to complete the workshop assignment with the following additional considerations:
 
 * Run an additional instance of the service layer (main.js) on a different port (e.g., 3001).
-* Create a proxy that will uniformly deliver requests to localhost/ to localhost:3000, localhost:3001, etc.  It is suggested you use redis to look up which host to resolve to.
+* Create a proxy that will uniformly deliver requests to localhost/ to localhost:3000, localhost:3001, etc.  Use redis to look up which host to resolve to.
 
 ##### Evaluation
 
@@ -20,8 +20,6 @@ Your assignment is to complete the workshop assignment with the following additi
 - Demonstrate proxy: 100%
 
 ### Submission
-
-Create a github repository (on github proper or NCSU), with a basic report in the README.md file and your code in your repository.
 
 [Submit link](https://docs.google.com/a/ncsu.edu/forms/d/14TuWQgDVUt0I4Q5DC-gI5kbakVBRkQnTZfrVAZ_e0fs/viewform?usp=send_form) to your repository, including your code, README, and screencast.
 
