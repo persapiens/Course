@@ -88,13 +88,6 @@ Containers can be [linked to each other](https://docs.docker.com/userguide/docke
 * **Ambassador pattern**: Pattern that allows containers to communicate with other containers on different hosts. Essentially works using a reverse-proxy. [See](https://docs.docker.com/articles/ambassador_pattern_linking/).
 * **socat**: Tool for mapping sockets to files or other networking ports. Useful for connecting services and linking file systems to other containers.
 
-Example of using an ambassador container:
-
-```
-docker build -t svendowideit/ambassador .
-docker run -t -i -link redis:redis -name redis_ambassador -p 6379:6379 svendowideit/ambassador
-```
-
 Dockerfile
 ```
 FROM	alpine:3.2
@@ -107,13 +100,26 @@ RUN apk update && \
 CMD	env | grep _TCP= | sed 's/.*_PORT_\([0-9]*\)_TCP=tcp:\/\/\(.*\):\(.*\)/socat -t 100000000 TCP4-LISTEN:\1,fork,reuseaddr TCP4:\2:\3 \& wait/' | sh
 ```
 
+Example of using an ambassador container:
+
+```
+docker build -t svendowideit/ambassador .
+docker run -t -i -link redis:redis -name redis_ambassador -p 6379:6379 svendowideit/ambassador
+```
+
+Using socat to redirect connections to port 80 to another ip:
+
+```
+socat TCP-LISTEN:80,fork TCP:202.54.1.5:80
+```
+
 ### Orchestration
 
 There are several tools that help assist in combining several containers under one configuration scheme.
 
 * http://decking.io/
-* fig
-* Docker Compose
+* [fig](http://www.fig.sh/)
+* [Docker Compose](https://docs.docker.com/compose/)
 
 Other tools work on a larger scale, such as http://kubernetes.io/
 
