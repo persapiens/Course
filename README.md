@@ -71,13 +71,13 @@ The following schedule is subject to change.
 | Oct 6th | Guest Lecture  | &nbsp;     |  [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)    |
 | Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
 | Oct 13th| [Infrastructure Management](https://onedrive.live.com/redir?resid=FF912F1DFCF67A6D%211734)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
-| Oct 15th| [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | &nbsp; | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md) |
+| Oct 15th| [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | [NewRelic](https://github.ncsu.edu/ajoshi5/DevOps-TechTalks), [Salt](https://github.com/prashantgupta24/Salt-Stack), [Otto](https://github.com/rarora4/otto-getting-started) | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md) |
 | Oct 20th | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/) | &nbsp; |
 | Oct 22th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues) | &nbsp; |
 | Oct 27th |  [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)              | &nbsp;     | &nbsp;  | 
 | Oct 29th |  [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)     | &nbsp;     | [HW #4 - Data Migration](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md) |
 | Nov 3rd  |  [Advanced Docker: Deployment + Multiple Containers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)                       | &nbsp;   | &nbsp; |
-| Nov 5th  |  [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)         | &nbsp;     | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment)  |
+| Nov 5th  |  [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)         | SnapCI,Mocha,Kubernetes      | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment)  |
 | Nov 10th | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments), [Zynga](http://blog.amplitude.com/2015/06/24/zynga-analytics-at-its-peak/)      |
 | Nov 12th | [Workshop: Monitoring + Resilience Testing](https://github.com/CSC-DevOps/Monitoring) | [Chaos Monkey](https://github.com/Netflix/SimianArmy) | &nbsp; |
 | Nov 17th | [Lorin Hochstein](http://lorinhochstein.org/), Chaos Engineering @ NETFLIX	  | &nbsp;     | &nbsp;                   |
