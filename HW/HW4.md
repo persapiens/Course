@@ -6,7 +6,7 @@ In this homework assignment, you'll get to practice several common architectural
 
 * Create a container that runs a command that outputs to a file.
 * Use socat to map file access to read file container and expose over port 9001 (hint can use SYSTEM + cat).
-* Use a linked container that access that file over network.
+* Use a linked container that access that file over network. The linked container can just use a command such as curl to access data from other container.
 
 2) **Ambassador pattern**: Implement the remote ambassador pattern to encapsulate access to a redis container by a container on a different host.
 
