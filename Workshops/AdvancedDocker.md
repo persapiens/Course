@@ -48,7 +48,7 @@ Build a container for a node js app.
 ```
 cd App
 docker build -t ncsu-app .
-docker run -p 50100:8080 -d --name app
+docker run -p 50100:8080 -d --name app ncsu-app
 docker logs <containerid>
 ```
 
