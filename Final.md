@@ -94,7 +94,7 @@ The following are example questions that will be similar to questions you will h
 
 ### Discussion
 
-1. Compare and contrast using Kubernetes versus plain AWS for your production environment. List 2 benefits of each, 2 disadvantages of each. Justify differences. Finally, describe how they might work well together.
+1. Compare and contrast using Kubernetes versus plain AWS for your production environment. List two benefits and two disadvantages of each. Justify differences. *Finally, describe how they might work well together*.
 
 ### Design
 
