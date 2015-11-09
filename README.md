@@ -85,7 +85,7 @@ The following schedule is subject to change.
 | Nov 24th | No class.             | &nbsp;     | &nbsp; |
 | Dec 1st | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp; |
 | Dec 3rd | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp; |
-| Dec 8th | Final Exam (1-4pm)     | &nbsp;     | &nbsp; |
+| Dec 8th | Final Exam (1-4pm)     | [Study Guide](https://github.com/CSC-DevOps/Course/blob/master/Final.md)     | &nbsp; |
 
 
 ### Resources
