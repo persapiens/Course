@@ -20,7 +20,7 @@ Everyone in the course is expected to be capable of the following course objecti
 
 The following are example questions that will be similar to questions you will have on your final exam. Note that the actual exam will be much longer in length.
 
-### Mutliple Choice
+### Multiple Choice
 
 1. Which tool or service best represents: *virtualization*.
 
