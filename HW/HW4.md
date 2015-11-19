@@ -32,4 +32,4 @@ In this homework assignment, you'll get to practice several common architectural
 
 [Submit a README.md](https://docs.google.com/a/ncsu.edu/forms/d/1oioay5bF5Le7PpuH1VAzxHCSNsOdkTvEqfrymHI1wjk/viewform?usp=send_form#start=invite) with a screencast (or .gif) for each component. Include code/scripts/configuration files in repo.
 
-Assignment is due, Friday, November 20th midnight
+Assignment is due, Monday, November 23rd midnight
