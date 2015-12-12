@@ -83,8 +83,8 @@ The following schedule is subject to change.
 | Nov 17th | [Lorin Hochstein](http://lorinhochstein.org/), Chaos Engineering @ NETFLIX	  | &nbsp;     | &nbsp;                   |
 | Nov 19th | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | [Mesosphere](https://github.com/vinay92/Mesosphere), [BlueMix](https://github.com/kaustubhsant/DevOps-TechTalk), [Nagios](https://github.com/amittal91/DevOps-TechTalk-Nagios), [Puppet](https://github.com/aneeshkher/DevOpsTechTalk) | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special) | 
 | Nov 24th | No class.             | &nbsp;     | &nbsp; |
-| Dec 1st | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp; |
-| Dec 3rd | [Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit?usp=sharing)             | &nbsp;     | &nbsp; |
+| Dec 1st | [Demos](https://docs.google.com/spreadsheets/d/18i9fKzY9ewOUUQ0PLF0ijfYAV_XtameItq9OV3Ohs38/edit#gid=0)             | &nbsp;     | &nbsp; |
+| Dec 3rd | [Demos](https://docs.google.com/spreadsheets/d/18i9fKzY9ewOUUQ0PLF0ijfYAV_XtameItq9OV3Ohs38/edit#gid=0)             | &nbsp;     | &nbsp; |
 | Dec 8th | Final Exam (1-4pm)     | [Study Guide](https://github.com/CSC-DevOps/Course/blob/master/Final.md)     | &nbsp; |
 
 
