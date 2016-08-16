@@ -1,26 +1,36 @@
-# HW 0 Git Commands and Hooks
+# HW0
 
-### Git basics
+This homework will prepare you for basic setup for the course.
 
-Solve the first four levels in:
-http://pcottle.github.io/learnGitBranching/
+## Basic course setup (20)
 
-![image](https://cloud.githubusercontent.com/assets/742934/9494425/c4dd4b66-4bd3-11e5-9aac-04bfc8fed771.png)
+##### Slack+Moodle (10)
 
-In providing your solution, provide the steps, formatted in markdown, e.g.:
+Properly setting up your Slack and Moodle profile by providing a picture will help the teaching staff learn your name. Upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile. For Slack, make sure you have your first and last name as part of your profile. Use [US passport photo guidelines](http://travel.state.gov/passport/pptphotoreq/photocomptemplate/photocomptemplate_5297.html).
 
-```
-git commit -m "C2"
-git branch newBranch
-...
-```
-After solving all levels, take a screenshot demonstrating your progress.
+##### Github (10)
 
-### Git bonus (+5 points)
+Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 
-Solve another four levels on any topic.
+1. Create a *private* repo called HW0. 
+2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
 
-### Hooks
+## Learning Git (40)
+
+Solve the first four levels in: http://pcottle.github.io/learnGitBranching/
+
+![example](https://cloud.githubusercontent.com/assets/742934/9494425/c4dd4b66-4bd3-11e5-9aac-04bfc8fed771.png)
+
+* Introduction Sequence (10%)
+* Ramping Up (10%)
+* Moving Work Around (10%)
+* A Mixed Bag (10%)
+
+For extra credit, complete "Advanced Topics". (10%)
+
+For submission, you only need to demonstrate completing the levels, which can be done taking a screenshot. However, you should keep track of your solutions to help you remember how to solve these types of issues in the future, or recover if your progress gets lost.
+
+## Hooks (20)
 
 Create a local git repository (using `git init`) in a new directory. Create a "post-commit" file in `./git/hooks/'. Inside the file, create a command that will open a web page immediately after a commit is performed to that repo.
 
@@ -29,27 +39,23 @@ Some hints:
 * `chmod`
 * `start` for windows, `open` for mac/linux
 
-In your solution, provide the content of "post-commit". Finally, take a screencast, or a gif recording of the process.
+In your solution, provide the content of "post-commit". Finally, take a screencast (20 points), or a gif recording of the process. See details below.
 
-### Submission
+## Submit
 
-Please refer to this [Markdown guide](http://daringfireball.net/projects/markdown/syntax) if you are not familiar with the syntax.
+Submit a link to your github repo, http://tiny.cc/CSC519-Fall16-HW0,
+containing the following:
 
-* Create a github repo, `HW`, hosted on github or NCSU github:
-* Create a HW0.md
-* Place your solutions, screenshots, and links to screencast/gif in HW0.md
+* Complete moodle and slack profiles by deadline (20).
+* Screenshot of completed git tutorial (40).
+* Hooks (20)
+* Screencast (20)
 
-**[Submit](https://docs.google.com/a/ncsu.edu/forms/d/1wnzpYY2O5E6OPTYh9BF0ucEJ4n2NAmSE3jCP1NeDgNA/viewform?usp=send_form)**
+For your screenshot embed in the markdown file of your README.md. Include a link to your screencast video/gif.
 
-**Homework is due, Wednesday Sept, 9th 2015, midnight**
+**Due Thursday**, 8/25, midnight.
 
-### Evaluation
-
-* **Puzzle Solutions (4)**: 40%.
-* **Hooks Solution**: 20%
-* **Screencast**: 20%
-* **Following instructions**: 20%
-* **Bonus**: 4 additional levels: +5
+## Screencast (20)
 
 ### Screencasts/Demo Gifs Guidelines
 
