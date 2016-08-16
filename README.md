@@ -91,7 +91,7 @@ The following schedule is subject to change.
 
 ### Resources
 
-[Slack](https://csc-devops.slack.com/)
+[Slack](https://csc-devopsfall16.slack.com)
 
 ##### Books
 
