@@ -56,7 +56,7 @@ The following schedule is subject to change.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Aug 18   | Core Concepts + Skills           |            | HW0               |
+| Aug 18   | Core Concepts + Skills           |            | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md)               |
 | Aug 23   | Bootcamp: Basics                 |            |                   |
 | Aug 25   | Workshop: Provisioning           |            | HW1               |
 | Aug 30   | Configuration Management	        |            |                   |
