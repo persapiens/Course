@@ -56,8 +56,8 @@ The following schedule is subject to change.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Aug 18   | Core Concepts + Skills           |            | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md)               |
-| Aug 23   | Bootcamp: Basics                 |            |                   |
+| Aug 18   | [Core Concepts](http://tiny.cc/ContinuousDeployment) |            | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
+| Aug 23   | [Bootcamp: Basics](https://github.com/REU-SOS/EngineeringBasics)  |            |                   |
 | Aug 25   | Workshop: Provisioning           |            | HW1               |
 | Aug 30   | Configuration Management	        |            |                   |
 | Sep  1   | Workshop: Managed Environments   |            |                   |
