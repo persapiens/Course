@@ -63,7 +63,7 @@ Here are some guidelines and links for creating good screencasts. It is good to 
  
 ##### Software
 * camtasia
-* https://github.com/lepht/licecap (for simple .gif)
+* https://github.com/justinfrankel/licecap (for simple .gif)
 * Add more recommendations in Slack
  
 ##### Guidelines for both multimedia formats:
