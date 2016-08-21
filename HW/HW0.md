@@ -32,7 +32,7 @@ For submission, you only need to demonstrate completing the levels, which can be
 
 ## Hooks (20)
 
-Create a local git repository (using `git init`) in a new directory. Create a "post-commit" file in `./git/hooks/'. Inside the file, create a command that will open a web page immediately after a commit is performed to that repo.
+Create a local git repository (using `git init`) in a new directory. Create a "post-commit" file in `.git/hooks/'. Inside the file, create a command that will open a web page immediately after a commit is performed to that repo.
 
 Some hints: 
 * http://stackoverflow.com/questions/8967902/why-do-you-need-to-put-bin-bash-at-the-beginning-of-a-script-file
@@ -60,6 +60,8 @@ For your screenshot embed in the markdown file of your README.md. Include a link
 ### Screencasts/Demo Gifs Guidelines
 
 Here are some guidelines and links for creating good screencasts. It is good to get ready now to learn how to create demo videos for your future project milestones and career.
+
+A general guideline: Do whatever it would do if you were teaching someone how to do something. For example, you don’t have to show people you typing and creating the whole commit, but you might want to show the contents of the hook in a text editor, before doing a commit.
  
 ##### Software
 * camtasia
