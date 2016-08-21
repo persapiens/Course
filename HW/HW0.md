@@ -32,7 +32,7 @@ For submission, you only need to demonstrate completing the levels, which can be
 
 ## Hooks (20)
 
-Create a local git repository (using `git init`) in a new directory. Create a "post-commit" file in `.git/hooks/'. Inside the file, create a command that will open a web page immediately after a commit is performed to that repo.
+Create a local git repository (using `git init`) in a new directory. Create a "post-commit" file in `.git/hooks/`. Inside the file, create a command that will open a web page immediately after a commit is performed to that repo.
 
 Some hints: 
 * http://stackoverflow.com/questions/8967902/why-do-you-need-to-put-bin-bash-at-the-beginning-of-a-script-file
