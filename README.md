@@ -59,7 +59,7 @@ The following schedule is subject to change.
 | Aug 18   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)          | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
 | Aug 23   | [Bootcamp: Basics](https://github.com/REU-SOS/EngineeringBasics)  |            |                   |
 | Aug 25   | Workshop: Provisioning           |            | [HW1](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md)|
-| Aug 30   | Configuration Management	        |            |                   |
+| Aug 30   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
 | Sep  1   | Workshop: Managed Environments   |            |                   |
 | Sep  6   | Build Management                 |            | MILESTONE: BUILD  |
 | Sep  8   | Workshop: Build Servers          |            |                   |
