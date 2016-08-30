@@ -7,11 +7,11 @@ The goal of this workshop is to demonstrate how to use some tools to aid with th
 
 Install [vagrant](https://www.vagrantup.com/downloads.html).
 
-You will also need a [virtual machine provider](https://docs.vagrantup.com/v2/providers/). [VirtualBox](https://www.virtualbox.org/wiki/Downloads) is recommended provider. If you're using Mac OS X, it is recommended you get the [latest test builds](https://www.virtualbox.org/wiki/Testbuilds).
+You will also need a [virtual machine provider](https://docs.vagrantup.com/v2/providers/). [VirtualBox](https://www.virtualbox.org/wiki/Downloads) is a recommended provider.
 
-Initialize a virtual machine. `hashicorp/precise32` is one default image. A list of other virtual machine images can be found [here](https://atlas.hashicorp.com/boxes/search).
+Initialize a virtual machine. `ubuntu/trusty64` is one default image. A list of other virtual machine images can be found [here](https://atlas.hashicorp.com/boxes/search).
 
-    vagrant init hashicorp/precise32
+    vagrant init ubuntu/trusty64
 
 Start up the virtual machine.
 
@@ -33,15 +33,13 @@ In general, Ansible (like Salt, Chef, and Puppet), use a central server that con
 We want to create a master server that runs Ansible. First, use a binary package manager to setup some basic stuff missing.
 
     sudo apt-get update
-    sudo apt-get install git make vim python-dev python-pip
+    sudo apt-get -y install git make vim python-dev python-pip
 
 
 Now get ansible itself.
 
     git clone git://github.com/ansible/ansible.git --recursive
     cd ./ansible
-    git checkout tags/v1.9.2-1
-    git submodule update --recursive
     source ./hacking/env-setup
 
 Install dependencies, using pip, a package manager for Python.
@@ -80,14 +78,15 @@ Unlike the first virtual machine, you cannot use the default mode, because there
 
 ##### Host-only
 
+For linux/mac:
 Uncomment the following line in Vagrantfile:
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
 ```
-Then run, `vagrant reload`. **Bonus**: You can use hard-coded ip address.
+Then run, `vagrant reload`. **Bonus**: You can use hard-coded ip address in your scripts.
 
 ##### Bridged
-
+For windows:
 Uncomment the following line in Vagrantfile:
 ```
 config.vm.network "public_network"
@@ -96,7 +95,7 @@ Then run, `vagrant reload`
 
 * When launching the VM, you may be asked which network to bridge off of, you can use the same interface as the "wireless" network, usually option 1.
 
-* Inside the node machine, run `ifconfig` and note the second ip address listed.
+* Inside the VM, run `ifconfig` and note the second ip address listed.
 
 #### Setting up ssh keys
 
@@ -196,4 +195,3 @@ to boot. In Virtual Box, can see: "Failed to load VMMR0.r0 (VERR_VMM_SMAP_BUT_AC
 * If you have trouble connecting to your node, simply run `ssh -i keys/node0.key 10.139.67.140` to make sure you can even ssh into your machine. Make sure you're using private version of key, and it has chmod 500 permissions.
 
 * If you have trouble getting a second ip, e.g., the node's ip, make sure you've properly bridged your connection. Inside the VM, you can't talk to the other VM's localhost, or even your hosts ip address (unless you've setup port forwarding). You need to allocate a ip address just for the node that is visible to everyone on your host machine, so you can see it while you're in the ansible VM. Incidentally, you know ssh-ing into the node machine can work, because you did `vagrant ssh` to get in the first place.
-
