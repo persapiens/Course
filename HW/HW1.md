@@ -8,16 +8,19 @@ Finally, you need the ability to be able to configure systems so they can suitab
 
 In this homework assignment, you will complete the following tasks:
 
-* Be able to automatically provision, from **2 service providers**. If using digitalocean, I will keep the api key open for testing, but by submission, you must be able to obtain your own api key.
+* Be able to automatically provision, from **2 service providers**. 
+  (If using digitalocean, I will keep the api key open for testing, but by submission, you must be able to obtain your own api key.)
+* Write an Ansible playbook that will deploy a simple nginx webserver.
 * Be able to automatically create an inventory file (consumable by ansible) that describes the allocated servers.
-* Write an ansible playbook that will deploy a simple nginx webserver.
 * Use configuration management to be able to build your repo, e.g., package managers such as npm, maven, etc.
  
 ## Service Providers
 
+See the github education pack for many free promotions: https://education.github.com/pack
+
 ### DigitialOcean
 
-You should be able to get free credits using the following code: `DROPLET10`.
+DigitialOcean is one of the cheapest and lowest image providers.
 
 ### Amazon Web Services (AWS)
 
@@ -36,25 +39,31 @@ You can use obtain a free student account through dreamspark for azure.
 You can connect to VCL over XML-RPC:
 https://arjie.com/2014/04/10/using-the-vcl-xml-rpc-interface-with-python/
 
+### OpenStack
+
+Is a platform that attempts to provide a open source implementation of cloud components and infrastructure, which has various venders that implement the standard. See here: https://www.openstack.org/marketplace/public-clouds/
+
 ### Other platforms
 
-In general, for this assignment, we will not be using Platform as a Service providers such as heroku. Later in the semester, you make use of these services.
-If you identify another platform you'd like to try, bring it to the attention of the professor first.
+In general, for this assignment, we will not be using Platform as a Service providers such as heroku. Later in the semester, you make use of these services. If you identify another platform you'd like to try, bring it to the attention of the professor first.
 
 ## Submission
 
-Please [submit your repo here](https://docs.google.com/a/ncsu.edu/forms/d/1jz9p1xAKg0-yuHhqQF0hUEhhFqy_2F3jju-mKvTszsk/viewform?usp=send_form).
+Please [submit your repo here](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSeBIktxYodhvOLsBBCof-91XAMQdLSOysBkz66vSNzFkAKjYg/viewform).
 
 In your repository, have your code, playbook, and link to a screen.
 
 Record a screencast of the entire process, from provisioning servers, creating inventory, running ansible, to finally seeing webserver in browser.
 
-The assignment is due Wednesday, Sept 16th at midnight.
+The assignment is due Tuesday, Sept 13th at midnight.
 
 ## Evaluation
+
+You will receive a ZERO if a security token is found to be checked into your repository.
 
 - 40% Code for provisioning from two platforms.
 - 20% Automatically generating inventory file from code.
 - 20% Ansible Playbook.
 - 10% Configuration management of repo.
 - 10% Screencast and following instructions.
+
