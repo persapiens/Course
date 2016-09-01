@@ -35,20 +35,9 @@ We want to create a master server that runs Ansible. First, use a binary package
     sudo apt-get update
     sudo apt-get -y install git make vim python-dev python-pip libffi-dev libssl-dev libxml2-dev libxslt1-dev libjpeg8-dev zlib1g-dev
 
-
 Now get ansible itself.
 
-    git clone git://github.com/ansible/ansible.git --recursive
-    cd ./ansible
-    source ./hacking/env-setup
-
-Install dependencies, using pip, a package manager for Python.
-    
-    sudo pip install paramiko PyYAML Jinja2 httplib2 six
-
-Build the software.
-
-    sudo make install
+    pip install ansible
 
 Test ansible
 
