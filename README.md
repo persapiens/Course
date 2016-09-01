@@ -60,7 +60,7 @@ The following schedule is subject to change.
 | Aug 23   | [Bootcamp: Basics](https://github.com/REU-SOS/EngineeringBasics)  |            |                   |
 | Aug 25   | Workshop: Provisioning           |            | [HW1](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md)|
 | Aug 30   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
-| Sep  1   | Workshop: Managed Environments   |            |                   |
+| Sep  1   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   |            |                   |
 | Sep  6   | Build Management                 |            | MILESTONE: BUILD  |
 | Sep  8   | Workshop: Build Servers          |            |                   |
 | Sep 13   | Analysis                         |            |                   |
