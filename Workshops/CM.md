@@ -33,7 +33,7 @@ In general, Ansible (like Salt, Chef, and Puppet), use a central server that con
 We want to create a master server that runs Ansible. First, use a binary package manager to setup some basic stuff missing.
 
     sudo apt-get update
-    sudo apt-get -y install git make vim python-dev python-pip
+    sudo apt-get -y install git make vim python-dev python-pip libffi-dev
 
 
 Now get ansible itself.
