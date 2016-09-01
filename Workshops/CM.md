@@ -67,7 +67,7 @@ Unlike the first virtual machine, you cannot use the default mode, because there
 
 ##### Host-only
 
-For linux/mac:
+For linux/mac/windows 10:
 Uncomment the following line in Vagrantfile:
 ```
 config.vm.network "private_network", ip: "192.168.33.10"
@@ -75,7 +75,7 @@ config.vm.network "private_network", ip: "192.168.33.10"
 Then run, `vagrant reload`. **Bonus**: You can use hard-coded ip address in your scripts.
 
 ##### Bridged
-For windows:
+For older version of windows:
 Uncomment the following line in Vagrantfile:
 ```
 config.vm.network "public_network"
