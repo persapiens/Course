@@ -62,7 +62,7 @@ The following schedule is subject to change.
 | Aug 30   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
 | Sep  1   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   |            |                   |
 | Sep  6   | [Build Management](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/edit#slide=id.p)                 |            | MILESTONE: BUILD  |
-| Sep  8   | Workshop: Build Servers          |            |                   |
+| Sep  8   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
 | Sep 13   | Analysis                         |            |                   |
 | Sep 15   | Workshop: Fuzzing                |            |                   |
 | Sep 20   | Test Management                  |            |MILESTONE:TEST/ANALYSIS|        
