@@ -66,16 +66,10 @@ We'll explore some of these concepts below.
 
 Build a docker environment for running build.  Create a "Dockerfile" and place this content inside:
 
-	FROM ubuntu:14.04
+	FROM ubuntu:15.04
 	MAINTAINER Chris Parnin, chris.parnin@ncsu.edu
 
 	RUN apt-get -y update
-	
-	# add add-apt-repo cmd
-	RUN apt-get -y install software-properties-common
-	
-	# add openjdk repo
-	RUN add-apt-repository -y ppa:openjdk-r/ppa
 	
 	# update packages and install
 	RUN apt-get install -y wget openjdk-8-jdk curl unzip
