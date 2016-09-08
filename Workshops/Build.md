@@ -68,6 +68,8 @@ Build a docker environment for running build.  Create a "Dockerfile" and place t
 
 	FROM ubuntu:14.04
 	MAINTAINER Chris Parnin, chris.parnin@ncsu.edu
+
+	RUN apt-get -y update
 	
 	# add add-apt-repo cmd
 	RUN apt-get -y install software-properties-common
@@ -76,7 +78,6 @@ Build a docker environment for running build.  Create a "Dockerfile" and place t
 	RUN add-apt-repository -y ppa:openjdk-r/ppa
 	
 	# update packages and install
-	RUN apt-get -y update
 	RUN apt-get install -y wget openjdk-8-jdk curl unzip
 	
 	RUN apt-get -y install git
