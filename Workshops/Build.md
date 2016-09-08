@@ -1,7 +1,4 @@
-The goal of this workshop is to engage in hands-on exploration of docker. Several docker-related concepts and tasks are investigated. 
-
-1. Part 1 of the workshop will focus on using docker to build a simple CI server.
-2. Part 2 of the workshop will focus on performing a simple deployment of a "dockerized" node.js app. 
+The goal of this workshop is to engage in hands-on exploration of docker. Several docker-related concepts and tasks are investigated. The workshop will focus on using docker to build a simple CI server.
 
 ## Preqs
 
@@ -11,18 +8,7 @@ Please download VirtualBox in order to run a VM that can host docker: https://ww
 
 While you can try using the VM provided by Boot2Docker, experience has shown that this does not work as well as directly using a host OS like ubuntu or CoreOS.
 
-#### VM with Ubuntu 14 (64bit)
-
-1. Manual method. 
-
-   * Create a New VM in Virtual Box. Select Type "Linux", Version Ubuntu (64-bit). Click through.
-   * Start up the machine (double click).
-   * Download and install an [Ubuntu iso img](http://www.ubuntu.com/download/server/thank-you?country=US&version=14.04.3&architecture=amd64).
-   * Follow ubuntu installation wizard.
-
-   In VirtualBox, on the image, right click > Settings > Network. Change "attached to" to "Bridged Adaptor". This will help you get an ip address you can access from your computer.
-
-2. Vagrant method.
+#### Vagrant 
 
    * Download and install [vagrant](https://www.vagrantup.com/downloads.html)
    * Run `vagrant init ubuntu/trusty64`
