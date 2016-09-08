@@ -60,7 +60,7 @@ You may find using [putty](http://www.putty.org/) to manually ssh into your box 
 
 We'll explore some of these concepts below.
 
-## Part 1: 
+## Build: 
 
 ### Creating docker image
 
