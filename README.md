@@ -64,10 +64,10 @@ The following schedule is subject to change.
 | Sep  6   | [Build Management](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/edit#slide=id.p)                 |            | [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)  |
 | Sep  8   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
 | Sep 13   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
-| Sep 15   | Workshop: Fuzzing                |            |                   |
+| Sep 15   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
 | Sep 20   | Test Management                  |            |MILESTONE:TEST/ANALYSIS|        
-| Sep 22   | Workshop: Test Generation        |            | HW2               |
-| Sep 27   | TBD                              |            |                   |
+| Sep 22   | Workshop: Fuzzing                |            |                   |
+| Sep 27   | Workshop: Test Generation        |            | HW2               |
 | Sep 29   | TBD                              |            |                   |
 | Oct  4   | No class                         |            |                   |
 | Oct  6   | Fall Break                       |            |                   |
