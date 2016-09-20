@@ -65,7 +65,7 @@ The following schedule is subject to change.
 | Sep  8   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
 | Sep 13   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
 | Sep 15   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
-| Sep 20   | Test Management                  |            |MILESTONE:TEST/ANALYSIS|        
+| Sep 20   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |MILESTONE:TEST/ANALYSIS|        
 | Sep 22   | Workshop: Fuzzing                |            |                   |
 | Sep 27   | Workshop: Test Generation        |            | HW2               |
 | Sep 29   | TBD                              |            |                   |
