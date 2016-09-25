@@ -87,7 +87,7 @@ The following schedule is subject to change.
 | Nov 24   | Thanksgiving                     |            |                   |
 | Nov 29   | Demos                            |            |                   |
 | Dec  1   | Demos                            |            |                   |
-| Dec  6   | Exam (8:00AM--10:00AM)           |            |                   |
+| Dec  6   | Exam (1:00PM - 4:00PM)           |            |                   |
 
 ### Resources
 
