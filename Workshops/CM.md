@@ -140,7 +140,7 @@ Webserver should be dead.
 
 Instead of running shell commands, you can directly use Ansible's Python API.  For example, this snippet will execute the simple ping test you've been using before.  See if you can adapt this code snippet to perform the `nginx` install instead of running a shell script.
 
-```
+```python
 import ansible.runner
 from ansible.inventory import Inventory
 
