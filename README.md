@@ -72,18 +72,18 @@ The following schedule is subject to change.
 | Oct  4   | No class                         |            |                   |
 | Oct  6   | Fall Break                       |            |                   |
 | Oct 11   | Infrastructure Management        |            |                   |
-| Oct 13   | Tech Talks #1                    |            |                   |
+| Oct 13   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            |                   |
 | Oct 18   | Feature Flags/Property Sets/Redis|            | MILESTONE: DEPLOY |
 | Oct 20   | Workshop: Queues, Caches, Proxies|            | HW3               |            
 | Oct 25   | Staging + Deployment             |            |                   |
 | Oct 27   | Workshop: Deployment             |            |                   |
 | Nov  1   | Advanced Docker: Deployment      |            |                   |
-| Nov  3   | Tech Talks #2                    |            | HW4               |
+| Nov  3   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            | HW4               |
 | Nov  8   | Analysis + Monitoring            |            | MILESTONE: SPECIAL|
 | Nov 10   | Workshop: Monitoring + Resilience|            |                   |
 | Nov 15   | TBD/Guest                        |            |                   |
 | Nov 17   | TBD/Guest                        |            |                   |
-| Nov 22   | Tech Talks #3                    |            |                   |
+| Nov 22   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            |                   |
 | Nov 24   | Thanksgiving                     |            |                   |
 | Nov 29   | Demos                            |            |                   |
 | Dec  1   | Demos                            |            |                   |
