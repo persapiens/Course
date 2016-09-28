@@ -31,11 +31,11 @@ A repo and report describing tool will be also be graded on the following criter
 
 There are three days in the semester dedicated to tech talk presentations, each with limited slots for presenting.
 
-* 10/15
-* 11/05
-* 11/19
+* 10/13
+* 11/02
+* 11/22
 
-[Please sign up](https://docs.google.com/spreadsheets/d/12LA6GUe22yDbx3hiXJp0WfqQ_NqPuRgE58-urAoWQGU/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
+[Please sign up](https://docs.google.com/spreadsheets/d/14NKfqh76YU5tHlTrgNDX2rIhrGWO2HLj-AUtuSNY51M/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
 
 You can provide links to your repo on the same signup sheet.
 
@@ -50,5 +50,6 @@ Include, but not limited to:
 * Testing tools (Mocha, etc.)
 * Static Analysis (FindBugs, etc.)
 * Configuration Management Tools (Salt, Puppet, Chef, Ansible)
-* Platforms as Service (Hero, Google AppEngine, Google Cloud)
-* Advanced Docker usage (e.g. Docker compose)
+* Platforms as Service (Heroku, Google AppEngine, Google Cloud)
+* Advanced Docker usage (e.g. Docker compose, Kubernetes)
+* ...
