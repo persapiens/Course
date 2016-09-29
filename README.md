@@ -67,7 +67,7 @@ The following schedule is subject to change.
 | Sep 15   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
 | Sep 20   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |[MILESTONE:TEST/ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)|        
 | Sep 22   | No class                         |            |                   |
-| Sep 27   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing)        |            | HW2               |
+| Sep 27   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing)        |            | [HW2](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md)               |
 | Sep 29   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)                              |            |                   |
 | Oct  4   | No class                         |            |                   |
 | Oct  6   | Fall Break                       |            |                   |
