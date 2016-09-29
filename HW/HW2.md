@@ -43,7 +43,7 @@ To help visualize coverage over the code, and get an accurate count of statement
 
 Create a github repository (on github proper or NCSU), place a screenshot of your coverage report in the README.md file and your code in your repository.
 
-Please [submit your assignment here](https://docs.google.com/a/ncsu.edu/forms/d/1dFQ7hJcEoaRyLyokftZ-KPOlJw-RJI4sJ_Wqxyzbxk4/viewform?usp=send_form).
+Please [submit your assignment here](https://goo.gl/forms/WXZwhaupxjCEgrjM2).
 
 The assignment is due Tuesday, Oct 13th at midnight.
 
