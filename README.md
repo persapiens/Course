@@ -80,7 +80,7 @@ The following schedule is subject to change.
 | Nov  1   | Advanced Docker: Deployment      |            |                   |
 | Nov  3   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            | HW4               |
 | Nov  8   | Analysis + Monitoring            |            | MILESTONE: SPECIAL|
-| Nov 10   | Workshop: Monitoring + Resilience|            |                   |
+| Nov 10   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
 | Nov 15   | TBD/Guest                        |            |                   |
 | Nov 17   | TBD/Guest                        |            |                   |
 | Nov 22   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            |                   |
