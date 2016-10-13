@@ -72,7 +72,7 @@ The following schedule is subject to change.
 | Oct  4   | No class                         |            |                   |
 | Oct  6   | Fall Break                       |            |                   |
 | Oct 11   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
-| Oct 13   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            |                   |
+| Oct 13   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Chef](https://github.com/stutinanda/devops-techtalk), [Ansible](https://github.ncsu.edu/atyagi2/TechTalk)          |                   |
 | Oct 18   | Feature Flags/Property Sets/Redis|            | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md) |
 | Oct 20   | Workshop: Queues, Caches, Proxies|            | HW3               |            
 | Oct 25   | Staging + Deployment             |            |                   |
