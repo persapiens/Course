@@ -80,12 +80,12 @@ docker run -p 50100:8080 -d --name app localhost:5000/ncsu:latest
 
 ### Linking.
 
-Containers can be [linked to each other](https://docs.docker.com/userguide/dockerlinks/). This allows a secure and private channel of communication between containers on the same host.
+Containers can be [linked to each other](https://docs.docker.com/engine/userguide/networking/default_network/dockerlinks/). This allows a secure and private channel of communication between containers on the same host.
 
 
 ### Patterns and Tools
 
-* **Ambassador pattern**: Pattern that allows containers to communicate with other containers on different hosts. Essentially works using a reverse-proxy. [See](https://docs.docker.com/articles/ambassador_pattern_linking/).
+* **Ambassador pattern**: Pattern that allows containers to communicate with other containers on different hosts. Essentially works using a reverse-proxy. [See](https://docs.docker.com/engine/admin/ambassador_pattern_linking/).
 * **socat**: Tool for mapping sockets to files or other networking ports. Useful for connecting services and linking file systems to other containers.
 
 Dockerfile
