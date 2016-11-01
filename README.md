@@ -77,7 +77,7 @@ The following schedule is subject to change.
 | Oct 20   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | [HW3](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)               |            
 | Oct 25   | [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.p)             |            |                   |
 | Oct 27   | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
-| Nov  1   | Advanced Docker: Deployment      |            |                   |
+| Nov  1   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)      |            |                   |
 | Nov  3   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            | HW4               |
 | Nov  8   | Analysis + Monitoring            |            | MILESTONE: SPECIAL|
 | Nov 10   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
