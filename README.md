@@ -50,7 +50,7 @@ Details on requirements for milestones will be released throughout the course.  
 * DEPLOY
 * SPECIAL
 
-## Schedule and Topics - Fall 2015
+## Schedule and Topics - Fall 2016
 
 The following schedule is subject to change.
 
