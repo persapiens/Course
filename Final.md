@@ -70,6 +70,8 @@ The following are example questions that will be similar to questions you will h
 
 1. A company has each developer create a seperate branch to work on their feature that they deploy. They often face delays merging code together and have difficulty rollbacking deployed features. What practice if introduced might help?
 
+2. A system has a lot of test cases. Every time a change is made, it takes a lot of time to run the test cases. How will you ensure that test cases run fast and developer gets timely feedback about the same?
+
 ### Implementation
 
 1. Measure branch coverage of a code snippet.
