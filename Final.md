@@ -72,22 +72,38 @@ The following are example questions that will be similar to questions you will h
 
 ### Implementation
 
-1. Measure the statement coverage of a code snippet.
+1. Measure branch coverage of a code snippet.
 
   **Test suite**:
   
-  * blackListNumber("(219) 322-3232");
+  * weird(0, 0, 0, "strictly")
+  * weird(88, 42, 42, "stricter")
+  
   ```Javascript
-  function blackListNumber(phoneNumber)
+  function weird(x,y,z, mode, results)
   {
-  	var num = format(phoneNumber, "(NNN) NNN-NNNN");
-  	var area = num.substring(1,4);
-  	if( area != "919" )
-  	{
-  		return true;
-  	}
-  	return false;
-  }
+      if( x > 87 && y < 70 )
+      {
+          z = 33;
+          results[0] = inc().data[0].fetch().cached.first.name;
+      }    
+      else if( z < 42 )
+      {
+          if( mode == "strictly" )
+          {
+              return 0;
+          }
+      }
+      else
+      {
+          if( mode != "stricter" )
+          {
+              results[1] = inc().cachedResults;
+              return y = z / x;
+          }
+      }
+      return 1;
+  }  
   ```
 
 2. Write a parser using a simple visitor pattern to count the number of ifs in a function.
