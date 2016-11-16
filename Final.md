@@ -45,6 +45,14 @@ The following are example questions that will be similar to questions you will h
   * D) B or C
   * E) None of the Above
 
+4. What term best describes the following: "Developers may manually prevent access to parts of production systems, while they are performing deployments".
+
+  * A) Rolling Updates
+  * B) Operation Locks
+  * C) Expand and Contract
+  * D) Big Flip
+  * E) Feature Flags
+
 ### Definitions
 
 1. Which tool or service does not belong with the other? Underline one choice per line. (1 point each).
