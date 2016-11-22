@@ -83,7 +83,7 @@ The following schedule is subject to change.
 | Nov 10   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
 | Nov 15   | TBD/Guest                        |            |                   |
 | Nov 17   | TBD/Guest                        |            |                   |
-| Nov 22   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |            |                   |
+| Nov 22   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Consul](https://github.ncsu.edu/achatur/DevOpsTechTalk), [Kubernetes](https://github.com/debalin/devops-kubernetes), [Puppet](https://github.ncsu.edu/sshaikh2/DevOps-TechTalk-Puppet), [SnapCI](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk)          |                   |
 | Nov 24   | Thanksgiving                     |            |                   |
 | Nov 29   | Demos                            |            |                   |
 | Dec  1   | Demos                            |            |                   |
