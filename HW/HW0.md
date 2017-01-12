@@ -15,18 +15,18 @@ Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 1. Create a *private* repo called HW0. 
 2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
 
-## Learning Git (40)
+## Learning Git (20)
 
 Solve the first four levels in: http://pcottle.github.io/learnGitBranching/
 
 ![example](https://cloud.githubusercontent.com/assets/742934/9494425/c4dd4b66-4bd3-11e5-9aac-04bfc8fed771.png)
 
-* Introduction Sequence (10%)
-* Ramping Up (10%)
-* Moving Work Around (10%)
-* A Mixed Bag (10%)
+* Introduction Sequence (5%)
+* Ramping Up (5%)
+* Moving Work Around (5%)
+* A Mixed Bag (5%)
 
-For extra credit, complete "Advanced Topics". (10%)
+For extra credit, complete "Advanced Topics". (5%)
 
 For submission, you only need to demonstrate completing the levels, which can be done taking a screenshot. However, you should keep track of your solutions to help you remember how to solve these types of issues in the future, or recover if your progress gets lost.
 
@@ -41,19 +41,27 @@ Some hints:
 
 In your solution, provide the content of "post-commit". Finally, take a screencast (20 points), or a gif recording of the process. See details below.
 
+## Concepts (20)
+
+* In your own words, explain the difference between continuous integration, continuous delivery, and continuous deployment.
+* How does DevOps team model (e.g., site reliability engineer) differ than a a NoOps team model (e.g. Netflix team)? What differences in architecture allow for a NoOps model?
+* Explain the principle of Every Feature is an Expertiment
+* Explain the principle of Be Fast to Deploy, Slow(er) to Release.
+
 ## Submit
 
-Submit a link to your github repo, http://tiny.cc/CSC519-Fall16-HW0,
+Submit a link to your github repo, https://goo.gl/forms/4SgOGY7neMqT4D1s2,
 containing the following:
 
 * Complete moodle and slack profiles by deadline (20).
-* Screenshot of completed git tutorial (40).
+* Screenshot of completed git tutorial (20).
 * Hooks (20)
 * Screencast (20)
+* Concepts (20)
 
-For your screenshot embed in the markdown file of your README.md. Include a link to your screencast video/gif.
+For your screenshot embed in the markdown file of your README.md. Include a link to your screencast video/gif. Include your concept answers in your markdown file.
 
-**Due Thursday**, 8/25, midnight.
+**Due Thursday**, 1/19, midnight.
 
 ## Screencast (20)
 
@@ -66,6 +74,7 @@ A general guideline: Do whatever it would do if you were teaching someone how to
 ##### Software
 * camtasia
 * https://github.com/justinfrankel/licecap (for simple .gif)
+* screencastomatic
 * Add more recommendations in Slack
  
 ##### Guidelines for both multimedia formats:
