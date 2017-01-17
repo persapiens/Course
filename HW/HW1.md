@@ -21,14 +21,17 @@ See the github education pack for many free promotions: https://education.github
 ### DigitialOcean
 
 DigitialOcean is one of the cheapest and lowest image providers.
+If using workshop code, you'll need to get your own ssh key:
+
+```bash
+curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $TOKEN' "https://api.digitalocean.com/v2/account/keys"
+```
 
 ### Amazon Web Services (AWS)
 
 AWS is a rich computation platform for supporting many services. The goal of your homework assignment is to create  account with AWS, learn how to use its API, and perform a simple task with the service.
 
 AWS provides a [free tier plan](http://aws.amazon.com/free/), for 12 months, which is appropriate for learning the platform.
-
-After creating an account, please read [this guide](https://d36cz9buwru1tt.cloudfront.net/AWS_Overview.pdf), in order to get an overview of the platform provided.  After reading this document (or others that you find), prepare a simple paragraph describing a service that you learned about. Next, please review the different ways of interfacing with the [AWS API](http://docs.aws.amazon.com/AWSEC2/latest/APIReference/making-api-requests.html).  It is possible to use simple http requests, or you can also use language binding for the API (e.g. Java, .NET, ruby, javascript, etc.).
 
 ### Azure
 
