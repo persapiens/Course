@@ -88,11 +88,11 @@ The following schedule is subject to change.
 | Nov 24   | Thanksgiving                     |            |                   |
 | Nov 29   | Demos                            |            |                   |
 | Dec  1   | Demos                            |            |                   |
-| Dec  6   | Exam (1:00PM - 4:00PM)           |            |                   |
+| May 2nd   | Exam (8:00AM - 11:00AM)           |            |                   |
 
 ### Resources
 
-[Slack](https://csc-devopsfall16.slack.com)
+[Slack](https://csc519-s17.slack.com/)
 
 ##### Books
 
