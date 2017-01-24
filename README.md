@@ -61,7 +61,7 @@ The following schedule is subject to change.
 | Aug 23   | [Bootcamp: Basics](https://github.com/CSC-DevOps/Bootcamp)  |            |                   |
 | Aug 25   | Workshop: Provisioning           |            | [HW1](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md)|
 | Aug 30   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
-| Sep  1   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   |            |                   |
+| Sep  1   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md)   |            |                   |
 | Sep  6   | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                 |            | [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)  |
 | Sep  8   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
 | Sep 13   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
