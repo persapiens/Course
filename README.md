@@ -94,6 +94,10 @@ The following schedule is subject to change.
 
 [Slack](https://csc519-s17.slack.com/)
 
+##### Papers
+
+* [An empirical study on principles and practices of continuous delivery and deployment](https://peerj.com/preprints/1889.pdf)
+
 ##### Books
 
 * [Effective DevOps](https://www.amazon.com/Effective-DevOps-Building-Collaboration-Affinity/dp/1491926309)
