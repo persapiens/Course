@@ -28,7 +28,7 @@ Please [submit your repo here](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAI
 
 In your repository, have your code, link to a screencast. Screencast should illustrate a) running ansible scripts to setup jenkins, b) running build job in jenkins.
 
-The assignment is due Wednesday, Feburary 28th at midnight.
+The assignment is due Wednesday, Feburary 8th at midnight.
 
 ## Evaluation
 
