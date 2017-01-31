@@ -7,9 +7,9 @@ In this homework assignment, you will complete the following tasks:
 * Using ansible, be able to automatically configure a server running jenkins.
 * Abide by the following constraints:
 
-  - Setup necessary runtime packages needed.
+  - Setup necessary runtime packages automatically.
   - Be able to setup jenkins configuration files automatically.
-  - Be able to setup a job to build [this repo](https://github.com/CSC-326/JSPDemo)
+  - Be able to automatically setup a job to build [this repo](https://github.com/CSC-326/JSPDemo)
 * Answer conceptual questions.
  
 ## Concepts
