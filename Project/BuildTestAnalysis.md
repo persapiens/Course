@@ -39,9 +39,9 @@ Bonus (20 points): Extend the [test-stability-plugin](https://github.com/jenkins
 
 Create an analysis tool that runs on checkbox.io's server-side code and implements the following detections.
 
-**Max condition**: Detect the max number of conditions within an if statement in a function (greater than 8).
-**Long method**: Detect any long methods (greater than 100 lines of code).
-**The Big O**. Detect any method with a big O greater than 3.
+* **Max condition**: Detect the max number of conditions within an if statement in a function (greater than 8).
+* **Long method**: Detect any long methods (greater than 100 lines of code).
+* **The Big O**. Detect any method with a big O greater than 3.
 
 **Fail the build if any of these results occur**.
 
