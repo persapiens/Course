@@ -71,8 +71,8 @@ The following schedule is subject to change.
 | Feb 16   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing)        |            | [HW2](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md)               |
 | Feb 21   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)                              |            |                   |
 | Feb 23   | [Workshop: Test Suites]()                        |            |                   |
-| Feb 28   |                        |            |                   |
-| Mar 2    | Midterm Review                       |            |                   |
+| Feb 28   | Midterm Review                       |            |                   |
+| Mar 2    | No class                       |            |                   |
 | Mar 7    | Spring Break                       |            |                   |
 | Mar 14   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
 | Mar 16   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |     |                   |
