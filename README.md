@@ -57,37 +57,37 @@ The following schedule is subject to change.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Aug 18   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)          | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
-| Aug 23   | [Bootcamp: Basics](https://github.com/CSC-DevOps/Bootcamp)  |            |                   |
-| Aug 25   | Workshop: Provisioning           |            | [HW1](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md)|
-| Aug 30   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
-| Sep  1   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md)   |            |                   |
-| Sep  6   | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                 |            | [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)  |
-| Sep  8   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
-| Sep 13   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
-| Sep 15   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
-| Sep 20   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |[MILESTONE:TEST/ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)|        
-| Sep 22   | No class                         |            |                   |
-| Sep 27   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing)        |            | [HW2](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md)               |
-| Sep 29   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)                              |            |                   |
-| Oct  4   | No class                         |            |                   |
-| Oct  6   | Fall Break                       |            |                   |
-| Oct 11   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
-| Oct 13   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Chef](https://github.com/stutinanda/devops-techtalk), [Collectd/ELK Stack](https://github.ncsu.edu/DevOps-Milestones/DevOps-TechTalk), [Ansible](https://github.ncsu.edu/atyagi2/TechTalk)          |                   |
-| Oct 18   | Feature Flags/Property Sets/Redis|            | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md) |
-| Oct 20   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | [HW3](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)               |            
-| Oct 25   | [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.p)             |            |                   |
-| Oct 27   | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
-| Nov  1   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)      |            |                   |
-| Nov  3   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | [Find Bugs](https://github.com/rajadhva/DevOps-TechTalk), [New Relic](https://github.ncsu.edu/achekur/DevOps-Techtalk), [Beanstalk](https://github.ncsu.edu/ngarg/Beanstalk-TechTalk), [Nagios](https://github.ncsu.edu/kpharas/NagiosTechTalk)   | [HW4](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)    |
-| Nov  8   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md)|
-| Nov 10   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
-| Nov 15   | TBD/Guest                        |            |                   |
-| Nov 17   | TBD/Guest                        |            |                   |
-| Nov 22   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Consul](https://github.ncsu.edu/achatur/DevOpsTechTalk), [Kubernetes](https://github.com/debalin/devops-kubernetes), [Puppet](https://github.ncsu.edu/sshaikh2/DevOps-TechTalk-Puppet), [SnapCI](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk)          |                   |
-| Nov 24   | Thanksgiving                     |            |                   |
-| Nov 29   | Demos                            |            |                   |
-| Dec  1   | Demos                            |            |                   |
+| Jan 10   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)          | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
+| Jan 12   | [Bootcamp: Basics](https://github.com/CSC-DevOps/Bootcamp)  |            |                   |
+| Jan 17   | Workshop: Provisioning           |            | [HW1](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md)|
+| Jan 19   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
+| Jan 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md)   |            |                   |
+| Jan 26   | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                 |            | [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)  |
+| Jan 31   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
+| Feb 2   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
+| Feb 7   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
+| Feb 9   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |[MILESTONE:TEST/ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)|        
+| Feb 14   | No class                         |            |                   |
+| Feb 16   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing)        |            | [HW2](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md)               |
+| Feb 21   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)                              |            |                   |
+| Feb 23   | [Workshop: Test Suites]()                        |            |                   |
+| Feb 28   |                        |            |                   |
+| Mar 2    | Midterm Review                       |            |                   |
+| Mar 7    | Spring Break                       |            |                   |
+| Mar 14   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
+| Mar 16   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Chef](https://github.com/stutinanda/devops-techtalk), [Collectd/ELK Stack](https://github.ncsu.edu/DevOps-Milestones/DevOps-TechTalk), [Ansible](https://github.ncsu.edu/atyagi2/TechTalk)          |                   |
+| Mar 21   | Feature Flags/Property Sets/Redis|            | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md) |
+| Mar 23   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | [HW3](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)               |            
+| Mar 28   | [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.p)             |            |                   |
+| Mar 30    | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
+| Apr 4   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)      |            |                   |
+| Apr 6   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | [Find Bugs](https://github.com/rajadhva/DevOps-TechTalk), [New Relic](https://github.ncsu.edu/achekur/DevOps-Techtalk), [Beanstalk](https://github.ncsu.edu/ngarg/Beanstalk-TechTalk), [Nagios](https://github.ncsu.edu/kpharas/NagiosTechTalk)   | [HW4](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)    |
+| Apr 11   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md)|
+| Apr 13   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
+| Apr 18   | TBD/Guest                        |            |                   |
+| Apr 20   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Consul](https://github.ncsu.edu/achatur/DevOpsTechTalk), [Kubernetes](https://github.com/debalin/devops-kubernetes), [Puppet](https://github.ncsu.edu/sshaikh2/DevOps-TechTalk-Puppet), [SnapCI](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk)                        |            |                   |
+| Apr 25   | Demos          |                   |
+| Apr 28   | Demos                     |            |                   |
 | May 2nd   | Exam (8:00AM - 11:00AM)           |            |                   |
 
 ### Resources
