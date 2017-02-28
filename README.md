@@ -84,8 +84,8 @@ The following schedule is subject to change.
 | Apr 6   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |   | [HW4](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)    |
 | Apr 11   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md)|
 | Apr 13   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
-| Apr 18   | TBD/Guest                        |            |                   |
-| Apr 20   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |                         |            |                   |
+| Apr 18   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                         |            |                   |
+| Apr 20   | [Tech Talks #4](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |                         |            |                   |
 | Apr 25   | Demos          |                   |
 | Apr 28   | Demos                     |            |                   |
 | May 2nd   | Exam (8:00AM - 11:00AM)           |            |                   |
