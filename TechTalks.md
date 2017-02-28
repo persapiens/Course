@@ -1,12 +1,8 @@
 # Tech Talks
 
-For students in CSC591, you will be required to present a short talk and demo (10 minutes) about a DevOps related tool. Students will also need to be able to answer questions about the tool (5 minutes of discussion).
+You will be required to present a short talk and demo (10 minutes) about a DevOps related tool. Students will also need to be able to answer questions about the tool.
 
 You will also turn in a repo containing a report and resources related to the tool.
-
-**You will get in groups of 4**
-
-You do not have to be in same groups as your project. There is no relation.
 
 The following criteria will be used in evaluating your talk (each worth 5 points):
 
@@ -29,13 +25,14 @@ A repo and report describing tool will be also be graded on the following criter
 
 ### Sign up
 
-There are three days in the semester dedicated to tech talk presentations, each with limited slots for presenting.
+There are four days in the semester dedicated to tech talk presentations, each with limited slots for presenting.
 
-* 10/13
-* 11/02
-* 11/22
+* 3/16 (5 point bonus for being first session)
+* 4/6
+* 4/18
+* 4/20
 
-[Please sign up](https://docs.google.com/spreadsheets/d/14NKfqh76YU5tHlTrgNDX2rIhrGWO2HLj-AUtuSNY51M/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
+[Please sign up](https://docs.google.com/spreadsheets/d/1MVTVn1fE4rZd_cotI3lwnOaM0B2TAgeD1LZUIZfCRbg/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
 
 You can provide links to your repo on the same signup sheet.
 
