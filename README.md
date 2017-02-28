@@ -75,17 +75,17 @@ The following schedule is subject to change.
 | Mar 2    | Midterm Review                       |            |                   |
 | Mar 7    | Spring Break                       |            |                   |
 | Mar 14   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
-| Mar 16   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Chef](https://github.com/stutinanda/devops-techtalk), [Collectd/ELK Stack](https://github.ncsu.edu/DevOps-Milestones/DevOps-TechTalk), [Ansible](https://github.ncsu.edu/atyagi2/TechTalk)          |                   |
+| Mar 16   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |     |                   |
 | Mar 21   | Feature Flags/Property Sets/Redis|            | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md) |
 | Mar 23   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | [HW3](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)               |            
 | Mar 28   | [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.p)             |            |                   |
 | Mar 30    | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
 | Apr 4   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)      |            |                   |
-| Apr 6   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    | [Find Bugs](https://github.com/rajadhva/DevOps-TechTalk), [New Relic](https://github.ncsu.edu/achekur/DevOps-Techtalk), [Beanstalk](https://github.ncsu.edu/ngarg/Beanstalk-TechTalk), [Nagios](https://github.ncsu.edu/kpharas/NagiosTechTalk)   | [HW4](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)    |
+| Apr 6   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |   | [HW4](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)    |
 | Apr 11   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md)|
 | Apr 13   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
 | Apr 18   | TBD/Guest                        |            |                   |
-| Apr 20   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |  [Consul](https://github.ncsu.edu/achatur/DevOpsTechTalk), [Kubernetes](https://github.com/debalin/devops-kubernetes), [Puppet](https://github.ncsu.edu/sshaikh2/DevOps-TechTalk-Puppet), [SnapCI](https://github.com/simerdeep92/DevOps_SnapCI_TechTalk)                        |            |                   |
+| Apr 20   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |                         |            |                   |
 | Apr 25   | Demos          |                   |
 | Apr 28   | Demos                     |            |                   |
 | May 2nd   | Exam (8:00AM - 11:00AM)           |            |                   |
