@@ -1,4 +1,4 @@
-# CSC 591/791 "519" Course Syllabus - DevOps
+# CSC 519 Course Syllabus - DevOps
 
 North Carolina State University
 
@@ -12,6 +12,8 @@ North Carolina State University
 CSC510 (Software Engineering) or graduate or senior standing with
 at least 3.0 GPA, good knowledge of at least one high
 level programming language.
+
+Undergraduates enrolled in 419 are expected to complete the same course work, except they do not required to complete a "Tech Talk".
 
 ## Outline
 
@@ -32,7 +34,7 @@ In the course, a mixture of traditional lectures with activities and in-class wo
 
 ### Tech Talks
 
-Students in CSC 591 will organize in groups and present one tech talk during lecture.  For a *tech talk*, students are expected to cover one tool or technology revelant to DevOps in a 15-20 minute presentation.  Students should perform a small demo to help illustrate the tool. Three days during the semester will be reserved for these presentations.
+Students will organize in groups and present one tech talk during lecture.  For a *tech talk*, students are expected to cover one tool or technology revelant to DevOps in a 10-15 minute presentation.  Students should perform a small demo to help illustrate the tool. Three--four days during the semester will be reserved for these presentations.
 
 ### Homeworks
 
@@ -40,7 +42,7 @@ Homework assignments will be regularly released throughout the semester and rein
 
 ### Workshops
 
-Workshops are have required attendance and are vital to the course. During a workshop, you'll be guided in using tools and building specific functionality which you will later use for homeworks and project miles. During the semester, 3 workshops will be randomly selected for attendance. 
+Workshops are have required attendance and are vital to the course. During a workshop, you'll be guided in using tools and building specific functionality which you will later use for homeworks and project miles. During the semester, workshops will be randomly selected for attendance. 
 
 * 1 missed workshop, workshop grade = 4
 * 2 missed workshops, workshop grade = 2
@@ -48,7 +50,7 @@ Workshops are have required attendance and are vital to the course. During a wor
 
 ### Project
 
-The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.  Students in CSC 791 are expected to implement a research component to their pipline. 
+The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.
 
 Students are able to choose their own app and technology choices for building a deployment pipeline.  Otherwise, a default app and technology stack will be provided.
 
@@ -56,48 +58,11 @@ Students are able to choose their own app and technology choices for building a 
 
 Details on requirements for milestones will be released throughout the course.  A student's pipeline should demonstrate the following components by the milestone deadline:
 
-* BUILD
-* TEST+ANALYSIS
+* CM
+* BUILD+TEST+ANALYSIS
 * DEPLOY
 * SPECIAL
 
-## Schedule and Topics - Fall 2015
-
-The following schedule is subject to change.
-
-| Class    | Topics                           |  Resources |  Deadlines |
-|----------|----------------------------------|------------| ----------            |
-| Aug 20th  | Hello                            | [Previous Demos](https://docs.google.com/spreadsheets/d/1BdqdwARU_VVfLXXCQSp6gMiggDYUfsrVgxUQeOJMu68/edit#gid=0)     |  &nbsp;               | 
-| Aug 25th | [Core Concepts + Skills](https://docs.google.com/presentation/d/1gawFfJyPssbtiLs1-4FGow4Ph1-AHJeEo9B_S8Kvr70/edit)           | &nbsp;     |  &nbsp;               |
-| Aug 27th | [Workshop: Git, Branches, Servers, Hooks](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop) (*internal link*) | &nbsp; |  [HW #0 - Hooks](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md)               |
-| Sep 1st | [Configuration Management](https://docs.google.com/presentation/d/1sVDyCBwFnb1C0xKTswzmhsNn-FKwCXl434uZkAunI6M/edit#slide=id.g3ab49d3b9_154)         | &nbsp;     |  &nbsp;  |
-| Sep 3rd | [Workshop: Managed Environments](https://github.com/CSC-DevOps/Course/blob/master/Workshops/CM.md)   | [Docker](https://www.docker.com/), [Chef](https://www.chef.io/chef/), [Vagrant](https://www.vagrantup.com/), [Ansible](http://www.ansible.com/get-started)     |  [HW #1 - Provisioning Servers](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md) |
-| Sep 8th | [Build Management](https://docs.google.com/presentation/d/1KoMQark9bdaNMBpSBfEewjR1qEic_Fi0nJxN6si6BgA/)                  | &nbsp;    |  &nbsp;               |
-| Sep 10th | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          | [Jenkins](http://jenkins-ci.org/), [CruiseControl](http://cruisecontrol.sourceforge.net/), [GoCd](http://www.go.cd/)     | &nbsp; |
-| Sep 15th  | [Parsing Primer](https://docs.google.com/presentation/d/1PooLd3Bj3cORMyHxLlVV4mXJ52Ra6oFf57FHx23vtDc/edit#slide=id.p)                  |  [Mini-workshop](https://github.com/CSC-DevOps/Parsing)  |  [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)     |
-| Sep 17th  | [Workshop: Code Complexity](https://github.com/CSC-DevOps/Complexity)            | &nbsp;     |  &nbsp;               |
-| Sep 22nd  | [Test Management](https://docs.google.com/presentation/d/1tuGkWE86C-MwajbOVsUgVoJUletVszwhPHecWEd7ZYU/)                  | &nbsp;     |  &nbsp;     |
-| Sep 24th  | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration/blob/master/README.md) | &nbsp;     |  [HW #2 - Test Suite Generation](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md) |
-| Sep 29th | [Static + Dynamic Analysis](https://docs.google.com/presentation/d/1Bf-9ASmoYrBsiisseGbxMkXCvPyJtB46zP41y7wFKE0/edit)        | [SAGE](http://queue.acm.org/detail.cfm?id=2094081)     |  &nbsp;               |
-| Oct 1st | [Workshop: Fuzzing+Minification](https://github.com/CSC-DevOps/Fuzzing)                | &nbsp;     |   |
-| Oct 6th | Guest Lecture  | &nbsp;     |  [MILESTONE: TEST+ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)    |
-| Oct 8th | ~~~ Fall Break ~~~            | &nbsp;     |  |
-| Oct 13th| [Infrastructure Management](https://onedrive.live.com/redir?resid=FF912F1DFCF67A6D%211734)        | [OpenStack](http://www.openstack.org/), [AWS]() | &nbsp;  |
-| Oct 15th| [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | [NewRelic](https://github.ncsu.edu/ajoshi5/DevOps-TechTalks), [Salt](https://github.com/prashantgupta24/Salt-Stack), [Otto](https://github.com/rarora4/otto-getting-started) | [HW #3 - Infrastructure Fluency](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md) |
-| Oct 20th | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/) | &nbsp; |
-| Oct 22th | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues) | &nbsp; |
-| Oct 27th |  [Staging + Deployment](https://docs.google.com/presentation/d/1TaiIh6CtkHt-ij8mCVPVrpY0yN2VTVjqfjO_zYX0lEs/edit#slide=id.g2f582368a_0_51)              | &nbsp;     | &nbsp;  | 
-| Oct 29th |  [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment)     | &nbsp;     | [HW #4 - Advanced Docker](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md) |
-| Nov 3rd  |  [Advanced Docker: Deployment + Multiple Containers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)                       | &nbsp;   | &nbsp; |
-| Nov 5th  |  [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)         | [SnapCI](https://github.com/KeleiAzz/DevOps-TechTalk), [Mocha](https://github.com/payalsoman/devops-techtalk-mocha), [Kubernetes](https://github.ncsu.edu/jitesh/TechTalk---Kubernetes), [Google App Engine](https://github.com/Shraddha512/TechTalk-GoogleAppEngine)      | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md#milestone-deployment)  |
-| Nov 10th | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)          | [Flame Graphs](https://www.usenix.org/conference/lisa13/technical-sessions/plenary/gregg), [Splunk](http://www.splunk.com/), [NewRelic](http://newrelic.com/), [A/B @ Bing](http://www.infoq.com/presentations/controlled-experiments), [Zynga](http://blog.amplitude.com/2015/06/24/zynga-analytics-at-its-peak/)      |
-| Nov 12th | [Workshop: Monitoring + Resilience Testing](https://github.com/CSC-DevOps/Monitoring) | [Chaos Monkey](https://github.com/Netflix/SimianArmy) | &nbsp; |
-| Nov 17th | [Lorin Hochstein](http://lorinhochstein.org/), Chaos Engineering @ NETFLIX	  | &nbsp;     | &nbsp;                   |
-| Nov 19th | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md) | [Mesosphere](https://github.com/vinay92/Mesosphere), [BlueMix](https://github.com/kaustubhsant/DevOps-TechTalk), [Nagios](https://github.com/amittal91/DevOps-TechTalk-Nagios), [Puppet](https://github.com/aneeshkher/DevOpsTechTalk) | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md#milestone-special) | 
-| Nov 24th | No class.             | &nbsp;     | &nbsp; |
-| Dec 1st | [Demos](https://docs.google.com/spreadsheets/d/18i9fKzY9ewOUUQ0PLF0ijfYAV_XtameItq9OV3Ohs38/edit#gid=0)             | &nbsp;     | &nbsp; |
-| Dec 3rd | [Demos](https://docs.google.com/spreadsheets/d/18i9fKzY9ewOUUQ0PLF0ijfYAV_XtameItq9OV3Ohs38/edit#gid=0)             | &nbsp;     | &nbsp; |
-| Dec 8th | Final Exam (1-4pm)     | [Study Guide](https://github.com/CSC-DevOps/Course/blob/master/Final.md)     | &nbsp; |
 
 ## Resources
 

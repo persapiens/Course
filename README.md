@@ -5,6 +5,7 @@ Modern software development organizations require entire teams of DevOps to auto
 Students will have the chance to build new or extend existing software engineering tools and design a DevOps pipeline.
 
 Past versions:
+* [Spring 2017](https://github.com/CSC-DevOps/Course/tree/Spring2017)
 * [Fall 2016](https://github.com/CSC-DevOps/Course/tree/Fall2016)
 * [Spring 2015 ](https://github.com/CSC-DevOps/Course/tree/Spring2015)
 * [Fall 2015 ](https://github.com/CSC-DevOps/Course/tree/Fall2015)
@@ -46,53 +47,52 @@ Students are able to choose their own app and technology choices for building a 
 
 Details on requirements for milestones will be released throughout the course.  A student's pipeline should demonstrate the following components by the milestone deadline:
 
-* BUILD
-* TEST+ANALYSIS
+* CM
+* BUILD+TEST+ANALYSIS
 * DEPLOY
 * SPECIAL
 
-## Schedule and Topics - Fall 2016
+## Schedule and Topics - Fall 2017
 
 The following schedule is subject to change.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 10   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)          | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
-| Jan 12   | [Bootcamp: Basics](https://github.com/CSC-DevOps/Bootcamp)  |            |                   |
-| Jan 17   | Workshop: Provisioning           |            | [HW1](https://github.com/CSC-DevOps/Course/blob/master/HW/HW1.md)|
-| Jan 19   | [Configuration Management](http://tiny.cc/devops-cm-slides) |            |                   |
-| Jan 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md)   |            |                   |
-| Jan 26   | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                 |            | [MILESTONE: BUILD](https://github.com/CSC-DevOps/Course/blob/master/Project/M1.md)  |
-| Jan 31   | [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)          |            |                   |
-| Feb 2   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
-| Feb 7   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
-| Feb 9   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |[MILESTONE:TEST/ANALYSIS](https://github.com/CSC-DevOps/Course/blob/master/Project/M2.md)|        
-| Feb 14   | No class                         |            |                   |
-| Feb 16   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing)        |            | [HW2](https://github.com/CSC-DevOps/Course/blob/master/HW/HW2.md)               |
-| Feb 21   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)                              |            |                   |
-| Feb 23   | [Workshop: Test Suites]()                        |            |                   |
-| Feb 28   | Midterm Review                       |            |                   |
-| Mar 2    | No class                       |            |                   |
-| Mar 7    | Spring Break                       |            |                   |
-| Mar 14   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
-| Mar 16   | [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |     |                   |
-| Mar 21   | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/edit#slide=id.p)|            | [MILESTONE: DEPLOY](https://github.com/CSC-DevOps/Course/blob/master/Project/M3.md) |
-| Mar 23   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | [HW3](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)               |            
-| Mar 28   | [Staging + Deployment](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_196)             |            |                   |
-| Mar 30    | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
-| Apr 4   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)      |            |                   |
-| Apr 6   | [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |   | [HW4](https://github.com/CSC-DevOps/Course/blob/master/HW/HW4.md)    |
-| Apr 11   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | [MILESTONE: SPECIAL](https://github.com/CSC-DevOps/Course/blob/master/Project/M4.md)|
-| Apr 13   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
-| Apr 18   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                         |            |                   |
-| Apr 20   | [Tech Talks #4](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                    |                         |            |                   |
-| Apr 25   | Demos          |                   |
-| Apr 28   | Demos                     |            |                   |
-| May 2nd   | Exam (8:00AM - 11:00AM)           |            |                   |
-
+| Aug 17   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
+| Aug 22   | [Configuration Management](http://tiny.cc/devops-cm-slides)  |            | |
+| Aug 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md) |            | HW1 |
+| Aug 29   | [Workshop: Ansible](https://github.com/CSC-DevOps/CM/blob/master/README.md) |  |   |
+| Aug 31   | Workshop: Provisioning   |            |                   |
+| Sep 5    | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)   |             | MILESTONE: CM |
+| Sep 7   |  [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)       |            |                   |
+| Sep 12   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
+| Sep 14   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
+| Sep 19   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |MILESTONE: BUILD/TEST/ANALYSIS|        
+| Sep 21   | [Workshop: Test Suites]()    |      |    |
+| Sep 26   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing) |   |    |
+| Sep 28   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)   |   |  HW2   |
+| Oct 3   |  [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  |     |  |
+| Oct 5&mdash;6    | Fall Break                       |            |                   |
+| Oct 10   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
+| Oct 12  |  [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                   |     |                   |
+| Oct 17   | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/edit#slide=id.p)|            | MILESTONE: DEPLOY |
+| Oct 19   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | HW3       |            
+| Oct 24   | [Staging + Deployment](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_196)             |            |                   |
+| Oct 26    | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
+| Oct 31   | [Tech Talks #3](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)   |            |                   |
+| Nov 2   | [Advanced Docker: Deployment](https://github.com/CSC-DevOps/Course/blob/master/Workshops/AdvancedDocker.md)                    |   | HW4    |
+| Nov 7   | [Analysis + Monitoring](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit?usp=sharing)            |            | MILESTONE: SPECIAL|
+| Nov 9   | Workshop: Monitoring + Resilience|  [Chaos Engineering](https://www.facebook.com/notes/tpm-networking-group/notes-from-chaos-community-day-nov-4th-2015/1042668315800057)          |                   |
+| Nov 14   |  DevOps at Work I   |            |             |
+| Nov 16   |  DevOps at Work II  |            |             |
+| Nov 21   | [Tech Talks #4](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)          |                   |
+| Nov 23   | Thanksgiving                     |            |                   |
+| Nov 28   | Demos                     |            |                   |
+| Nov 30   | Demos                     |            |                   |
+| Dec 5   | Exam (1:00PM - 4:00PM)           |            |                   |
 ### Resources
 
-[Slack](https://csc519-s17.slack.com/)
+[Slack](https://cscdevops-fall2017.slack.com)
 
 ##### Papers
 
