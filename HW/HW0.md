@@ -89,6 +89,7 @@ A general guideline: Do whatever it would do if you were teaching someone how to
 
 ##### Guidelines for making a screencast:
 
+* Consider investing in a nicer [video and mic setup](http://pgbovine.net/video-recording-setup.htm).
 * https://wiki.duraspace.org/plugins/viewsource/viewpagesrc.action?pageId=30218666 (also good suggestions for podcasts)
 * From http://www.screencast.com/help/tutorial.aspx?id=403
 * Practice on screen movements as they can appear jerky when viewing but not as a user.
