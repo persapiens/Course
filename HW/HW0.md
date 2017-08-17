@@ -50,7 +50,7 @@ In your solution, provide the content of "post-commit". Finally, take a screenca
 
 ## Submit
 
-Submit a link to your github repo, https://goo.gl/forms/4SgOGY7neMqT4D1s2,
+Submit a link to your github repo to [here](https://goo.gl/forms/5cwd4dOjOeOA9NYH2)
 containing the following:
 
 * Complete moodle and slack profiles by deadline (20).
@@ -61,7 +61,7 @@ containing the following:
 
 For your screenshot embed in the markdown file of your README.md. Include a link to your screencast video/gif. Include your concept answers in your markdown file.
 
-**Due Thursday**, 1/19, midnight.
+**Due Thursday**, 8/24, midnight.
 
 ## Screencast (20)
 
