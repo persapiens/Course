@@ -33,7 +33,7 @@ curl -sSL https://get.docker.com/ | sh
 After installation, it is recommended you allow docker to be run without needing sudo. **IMPORTANT** You'd need to restart your shell (exit and log back in) to see the changes reflected.
 
 ```
-sudo usermod -aG docker <username>
+sudo usermod -aG docker $(whoami)
 ```
 
 Verify you can run docker:
@@ -102,7 +102,7 @@ Run an interactive terminal.
 Inside docker
 
     ls
-    sudo rm -rf --no-preserve-root /
+    rm -rf --no-preserve-root /
     exit
     
 Check if its still there.
