@@ -49,7 +49,7 @@ The following schedule is subject to change.
 |----------|----------------------------------|------------| ----------------  |
 | Aug 17   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore) |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        | [HW0](https://github.com/CSC-DevOps/Course/blob/master/HW/HW0.md) |
 | Aug 22   | [Configuration Management](http://tiny.cc/devops-cm-slides)  |            | |
-| Aug 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md) |            | HW1 |
+| Aug 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md) |            | [HW1](HW/HW1.md) |
 | Aug 29   | [Workshop: Ansible](https://github.com/CSC-DevOps/CM/blob/master/README.md) |  |   |
 | Aug 31   | Workshop: Provisioning   |            |                   |
 | Sep 5    | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)   |             | MILESTONE: CM |
