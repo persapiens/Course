@@ -1,33 +1,49 @@
 For this milestone, you will work in teams of 4 people.
 
-## Configuration Management Milestone
+# Configuration Management and Build Milestone
 
-Setup up configuration management and build environments for two software projects.
+In this milestone, you will complete the following tasks:
 
-* A nodejs web application [checkbox.io](https://github.com/chrisparnin/checkbox.io).
-* A software "enterprise" Java system [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust-v23)
+1. Provisioning and configuring an jenkins server, automatically using ansible.
+2. Setup up the build jobs in Jenkins for the two applications, using ansible.
+  * A nodejs web application [checkbox.io](https://github.com/chrisparnin/checkbox.io).
+  * A software "enterprise" Java system [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust-v23)
+3. Setup up a `post-build action` that runs ansible scripts to provision and configure a VM for running each application.
+  
+### Constraints
 
-### checkbox.io
+Abide by the following constraints:
 
-Create an ansible script that can prepare a system to run checkbox.io. Verify the system works.
+- Setup necessary runtime packages automatically.
+- Be able to setup jenkins configuration files and job files automatically (e.g., using templates).
+- Overcome challenges of automation, such as turning off jenkins setup wizard, and handling authentication.
+- For provisioning, you can remotely acquire a VM from digital ocean or AWS, or locally using vagrant.
+- For checkbox.io build job, it is sufficient to run `npm install`.
+- For iTrust build job, verify that `mvn compile` works.
+- Demonstrate that checkbox.io works in a browser.
+- Demonstrate that iTrust works in a browser.
 
-##### Dependencies
+### Systems
 
-* nginx
-* node
-* monogodb
+##### checkbox.io 
 
-##### Software
+checkbox.io is a site for hosting simple surveys created in markdown. It has dependencies on nginx, node, monogodb.
 
-* Fix any missing npm packages in the package.json.
-* Modify the software to load mongo credentials from environment variables. For example, see this [connection string](https://github.com/chrisparnin/checkbox.io/blob/master/server-side/site/routes/admin.js#L20).
-* Fix any mongodb configuration issues
+The following are environment variables that are required to be set:
 
-### iTrust
+* MONGO_PORT
+* MONGO_IP
+* MONGO_USER
+* MONGO_PASSWORD
+* MAIL_USER
+* MAIL_PASSWORD
+* MAIL_SMTP
+
+##### iTrust
 
 iTrust is a java application used in the undergrad software engineering system. It uses tomcat, mysql, java, and maven. It has a rich set of unit tests.
 
-Using the [following guide](http://agile.csc.ncsu.edu/iTrust/wiki/doku.php?id=home_deployment_instructions), create an ansible script that can prepare a system to run iTrust. Verify the system works.
+Using the [following guide](http://agile.csc.ncsu.edu/iTrust/wiki/doku.php?id=home_deployment_instructions), to createan ansible script that can prepare a system to run iTrust. 
 
 ### Report
 
@@ -35,13 +51,13 @@ As you learn how to setup configuration management for these to projects, docume
 
 ### Evaluation
 
-* checkbox.io ansible scripts - 20%
-* Verify can run checkbox.io in browser - 20%
-* iTrust ansible scripts - 20%
-* Verify can run iTrust in browser - 20%
+* Jenkins automation - 20%
+* checkbox.io + iTrust.io build jobs - 20%
+* iTrust post-build configuration - 20%
+* checkbox.io post-build configuration - 20%
 * Screencast and report - 20%
 
-Points may be deducted for not following instructions or including sufficient detail to evaluate capability.
+Points may be deducted for not following instructions, poor quality of implementation, or failing to include sufficient detail required to evaluate capability.
 
 ## Submission
 
@@ -49,11 +65,10 @@ Points may be deducted for not following instructions or including sufficient de
 
 * your team (Unity Ids of everyone and their contribution)
 * your ansible scripts
-* your modified checkbox.io software
 * a README.md, with your report details,
 * screencast that demostrates each evaluation criteria.
 
 If you want to reuse the same repo for your whole project, then create a branch for each milestone.
 
-**Due Feburary 16th, midnight.**
+**Due Monday, September 25th, midnight.**
 

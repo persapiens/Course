@@ -52,13 +52,13 @@ The following schedule is subject to change.
 | Aug 24   | [Workshop: Managed Environments](https://github.com/CSC-DevOps/CM/blob/master/README.md) |            | [HW1](HW/HW1.md) |
 | Aug 29   | [Workshop: Ansible](https://github.com/CSC-DevOps/CM/blob/master/README.md) |  |   |
 | Aug 31   | Workshop: Provisioning   |            |                   |
-| Sep 5    | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)   |             | MILESTONE: CM |
+| Sep 5    | [Build Management](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)   |             | [MILESTONE: CM+BUILD](Project/CM.md) |
 | Sep 7   |  [Workshop: Build Servers](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)       |            |                   |
 | Sep 12   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
 | Sep 14   | [Workshop: Complexity](https://github.com/CSC-DevOps/Complexity)                |            |                   |
-| Sep 19   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |MILESTONE: BUILD/TEST/ANALYSIS|        
+| Sep 19   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            | |        
 | Sep 21   | [Workshop: Test Suites]()    |      |    |
-| Sep 26   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing) |   |    |
+| Sep 26   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing) |   |   MILESTONE: TEST/ANALYSIS |
 | Sep 28   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)   |   |  HW2   |
 | Oct 3   |  [Tech Talks #1](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)  |     |  |
 | Oct 5&mdash;6    | Fall Break                       |            |                   |
