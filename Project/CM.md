@@ -59,9 +59,11 @@ As you learn how to setup configuration management for these to projects, docume
 
 Points may be deducted for not following instructions, poor quality of implementation, or failing to include sufficient detail required to evaluate capability.
 
+Points will be deducted for non contributing members.
+
 ## Submission
 
-[Submit a link](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSejgAsKbX_-rs701y_hiUQFK0gGHJJ6nTPpZM1UYWB0U5ufsg/viewform) to your repository that includes:
+[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLSfudbWrTbiNqFdAs1Lt0pRTII0qpF1mKXMAgu3om_fUpjys1Q/viewform?usp=sf_link) to your repository that includes:
 
 * your team (Unity Ids of everyone and their contribution)
 * your ansible scripts
