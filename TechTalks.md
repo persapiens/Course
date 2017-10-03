@@ -25,28 +25,25 @@ A repo and report describing tool will be also be graded on the following criter
 
 ### Sign up
 
-There are four days in the semester dedicated to tech talk presentations, each with limited slots for presenting.
+There are three days in the semester dedicated to tech talk presentations, each with limited slots for presenting.
 
-* 3/16 (5 point bonus for being first session)
-* 4/6
-* 4/18
-* 4/20
+* 10/12 (10 point bonus for being first session)
+* 10/31
+* 11/21
 
-[Please sign up](https://docs.google.com/spreadsheets/d/1MVTVn1fE4rZd_cotI3lwnOaM0B2TAgeD1LZUIZfCRbg/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
+[Please sign up](https://docs.google.com/spreadsheets/d/1o36VyryL2s4DPfKpgiGwKzRQPLOI8DixBQSLNFPf3Kw/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
 
 You can provide links to your repo on the same signup sheet.
 
 ### Possible topics
 
-Include, but not limited to:
-
-* Deployment tools (Beanstalk, etc.)
-* Monitoring tools (NewRelic, Nagios)
-* Analysis+Alarm tools (Splunk, PagerDuty)
-* Database tools (Liquibase, etc.)
-* Testing tools (Mocha, etc.)
-* Static Analysis (FindBugs, etc.)
-* Configuration Management Tools (Salt, Puppet, Chef, Ansible)
-* Platforms as Service (Heroku, Google AppEngine, Google Cloud)
-* Advanced Docker usage (e.g. Docker compose, Kubernetes)
-* ...
+* Distributed systems: nomad, kafka
+* Monitoring/service discovery: consul
+* Virtualization: packer.io
+* CI: coveralls, greenkeeper.io, travis-ci
+* CM: salt, puppet, chef
+* deployment: launchdarkly
+* pipelines: spinnnaker
+* analysis: eslint
+* platforms: serverless (lambda/azure functions)
+* other: ask TA for approval.
