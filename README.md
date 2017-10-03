@@ -59,7 +59,7 @@ The following schedule is subject to change.
 | Sep 19   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            | |        
 | Sep 21   | [Workshop: Test Suites](https://github.com/CSC-DevOps/TestSuites)    |      |    |
 | Sep 26   | [Workshop: Fuzzing](https://github.com/CSC-DevOps/Fuzzing) |   |   [MILESTONE: TEST/ANALYSIS](Project/BuildTestAnalysis.md) |
-| Sep 28   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)   |   |  HW2   |
+| Sep 28   | [Workshop: Test Generation](https://github.com/CSC-DevOps/TestGeneration)   |   |  [HW2](HW/HW2.md)   |
 | Oct 3   |  Testing Lecture Makeup  |     |  |
 | Oct 5&mdash;6    | Fall Break                       |            |                   |
 | Oct 10   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |

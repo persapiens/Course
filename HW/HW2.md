@@ -45,7 +45,7 @@ Create a github repository (on github proper or NCSU), place a screenshot of you
 
 Please [submit your assignment here](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSecCCCCunw3PjOor7uoAnYV_uo_94NpbTSMAjo5JsugDA5CJg/viewform).
 
-The assignment is due Friday, March 3rd at midnight.
+The assignment is due Friday, October 13th at midnight.
 
 ### Evaluation
 
