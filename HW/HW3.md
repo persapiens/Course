@@ -35,4 +35,4 @@ Your assignment is to complete the workshop assignment with the following additi
 
 [Submit link](https://docs.google.com/forms/d/e/1FAIpQLSchUA_qNl7t7VlWlwIdKJMXvNfFA63UZipVqs_SGWo4_SWoWA/viewform?usp=sf_link) to your repository, including your code, README, and screencast.
 
-The assignment is due Monday, Oct 29th at midnight.
+The assignment is due Monday, Oct 30th at midnight.
