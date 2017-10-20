@@ -8,8 +8,9 @@ In our [redis workshop](https://github.com/CSC-DevOps/Queues), we worked with se
 
 Your assignment is to complete the workshop assignment with the following additional considerations:
 
-* Implement a new command `spawn`, which will create a new app server running on another port. Correspondingly, implement a new command `destroy`, which will destroy a random server. Available servers should be stored in redis, which can be seen by `listservers` command. Destroying all servers is undefined behavior.
-* Create a proxy that will uniformly deliver requests to available servers. E.g., if a visit happens to `/` then toggle between `localhost:3000`, `localhost:3001`, etc.  Use redis to look up which server to resolve to.
+* Implement a new route `catfact/:num` which will retrieve the nth cat fact from the catfacts.txt. Use the provided `get_line` function.
+* Modify the catfact route to create a key, e.g., `catfact:13`, whenever a catfact is retrieved. Have the catfact key expire in 10 seconds. Next, retrieve the key from redis if it is available, otherwise, retrieve it from disk. Finally, in addition to returning the catfact, also return the time in ms to retrieve the key.
+* Implement a new route, "toggleCacheFeature", which will turn on and off the catfact caching feature.
 
 ### Conceptual Questions
 
@@ -26,12 +27,12 @@ Your assignment is to complete the workshop assignment with the following additi
 - Complete set/get 30%
 - Complete recent 40%
 - Complete upload/meow 50%
-- Complete spawn/destory/listservers: 60%
-- Demonstrate proxy: 80%
+- Complete catfact route and caching: 60%
+- Demonstrate toggleCacheFeature: 80%
 - Complete conceptual questions 100%
 
 ### Submission
 
-[Submit link](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSfDVxEvErclx8MT_vrJdIMOdKtnbwf-tGZU0oOdJyfkFrKHJQ/viewform?usp=sf_link) to your repository, including your code, README, and screencast.
+[Submit link](https://docs.google.com/forms/d/e/1FAIpQLSchUA_qNl7t7VlWlwIdKJMXvNfFA63UZipVqs_SGWo4_SWoWA/viewform?usp=sf_link) to your repository, including your code, README, and screencast.
 
-The assignment is due Wednesday, April 5th at midnight.
+The assignment is due Monday, Oct 29th at midnight.
