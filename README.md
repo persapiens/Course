@@ -64,7 +64,7 @@ The following schedule is subject to change.
 | Oct 5&mdash;6    | Fall Break                       |            |                   |
 | Oct 10   | [Infrastructure Management](https://1drv.ms/p/s!AG169vwdL5H_jUY)        |            |                   |
 | Oct 12  |  [Tech Talks #2](https://github.com/CSC-DevOps/Course/blob/master/TechTalks.md)                   |     |                   |
-| Oct 17   | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/edit#slide=id.p)|            | MILESTONE: DEPLOY |
+| Oct 17   | [Feature Flags/Property Sets/Redis](https://docs.google.com/presentation/d/1cqVz0H4t-b7ZWMEbfBaYJDLSePhMOOjWW04CRzsIY5k/edit#slide=id.p)|            | [MILESTONE: DEPLOY](Project/M3.md) |
 | Oct 19   | [Workshop: Queues, Caches, Proxies](https://github.com/CSC-DevOps/Queues)|            | [HW3](https://github.com/CSC-DevOps/Course/blob/master/HW/HW3.md)       |            
 | Oct 24   | [Staging + Deployment](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_196)             |            |                   |
 | Oct 26    | [Workshop: Deployment](https://github.com/CSC-DevOps/Deployment/blob/master/README.md)             |            |                   |
