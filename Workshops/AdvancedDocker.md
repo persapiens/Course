@@ -8,15 +8,15 @@ We cover deployment, composing, and linking containers, and the ambassador patte
 This example shows you how to create deploy a nodejs container to a private repository. 
 A server can pull from the private repostory and get the latest code.
 
-##### Registery
+##### Registry
 
-Start a private registery on port 5000.
+Start a private registry on port 5000.
 
 ```
 docker run -d -p 5000:5000 --restart=always --name registry registry:2
 ```
 
-More information about setting up a [TLS-secured registery](https://docs.docker.com/registry/deploying/), which is remotely accessible.
+More information about setting up a [TLS-secured registry](https://docs.docker.com/registry/deploying/), which is remotely accessible.
 
 ##### Node App and Dockerfile
 
@@ -54,7 +54,7 @@ docker logs <containerid>
 
 ##### Deploy to registry
 
-If successful, can deploy to a private registery.
+If successful, can deploy to a private registry.
 
 ```
 docker tag ncsu-app localhost:5000/ncsu:latest
@@ -63,7 +63,7 @@ docker push localhost:5000/ncsu:latest
 
 ##### Server update script
 
-A script like this can run after a git hook or deploy command. The server will pull from registery, stop existing app container and run new instance.
+A script like this can run after a git hook or deploy command. The server will pull from registry, stop existing app container and run new instance.
 
 ```
 docker pull localhost:5000/ncsu:latest  
