@@ -12,8 +12,8 @@ In this homework assignment, you'll get to practice advanced features related to
 2) **Docker Deploy (50 points)**: Extend the deployment workshop to run a docker deployment process.
 
 * On post-receive will build a new docker image.
-* Push to local registery.
-* Deploy the dockerized [simple node.js App](https://github.com/CSC-DevOps/App). Add appropriate hook commands to pull from registery, stop, and restart containers.
+* Push to local registry.
+* Deploy the dockerized [simple node.js App](https://github.com/CSC-DevOps/App). Add appropriate hook commands to pull from registry, stop, and restart containers.
 
 
 3) **File IO (Bonus 20 points)**: You want to create a container for a legacy application. You succeed, but you need access to a file that the legacy app creates.
