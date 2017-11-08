@@ -1,34 +1,31 @@
-# HW4 - Docker Part Deux
+# HW4 - Chaos Engineering
 
-In this homework assignment, you'll get to practice advanced features related to docker containers.
+In this homework assignment, you'll get to practice setting up a [chaos engineering experiment](https://medium.com/netflix-techblog/chap-chaos-automation-platform-53e6d528371f).
 
-1) **Docker Compose (50 points)**: You are ready to launch your cat photo startup company. Use docker compose to setup your HW3 app in the following way:
+1) Using simple express servers, create a local service topology as follows:
 
-* Setup a container for redis.
-* Setup a container for proxy.
-* Setup a container for node app.
-* Modify infrastructure.js to spawn new containers instead of new servers.
+[Api] => [Ratings]
 
-2) **Docker Deploy (50 points)**: Extend the deployment workshop to run a docker deployment process.
+2) Implement a simple request from the API service to Ratings Service that will fail (500) if Ratings service goes down.
 
-* On post-receive will build a new docker image.
-* Push to local registry.
-* Deploy the dockerized [simple node.js App](https://github.com/CSC-DevOps/App). Add appropriate hook commands to pull from registry, stop, and restart containers.
+3) Introduce a gateway to the api service. In the experimental cluster, disable the link to Ratings service endpoint (using your own strategy).
 
+![image](https://user-images.githubusercontent.com/742934/32567363-14a0e4f2-c489-11e7-96f7-434ea3b851ae.png)
 
-3) **File IO (Bonus 20 points)**: You want to create a container for a legacy application. You succeed, but you need access to a file that the legacy app creates.
+4) Conduct an expertiment with the above topology.  Use 100 requests. Log/record the status of requests. Write code that can automatically analyze whether the Api service can gracefully handle the Ratings service going down.
 
-* Create a container that runs a command that outputs to a file.
-* Use socat to map file access to read file container and expose over port 9001 (hint can use SYSTEM + cat).
-* Use a linked container that access that file over network. The linked container can just use a command such as curl to access data from other container.
+4) **Report**. Write a report of your observations and experiences.
+
+## Evaluation
+
+* Experiment topology code - 25%
+* Experiment implementation - 50%
+* Report - 25%
 
 ## Submission
 
-Submit your [repo link](https://goo.gl/forms/JuDfdY9X9JEqMe7f1).
+Submit your [repo link](https://docs.google.com/forms/d/e/1FAIpQLSfe_tlZudWpwjZJmb8mjb2uh9s1H5WGA1cYQPu7wz6QxUExrQ/viewform?usp=sf_link).
 
-* README.md (explaning implementation),
-* Docker compose file
-* Relevant code, hook scripts, etc.
-* Screencast demonstrating docker compose, docker deploy, and bonus.
+* README.md (explaning implementation and report)
 
-Due, Thursday, November 17th, midnight.
+Due, Tuesday, November 21st, midnight.
