@@ -15,6 +15,8 @@ Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 1. Create a *private* repo called HW0. 
 2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
 
+Shrikant Shete <sbshete@ncsu.edu>, Sam Mirhosseini Ghamsa <smirhos@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
+
 ## Computing Environment (20)
 
 Create virtual machine image using vagrant and virtual box.
