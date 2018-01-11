@@ -5,6 +5,7 @@ Modern software development organizations require entire teams of DevOps to auto
 Students will have the chance to build new or extend existing software engineering tools and design a DevOps pipeline.
 
 Past versions:
+* [Fall 2017](https://github.com/CSC-DevOps/Course/tree/Fall2017)
 * [Spring 2017](https://github.com/CSC-DevOps/Course/tree/Spring2017)
 * [Fall 2016](https://github.com/CSC-DevOps/Course/tree/Fall2016)
 * [Spring 2015 ](https://github.com/CSC-DevOps/Course/tree/Spring2015)
@@ -41,7 +42,8 @@ Details on requirements for milestones will be released throughout the course.  
 * DEPLOY
 * SPECIAL
 
-## Schedule and Topics - Fall 2017
+
+## Schedule and Topics - Spring 2018
 
 The following schedule is subject to change.
 
