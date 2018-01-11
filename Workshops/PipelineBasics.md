@@ -21,7 +21,7 @@ Clone the [app repo](https://github.com/CSC-DevOps/App).
 
 We'll create an endpoints for our deployment, a "production" endpoint for our.    [See guide](http://toroid.org/ams/git-website-howto) for more details.
 
-Inside the App directory, create a directory structure as follows:
+Outside the App directory, create a directory structure as follows:
 
 * deploy/
   * production.git/
