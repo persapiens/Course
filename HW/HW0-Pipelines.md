@@ -38,7 +38,7 @@ containing the following:
 * Pipeline (40)
 * Screencast (20)
 
-For your screenshot embed in the markdown file of your README.md. Include a link to your screencast video/gif. Include your concept answers in your markdown file.
+Create a README.md that describes your submission and includes screenshots. Include a link to your screencast video.
 
 **Due Thursday**, 1/18, before midnight.
 
