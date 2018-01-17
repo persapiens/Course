@@ -36,7 +36,7 @@ Submit a link to your github repo to [here](https://docs.google.com/forms/d/e/1F
 containing the following:
 
 * Complete moodle and slack profiles by deadline (20).
-* Hooks (20)
+* Computing Environment  (20)
 * Pipeline (40)
 * Screencast (20)
 
