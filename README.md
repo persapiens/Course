@@ -42,6 +42,10 @@ Details on requirements for milestones will be released throughout the course.  
 * DEPLOY
 * SPECIAL
 
+## TA
+
+Shrikant Shete, Office Hours: Thursday 3-4pm
+
 
 ## Schedule and Topics - Spring 2018
 
