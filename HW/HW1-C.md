@@ -18,7 +18,7 @@ In this homework assignment, you will create two servers, A) One server runing a
 A simple maven project with selenium tests can be found [here](https://github.com/CSC-326/Onboarding-Selenium). Running `mvn test` should result in three passing tests.
 
 * Create configuration management for Onboarding-Selenium test project.
-* Ensure you can test CoffeeMaker by modifying code to a) use environment variable for ip address, or b) use [port forwarding](https://gist.github.com/scy/6781836) to forward localhost:8080 => 192.168.8.8:8080
+* Ensure you can test CoffeeMaker by [modifying code](https://github.com/CSC-326/Onboarding-Selenium/blob/master/src/src/test/java/selenium/tests/WebTest.java#L23) to a) use environment variable for ip address, or b) use [port forwarding](https://gist.github.com/scy/6781836) to forward localhost:8080 => 192.168.8.8:8080
 
 ## Assignment constraints
 
