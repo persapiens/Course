@@ -57,7 +57,7 @@ The following schedule is subject to change.
 | Jan 11   | [Pipeline Basics](Workshops/PipelineBasics.md)| | [HW0](HW/HW0-Pipelines.md)|
 | Jan 16   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore)|  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        |
 | Jan 18   | Snow Day                         |            |                   |
-| Jan 23   | Configuration Management         |            |  HW1              |
+| Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)         |            |  [HW1](HW/HW1-C.md)              |
 | Jan 25   | Ansible                          |            |                   |
 | Jan 30   | Build                            |            |                   |
 | Feb 1    | Jenkins                          |            |                   |
