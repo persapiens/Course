@@ -59,16 +59,16 @@ The following schedule is subject to change.
 | Jan 18   | Snow Day                         |            |                   |
 | Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)         |            |  [HW1](HW/HW1-C.md)              |
 | Jan 25   | Ansible                          |            |                   |
-| Jan 30   | Build                            |            |                   |
-| Feb 1    | Jenkins                          |            |                   |
-| Feb 6    | Test Management                  |            |                   |
-| Feb 8    | Suites/Fuzzing                   |            |                   |
-| Feb 13   | Analysis                         |            |                   |
-| Feb 15   | Test Generation                  |            |                   |
-| Feb 20   | Deploy Strategies                |            |                   |
-| Feb 22   | Deploy                           |            |                   |
-| Feb 27   |                                  |            |                   |
-| Mar 1    |                                  |            |                   |
+| Jan 30   | ...continued                     |            |                   |
+| Feb 1    | Provisioning workshop            |            |                   |
+| Feb 6    | Build                            |            |                   |
+| Feb 8    | Build server workshop            |            |                   |
+| Feb 13   | Test Management                  |            |                   |
+| Feb 15   | Suites/Fuzzing                   |            |                   |
+| Feb 20   | Analysis                         |            |                   |
+| Feb 22   | Test Generation                  |            |                   |
+| Feb 27   | Deploy Strategies                |            |                   |
+| Mar 1    | Deploy                           |            |                   |
 | Mar 6    | SPRING                           |            |                   |
 | Mar 8    | BREAK                            |            |                   |
 | Mar 13   | Operation Concepts               |            |                   |
