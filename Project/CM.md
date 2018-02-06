@@ -47,8 +47,11 @@ Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v2
 
 Tips:
 
-* Use the maven `exec:java` goal to run the data generator for database (so you can login and run integration tests).
-* Run application with `mvn jetty:run`.
+* `mvn process-test-classes` builds the database and creates sample data.
+* `mvn jetty:run` launches the server so it can be used like you'd expect.
+* `mvn clean test verify checkstyle:checkstyle` runs the unit tests, launches the server, runs the integration tests, and then brings the server back down.
+* Note that you _cannot_ run `mvn process-test-classes jetty:run` as a single command
+the `HibernateDataGenerator` doesn't nicely terminate without a `System.exit(0);` at the end.
 
 ### Report
 
