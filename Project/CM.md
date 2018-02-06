@@ -4,22 +4,22 @@ For this milestone, you will work in teams of 4 people.
 
 In this milestone, you will complete the following tasks:
 
-1. Provisioning and configuring an jenkins server, automatically using ansible.
-2. Setup up the build jobs in Jenkins for the two applications, using ansible.
+1. *Provisioning* and *configuring* an jenkins server, automatically using ansible.
+2. Using jenkins-job-builder + ansible, setup build jobs for two applications:
   * A nodejs web application [checkbox.io](https://github.com/chrisparnin/checkbox.io).
-  * A software "enterprise" Java system [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust-v23)
-3. Setup up a `post-build action` that runs ansible scripts to provision and configure a VM for running each application.
+  * A software "enterprise" Java system [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v2)
+3. Demonstrate a passing build for each job.
+4. Setup up a `post-build action` that runs ansible scripts to provision and configure a VM for running each application.
   
 ### Constraints
 
 Abide by the following constraints:
 
-- Setup necessary runtime packages automatically.
-- Be able to setup jenkins configuration files and job files automatically (e.g., using templates).
+- Be able to setup jenkins configuration files and job files automatically (e.g., using templates/jenkins-job-builder).
 - Overcome challenges of automation, such as turning off jenkins setup wizard, and handling authentication.
-- For provisioning, you can remotely acquire a VM from digital ocean or AWS, or locally using vagrant.
+- For provisioning, use a remote VM, such as one from digital ocean or AWS.
 - For checkbox.io build job, it is sufficient to run `npm install`.
-- For iTrust build job, verify that `mvn compile` works.
+- For iTrust build job, verify that `mvn clean test verify checkstyle:checkstyle` works.
 - Demonstrate that checkbox.io works in a browser.
 - Demonstrate that iTrust works in a browser.
 
@@ -39,11 +39,16 @@ The following are environment variables that are required to be set:
 * MAIL_PASSWORD
 * MAIL_SMTP
 
-##### iTrust
+##### iTrust2
 
-iTrust is a java application used in the undergrad software engineering system. It uses tomcat, mysql, java, and maven. It has a rich set of unit tests.
+iTrust2 is a java application used in the undergrad software engineering system. It using enterprise Java technology. It has a rich set of unit tests.
 
-Using the [following guide](http://agile.csc.ncsu.edu/iTrust/wiki/doku.php?id=home_deployment_instructions), to createan ansible script that can prepare a system to run iTrust. 
+Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v2/wiki), to createan ansible script that can prepare a system to run iTrust. 
+
+Tips:
+
+* Use the maven `exec:java` goal to run the data generator for database (so you can login and run integration tests).
+* Run application with `mvn jetty:run`.
 
 ### Report
 
@@ -63,14 +68,15 @@ Points will be deducted for non contributing members.
 
 ## Submission
 
-[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLSfudbWrTbiNqFdAs1Lt0pRTII0qpF1mKXMAgu3om_fUpjys1Q/viewform?usp=sf_link) to your repository that includes:
+[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLSfedIwkUKoEyQjmoUSilVvXLw2h1Aw80RwkAnTRsuwtPe8DIA/viewform?usp=sf_link) to your repository that includes:
 
 * your team (Unity Ids of everyone and their contribution)
 * your ansible scripts
 * a README.md, with your report details,
 * screencast that demostrates each evaluation criteria.
 
-If you want to reuse the same repo for your whole project, then create a branch for each milestone.
+**Submit only once per team.**
 
-**Due Monday, September 25th, midnight.**
+Tip: If you want to reuse the same repo for your whole project, then create a branch for each milestone. 
 
+**Due Friday, Feb 23rd, before midnight.**
