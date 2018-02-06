@@ -1,4 +1,4 @@
-# HW #1 - A Provisioning Servers
+# HW #1 - Part 2 - Provisioning Servers
 
 Automatically provisioning a computational resource will be one of the most important skills for you to master in your career.  You have gained experience using [digitalocean](https://developers.digitalocean.com/v2/) to automatically create virtual images on a hosted server. As part of any risk management strategy, it is also important to be able to have access to a variety of platforms to avoid vender lock-in and systematic failures.
 
@@ -57,11 +57,11 @@ Answer in your own words the following questions:
 
 ## Submission
 
-Please [submit your repo here](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSePzXXObpSBIF0L_3fId9lFoZaqffbHCPTUlhrSgFe0EuNksQ/viewform).
+Please [submit your repo here](https://docs.google.com/forms/d/e/1FAIpQLSdR4ZK-It3DTZtno4I9-F6P7ovbnal9Lhm7tXaOSvppoFGyEA/viewform?usp=sf_link).
 
 In your repository, have your code, link to a screencast.
 
-The assignment is due Thursday, January 26th at midnight.
+The assignment is due Tuesday, Feb 13th at midnight.
 
 ## Evaluation
 

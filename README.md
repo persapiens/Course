@@ -60,7 +60,7 @@ The following schedule is subject to change.
 | Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)         |            |  [HW1](HW/HW1-C.md)              |
 | Jan 25   | Ansible                          |            |                   |
 | Jan 30   | ...continued                     |            |                   |
-| Feb 1    | Provisioning workshop            |            |                   |
+| Feb 1    | Provisioning workshop            |            |[HW1 - P2](HW/HW1-A.md)|
 | Feb 6    | Build                            |            |                   |
 | Feb 8    | Build server workshop            |            |                   |
 | Feb 13   | Test Management                  |            |                   |
