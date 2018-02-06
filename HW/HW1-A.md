@@ -15,7 +15,7 @@ See the github education pack for many free promotions: https://education.github
 ### DigitialOcean
 
 DigitialOcean is one of the cheapest and lowest image providers.
-If using digitalocean, I will keep the api key open for testing, but by submission, you must be able to obtain your own api key.
+If using digitalocean, you must be able to obtain your own api key.
 
 To get your ssh key, you can upload under security and then get the id this way:
 
