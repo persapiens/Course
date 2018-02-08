@@ -1,30 +1,27 @@
+
 The goal of this workshop is to engage in hands-on exploration of docker. Several docker-related concepts and tasks are investigated. The workshop will focus on using docker to build a simple CI server.
 
 ## Preqs
 
-#### VirtualBox
+You will need a computing environment with docker. You can follow the [computing environments workshop](https://github.com/chrisparnin/ComputingEnvironmentsWorkshop) if you have not setup a virtual environment/vagrant yet.
 
-Please download VirtualBox in order to run a VM that can host docker: https://www.virtualbox.org/wiki/Downloads
+#### Option 1: Using baker
 
-While you can try using the VM provided by Boot2Docker, experience has shown that this does not work as well as directly using a host OS like ubuntu or CoreOS.
+Create a baker.yml file and run `baker bake2 --local .`
 
-#### Vagrant 
+```
+name: docker-build
+vm:
+  ip: 192.168.28.28
+lang: 
+  - nodejs9
+services:
+  - docker
+```
 
-   * Download and install [vagrant](https://www.vagrantup.com/downloads.html)
-   * Run `vagrant init ubuntu/trusty64`
-   * Run `vagrant up`
-   * Run `vagrant ssh`
+#### Option 2: Manual installation
 
-   You can edit the Vagrantfile to have a hard-coded private ip address.
-
-   ```
-    config.vm.network "private_network", ip: "192.168.33.10"
-   ```
-
-
-#### docker
-
-The recommended method for installing docker on ubuntu can be [found here](https://docs.docker.com/engine/installation/ubuntulinux/).  But in the interest of time: :grimacing: :
+. The recommended method for installing docker on ubuntu can be [found here](https://docs.docker.com/install/linux/docker-ee/ubuntu/#install-docker-ee-1).  But in the interest of time: :grimacing: :
 
 ```
 curl -sSL https://get.docker.com/ | sh
@@ -40,13 +37,6 @@ Verify you can run docker:
 ```
 docker run hello-world
 ```
-
-#### Linux stuff
-
-Being familiar with a linux based text editor is helpful!
-
-You may find using [putty](http://www.putty.org/) to manually ssh into your box easier than working with the VirtualBox screen or using the default cmd prompt and `vagrant ssh`.
-
 
 ## Concepts
 
@@ -166,19 +156,12 @@ Success!
 
 ### Server
 
-Let's create a simple server to trigger a build server.
+Let's create a simple server to trigger a build server. 
 
-Install node (on your VM).
+> Note: If you did not use baker to create your VM, you'll have to manually install node.js on your VM.
 
-```
-curl https://raw.githubusercontent.com/creationix/nvm/v0.16.1/install.sh | sh
-source ~/.profile
-nvm install v0.11.13
-nvm use 0.11.13
-echo "nvm use 0.11.13" >> ~/.profile
-```
 
-A simple http server in node.
+#### Simple http server in node
 
 ```
 git clone https://github.com/CSC-DevOps/BuildServerApp.git
@@ -196,5 +179,5 @@ Run `node server.js` when you're ready.
 #### Test
 
 * Find the ip of your host VM (`ifconfig`).
-* In your browser, visit `http://<ip>:8080`, and trigger a build.
+* In your browser, visit `http://192.168.28.28:8080`, and trigger a build.
 * You will see the results eventually stream over to the webpage.
