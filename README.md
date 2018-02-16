@@ -60,11 +60,11 @@ The following schedule is subject to change.
 | Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)         |            |  [HW1](HW/HW1-C.md)              |
 | Jan 25   | [Ansible](https://github.com/CSC-DevOps/CM#configuration-management-workshop)|            |                   |
 | Jan 30   | ...continued                     |            |                   |
-| Feb 1    | Provisioning workshop            |            |[HW1 - P2](HW/HW1-A.md)|
-| Feb 6    | Build                            |            |[CM+Build Milestone](Project/CM.md)|
-| Feb 8    | Build server workshop            |            |                   |
-| Feb 13   | Test Management                  |            |                   |
-| Feb 15   | Suites/Fuzzing                   |            |                   |
+| Feb 1    | [Provisioning workshop](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)            |            |[HW1 - P2](HW/HW1-A.md)|
+| Feb 6    | [Build](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                            |            |[CM+Build Milestone](Project/CM.md)|
+| Feb 8    | [Build server workshop](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)            |            |                   |
+| Feb 13   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |                   |
+| Feb 15   | [Suites](https://github.com/CSC-DevOps/TestSuites)/Fuzzing                   |            |                   |
 | Feb 20   | Analysis                         |            |                   |
 | Feb 22   | Test Generation                  |            |                   |
 | Feb 27   | Deploy Strategies                |            |                   |
