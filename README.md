@@ -44,7 +44,7 @@ Details on requirements for milestones will be released throughout the course.  
 
 ## TA
 
-Shrikant Shete, Office Hours: Thursday 3-4pm
+Shrikant Shete, Office Hours: Thursday 3:15-4:15pm
 
 
 ## Schedule and Topics - Spring 2018
