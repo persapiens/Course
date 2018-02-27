@@ -64,9 +64,9 @@ The following schedule is subject to change.
 | Feb 6    | [Build](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                            |            |[CM+Build Milestone](Project/CM.md)|
 | Feb 8    | [Build server workshop](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)            |            |                   |
 | Feb 13   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |                   |
-| Feb 15   | [Suites](https://github.com/CSC-DevOps/TestSuites)/Fuzzing                   |            |                   |
-| Feb 20   | Analysis                         |            |                   |
-| Feb 22   | Test Generation                  |            |                   |
+| Feb 15   | [Suites](https://github.com/CSC-DevOps/TestSuites)/[Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                   |            |                   |
+| Feb 20   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |                   |
+| Feb 22   | [Test Generation Workshop](https://github.com/CSC-DevOps/TestGeneration)                  |            |[Project/BuildTestAnalysis.md]            |
 | Feb 27   | Deploy Strategies                |            |                   |
 | Mar 1    | Deploy                           |            |                   |
 | Mar 6    | SPRING                           |            |                   |

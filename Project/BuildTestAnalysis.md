@@ -1,18 +1,18 @@
 ## Test + Analysis Milestone
 
-You will continue to work with checkbox.io and iTrust.
+For this milestone, you will leverage techniques related to fuzzing, test case priorization, and automated test generation to improve the quality of checkbox.io and iTrust.
 
-### Testing Component
+### Coverage/Jenkins Support
 
-Extend the build definitions for iTrust to include the ability to run its test suite, measure coverage, and report the results.
+Ensure you have the ability to run iTrust's and checkbox.io* test suite. You need to have your build server have a jetty/mysql instance in order to properly run the unit + integration tests. Add a plugin to jenkins to measure coverage and display a report within Jenkins on every commit.
 
-You now need to have jenkins have tomcat + mysql in order to properly run the unit + integration tests.
+*You will have an automatically created test suite for checkbox.io created below.
 
-#### Automated Commit Generation - Commit Fuzzer
+### Automated Commit Generation - Commit Fuzzer
 
 Develop a tool that automatically commits new random changes to source code which will trigger a build and run of the test suite.
 
-Support the following fuzzing operations:
+##### Fuzzing operations:
 
    - change content of "strings" in code.
    - swap "<" with ">"
@@ -23,50 +23,54 @@ Support the following fuzzing operations:
 To support the commit fuzzer, create a new branch for iTrust, called `fuzzer`.
 Create a corresponding jenkins job which enables you to run the test suite against this branch. Finally, you will need to handle rollback (reverting the commit/reseting to head in git) after submitting to jenkins. Create a  ansible playbook that can help you run the fuzzer.
 
-Using your automated commit fuzzer, generate 100 random commits (that still compile) and test runs. Warning, in order to do this you must have a working fuzzer well ahead of the deadline.
+Using your automated commit fuzzer, generate 100 random commits (that still compile) and test runs. 
 
-##### Useless test detector
 
-Write a "useless" test detector that will analyze the results of the 100 commit fuzzer runs and test cases. A useless test is one that never fails in after all fuzzed commits. You can extend the workshop we used for analyzing test case results. Generate a report that displays tests cases that always pass.
+### Test prioritization analysis
 
-To get full credit for test detector+fuzzer, you must detect at least 100 useless tests.
+Write a test priorization analysis that will examine the results of the 100 commit fuzzer runs and test suite runs.  You can extend the workshop we used for analyzing test case results. 
 
-### Analysis Component
+Generate a report that displays the test cases in sorted order, based on time to execute and number of failed tests discovered.
 
-Using esprima's ast parser and visitor pattern, create an analysis tool that runs on checkbox.io's **server-side code** (not front-end) and implements the following detections. **Using regex will result in 0 credit.**
+**Note**: Warning, in order to do this you must have a working fuzzer well ahead of the deadline.
 
-* **Long method**: Detect any long methods (greater than 120 lines of code).
-* **Sync calls**: Detect any function that has more than one *Sync method call: e.g. `readFileSync`.
-* **Message chains**: Detect message chains with length greater than 3 in a function. For example, consider this statement as having message chain of length 4: `foo.hello.get(call.size).length`.
-* **The Big O**. Detect any method with a big O greater than 3.
+### Automated Test Generation
 
-Provide a report of the detected items in a seperate markdown file in your project submission.
+Using esprima and AST visitor patterns, write an automated test generation algorithm to analyze checkbox.io's server-side code and automatically generate test cases for the API routes.
 
-Finally, ensure to **fail the build if any of these results occur**.
+**Tips**: You will want to use the route path, params, and contents of the route handler  `app.get('/api/study/load/:id', study.loadStudy );` to guide your test generation.
+
+You may use the auto generated testing workshop as a starting place for code. You may want to use a mocking framework, such as sinon-mongoose and nock, to mock access to the MongoDB instance and REST apis, during an unit test.
+
+### Report
+
+Write a report that describes your approaches. Include an analysis of the fuzzer and test priorization. What type of problems do you think the fuzzer discovered? What are some ways fuzzing operations could be extended in the future? Why do you think those tests were ranked the highest?
+
+Describe your approach for automated test generation. How many tests were you able to achieve and what was the resulting coverage?
+
 
 ### Evaluation
 
-* Test suites, coverage, and test results - 25%
+* Test suites, coverage, and test results, jenkins setup - 10%
 * Commit fuzzer - 25%
-* Uselesss test detector (at least 100 found) - 25%
-* Analysis and build failure - 25%
-* BONUS: Detect 400+ useless tests: 5 points
-* BONUS: Run 1000 fuzz runs, plus find 400+ useless tests: 5 points
+* Test priorization analysis - 25%
+* Automated Test Generation - 25%
+* Report - 15%
 
-Points may be deducted for not following instructions or including sufficient detail to evaluate capability.
+Points may be deducted for not following instructions or including sufficient detail to evaluate capability. Non-contributed team members may receive reduced or 0 credit.
 
 **Any Jenkins setup steps, including any plugin installation, must be automated.**
 
 ## Submission
 
-[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLSfvaLNQNMF2XFxsCgSh63aW9_SgrJnx-3ueykrm16SXMqqkGw/viewform?usp=sf_link) to your repository that includes:
+[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLScPDgKPJBzBwUD152Fex9eR0Vu42gX5JD6hTKr3CdZCb2abOg/viewform?usp=sf_link) to your repository that includes:
 
 * your team (Unity Ids of everyone and their contribution)
 * your ansible scripts
-* your fuzzer and detector code
+* your code and configuration
 * a README.md, with your report details,
 * screencast that demostrates each evaluation criteria.
 
 If you want to reuse the same repo for your whole project, then create a branch for each milestone.
 
-**Due Tuesday, October 24th, midnight.**
+**Due Monday, March 19th, midnight.**
