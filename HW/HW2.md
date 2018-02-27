@@ -43,19 +43,18 @@ To help visualize coverage over the code, and get an accurate count of statement
 
 Create a github repository (on github proper or NCSU), place a screenshot of your coverage report in the README.md file and your code in your repository.
 
-Please [submit your assignment here](https://docs.google.com/a/ncsu.edu/forms/d/e/1FAIpQLSecCCCCunw3PjOor7uoAnYV_uo_94NpbTSMAjo5JsugDA5CJg/viewform).
+Please [submit your assignment here](https://docs.google.com/forms/d/e/1FAIpQLSe_f41CrspGXWzpywTRdMnIq28Iil2UGq8w8Zke9nOg1KfPMA/viewform?usp=sf_link).
 
-The assignment is due Friday, October 13th at midnight.
+The assignment is due Monday, March 12th at midnight.
 
 ### Evaluation
 
-- No coverage improvement over baseline: 50% 
-- Statement coverage meets 38/49 and Branch coverage meets 15/30: 60%
-- Statement coverage meets 42/49 and Branch coverage meets 20/30: 70%
-- Statement coverage meets 44/49 and Branch coverage meets 22/30: 80%
-- Statement coverage meets 46/49 and Branch coverage meets 25/30: 90%
-- Statement coverage meets 48/49 and Branch coverage meets 28/30: 100%
-- Full coverage: 105%
+- No coverage improvement over baseline: 18/30 => 50% 
+- Branch coverage meets 20/30 => 60%
+- Branch coverage meets 22/30 => 80%
+- Branch coverage meets 25/30 => 90%
+- Branch coverage meets 28/30 => 100%
+- Full branch coverage => 105%
 
 Hard coding tests will not work. For evaluation, test.js will be deleted.
-Your code will be run against "mystery.js" file, which will contain the same structure, but different concrete values.
+Your code will be run against a "mystery.js" file, which will contain the same structure, but may contain different concrete values.
