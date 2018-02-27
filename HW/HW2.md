@@ -6,8 +6,7 @@ Continuous deployment and DevOps instrastructure cannot survive without tests. W
 
 In our test generation workshop, we worked with automatically generating sample code. However, there are some paths still missing.
 
-* Statements: 71.43% (35 / 49)
-* Branch: 40% (12 / 30)
+* Branch: 60% (18 / 30)
 
 Your assignment is to complete the automation of new tests to achieve 100% branch and statement coverage.
 
