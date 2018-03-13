@@ -27,11 +27,12 @@ A repo and report describing tool will be also be graded on the following criter
 
 There are three days in the semester dedicated to tech talk presentations, each with limited slots for presenting.
 
-* 10/12 (10 point bonus for being first session)
-* 10/31
-* 11/21
+* 3/22 (10 point bonus for being first session)
+* 4/3
+* 4/5
+* 4/10
 
-[Please sign up](https://docs.google.com/spreadsheets/d/1o36VyryL2s4DPfKpgiGwKzRQPLOI8DixBQSLNFPf3Kw/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
+[Please sign up](https://docs.google.com/spreadsheets/d/1fUq0wK7qMPOe4MNlizMj2Ua3NoibZE99Bmj-RqCRLd4/edit#gid=0) early to get the spot you want (Note: you must be signed in your NCSU google account).
 
 You can provide links to your repo on the same signup sheet.
 
@@ -45,5 +46,5 @@ You can provide links to your repo on the same signup sheet.
 * deployment: launchdarkly
 * pipelines: spinnnaker
 * analysis: eslint
-* platforms: serverless (lambda/azure functions)
+* platforms: serverless (lambda/azure functions), edge computing (Cloudfare workers)
 * other: ask TA for approval.
