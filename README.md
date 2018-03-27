@@ -73,7 +73,7 @@ The following schedule is subject to change.
 | Mar 8    | BREAK                            |            |                   |
 | Mar 13   | [Operation Concepts](https://docs.google.com/presentation/d/19TYz-XK5ou3mZP9I5a_Hp44ZQ-MsLK27yQyUaR1D8tc/edit#slide=id.g3527d62d8d_0_0)               |            |                   |
 | Mar 15   | Redis                            |            |                   |
-| Mar 20   | Michael DeHaan, ansible creator  |            |                   |
+| Mar 20   | Michael DeHaan, ansible creator  |            |   [DEPLOY+INFRA Milestone](Project/M3.md)                |
 | Mar 22   | Tech Talks                       |            |                   |
 | Mar 27   | Monitoring/Analysis              |            |                   |
 | Mar 29   |                                  |            |                   |
