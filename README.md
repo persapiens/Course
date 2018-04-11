@@ -80,8 +80,9 @@ The following schedule is subject to change.
 | Apr 3    | Tech Talks                       |            |                   |
 | Apr 5    | Tech Talks                       |            |                   |
 | Apr 10   | Tech Talks                       |            |                   |
-| Apr 12   | Chaos Engineering                |            |                   |
-| Apr 17   |                                  |            |                   |
+| Apr 12   |                 |            |                   |
+| Apr 17   | Chaos Engineering                                 |            |                   |
+| Apr 19   | Workshop                         |            |                   |
 | Apr 24   | Demos                            |            |                   |
 | Apr 26   | Demos                            |            |                   |
 | May 8    | Final Exam (8:00am)              |            |                   |
