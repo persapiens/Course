@@ -67,21 +67,21 @@ The following schedule is subject to change.
 | Feb 15   | [Suites](https://github.com/CSC-DevOps/TestSuites)/[Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                   |            |                   |
 | Feb 20   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |  [Test+Analysis Milestone](Project/BuildTestAnalysis.md)                    |
 | Feb 22   | [Test Generation Workshop](https://github.com/CSC-DevOps/TestGeneration)                  |            |  [HW2](HW/HW2.md)       |
-| Feb 27   | Deploy Strategies                |            |                   |
-| Mar 1    | Deploy                           |            |                   |
+| Feb 27   | [Deploy Strategies](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_0)                |            |                   |
+| Mar 1    | [Deploy](https://github.com/CSC-DevOps/Deployment)                           |            |                   |
 | Mar 6    | SPRING                           |            |                   |
 | Mar 8    | BREAK                            |            |                   |
 | Mar 13   | [Operation Concepts](https://docs.google.com/presentation/d/19TYz-XK5ou3mZP9I5a_Hp44ZQ-MsLK27yQyUaR1D8tc/edit#slide=id.g3527d62d8d_0_0)               |            |                   |
-| Mar 15   | Redis                            |            |                   |
+| Mar 15   | [Redis](https://github.com/CSC-DevOps/Queues)                            |            |                   |
 | Mar 20   | Michael DeHaan, ansible creator  |            |   [DEPLOY+INFRA Milestone](Project/M3.md)                |
-| Mar 22   | Tech Talks                       |            |                   |
-| Mar 27   | Monitoring/Analysis              |            |                   |
-| Mar 29   |                                  |            |                   |
-| Apr 3    | Tech Talks                       |            |                   |
-| Apr 5    | Tech Talks                       |            |                   |
-| Apr 10   | Tech Talks                       |            |                   |
+| Mar 22   | [Tech Talks](TechTalks.md)                       |            |                   |
+| Mar 27   | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)              |            |                   |
+| Mar 29   | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)                                 |            |                   |
+| Apr 3    | [Tech Talks](TechTalks.md)                       |            |                   |
+| Apr 5    | [Tech Talks](TechTalks.md)                       |            |                   |
+| Apr 10   | [Tech Talks](TechTalks.md)                       |            |                   |
 | Apr 12   |                 |            |                   |
-| Apr 17   | Chaos Engineering                                 |            |                   |
+| Apr 17   | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)                                 |            |                   |
 | Apr 19   | Workshop                         |            |                   |
 | Apr 24   | Demos                            |            |                   |
 | Apr 26   | Demos                            |            |                   |
