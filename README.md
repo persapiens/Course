@@ -78,8 +78,8 @@ The following schedule is subject to change.
 | Mar 27   | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)              |            |                   |
 | Mar 29   | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)                                 |            |                   |
 | Apr 3    | [Tech Talks](TechTalks.md)                       | [Chef](https://github.ncsu.edu/dguttik/Chef-repo), [SonarQube](https://github.ncsu.edu/rcoutin/SonarQube), [Eslint](https://github.ncsu.edu/davitond/Eslint), [Lambda](https://github.com/AnkurSaxena135/AWS-Lambda-TechTalk)           |                   |
-| Apr 5    | [Tech Talks](TechTalks.md)                       |  [Kafka](https://github.ncsu.edu/bramesh/KafkaDemo)          |                   |
-| Apr 10   | [Tech Talks](TechTalks.md)                       | [Salt](https://github.ncsu.edu/kjadhav/salt-techtalk), [Docker Compose](https://github.ncsu.edu/itrust-no-one/tech-talk), [Spinnaker](https://github.ncsu.edu/scbutle2/tech-talk), [TerraForm](https://github.ncsu.edu/jbinkrot/terraform-tech-talk), [Puppet](https://github.ncsu.edu/dpatel12/DevOps-Puppet-Techtalk)           |                   |
+| Apr 5    | [Tech Talks](TechTalks.md)                       |  [Kafka](https://github.ncsu.edu/bramesh/KafkaDemo), [TerraForm](https://github.ncsu.edu/jbinkrot/terraform-tech-talk), [Puppet](https://github.ncsu.edu/dpatel12/DevOps-Puppet-Techtalk)          |                   |
+| Apr 10   | [Tech Talks](TechTalks.md)                       | [Salt](https://github.ncsu.edu/kjadhav/salt-techtalk), [Docker Compose](https://github.ncsu.edu/itrust-no-one/tech-talk), [Spinnaker](https://github.ncsu.edu/scbutle2/tech-talk)           |                   |
 | Apr 12   |                 |            |                   |
 | Apr 17   | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)                                 |            |                   |
 | Apr 19   | Workshop                         |            |                   |
