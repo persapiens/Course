@@ -1,8 +1,7 @@
 # DevOps: CSC 519
 -------------------------
 
-Modern software development organizations require entire teams of DevOps to automate  and maintain software engineering processes and infrastructure vital to the organization. In this course, you will gain practical exposure to the skills, tools, and knowledge needed in automating software engineering processes and infrastructure. 
-Students will have the chance to build new or extend existing software engineering tools and design a DevOps pipeline.
+Modern software development organizations require DevOps engineers to automate and maintain software engineering processes and production infrastructure. In this course, you will gain practical exposure to the skills, tools, and knowledge needed in automating software engineering processes and infrastructure necessary for continuous deployment of software. Students will have the chance to build new or extend existing software engineering tools and design an automated deployment pipeline.
 
 Past versions:
 * [Fall 2017](https://github.com/CSC-DevOps/Course/tree/Fall2017)
