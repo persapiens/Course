@@ -77,7 +77,7 @@ The following schedule is subject to change.
 | Mar 25   | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)              |            |                   |
 | Mar 27   | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)                                 |            |                   |
 | Apr 1   | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)       
-| Apr 3    | Chaos Workshop  |            |                   |
+| Apr 3    | Chaos Workshop  | [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)           |                   |
 | Apr 8    | TBD             |            |                   |
 | Apr 10   | TBD             |            |                   |
 | Apr 15   | Tech Talks      |            |                   |
