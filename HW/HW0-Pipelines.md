@@ -19,7 +19,9 @@ Shrikant Shete <sbshete@ncsu.edu>, Sam Mirhosseini Ghamsa <smirhos@ncsu.edu>, Ch
 
 ## Computing Environment (20)
 
-Create virtual machine image using vagrant and virtual box.
+1. Verify your local environment works by running: `opunit profile CSC-DevOps/profile:519.yml`. Include the output of command in your submission.
+
+2. Create virtual machine image using vagrant and virtual box.
 Install node.js. Demonstrate using a sync folder.
 
 ## Pipeline (40)
@@ -36,7 +38,7 @@ Submit a link to your github repo to [here](https://docs.google.com/forms/d/e/1F
 containing the following:
 
 * Complete moodle and slack profiles by deadline (20).
-* Computing Environment  (20)
+* Computing Environment (20)
 * Pipeline (40)
 * Screencast (20)
 
