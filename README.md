@@ -51,8 +51,8 @@ The following schedule is subject to change.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    | [Computing Environments](https://github.com/chrisparnin/ComputingEnvironmentsWorkshop) |            |                   |
-| Jan 9    | [Pipeline Basics](Workshops/PipelineBasics.md)| | [HW0](HW/HW0-Pipelines.md)|
+| Jan 7    | [Computing Environments](https://github.com/chrisparnin/ComputingEnvironmentsWorkshop) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |                   |
+| Jan 9    | [Pipeline Basics](Workshops/PipelineBasics.md)| | [HW0](HW/HW0-Pipelines.md) |
 | Jan 14   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore)|  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        |
 | Jan 16   | [Provisioning workshop](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)            |            |[HW1 - P2](HW/HW1-A.md)                         |            |                   |
 | Jan 21   |          |            |  [HW1](HW/HW1-C.md)              |
