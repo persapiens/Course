@@ -43,11 +43,6 @@ Details on requirements for milestones will be released throughout the course.  
 * DEPLOY
 * SPECIAL
 
-## TA
-
-Shrikant Shete, Office Hours: Thursday 3:15-4:15pm
-
-
 ## Schedule and Topics - Spring 2019
 
 Engineering Building I, Room 1005, 10:15--11:30am.
