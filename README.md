@@ -51,34 +51,34 @@ The following schedule is subject to change.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    | [Computing Environments](https://github.com/chrisparnin/ComputingEnvironmentsWorkshop) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |                   |
-| Jan 9    | [Pipeline Basics](Workshops/PipelineBasics.md)| | [HW0](HW/HW0-Pipelines.md) |
-| Jan 14   | [Core Concepts](http://tiny.cc/CSC-DevOpsCore)|  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        |
-| Jan 16   | [Provisioning workshop](https://github.ncsu.edu/CSC-DevOps-Spring2015/ServersWorkshop)            |            |[HW1 - P2](HW/HW1-A.md)                         |            |                   |
-| Jan 21   |          |            |  [HW1](HW/HW1-C.md)              |
-| Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)
+| Jan 7    | [Pipeline Basics](Workshops/PipelineBasics.md) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
+| Jan 9    | Computing Environments | | |
+| Jan 14   | Core Concepts |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        |
+| Jan 16   | Provisioning workshop           |            |HW1                         |            |                   |
+| Jan 21   |          |            |                |
+| Jan 23   | Configuration Management
 |            |                   |
-| Jan 28   | [Ansible](https://github.com/CSC-DevOps/CM#configuration-management-workshop)                     |            |                   |
+| Jan 28   | Ansible                   |            |                   |
 | Jan 30    | ... |
-| Feb 4    | [Build](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.p)                            |            |[CM+Build Milestone](Project/CM.md)|
-| Feb 6    | [Build server workshop](https://github.com/CSC-DevOps/Course/blob/master/Workshops/Build.md)            |            |                   |
-| Feb 11   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit#slide=id.p)                  |            |                   |
-| Feb 13   | [Suites](https://github.com/CSC-DevOps/TestSuites)/[Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                   |            |                   |
-| Feb 18   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit#slide=id.p)                         |            |  [Test+Analysis Milestone](Project/BuildTestAnalysis.md)                    |
-| Feb 20   | [Test Generation Workshop](https://github.com/CSC-DevOps/TestGeneration)                  |            |  [HW2](HW/HW2.md)       |
-| Feb 25   | [Deploy Strategies](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_0)                |            |                   |
-| Feb 27    | [Deploy](https://github.com/CSC-DevOps/Deployment)                           |            |                   |
-| Mar 4   | [Operation Concepts](https://docs.google.com/presentation/d/19TYz-XK5ou3mZP9I5a_Hp44ZQ-MsLK27yQyUaR1D8tc/edit#slide=id.g3527d62d8d_0_0)               |            |                   |
-| Mar 6   | [Redis](https://github.com/CSC-DevOps/Queues)                            |            |                   |
+| Feb 4    | Build                          |            | CM+Build Milestone |
+| Feb 6    | Build server workshop            |            |                   |
+| Feb 11   | Test Management                  |            |                   |
+| Feb 13   | Suites/Fuzzing                  |            |                   |
+| Feb 18   | Analysis                        |            |  Test+Analysis Milestone                    |
+| Feb 20   | Test Generation Workshop                |            |  HW2       |
+| Feb 25   | Deploy Strategies               |            |                   |
+| Feb 27    | Deploy                       |            |                   |
+| Mar 4   | Operation Concepts           |            |                   |
+| Mar 6   | Redis                         |            |                   |
 | Mar 11    | SPRING                           |            |                   |
 | Mar 15    | BREAK                            |            |                   |
-| Mar 18   | ...  |            |   [DEPLOY+INFRA Milestone](Project/M3.md)                |
-| Mar 20   | [Tech Talks](TechTalks.md)                       |        |                |
-| Mar 25   | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)              |            |                   |
-| Mar 27   | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)                                 |            |                   |
-| Apr 1   | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)       
+| Mar 18   | ...  |            |   DEPLOY+INFRA Milestone            |
+| Mar 20   | Tech Talks                    |        |                |
+| Mar 25   | Monitoring/Analysis            |            |                   |
+| Mar 27   | Monitoring Workshop                         |            |                   |
+| Apr 1   | Chaos Engineering   
 | Apr 3    | Chaos Workshop  | [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)           |                   |
-| Apr 8    | TBD             |            |                   |
+| Apr 8    | TBD             |            |    SPECIAL MILESTONE               |
 | Apr 10   | TBD             |            |                   |
 | Apr 15   | Tech Talks      |            |                   |
 | Apr 17   | Tech Talks      |            |                   |
