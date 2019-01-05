@@ -43,7 +43,8 @@ Create a screencast demoing your opunit profile check and your delivery pipeline
 Submit a link to your github repo to [here](https://docs.google.com/forms/d/e/1FAIpQLSd0TDoB-HX_v15IrVyt0XDdoBrBB-62O0L6wPAHjm8yiwbhNQ/viewform?usp=sf_link)
 containing the following:
 
-* Complete moodle and slack profiles by deadline (20).
+* Complete moodle, mattermost, stack overflow profiles by deadline (10).
+* Github repo and collobrator settings (10).
 * Opunit checks (20)
 * Pipeline workshop (40)
 * Screencast (20)
