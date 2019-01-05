@@ -36,7 +36,7 @@ opunit verify local
 
 ## Screencast (20)
 
-Create a screencast demoing your computing environment and pipeline.
+Create a screencast demoing your opunit profile check and your delivery pipeline, including the deployed app.
 
 ## Submit
 
