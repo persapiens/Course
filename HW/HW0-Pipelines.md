@@ -2,31 +2,37 @@
 
 This homework will prepare you for basic setup for the course.
 
-## Basic course setup (20)
+## Basic course setup (10)
 
-##### Slack+Moodle (10)
+Properly setting up your Mattermost and Moodle profile by providing a picture will help the teaching staff learn your name. Upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile. For Slack, make sure you have your first and last name as part of your profile. Use [US passport photo guidelines](http://travel.state.gov/passport/pptphotoreq/photocomptemplate/photocomptemplate_5297.html).
 
-Properly setting up your Slack and Moodle profile by providing a picture will help the teaching staff learn your name. Upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile. For Slack, make sure you have your first and last name as part of your profile. Use [US passport photo guidelines](http://travel.state.gov/passport/pptphotoreq/photocomptemplate/photocomptemplate_5297.html).
-
-##### Github (10)
+## Github (10)
 
 Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 
-1. Create a *private* repo called HW0. 
+1. Create a *private* repo called HW0-DevOps. 
 2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
 
 Samim Mirhosseini Ghamsa <smirhos@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
 
-## Computing Environment (20)
 
-1. Verify your local environment works by running: `opunit profile CSC-DevOps/profile:519.yml`. Include the output of command in your submission.
+## Opunit checks (20)
 
-2. Create virtual machine image using vagrant and virtual box.
-Install node.js. Demonstrate using a sync folder.
+* Acheive 100% pass rate for opunit profile checks:
+
+```sh
+opunit profile CSC-DevOps/profile:519.yml
+```
+
+Include screenshot of command output in your submission.
 
 ## Pipeline (40)
 
-Complete the pipelines workshop.
+Complete the pipelines workshop. For full credit, pass the opunit checks:
+
+```
+opunit verify local
+```
 
 ## Screencast (20)
 
@@ -38,15 +44,15 @@ Submit a link to your github repo to [here](https://docs.google.com/forms/d/e/1F
 containing the following:
 
 * Complete moodle and slack profiles by deadline (20).
-* Computing Environment (20)
-* Pipeline (40)
+* Opunit checks (20)
+* Pipeline workshop (40)
 * Screencast (20)
 
 Create a README.md that describes your submission and includes screenshots. Include a link to your screencast video.
 
-**Due Thursday**, 1/18, before midnight.
+**Due Tuesday**, 1/15, before midnight.
 
-### Screencasts/Demo Gifs Guidelines
+## Screencasts Guidelines
 
 Here are some guidelines and links for creating good screencasts. It is good to get ready now to learn how to create demo videos for your future project milestones and career.
 
@@ -55,9 +61,9 @@ A general guideline: Do whatever it would do if you were teaching someone how to
 ##### Software
 
 * camtasia
-* https://github.com/justinfrankel/licecap (for simple .gif)
+* https://github.com/justinfrankel/licecap (for simple .gif that you can stitch together in video...)
 * screencastomatic
-* Add more recommendations in Slack/NC Stack Overflow Questions
+* Add more recommendations in Mattermost/NC Stack Overflow Questions
  
 ##### Guidelines for both multimedia formats:
 
