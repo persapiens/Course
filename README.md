@@ -75,8 +75,8 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 
 ### Resources
 
-[Slack](https://csc519-spring2018.slack.com/)
-[NC State - Stack Overflow](https://stackoverflow.com/c/ncsu/)
+* [Mattermost](https://chat.alt-code.org)  
+* [NC State - Stack Overflow](https://stackoverflow.com/c/ncsu/)
 
 ##### Papers
 
