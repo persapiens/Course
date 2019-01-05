@@ -3,15 +3,6 @@
 
 Modern software development organizations require DevOps engineers to automate and maintain software engineering processes and production infrastructure. In this course, you will gain practical exposure to the skills, tools, and knowledge needed in automating software engineering processes and infrastructure necessary for continuous deployment of software. Students will have the chance to build new or extend existing software engineering tools and design an automated deployment pipeline.
 
-Past versions:
-
-* [Spring 2018](https://github.com/CSC-DevOps/Course/tree/Spring2018)
-* [Fall 2017](https://github.com/CSC-DevOps/Course/tree/Fall2017)
-* [Spring 2017](https://github.com/CSC-DevOps/Course/tree/Spring2017)
-* [Fall 2016](https://github.com/CSC-DevOps/Course/tree/Fall2016)
-* [Spring 2015 ](https://github.com/CSC-DevOps/Course/tree/Spring2015)
-* [Fall 2015 ](https://github.com/CSC-DevOps/Course/tree/Fall2015)
-
 ## Course Overview
 
 In the course, a mixture of traditional lectures with activities and in-class workshops will be used.  During lectures, we will cover core concepts related to a topic. During the in-class workshops, we will perform sample exercises with relevant tools that reinforce lecture material.  Evaluation will be based on tech talks, homework assignments, workshop attendance, and final project.
@@ -34,30 +25,26 @@ After the course, students are able to:
 
 The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.
 
-##### Milestones
+#### Milestones
 
 Details on requirements for milestones will be released throughout the course.  A student's pipeline should demonstrate the following components by the milestone deadline:
 
-* CM
-* BUILD+TEST+ANALYSIS
-* DEPLOY
-* SPECIAL
+[ CM ] -> [ BUILD+TEST+ANALYSIS ] -> [ DEPLOY ] -> [ SPECIAL ]
 
-## Schedule and Topics - Spring 2019
+## Schedule and Topics—Spring 2019
 
-Engineering Building I, Room 1005, 10:15--11:30am.
+Location: Engineering Building I, Room 1005, 10:15--11:30am.
 
-The following schedule is subject to change.
+*The following schedule is subject to change.*
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
 | Jan 7    | [Pipeline Basics](Workshops/PipelineBasics.md) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
 | Jan 9    | Computing Environments | | |
 | Jan 14   | Core Concepts |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        |
-| Jan 16   | Provisioning workshop           |            |HW1                         |            |                   |
-| Jan 21   |          |            |                |
-| Jan 23   | Configuration Management
-|            |                   |
+| Jan 16   | Provisioning workshop |   |HW1 |
+| Jan 21   | No class         |            |                |
+| Jan 23   | Configuration Management  |            |
 | Jan 28   | Ansible                   |            |                   |
 | Jan 30    | ... |
 | Feb 4    | Build                          |            | CM+Build Milestone |
@@ -109,3 +96,12 @@ The following schedule is subject to change.
 ##### Glossary of Tools
 
 * [http://newrelic.com/devops/toolset](http://newrelic.com/devops/toolset)
+
+## Past versions
+
+* [Spring 2018](https://github.com/CSC-DevOps/Course/tree/Spring2018)
+* [Fall 2017](https://github.com/CSC-DevOps/Course/tree/Fall2017)
+* [Spring 2017](https://github.com/CSC-DevOps/Course/tree/Spring2017)
+* [Fall 2016](https://github.com/CSC-DevOps/Course/tree/Fall2016)
+* [Spring 2015 ](https://github.com/CSC-DevOps/Course/tree/Spring2015)
+* [Fall 2015 ](https://github.com/CSC-DevOps/Course/tree/Fall2015)
