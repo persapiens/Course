@@ -47,6 +47,10 @@ Workshops are have required attendance and are vital to the course. During a wor
 * 2 missed workshops, workshop grade = 2
 * 3 missed workshops, workshop grade = 0
 
+### Attendance
+
+Missing three consecutive classes will result in failure of the course.
+
 ### Project
 
 The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.
