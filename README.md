@@ -39,7 +39,7 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    | [Pipeline Basics](Workshops/PipelineBasics.md) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
+| Jan 7    | [Pipeline Basics](https://github.com/CSC-DevOps/Pipelines) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
 | Jan 9    | Computing Environments | | |
 | Jan 14   | Core Concepts |  [Adages](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf)        |
 | Jan 16   | Provisioning workshop |   |HW1 |
