@@ -44,7 +44,7 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Jan 14   | [Core Concepts](https://docs.google.com/presentation/d/1-LyXc798R08AaPQI4yCVCCVZryP0kgQY5KqQgzAfmuc/edit#slide=id.g24e9a36457_3_292) |  [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)        |
 | Jan 16   | [Provisioning workshop](https://github.com/CSC-DevOps/Provision) |   |[HW1](HW/HW1-A.md) |
 | Jan 21   | No class         |            |                |
-| Jan 23   | Configuration Management  | HW2            |
+| Jan 23   | Configuration Management  |             | HW2
 | Jan 28   | Ansible                   |            |                   |
 | Jan 30   | ... | |
 | Feb 4    | Build                          |            | CM+Build Milestone |
