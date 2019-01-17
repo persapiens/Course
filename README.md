@@ -42,17 +42,17 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Jan 7    | [Pipeline Basics](https://github.com/CSC-DevOps/Pipelines) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
 | Jan 9    | Computing Environments | | |
 | Jan 14   | [Core Concepts](https://docs.google.com/presentation/d/1-LyXc798R08AaPQI4yCVCCVZryP0kgQY5KqQgzAfmuc/edit#slide=id.g24e9a36457_3_292) |  [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)        |
-| Jan 16   | Provisioning workshop |   |HW1 |
+| Jan 16   | [Provisioning workshop](https://github.com/CSC-DevOps/Provision) |   |[HW1](HW/HW1-A.md) |
 | Jan 21   | No class         |            |                |
-| Jan 23   | Configuration Management  |            |
+| Jan 23   | Configuration Management  | HW2            |
 | Jan 28   | Ansible                   |            |                   |
-| Jan 30    | ... |
+| Jan 30   | ... | |
 | Feb 4    | Build                          |            | CM+Build Milestone |
 | Feb 6    | Build server workshop            |            |                   |
 | Feb 11   | Test Management                  |            |                   |
 | Feb 13   | Suites/Fuzzing                  |            |                   |
 | Feb 18   | Analysis                        |            |  Test+Analysis Milestone                    |
-| Feb 20   | Test Generation Workshop                |            |  HW2       |
+| Feb 20   | Test Generation Workshop                |            |         |
 | Feb 25   | Deploy Strategies               |            |                   |
 | Feb 27    | Deploy                       |            |                   |
 | Mar 4   | Operation Concepts           |            |                   |
