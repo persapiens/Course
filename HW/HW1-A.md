@@ -50,6 +50,10 @@ You can use obtain a free student account through dreamspark for azure.
 ### Google Cloud Platform
 Google has its own set of cloud solutions on its platform. It offers a [free tier](https://cloud.google.com/free/) and (as of January 2019) 300$ free credit on signup. Documentation for Compute Engine can be found [here](https://cloud.google.com/compute/docs/).
 
+
+### Scaleway
+Scaleway is a European based cloud provider with very afforadable small servers, perfect for a project like this or hosting a small website. While there is no free tier or trial, the cheapest server comes in at €0.004/hr. Check out their website [here](https://www.scaleway.com/) and their API documentation [here](https://developer.scaleway.com).
+
 ### VCL
 
 You can connect to VCL over XML-RPC:
