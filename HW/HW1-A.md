@@ -47,6 +47,10 @@ AWS provides a [free tier plan](http://aws.amazon.com/free/), for 12 months, whi
 
 You can use obtain a free student account through dreamspark for azure.
 
+### Google Cloud Platform
+Google has its own set of cloud solutions on its platform. It offers a [free tier](https://cloud.google.com/free/) and (as of Januar 2019) 300$ free credit on signup. Documentation for Compute Engine can be found [here] (https://cloud.google.com/compute/docs/).
+
+
 ### VCL
 
 You can connect to VCL over XML-RPC:
