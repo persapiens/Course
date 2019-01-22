@@ -31,7 +31,7 @@ In your createDroplet code, you will need to change the `"ssh_keys":null,` entry
 You can retrieve the associated id using the api:
 
 ```bash
-curl -X GET -H 'Content-Type: application/json' -H 'Authorization: Bearer $DOTOKEN' "https://api.digitalocean.com/v2/account/keys"
+curl -X GET -H 'Content-Type: application/json' -H "Authorization: Bearer $DOTOKEN" "https://api.digitalocean.com/v2/account/keys"
 ```
 
 Finally, you can change the code to use the id: `"ssh_keys":[12345...],`.
