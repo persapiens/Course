@@ -77,7 +77,7 @@ Please [submit your repo here](https://docs.google.com/forms/d/e/1FAIpQLScg8aTK_
 
 In your repository, have your code, link to a screencast.
 
-The assignment is due Friday, Jan 25th at midnight.
+The assignment is due Friday, Jan 25th before midnight.
 
 ## Evaluation
 
