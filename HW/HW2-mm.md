@@ -26,7 +26,11 @@ Follow the following constraints when creating your server:
 
 Please [submit your repo here](https://docs.google.com/forms/d/e/1FAIpQLSe2MIgnenAbfroyzWwryEB_BBsu1UZkwnAXvXmhJE5s1ycq1g/viewform?usp=sf_link)
 
+### Replication instructions
+
 You repo must contain full instructions/code for running your ansible playbooks, including baker.yml or Vagrantfile for provisioning VM. We will replicate running the playbooks.
+
+Include a section in your README.md that includes a set of instructions that will allow another person to create a target VM and then run your ansible scripts.
 
 The assignment is due Friday, Feburary 8th before midnight.
 
