@@ -20,6 +20,7 @@ Abide by the following constraints:
 - For provisioning, use a remote VM, such as one from digital ocean or AWS.
 - For checkbox.io build job, it is sufficient to run `npm test`.
 - For iTrust build job, verify that `mvn clean test verify checkstyle:checkstyle` works.
+- - **No credit given for use of ansible galaxy roles**.
 
 ### Systems
 
