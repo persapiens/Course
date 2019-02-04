@@ -47,7 +47,7 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)  |             | 
 | Jan 28   | Ansible                   |            |                [HW2](HW/HW2-mm.md)   |
 | Jan 30   | ... | |
-| Feb 4    | Build                          |            | CM+Build Milestone |
+| Feb 4    | Build                          |            | [CM+Build Milestone](Project/CM.md) |
 | Feb 6    | Build server workshop            |            |                   |
 | Feb 11   | Test Management                  |            |                   |
 | Feb 13   | Suites/Fuzzing                  |            |                   |
