@@ -4,24 +4,22 @@ For this milestone, you will work in teams of 4 people.
 
 In this milestone, you will complete the following tasks:
 
-1. *Provisioning* and *configuring* an jenkins server, automatically using ansible.
-2. Using jenkins-job-builder + ansible, setup build jobs for two applications:
+1. *Provisioning* and *configuring* an jenkins server (on a remote VM), automatically using ansible.
+2. Using a combination of (jenkins-job-builder or Jenkinsfile) and ansible, automatically setup build jobs for two applications:
   * A nodejs web application [checkbox.io](https://github.com/chrisparnin/checkbox.io).
-  * A software "enterprise" Java system [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v2)
-3. Demonstrate a passing build for each job.
-4. Setup up a `post-build action` that runs ansible scripts to provision and configure a VM for running each application.
+  * An "enterprise" Java system [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v4)
+3. Using a combination of mocha/pm2, create a test script that will start and stop the checkbox.io service on the server. A starting place might be [the App](https://github.com/CSC-DevOps/App/blob/master/test/simple.js) we used in the Pipelines workshop.
+4. Create a simple git hook or GitHub webhook to trigger a build when a push is made to the repo.   _You may use a forked/cloned version of the two systems._ Demonstrate a passing build for each job after a commit.
   
 ### Constraints
 
 Abide by the following constraints:
 
-- Be able to setup jenkins configuration files and job files automatically (e.g., using templates/jenkins-job-builder).
+- Be able to setup jenkins configuration files and job files automatically (e.g., using jenkins-job-builder/Jenkinsfile).
 - Overcome challenges of automation, such as turning off jenkins setup wizard, and handling authentication.
 - For provisioning, use a remote VM, such as one from digital ocean or AWS.
-- For checkbox.io build job, it is sufficient to run `npm install`.
+- For checkbox.io build job, it is sufficient to run `npm test`.
 - For iTrust build job, verify that `mvn clean test verify checkstyle:checkstyle` works.
-- Demonstrate that checkbox.io works in a browser.
-- Demonstrate that iTrust works in a browser.
 
 ### Systems
 
@@ -47,11 +45,9 @@ Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v2
 
 Tips:
 
-* `mvn process-test-classes` builds the database and creates sample data.
-* `mvn jetty:run` launches the server so it can be used like you'd expect.
+* `mvn -f pom-data.xml process-test-classes` builds the database and creates sample data.
+* `mvn jetty:run` launches the server so you can run the system.
 * `mvn clean test verify checkstyle:checkstyle` runs the unit tests, launches the server, runs the integration tests, and then brings the server back down.
-* Note that you _cannot_ run `mvn process-test-classes jetty:run` as a single command
-the `HibernateDataGenerator` doesn't nicely terminate without a `System.exit(0);` at the end.
 
 ### Report
 
@@ -59,22 +55,21 @@ As you learn how to setup configuration management for these to projects, docume
 
 ### Evaluation
 
-* Jenkins automation - 20%
+* Jenkins setup and automation - 40%
+* checkbox.io npm test - 20%
 * checkbox.io + iTrust.io build jobs - 20%
-* iTrust post-build configuration - 20%
-* checkbox.io post-build configuration - 20%
 * Screencast and report - 20%
 
-Points may be deducted for not following instructions, poor quality of implementation, or failing to include sufficient detail required to evaluate capability.
+Points may be deducted for not following instructions, poor quality of implementation, or failing to include sufficient detail required to evaluate capabilities.
 
-Points will be deducted for non contributing members.
+_Points will be deducted for non-contributing members._
 
 ## Submission
 
-[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLSfedIwkUKoEyQjmoUSilVvXLw2h1Aw80RwkAnTRsuwtPe8DIA/viewform?usp=sf_link) to your repository that includes:
+[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLScNDT4FAvo2PaXjQltKUrFCg6pX0HiqNQZK3szGg_RqF36ATA/viewform?usp=sf_link) to your repository that includes:
 
 * your team (Unity Ids of everyone and their contribution)
-* your ansible scripts
+* A repo with all scripts required to replicate your submission.
 * a README.md, with your report details,
 * screencast that demostrates each evaluation criteria.
 
@@ -82,4 +77,4 @@ Points will be deducted for non contributing members.
 
 Tip: If you want to reuse the same repo for your whole project, then create a branch for each milestone. 
 
-**Due Friday, Feb 23rd, before midnight.**
+**Due Friday, Feb 22rd, before midnight.**
