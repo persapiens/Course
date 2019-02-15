@@ -42,7 +42,7 @@ The following are environment variables that are required to be set:
 
 iTrust2 is a java application used in the undergrad software engineering system. It using enterprise Java technology. It has a rich set of unit tests.
 
-Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v2/wiki), to create an ansible script that can prepare a system to run iTrust. 
+Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v4/wiki/developers-guide), to create an ansible script that can prepare a system to run iTrust. 
 
 Tips:
 
