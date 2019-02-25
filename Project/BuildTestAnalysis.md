@@ -73,7 +73,7 @@ Points may be deducted for not following instructions or including sufficient de
 
 ## Submission
 
-[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLScPDgKPJBzBwUD152Fex9eR0Vu42gX5JD6hTKr3CdZCb2abOg/viewform?usp=sf_link) to your repository that includes:
+[Submit a link](https://docs.google.com/forms/d/e/1FAIpQLSfJPzE69558yTFVqXpbu3sNY4yT3m0rLWrgAURfKSfLqpTtpA/viewform?usp=sf_link) to your repository that includes:
 
 * your team (Unity Ids of everyone and their contribution)
 * your code and configuration scripts
