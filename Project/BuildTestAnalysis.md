@@ -1,6 +1,6 @@
 ## Test + Analysis Milestone
 
-For this milestone, you will leverage techniques related to fuzzing, test case priorization, and automated test generation to improve the quality of checkbox.io and iTrust.
+For this milestone, you will leverage techniques related to fuzzing, test case priorization, and static analysis to improve the quality of checkbox.io and iTrust.
 
 ### Coverage/Jenkins Support
 
