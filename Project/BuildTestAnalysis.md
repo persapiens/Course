@@ -57,7 +57,7 @@ For checkbox.io, extend the build job to support:
 
 Write a report that describes your approaches. Include an analysis of the fuzzer and test priorization. What type of problems do you think the fuzzer discovered? What are some ways fuzzing operations could be extended in the future? Why do you think those tests were ranked the highest?
 
-Describe your approach for automated test generation. How many tests were you able to achieve and what was the resulting coverage?
+Describe your approach for analysis. How do you thing these checks might help software developers?
 
 ### Evaluation
 
