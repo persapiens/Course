@@ -48,30 +48,30 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Jan 28   | [Ansible](https://github.com/CSC-DevOps/CM#configuration-management-workshop)                   |            |                [HW2](HW/HW2-mm.md)   |
 | Jan 30   | ... | |
 | Feb 4    | [Build](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.g1a769f3281_0_0)                          |            | [CM+Build Milestone](Project/CM.md) |
-| Feb 6    | Build server workshop            |            |                   |
-| Feb 11   | Test Management                  |            |                   |
-| Feb 13   | Suites/Fuzzing                  |            |                   |
-| Feb 18   | Analysis                        |            |  Test+Analysis Milestone                    |
-| Feb 20   | Test Generation Workshop                |            |         |
-| Feb 25   | Deploy Strategies               |            |                   |
-| Feb 27    | Deploy                       |            |                   |
-| Mar 4   | Operation Concepts           |            |                   |
-| Mar 6   | Redis                         |            |                   |
-| Mar 11    | SPRING                           |            |                   |
-| Mar 15    | BREAK                            |            |                   |
-| Mar 18   | ...  |            |   DEPLOY+INFRA Milestone            |
-| Mar 20   | Tech Talks                    |        |                |
-| Mar 25   | Monitoring/Analysis            |            |                   |
-| Mar 27   | Monitoring Workshop                         |            |                   |
-| Apr 1   | Chaos Engineering   
-| Apr 3    | Chaos Workshop  | [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)           |                   |
-| Apr 8    | TBD             |            |    SPECIAL MILESTONE               |
-| Apr 10   | TBD             |            |                   |
-| Apr 15   | Tech Talks      |            |                   |
-| Apr 17   | Tech Talks      |            |                   |
-| Apr 22   | Demos                            |            |                   |
-| Apr 24   | Demos                            |            |                   |
-| May 1    | Final Exam (8:00--11:00am)       |            |                   |
+| Feb 6    | [Build server workshop]()            |            |                   |
+| Feb 11   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit)         |            |                   |
+| Feb 13   | [Suites](https://github.com/CSC-DevOps/TestSuites)               |            |                   |
+| Feb 18   | [Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                 |            |  |
+| Feb 20   | Team Work Day           |            |         |
+| Feb 25   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit)                |            |  [Test+Analysis Milestone]()                 |
+| Feb 27   | Complexity              |            |                   |
+| Mar 4    | Deploy                  |            |                   |
+| Mar 6    | Deploy Strategies       |            |                   |
+| Mar 11   | SPRING                  |            |                   |
+| Mar 15   | BREAK                   |            |                   |
+| Mar 18   | Operation Concepts      |            |   DEPLOY+INFRA Milestone            |
+| Mar 20   | Tech Talks              |            |                |
+| Mar 25   | Feature Flags/Redis     |            |                   |
+| Mar 27   |                         |            |                   |
+| Apr 1    | Monitoring/Analysis     |            |                   |
+| Apr 3    | Monitoring Workshop     |            |                   |
+| Apr 8    | Chaos Engineering       |  [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)          |    SPECIAL MILESTONE               |
+| Apr 10   | Chaos Workshop          |            |                   |
+| Apr 15   | Tech Talks              |            |                   |
+| Apr 17   | Tech Talks              |            |                   |
+| Apr 22   | Demos                   |            |                   |
+| Apr 24   | Demos                   |            |                   |
+| May 1    | Final Exam (8:00--11:00am)|          |                   |
 
 ### Resources
 
