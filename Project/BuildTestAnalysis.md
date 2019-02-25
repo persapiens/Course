@@ -4,9 +4,7 @@ For this milestone, you will leverage techniques related to fuzzing, test case p
 
 ### Coverage/Jenkins Support
 
-Ensure you have the ability to run iTrust's and checkbox.io* test suite. You need to have your build server have a jetty/mysql instance in order to properly run the unit + integration tests. Add a plugin to jenkins to measure coverage and display a report within Jenkins on every commit.
-
-*You will have an automatically created test suite for checkbox.io created below.
+Ensure you have the ability to run iTrust's test suite. Add a plugin to jenkins to measure coverage and display a report within Jenkins on every commit.
 
 ### Automated Commit Generation - Commit Fuzzer
 
@@ -18,13 +16,12 @@ Develop a tool that automatically commits new random changes to source code whic
    - swap "<" with ">"
    - swap "==" with "!="
    - swap 0 with 1
-   - any operation you can think of.
+   - any breaking mutation operation you can think of.
 
 To support the commit fuzzer, create a new branch for iTrust, called `fuzzer`.
 Create a corresponding jenkins job which enables you to run the test suite against this branch. Finally, you will need to handle rollback (reverting the commit/reseting to head in git) after submitting to jenkins. Create a  ansible playbook that can help you run the fuzzer.
 
 Using your automated commit fuzzer, generate 100 random commits (that still compile) and test runs. 
-
 
 ### Test prioritization analysis
 
@@ -34,13 +31,27 @@ Generate a report that displays the test cases in sorted order, based on time to
 
 **Note**: Warning, in order to do this you must have a working fuzzer well ahead of the deadline.
 
-### Automated Test Generation
+### Analysis
 
-Using esprima and AST visitor patterns, write an automated test generation algorithm to analyze checkbox.io's server-side code and automatically generate test cases for the API routes.
+##### iTrust
 
-**Tips**: You will want to use the route path, params, and contents of the route handler  `app.get('/api/study/load/:id', study.loadStudy );` to guide your test generation.
+For the iTrust build job, extend to build job to support:
 
-You may use the auto generated testing workshop as a starting place for code. You may want to use a mocking framework, such as sinon-mongoose and nock, to mock access to the MongoDB instance and REST apis, during an unit test.
+* Running an existing static analysis tool on the source code (e.g. FindBugs, PMD, CheckStyle, etc.), process its results, and report its findings.
+
+* Extend the build job to fail the build minimum testing criteria (e.g. failed test case, or less than 50% statement coverage) and analysis criteria (e.g. fail builds that fail analysis checks, such as FindBug's "Method concatenates strings using + in a loop").
+
+For checkbox.io, extend the build job to support:
+
+* **Custom Metrics**: Calculate your own custom source metrics of source code:
+
+   * Max condition: Count the max number of conditions within an if statement in a function.
+   * Long method: Detect a long methods.
+   * Free-style: Implement any analysis, such as security-token detection.
+   * BONUS (10 points): Detect duplicate code using an AST-based difference algorithm.
+
+* Fail the build if any of these metrics exceed a given threshold.
+
 
 ### Report
 
@@ -48,13 +59,12 @@ Write a report that describes your approaches. Include an analysis of the fuzzer
 
 Describe your approach for automated test generation. How many tests were you able to achieve and what was the resulting coverage?
 
-
 ### Evaluation
 
 * Test suites, coverage, and test results, jenkins setup - 10%
 * Commit fuzzer - 25%
-* Test priorization analysis - 25%
-* Automated Test Generation - 25%
+* Test priorization analysis - 20%
+* Analysis and Gates - 30%
 * Report - 15%
 
 Points may be deducted for not following instructions or including sufficient detail to evaluate capability. Non-contributed team members may receive reduced or 0 credit.
@@ -66,11 +76,10 @@ Points may be deducted for not following instructions or including sufficient de
 [Submit a link](https://docs.google.com/forms/d/e/1FAIpQLScPDgKPJBzBwUD152Fex9eR0Vu42gX5JD6hTKr3CdZCb2abOg/viewform?usp=sf_link) to your repository that includes:
 
 * your team (Unity Ids of everyone and their contribution)
-* your ansible scripts
-* your code and configuration
+* your code and configuration scripts
 * a README.md, with your report details,
 * screencast that demostrates each evaluation criteria.
 
 If you want to reuse the same repo for your whole project, then create a branch for each milestone.
 
-**Due Monday, March 19th, midnight.**
+**Due Sunday, March 17th, before midnight.**
