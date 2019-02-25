@@ -53,7 +53,7 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Feb 13   | [Suites](https://github.com/CSC-DevOps/TestSuites)               |            |                   |
 | Feb 18   | [Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                 |            |  |
 | Feb 20   | Team Work Day           |            |         |
-| Feb 25   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit)                |            |  [Test+Analysis Milestone]()                 |
+| Feb 25   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit)                |            |  [Test+Analysis Milestone](Project/BuildTestAnalysis.md)                 |
 | Feb 27   | Complexity              |            |                   |
 | Mar 4    | Deploy                  |            |                   |
 | Mar 6    | Deploy Strategies       |            |                   |
