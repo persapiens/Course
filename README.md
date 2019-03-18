@@ -60,8 +60,8 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Mar 11   | SPRING                  |            |                   |
 | Mar 15   | BREAK                   |            |                   |
 | Mar 18   | Operation Concepts      |            |   DEPLOY+INFRA Milestone            |
-| Mar 20   | Tech Talks              |            |                |
-| Mar 25   | Feature Flags/Redis     |            |                   |
+| Mar 20   | Feature Flags/Redis     |            |                |
+| Mar 25   |                         |            |                   |
 | Mar 27   |                         |            |                   |
 | Apr 1    | Monitoring/Analysis     |            |                   |
 | Apr 3    | Monitoring Workshop     |            |                   |
