@@ -54,16 +54,16 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Feb 18   | [Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                 |            |  |
 | Feb 20   | Team Work Day           |            |         |
 | Feb 25   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit)                |            |  [Test+Analysis Milestone](Project/BuildTestAnalysis.md)                 |
-| Feb 27   | Complexity              |            |                   |
+| Feb 27   | [Complexity](https://github.com/CSC-DevOps/Complexity)              |            |                   |
 | Mar 4    | Deploy                  |            |                   |
-| Mar 6    | Deploy Strategies       |            |                   |
+| Mar 6    | [Deploy Strategies](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_0)       |            |                   |
 | Mar 11   | SPRING                  |            |                   |
 | Mar 15   | BREAK                   |            |                   |
-| Mar 18   | Operation Concepts      |            |   DEPLOY+INFRA Milestone            |
-| Mar 20   | Feature Flags/Redis     |            |                |
+| Mar 18   | [Operation Concepts](https://docs.google.com/presentation/d/19TYz-XK5ou3mZP9I5a_Hp44ZQ-MsLK27yQyUaR1D8tc/edit#slide=id.g3527d62d8d_0_0)      |            |              |
+| Mar 20   | [Feature Flags/Redis](https://github.com/CSC-DevOps/Queues)|            |                |
 | Mar 25   |                         |            |                   |
 | Mar 27   |                         |            |                   |
-| Apr 1    | Monitoring/Analysis     |            |                   |
+| Apr 1    | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)|            |        [DEPLOY+INFRA+Special Milestone](Project/M3.md)            |
 | Apr 3    | Monitoring Workshop     |            |                   |
 | Apr 8    | Chaos Engineering       |  [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)          |    SPECIAL MILESTONE               |
 | Apr 10   | Chaos Workshop          |            |                   |
