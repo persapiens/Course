@@ -64,9 +64,9 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Mar 25   |                         |            |                   |
 | Mar 27   |                         |            |                   |
 | Apr 1    | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)|            |        [DEPLOY+INFRA+Special Milestone](Project/M3.md)            |
-| Apr 3    | Monitoring Workshop     |            |                   |
-| Apr 8    | Chaos Engineering       |  [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)          |    SPECIAL MILESTONE               |
-| Apr 10   | Chaos Workshop          |            |                   |
+| Apr 3    | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)     |            |                   |
+| Apr 8    | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)       |  [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)          |                   |
+| Apr 10   | [Chaos Workshop](https://github.com/CSC-DevOps/Chaos)          |            |                   |
 | Apr 15   | Tech Talks              |            |                   |
 | Apr 17   | Tech Talks              |            |                   |
 | Apr 22   | Demos                   |            |                   |
