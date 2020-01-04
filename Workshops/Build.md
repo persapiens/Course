@@ -7,7 +7,7 @@ You will need a computing environment with docker. You can follow the [computing
 
 #### Option 1: Using baker
 
-Create a baker.yml file and run `baker bake2 --local .`
+Create a baker.yml file and run `baker bake`
 
 ```
 name: docker-build
