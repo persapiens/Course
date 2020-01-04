@@ -15,7 +15,7 @@ Do you have a functioning development environment needed for the course? We have
 
 ➡️ Follow the instructions to install [nodejs](https://nodejs.org/en/). 
 
-ℹ️ _If running nodejs on Windows, you may want to check the option to install devtools, which will improve your ability to build c/c++ based software on windows_.
+_If running nodejs on Windows, you may want to check the option to install devtools, which will improve your ability to build c/c++ based software on windows_.
 
 Inside a [terminal](https://github.com/chrisparnin/EngineeringBasics/blob/master/Shells.md#shells), run:
 
