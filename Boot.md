@@ -76,8 +76,9 @@ The primary goal of this workshop is for you have to have installed and learned 
    - [ ] Create issue on GitHub with this checklist (filled in) 
    - [ ] Try trello
 
+### Advanced
 
-
+Try a [docker dungeon](https://github.com/CSC-DevOps/DockerDungeons/tree/master/NodeJsSever#docker-dungeon--nodejs).
 
 
 
