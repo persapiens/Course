@@ -9,7 +9,7 @@
     You can join the team using this signup link:
     (_Provided in email._)
 
-### Prelminary Course Setup
+### Preliminary Course Setup
 
 Do you have a functioning development environment needed for the course? We have a tool that can help check.
 
