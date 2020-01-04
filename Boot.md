@@ -49,29 +49,29 @@ The primary goal of this workshop is for you have to have installed and learned 
    - [ ] Practice: Installed package manager for os.
    - [ ] Installed git, java, python2, nodejs
    - [ ] Optional: Make Windows Awesome
-2. Shells 
+2. Shells  
    Basic overview of unix shells, shell programming, and windows shell tips.
    - [ ] Practice: Run commands to analyze data
    - [ ] Setup env variable.
    - [ ] Optional: Write a shell script.
-3. Git.md#git
+3. Git  
    Basic overview of git. Two interactive tutorials for learning commands.
    - [ ] Complete basic Git tutorial
    - [ ] Complete 4 levels in *Introduction to Git Commits*
    - [ ] Practice: Creating a repo
    - [ ] Optional: Solve all git branching levels
-4. MarkdownEditors.md#markdown
+4. Markdown + Editors  
    Overview of markdown basics, lists, code, tables. Recommended editors for code. Creating Github Pages.
    - [ ] Install IDE(s)/Editors
    - [ ] Practice: Update markdown in README.md
    - [ ] Practice: Familizarize yourself with some of Eclipse's advanced features and then use them to [fix a few bugs](https://github.ncsu.edu/kpresle-tools/EclipseTutorial).
    - [ ] Optional: Create a GitHub Pages (gh-pages branch) 
-5. Environments.md#Environments
+5. Environments  
    Tools for creating and managing virtual computing environments.
    - [ ] Install VirtualBox and Baker
    - [ ] Create a simple virtual machine
    - [ ] Optional: Create your own environment
-6. OnlineTools
+6. Online Tools  
    Using Github issues and Trello boards for task management.
    - [ ] Create issue on GitHub with this checklist (filled in) 
    - [ ] Try trello
