@@ -29,7 +29,8 @@ Location: Monteith Engineering Research Center, Room 0313, 1:30-2:45pm.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    | 🥾Intro+Computing Environments 🥾
+|          | 🥾[Setup](Boot.md) 🥾            | [Engineering Basics](https://github.com/chrisparnin/EngineeringBasics)
+| Jan 7    | Intro+Computing Environments
 | Jan 9    | Provisioning
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | Jan 14   | Core concepts
