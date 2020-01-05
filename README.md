@@ -39,41 +39,41 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    | [Pipeline Basics](https://github.com/CSC-DevOps/Pipelines) | [Get a Handle on the Basics](https://github.com/chrisparnin/EngineeringBasics)           |  [HW0](HW/HW0-Pipelines.md)                  |
-| Jan 9    | Computing Environments | | |
-| Jan 14   | [Core Concepts](https://docs.google.com/presentation/d/1-LyXc798R08AaPQI4yCVCCVZryP0kgQY5KqQgzAfmuc/edit#slide=id.g24e9a36457_3_292) |  [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)        |
-| Jan 16   | [Provisioning workshop](https://github.com/CSC-DevOps/Provision) |   |[HW1](HW/HW1-A.md) |
-| Jan 21   | No class         |            |                |
-| Jan 23   | [Configuration Management](https://docs.google.com/presentation/d/1PO_QTieMkRvW9MDEIMVS0dD5bk50fK5fvSgj5zNyPfw/edit#slide=id.g117c3bc2e1_0_0)  |             | 
-| Jan 28   | [Ansible](https://github.com/CSC-DevOps/CM#configuration-management-workshop)                   |            |                [HW2](HW/HW2-mm.md)   |
-| Jan 30   | ... | |
-| Feb 4    | [Build](https://docs.google.com/presentation/d/1PeI-RbsisPtC8tbKMgtB3IDlffLjE6obQkp-tL0Cmsw/edit#slide=id.g1a769f3281_0_0)                          |            | [CM+Build Milestone](Project/CM.md) |
-| Feb 6    | [Build server workshop]()            |            |                   |
-| Feb 11   | [Test Management](https://docs.google.com/presentation/d/1Wv149dt56DAixTn5BqdyHwVxBWyHU1pk5ohL7jlVAWs/edit)         |            |                   |
-| Feb 13   | [Suites](https://github.com/CSC-DevOps/TestSuites)               |            |                   |
-| Feb 18   | [Fuzzing](https://github.com/CSC-DevOps/Fuzzing)                 |            |  |
-| Feb 20   | Team Work Day           |            |         |
-| Feb 25   | [Analysis](https://docs.google.com/presentation/d/1EkfcbwXko9gvtel0t4GD_cpE4me-OAIwdYt0p_OAeIs/edit)                |            |  [Test+Analysis Milestone](Project/BuildTestAnalysis.md)                 |
-| Feb 27   | [Complexity](https://github.com/CSC-DevOps/Complexity)              |            |                   |
-| Mar 4    | Deploy                  |            |                   |
-| Mar 6    | [Deploy Strategies](https://docs.google.com/presentation/d/1J3oDEPSGzDGa0B41Ppe8yA02tYicSgstVXHU5mGxU5w/edit#slide=id.g1da8fd6af9_0_0)       |            |                   |
-| Mar 11   | SPRING                  |            |                   |
-| Mar 15   | BREAK                   |            |                   |
-| Mar 18   | [Operation Concepts](https://docs.google.com/presentation/d/19TYz-XK5ou3mZP9I5a_Hp44ZQ-MsLK27yQyUaR1D8tc/edit#slide=id.g3527d62d8d_0_0)      |            |              |
-| Mar 20   | [Feature Flags/Redis](https://github.com/CSC-DevOps/Queues)|            |                |
-| Mar 25   |                         |            |                   |
-| Mar 27   |                         |            |                   |
-| Apr 1    | [Monitoring/Analysis](https://docs.google.com/presentation/d/1swei7oeXWZGnXe9gC1jlh4Gd1h9Ri6I6x2kTgKr1BVw/edit#slide=id.p)|            |        [DEPLOY+INFRA+Special Milestone](Project/M3.md)            |
-| Apr 3    | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)     |            |                   |
-| Apr 8    | [Chaos Engineering](https://docs.google.com/presentation/d/1ZVRquK72cxqqSIY0OWU9wnA33UKDEPWz5UIcM2YBtJQ/edit#slide=id.p)       |  [Notes on Resilience Engineering](https://github.com/lorin/resilience-engineering)          |                   |
-| Apr 10   | [Chaos Workshop](https://github.com/CSC-DevOps/Chaos)          |            |                   |
-| Apr 15   | Tech Talks              |            |                   |
-| Apr 17   | Tech Talks              |            |                   |
-| Apr 22   | Demos                   |            |                   |
-| Apr 24   | Demos                   |            |                   |
-| May 1    | Final Exam (8:00--11:00am)|          |                   |
+| Jan 7    |
+| Jan 9    |
+| Jan 14   |
+| Jan 16   |
+| Jan 21   | 
+| Jan 23   | 
+| Jan 28   | 
+| Jan 30   | 
+| Feb 4    | 
+| Feb 6    | 
+| Feb 11   | 
+| Feb 13   | 
+| Feb 18   | 
+| Feb 20   | 
+| Feb 25   | 
+| Feb 27   |
+| Mar 3    |
+| Mar 5    | 
+| Mar 9    | SPRING                  |            |                   |
+| Mar 13   | BREAK                   |            |                   |
+| Mar 17   | 
+| Mar 19   | 
+| Mar 24   | 
+| Mar 26   | 
+| Mar 31   | 
+| Apr 2    |
+| Apr 7    |
+| Apr 9    |
+| Apr 14   |
+| Apr 16   |
+| Apr 21   |
+| Apr 23   |
+| May 5    | Final Exam (1:00--4:00pm)|          |                   |
 
-### Resources
+### Communication channels
 
 * [Mattermost](https://chat.alt-code.org)  
 * [NC State - Stack Overflow](https://stackoverflow.com/c/ncsu/)
