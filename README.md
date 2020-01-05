@@ -51,8 +51,7 @@ Location: Monteith Engineering Research Center, Room 0313, 1:30-2:45pm.
 | Feb 27   | Testing (*)
 | Mar 3    | Analysis
 | Mar 5    | Analysis
-| Mar 9    | SPRING
-| Mar 13   | BREAK
+| Mar 9--13| SPRING BREAK
 | <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
 | Mar 17   | Infrastructure concepts
 | Mar 19   | Redis
