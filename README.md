@@ -29,38 +29,45 @@ Location: Monteith Engineering Research Center, Room 0313, 1:30-2:45pm.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    |
-| Jan 9    |
-| Jan 14   |
-| Jan 16   |
-| Jan 21   | 
-| Jan 23   | 
-| Jan 28   | 
-| Jan 30   | 
-| Feb 4    | 
-| Feb 6    | 
-| Feb 11   | 
-| Feb 13   | 
-| Feb 18   | 
-| Feb 20   | 
-| Feb 25   | 
-| Feb 27   |
-| Mar 3    |
-| Mar 5    | 
-| Mar 9    | SPRING                  |            |                   |
-| Mar 13   | BREAK                   |            |                   |
-| Mar 17   | 
-| Mar 19   | 
-| Mar 24   | 
-| Mar 26   | 
-| Mar 31   | 
-| Apr 2    |
-| Apr 7    |
-| Apr 9    |
-| Apr 14   |
-| Apr 16   |
-| Apr 21   |
-| Apr 23   |
+| Jan 7    | Computing Environments
+| Jan 9    | Provisioning
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Jan 14   | Core concepts
+| Jan 16   | Virtualization
+| Jan 21   | Containers and microvms (from scratch)
+| Jan 23   | Docker/Building
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Jan 28   | Pipelines, CI/CD
+| Jan 30   | Building Basic Pipelines
+| Feb 4    | Jenkins
+| Feb 6    | Jenkins
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Configuration Management&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Feb 11   | CM
+| Feb 13   | Ansible
+| Feb 18   | Ansible
+| Feb 20   | Slim/Packer
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Feb 25   | Testing
+| Feb 27   | Testing (*)
+| Mar 3    | Analysis
+| Mar 5    | Analysis
+| Mar 9    | SPRING
+| Mar 13   | BREAK
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Mar 17   | Infrastructure concepts
+| Mar 19   | Redis
+| Mar 24   | Deploy Strategies
+| Mar 26   | Clusters
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Mar 31   | Monitoring (*)
+| Apr 2    | Monitoring (*)
+| Apr 7    | Incidents
+| Apr 9    | Incidents
+| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Apr 14   | Resilience engineering
+| Apr 16   | Chaos engineering
+| Apr 21   | Demos
+| Apr 23   | Demos
 | May 5    | Final Exam (1:00--4:00pm)|          |                   |
 
 ### Project
