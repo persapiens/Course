@@ -21,19 +21,9 @@ After the course, students are able to:
 * Monitor and analyze **telemetry** data.
 * Implement **resilience testing** on production environments (e.g., Chaos Monkey).
 
-### Project
+## Schedule and Topics—Spring 2020
 
-The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.
-
-#### Milestones
-
-Details on requirements for milestones will be released throughout the course.  A student's pipeline should demonstrate the following components by the milestone deadline:
-
-[ CM ] -> [ BUILD+TEST+ANALYSIS ] -> [ DEPLOY ] -> [ SPECIAL ]
-
-## Schedule and Topics—Spring 2019
-
-Location: Engineering Building I, Room 1005, 10:15--11:30am.
+Location: Monteith Engineering Research Center, Room 0313, 1:30-2:45pm.
 
 *The following schedule is subject to change.*
 
@@ -72,6 +62,16 @@ Location: Engineering Building I, Room 1005, 10:15--11:30am.
 | Apr 21   |
 | Apr 23   |
 | May 5    | Final Exam (1:00--4:00pm)|          |                   |
+
+### Project
+
+The primary objective of the course will be to allow students to gain experience in incrementally building a continous delivery pipeline from scratch.  Throughout the semester, students are expected to complete a component of the pipeline by each milestone deadline.
+
+#### Milestones
+
+Details on requirements for milestones will be released throughout the course.  A student's pipeline should demonstrate the following components by the milestone deadline:
+
+[ CM ] -> [ BUILD+TEST+ANALYSIS ] -> [ DEPLOY ] -> [ SPECIAL ]
 
 ### Communication channels
 
