@@ -29,40 +29,40 @@ Location: Monteith Engineering Research Center, Room 0313, 1:30-2:45pm.
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-| Jan 7    | Computing Environments
+| Jan 7    | 🥾Intro+Computing Environments 🥾
 | Jan 9    | Provisioning
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | Jan 14   | Core concepts
 | Jan 16   | Virtualization
 | Jan 21   | Containers and microvms (from scratch)
 | Jan 23   | Docker/Building
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
 | Jan 28   | Pipelines, CI/CD
 | Jan 30   | Building Basic Pipelines
 | Feb 4    | Jenkins
 | Feb 6    | Jenkins
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Configuration Management&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| <tr><th colspan=4> ⚗️ &nbsp;&nbsp;&nbsp;Configuration Management&nbsp;&nbsp;&nbsp; 🎛️</th></tr> |
 | Feb 11   | CM
 | Feb 13   | Ansible
 | Feb 18   | Ansible
 | Feb 20   | Slim/Packer
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Feb 25   | Testing
 | Feb 27   | Testing (*)
 | Mar 3    | Analysis
 | Mar 5    | Analysis
-| Mar 9--13| SPRING BREAK
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| Mar 9--13| 🌱SPRING BREAK 🌱
+| <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 17   | Infrastructure concepts
 | Mar 19   | Redis
 | Mar 24   | Deploy Strategies
 | Mar 26   | Clusters
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Mar 31   | Monitoring (*)
 | Apr 2    | Monitoring (*)
 | Apr 7    | Incidents
 | Apr 9    | Incidents
-| <tr><th colspan=4> 🥾&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 🥾</th></tr> |
+| <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
 | Apr 14   | Resilience engineering
 | Apr 16   | Chaos engineering
 | Apr 21   | Demos
