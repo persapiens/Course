@@ -13,7 +13,7 @@ CSC510 (Software Engineering) or graduate or senior standing with
 at least 3.0 GPA, good knowledge of at least one high
 level programming language.
 
-Undergraduates enrolled in 419 are expected to complete the same course work, except they do not required to complete a "Tech Talk".
+Undergraduates enrolled in 419/495 are expected to complete the same course work, except they do not required to complete a "Tech Report".
 
 ## Outline
 
@@ -31,21 +31,23 @@ Topics include: Static analysis,  build management, automatic testing, goverance
 
 In the course, a mixture of traditional lectures with activities and in-class workshops will be used.  During lectures, we will cover core concepts related to a topic. During the in-class workshops, we will perform sample exercises with relevant tools that reinforce lecture material.  Evaluation will be based on tech talks, homework assignments, workshop attendance, and final project.
 
-### Tech Talks
+### Tech Report
 
-Students will organize in groups and present one tech talk during lecture.  For a *tech talk*, students are expected to cover one tool or technology revelant to DevOps in a 10-15 minute presentation.  Students should perform a small demo to help illustrate the tool. Three--four days during the semester will be reserved for these presentations.
+Students will organize in groups and create a tech report.  For a *tech report*, students are expected to cover one tool or technology revelant to DevOps in a 10-15 minute presentation.  Students should perform a small recorded demo to help illustrate the tool.
 
 ### Homeworks
 
 Homework assignments will be regularly released throughout the semester and reinforce class material.  Homeworks will typically mirror a scenario or common task that a DevOps engineer may face.
 
-### Workshops
+### Workshops/Class activities
 
-Workshops are have required attendance and are vital to the course. During a workshop, you'll be guided in using tools and building specific functionality which you will later use for homeworks and project miles. During the semester, workshops will be randomly selected for attendance. 
+Workshops are vital to the course. During a workshop, you'll be guided in using tools and building specific functionality which you will later use for homeworks and project miles. During the semester, workshops and class activities will be randomly assigned for attendance. 
 
-* 1 missed workshop, workshop grade = 4
-* 2 missed workshops, workshop grade = 2
-* 3 missed workshops, workshop grade = 0
+* 1 missed activities, grade = 9
+* 2 missed activities, grade = 8
+* 3 missed activities, grade = 5
+* 4 missed activities, grade = 2
+* 5 or more missed activities, grade = 0.
 
 ### Attendance
 
@@ -134,8 +136,8 @@ Online class evaluations will be available for students to complete during the l
 
 | Category           | Weight |
 |--------------------|--------|
-| Homework           | 25%    |
-| Class workshops    | 5%     |
+| Homework           | 20%    |
+| Class activities/workshops    | 10%     |
 | Final Exam         | 20%    |
 | Tech Talk/Research | 10%    |
 | **Final Project**  | 40%    |
