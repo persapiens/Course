@@ -33,7 +33,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 |----------|----------------------------------|------------| ----------------  |
 |  ➡️       | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾
 | Jan 7    | [Intro+Computing Environments](https://docs.google.com/presentation/d/16PWFvEY_qVIbL1FsOgCATIsY-FgUiBaXhw2C1s1anQA/edit)
-| Jan 9    | Provisioning | [Cloud Providers](HW/Cloud-Providers.md) | [HW0](HW/HW0-Provision.md) 
+| Jan 9    | [Provisioning](https://github.com/CSC-DevOps/Provision) | [Cloud Providers](HW/Cloud-Providers.md) | [HW0](HW/HW0-Provision.md) 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | Jan 14   | Core concepts
 | Jan 16   | Virtualization
