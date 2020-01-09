@@ -68,7 +68,7 @@ You will receive a **ZERO** if a security token is found to be checked into your
 * Github repo and collobrator settings (10).
 * Ask and answer a question (10)
 * Opunit checks (10)
-* Provision code for two cloud providers (40)
+* Provision code for two cloud providers (50)
 * Screencast (10)
 
 ## Submission
