@@ -58,7 +58,7 @@ Create a screencast of your assignment:
 * Create a screencast demoing your opunit profile check.
 * Demonstrate running your code that provisions the two servers across the different platforms, including the cloud provider interface before and after running the code. Demonstrate being able to ssh into your box with your registered ssh key.
 
-For guidelines, software, and recommendations see [Screencasts](HW/Screencasts.md).
+For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
 ## Evaluation
 
