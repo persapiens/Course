@@ -41,6 +41,8 @@ In this homework assignment, you will complete the following tasks:
 
 * Be able to automatically provision using a code api from **two cloud providers**. Logically, you should complete the provision workshop, to have digitalocean count as one. Choose [one additional cloud provider listed here](Cloud-Providers.md).
 
+* If using digitalocean, you must be able to obtain your [own api key](https://www.digitalocean.com/docs/api/create-personal-access-token/) after creating an account.
+
 * The provisioning code needs to be able to perform the following:
   - create a new VM, with a registered ssh key. *This will allow you ssh directly into your account without being emailed a temporary root password.*
   - print out the ip address of the new server.
