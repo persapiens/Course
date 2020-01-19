@@ -35,7 +35,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Jan 7    | [Intro+Computing Environments](https://docs.google.com/presentation/d/16PWFvEY_qVIbL1FsOgCATIsY-FgUiBaXhw2C1s1anQA/edit)
 | Jan 9    | [Provisioning](https://github.com/CSC-DevOps/Provision) | [Cloud Providers](HW/Cloud-Providers.md) | [HW0](HW/HW0-Provision.md) 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
-| Jan 14   | [Core concepts](https://docs.google.com/presentation/d/1w5QnWQUciQAq-NA12AI14gv6evv6oONnljcPCF29JDY/edit#slide=id.g6d986c4882_1_0)
+| Jan 14   | [Core concepts](https://docs.google.com/presentation/d/1w5QnWQUciQAq-NA12AI14gv6evv6oONnljcPCF29JDY/edit#slide=id.g6d986c4882_1_0) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  
 | Jan 16   | [Virtualization](https://github.com/CSC-DevOps/VM)
 | Jan 21   | Containers and microvms (from scratch)
 | Jan 23   | Docker/Building
