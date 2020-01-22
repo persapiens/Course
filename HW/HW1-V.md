@@ -27,7 +27,7 @@ Clone the following repo. Then modify the remote so that it now will point to yo
 git clone http://github.com/CSC-DevOps/V
 cd V
 git remote -v
-git remote set-url origin https://ncsu.github.edu/<unity>/HW1-DevOps
+git remote set-url origin https://github.ncsu.edu/<unity>/HW1-DevOps
 ```
 
 ### Install and test
