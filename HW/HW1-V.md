@@ -40,7 +40,7 @@ npm link
 
 Try it out.
 ```
-V up
+v up
 ```
 
 It is expected to see some errors, as the program is not complete.
@@ -76,9 +76,9 @@ Add the following required components to your project by editing the `postconfig
 #### SSH and App (25 points)
 
 Add a new command by creating a ssh.js inside the commands directory. 
-When running `V ssh` it should ssh into your VM (25 points).
+When running `v ssh` it should ssh into your VM (25 points).
 
-* Implement and demonstrate running `V ssh`.
+* Implement and demonstrate running `v ssh`.
 * Manually run `node main.js start 9000`.
 * Demonstrate you can visit `localhost:8080` to see your running App.
 
@@ -93,7 +93,7 @@ You can complete some or all of the following activities for extra credit by mod
 
 Create a screencast of your assignment:
 
-* Demonstrate running your code to provision the VM (`V up`), running your customization and post-configuration steps, and ssh (`V ssh`) and a starting your App. Demonstrate your app running on your browser. Demonstrate any extra requirements fulfilled.
+* Demonstrate running your code to provision the VM (`v up`), running your customization and post-configuration steps, and ssh (`v ssh`) and a starting your App. Demonstrate your app running on your browser. Demonstrate any extra requirements fulfilled.
 
 For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
