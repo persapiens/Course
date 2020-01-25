@@ -39,16 +39,16 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Jan 16   | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
 | Jan 21   | [Virtualization concepts](https://docs.google.com/presentation/d/1VdSRYFxTFvdJvxq4JZMn7itdYJjiutrpj525Kw2JX-U/edit) | | [HW1](HW/HW1-V.md)
 | Jan 23   | Docker/Building
-| <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
-| Jan 28   | Pipelines, CI/CD
-| Jan 30   | Building Basic Pipelines
-| Feb 4    | Jenkins
-| Feb 6    | Jenkins
 | <tr><th colspan=4> ⚗️ &nbsp;&nbsp;&nbsp;Configuration Management&nbsp;&nbsp;&nbsp; 🎛️</th></tr> |
-| Feb 11   | CM
-| Feb 13   | Ansible
-| Feb 18   | Ansible
-| Feb 20   | Slim/Packer
+| Jan 28  | CM
+| Jan 30  | Ansible
+| Feb 4   | Ansible
+| Feb 6   | Slim/Packer
+| <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
+| Feb 11   | Pipelines, CI/CD
+| Feb 13   | Building Basic Pipelines
+| Feb 18   | Jenkins
+| Feb 20   | Jenkins
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Feb 25   | Testing
 | Feb 27   | Testing (*)
