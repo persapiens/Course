@@ -1,5 +1,6 @@
-### Some principles provided by Michael DeHaan:
+# Some questions to ask about your infrastructure/ops:
 
+by Michael DeHaan
 
 ##### Build/CM
 * Make sure no builds are done on the remote system
