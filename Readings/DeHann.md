@@ -1,6 +1,6 @@
 # Some questions to ask about your infrastructure/ops:
 
-by Michael DeHaan
+> by Michael DeHaan
 
 ##### Build/CM
 * Are all dependencies version pinned (or is the repo at least snapshotted?)
