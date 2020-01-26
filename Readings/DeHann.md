@@ -3,13 +3,13 @@
 by Michael DeHaan
 
 ##### Build/CM
-* Make sure no builds are done on the remote system
-* Where possible, cache artifacts in your datacenter (example: yum reposync in the old days, maybe artifactory) and content get from there, don't DDOS some person's .com website with remote requests to copy a tarball, as this scales to 1000 servers doing it at once it will light things on fire or at least call failures
 * Are all dependencies version pinned (or is the repo at least snapshotted?)
 * Are you protected against web dependencies going away?
 * Can you still deploy when github is down?
 * Use cloud like cloud where you can for more reliability - image builds where possible, some post-configuration done by cloud init, even locally executing ansible, is ok.
 * Is a new build of this server going to look like one I built last week (snapshot of repos, etc) - or does this matter?
+* Make sure no builds are done on the remote system
+* Where possible, cache artifacts in your datacenter (example: yum reposync in the old days, maybe artifactory) and content get from there, don't DDOS some person's .com website with remote requests to copy a tarball, as this scales to 1000 servers doing it at once it will light things on fire or at least call failures
 
 ##### Security
 
