@@ -1,4 +1,4 @@
-# Some questions to ask about your infrastructure/ops:
+# Some questions to ask about your infrastructure:
 
 > by Michael DeHaan
 
