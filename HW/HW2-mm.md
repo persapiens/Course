@@ -86,6 +86,40 @@ Create a screencast of your assignment:
 
 For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
+## Progress
+
+#### Check progress
+
+You can check your progress by running:
+```bash
+opunit verify -i test/inventory.yml -c test/opunit.yml
+```
+
+You will want to be able to pass these basic checks:
+
+```bash
+Checks
+
+	Basic checks for dependencies
+
+	version check
+	    ✖   mysql --version: bash: mysql: command not found > ^5.7.x => false 
+	availability check
+	    ✖   [vagrant] http://192.168.33.80:8065/ expected: 200 actual: ECONNREFUSED
+	reachable check
+	    ✖   [/opt/mattermost/data] status: false
+	    ✖   [/lib/systemd/system/mattermost.service] status: false
+	service check
+	    ✖   [mattermost] expected: active actual: null
+	contains check
+	    ✖   [...config.json]  contains ["DriverName" : "mysql"] status: false message: Error: file doesn't exist
+
+Summary
+
+	0.0% of all checks passed.
+	0 passed · 6 failed
+```
+
 ## Submission
 
 Please [submit your repo here](https://docs.google.com/forms/d/e/1FAIpQLSewVxFQt4OhkcbYeDKy7NgkMyZkye2xtZXAaimFd1EF-sQ-Ow/viewform?usp=sf_link)
