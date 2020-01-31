@@ -88,8 +88,6 @@ For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
 ## Progress
 
-#### Check progress
-
 You can check your progress by running:
 ```bash
 opunit verify -i test/inventory.yml -c test/opunit.yml
