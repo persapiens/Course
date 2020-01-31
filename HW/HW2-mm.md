@@ -94,8 +94,8 @@ The assignment is due Wednesday, Feburary 12th before midnight.
 
 ## Evaluation
 
-- 60% Basic requirements.
-- 20% Quality of scripts and following best practices.
+- 50% Basic requirements.
+- 30% Quality of scripts and following best practices.
 - 20% Screencast and following instructions.
 
 Max possible score: 120/100.
