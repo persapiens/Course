@@ -47,7 +47,7 @@ In this homework assignment, you will master these skills by completing the foll
 
 Perform the following tasks listed in the [installation guide](https://docs.mattermost.com/install/install-ubuntu-1804.html) for mattermost. 
 
-* Installing Ubuntu Server 18.04 LTS
+* Installing Ubuntu Server 18.04 LTS (This should be mostly done, you already have image! But can still run update/upgrade).
 * Installing MySQL Database Server (5.7.x is recommended)
 * Installing Mattermost Server
 
@@ -65,7 +65,7 @@ Follow the following constraints when creating your server:
 
   - Use best practices (use modules to do work, avoid shell/commands, be idempotent, use your own roles when sensible, manage secrets)
   - Everything is setup automatically. No manual steps.
-  - **Limited use ansible galaxy roles**: You are limited to using galaxy roles for setting up mysql.
+  - **Limited use ansible galaxy roles**: You are limited to using galaxy roles for setting up mysql. Note you will need to update your ansible server setup script to install galaxy roles on your ansible-srv.
 
 ## Extra Requirements
 
@@ -90,12 +90,28 @@ For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
 You can check your progress by running:
 ```bash
-opunit verify -i test/inventory.yml -c test/opunit.yml
+opunit verify -i test/inventory.yml
 ```
 
 You will want to be able to pass these basic checks:
 
 ```bash
+Checks
+
+	Basic checks for ansible server
+
+	version check
+	    ✔   ansible --version: 2.9.4 > ^2.9.x => true 
+	reachable check
+	    ✔   [/bakerx] status: true
+	    ✔   [/bakerx/cm/inventory.ini] status: true
+	    ✔   [/bakerx/cm/foo.sh] status: true
+	contains check
+		Checking if you have MSDOS style newlines in your bash scripts. Fix with dos2unix
+	    ✔   [...run-ansible.sh] does not contain [\r] status: true message: NA
+	contains check
+	    ✔   [...server-init.sh] does not contain [\r] status: true message: NA
+
 Checks
 
 	Basic checks for dependencies
