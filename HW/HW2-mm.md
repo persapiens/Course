@@ -105,7 +105,6 @@ Checks
 	reachable check
 	    ✔   [/bakerx] status: true
 	    ✔   [/bakerx/cm/inventory.ini] status: true
-	    ✔   [/bakerx/cm/foo.sh] status: true
 	contains check
 		Checking if you have MSDOS style newlines in your bash scripts. Fix with dos2unix
 	    ✔   [...run-ansible.sh] does not contain [\r] status: true message: NA
