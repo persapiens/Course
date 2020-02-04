@@ -42,7 +42,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | <tr><th colspan=4> ⚗️ &nbsp;&nbsp;&nbsp;Configuration Management&nbsp;&nbsp;&nbsp; 🎛️</th></tr> |
 | Jan 28  | [CM](https://docs.google.com/presentation/d/1i18CWaZaiBBWPlT71iOuEPYYaZcK1VMvtdynwCLAVU0/edit#slide=id.g6e582f9f77_0_0)
 | Jan 30  | [Building Configuration Server](https://github.com/CSC-DevOps/CM) | | [HW2](HW/HW2-mm.md)
-| Feb 4   | Ansible
+| Feb 4   | [Ansible Playbooks](https://github.com/CSC-DevOps/CM/blob/master/Playbooks.md)
 | Feb 6   | Slim/Packer
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
 | Feb 11   | Pipelines, CI/CD
