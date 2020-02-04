@@ -145,4 +145,4 @@ The assignment is due Wednesday, Feburary 12th before midnight.
 - 30% Quality of scripts and following best practices.
 - 20% Screencast and following instructions.
 
-Max possible score: 120/100.
+Max possible score: 125/100.
