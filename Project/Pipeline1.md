@@ -28,7 +28,7 @@ Second, install jenkins on the build server using ansible. During this phase, yo
 ##### Constraints
 
 * Use bakerx as local provisioner for your VM (jenkins server).
-* No credit given for use of ansible galaxy roles.
+* Use ansible for configuration. No credit given for use of ansible galaxy roles.
 * Run jenkins server on port 9000.
 * There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
 
@@ -42,12 +42,13 @@ The production site has dependencies on nginx, node, monogodb, and additional en
 
 * Install mongodb and nodejs.
 * Create mongo user with password and `readWrite` role.
-* Define APP_PORT=3002 MONGO_PORT=27012 MONGO_USER=<user> MONGO_PASSWORD=<pass> MONGO_IP=localhost
+* Define `APP_PORT=3002`,`MONGO_PORT=27012`, `MONGO_USER=<user>`, `MONGO_PASSWORD=<pass>`, and `MONGO_IP=localhost`.
 
 ##### Constraints:
 
 * Configure the environment to run on the same build server.
-* No credit given for use of ansible galaxy roles.
+* You are free to construct the build environment for checkbox.io with any technology/tools, as long as it is done automatically.
+
 
 ### Create a build job.
 
