@@ -10,7 +10,9 @@ For this milestone and project, you will work in teams of 3 people.
 
 ### 🎛️ Automatically configure a jenkins server
 
-First, create a node.js project to act as a driver for provisioning and running tasks inside your build server from a host machine.
+Install jenkins on the build server using ansible. During this phase, you must overcome several challenges of automation, such as turning off jenkins setup wizard, handling authentication, configuring the server, and installing any needed jenkin plugins.
+
+Next, create a node.js project to act as a driver for provisioning and running tasks inside your build server from a host machine.
 
 You must provide the following two commands:
 
@@ -23,9 +25,6 @@ $ pipeline build checkbox.io
 ```
 
 You may find some parts of the template for [CM homework](https://github.com/CSC-DevOps/CM-Template) useful for reuse. You may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
-
-
-Second, install jenkins on the build server using ansible. During this phase, you must overcome several challenges of automation, such as turning off jenkins setup wizard, handling authentication, configuring the server, and installing any needed jenkin plugins.
 
 ##### Constraints
 
