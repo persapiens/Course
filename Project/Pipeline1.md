@@ -34,7 +34,7 @@ Second, install jenkins on the build server using ansible. During this phase, yo
 
 ### Automatically configure a build environment (checkbox.io)
 
-A nodejs web application [checkbox.io](https://github.com/chrisparnin/checkbox.io).
+Create a build environment for [checkbox.io](https://github.com/chrisparnin/checkbox.io), a nodejs web application.
 
 > checkbox.io is a site for hosting simple surveys created in markdown. 
 
