@@ -27,7 +27,7 @@ Second, install jenkins on the build server using ansible. During this phase, yo
 
 ##### Constraints
 
-* Use bakerx as local provisioner for VM.
+* Use bakerx as local provisioner for your VM (jenkins server).
 * No credit given for use of ansible galaxy roles.
 * Run jenkins server on port 9000.
 * There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
