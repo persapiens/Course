@@ -8,7 +8,7 @@ For this milestone and project, you will work in teams of 3 people.
 * Automatically configure a build environment for a node web application (checkbox.io).
 * Create a build job.
 
-### Automatically configure a jenkins server
+### 🎛️ Automatically configure a jenkins server
 
 First, create a node.js project to act as a driver for provisioning and running tasks inside your build server from a host machine.
 
@@ -32,7 +32,7 @@ Second, install jenkins on the build server using ansible. During this phase, yo
 * Run jenkins server on port 9000.
 * There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
 
-### Automatically configure a build environment (checkbox.io)
+### 🛠️Automatically configure a build environment (checkbox.io)
 
 Create a build environment for [checkbox.io](https://github.com/chrisparnin/checkbox.io), a nodejs web application.
 
@@ -50,7 +50,7 @@ The production site has dependencies on nginx, node, monogodb, and additional en
 * You are free to construct the build environment for checkbox.io with any technology/tools, as long as it is done automatically.
 
 
-### Create a build job.
+### 📋Create a build job.
 
 The build job should perform the following build steps.
 
@@ -67,7 +67,7 @@ The build job should perform the following build steps.
   
 ## Team responsibilities
 
-### Task leaders
+### 👥 Task leaders 
 
 Each major task should have a team member responsible for implementing the majority of the assigned task.
 
