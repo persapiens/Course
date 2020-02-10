@@ -104,7 +104,7 @@ This can be described in your submission's README.md.
 * Checkpoint and milestone report. (10%)
 * Screencast. (10%)
 
-Points may be deducted for not following constraints, poor quality of implementation, or failing to include sufficient detail required to evaluate capabilities.
+Points may be deducted for not following constraints, poor quality of implementation, poor task communication and delegation, or failing to include sufficient detail required to evaluate capabilities.
 
 _Points will be deducted for non-contributing members, including receiving zero credit._
 
