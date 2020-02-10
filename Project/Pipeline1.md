@@ -24,7 +24,7 @@ $ pipeline setup
 $ pipeline build checkbox.io
 ```
 
-You may find some parts of the template for [CM homework](https://github.com/CSC-DevOps/CM-Template) useful for reuse. You may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
+You may find some parts of the template for [CM homework](https://github.com/CSC-DevOps/CM-Template) useful for reuse. For triggering the build job and retrieving the build log, you may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
 
 ##### Constraints
 
