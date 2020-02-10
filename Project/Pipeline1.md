@@ -92,7 +92,7 @@ _Points will be deducted for teams not making steady progress throughout the mil
 
 ##### Milestone report
 
-As you learn how to setup configuration management for these to projects, document the experiences you have in learning about setting up the system and the issues you had in replicating this process automatically.
+As you learn how to setup configuration management for this project, document the experiences you have in learning about setting up the system and the issues you had in replicating this process automatically.
 
 This can be described in your submission's README.md.
 
