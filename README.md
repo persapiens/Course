@@ -45,7 +45,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Feb 4   | [Ansible Playbooks](https://github.com/CSC-DevOps/CM/blob/master/Playbooks.md)
 | Feb 6   | Slim/Packer
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
-| Feb 11   | [Pipelines, CI/CD](https://docs.google.com/presentation/d/1vEp14SgKc0hC4-RrjZ1rzFMgK2kr3W7p70ra5_sUOUY/edit) | [Verifying Pipelines](Readings/DesirableProperties.pdf)
+| Feb 11   | [Pipelines, CI/CD](https://docs.google.com/presentation/d/1vEp14SgKc0hC4-RrjZ1rzFMgK2kr3W7p70ra5_sUOUY/edit) | [Verifying Pipelines](Readings/DesirableProperties.pdf) | [Build Milestone](Project/Pipeline1.md)
 | Feb 13   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
 | Feb 18   | Jenkins
 | Feb 20   | Jenkins
