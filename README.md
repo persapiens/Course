@@ -50,10 +50,10 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Feb 18   | Jenkins
 | Feb 20   | Jenkins
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Feb 25   | Testing
-| Feb 27   | Testing (*)
-| Mar 3    | Analysis
-| Mar 5    | Analysis
+| Feb 25   | Testing + Analysis concepts
+| Feb 27   | Test suites analysis workshop
+| Mar 3    | Fuzzing workshop
+| Mar 5    | Static analysis workshop
 | Mar 9--13| 🌱SPRING BREAK 🌱
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 17   | Infrastructure concepts
