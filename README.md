@@ -47,12 +47,12 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
 | Feb 11   | [Pipelines, CI/CD](https://docs.google.com/presentation/d/1vEp14SgKc0hC4-RrjZ1rzFMgK2kr3W7p70ra5_sUOUY/edit) | [Verifying Pipelines](Readings/DesirableProperties.pdf) | [Build Milestone](Project/Pipeline1.md)
 | Feb 13   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
-| Feb 18   | Jenkins
-| Feb 20   | Jenkins
+| Feb 18   | [Jenkins](https://docs.google.com/presentation/d/1oEJQ953LUQ1rYhRMKL-B262Bx8rkENW2aaAj-2e_N7I/edit#slide=id.p)
+| Feb 20   | Project Workday
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Feb 25   | Testing + Analysis concepts
-| Feb 27   | Test suites analysis workshop
-| Mar 3    | Fuzzing workshop
+| Feb 25   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58)
+| Feb 27   | Fuzzing workshop
+| Mar 3    | Test suites analysis and coverage workshop
 | Mar 5    | Static analysis workshop
 | Mar 9--13| 🌱SPRING BREAK 🌱
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
