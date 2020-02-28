@@ -44,7 +44,7 @@ The production site has dependencies on nginx, node, monogodb, and additional en
 
 * Install mongodb and nodejs.
 * Create mongo user with password and `readWrite` role.
-* Define `APP_PORT=3002`,`MONGO_PORT=27012`, `MONGO_USER=<user>`, `MONGO_PASSWORD=<pass>`, and `MONGO_IP=localhost`.
+* Define `APP_PORT=3002`,`MONGO_PORT=27017`, `MONGO_USER=<user>`, `MONGO_PASSWORD=<pass>`, and `MONGO_IP=localhost`.
 
 ##### Constraints:
 
