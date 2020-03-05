@@ -35,50 +35,90 @@ $ pipeline build checkbox.io
 
 ```
 
-
-
-### 🎛️ Automatically configure a build environment and build job for iTrust
-
-
 ##### Constraints
 
 * Use bakerx as local provisioner for your VM (named "jenkins-srv").
 * Assign static ip address 192.168.33.20 for jenkins server. 
 * Use ansible for configuration. No credit given for use of ansible galaxy roles.
-* Run jenkins server on port 9000.
+* Run jenkins server on port 9000. Note that iTrust will need port 8080.
 * There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
 
-### 🛠️Automatically configure a build environment (checkbox.io)
+### 🛠️Automatically configure a build environment and build job (iTrust)
 
-Create a build environment for [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v4), an "enterprise" Java system.
+Create a build environment for [iTrust](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v6), an "enterprise" Java system.
 
-The production site has dependencies on nginx, node, monogodb, and additional environmental variable dependencies. However, the build environment will only need a subset of these.
+iTrust2 is a java application used in the undergrad software engineering system. It using enterprise Java technology. It has a rich set of unit tests. Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v6/wiki/developers-guide), to help you understand how to construct a build environment for running iTrust.
 
-* Install mongodb and nodejs.
-* Create mongo user with password and `readWrite` role.
-* Define `APP_PORT=3002`,`MONGO_PORT=27017`, `MONGO_USER=<user>`, `MONGO_PASSWORD=<pass>`, and `MONGO_IP=localhost`.
+The build job will need to run the following commands:
+* `mvn -f pom-data.xml process-test-classes` builds the database and creates sample data.
+* `mvn clean test verify checkstyle:checkstyle` runs the unit tests, launches the server, runs the integration tests, and then brings the server back down.
+
+For debugging purposes, you can run `mvn jetty:run`, which will launch a http server and allow you to interact with the system at `http://localhost:8080/iTrust2`.
 
 ##### Constraints:
 
 * Configure the environment to run on the same build server.
-* You are free to construct the build environment for checkbox.io with any technology/tools, as long as it is done automatically.
+* You are free to construct the build environment for iTrust with any technology/tools, as long as it is done automatically.
+* You cannot manually create the build job. You must use [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) or [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/).
+* Your build job should pass all tests, including the integration tests.
+  
+### 🧪 Implement a test suite analysis for detecting useful tests
 
+Your goal is to using fuzzing to simulate potential error developers could make to source code and identify tests that can catch them (essentially an implementation of [mutation testing](https://pedrorijo.com/blog/intro-mutation/)). In other words, if you had to run X test cases, which ones would be the most statistically useful to run?
 
-### 📋Create a build job.
+##### Automated Code Fuzzer
 
-The build job should perform the following build steps.
+Develop a component that randomly generates changes to source code.
+Example fuzzing operations:  
 
-* Clone/checkout https://github.com/chrisparnin/checkbox.io
-* Install npm modules.
-* Start mongodb (if not already running as service).
-* Start `server-side/site/server.js`.
-* Successfully pass `npm test` (as provided in server-side/site/package.json)
-* Tear down services.
+   - swap "==" with "!="
+   - swap 0 with 1
+   - change content of "strings" in code.
+   - swap "<" with ">". Be mindful of potential impact on generics.
+   - any other mutation operation you can think of.
+
+You should randomly change up to 10% of the source files and up to 10% of the source lines of a file.  
+
+##### Test prioritization analysis
+
+After you have the ability to generate randomly changed source code, perform the following test prioritization analysis on the iTrust code base.
+
+Generate 100 test suite runs---for each test suite run, perform the following steps:
+
+* Generate random changes with your code fuzzer.
+* If your changes would result in compile failures, discard changes and restart process.
+* Run tests with `mvn clean test verify`.
+* Record which test cases have failed, and which have passed.
+* Reset code, discarding your changes.
+
+After you have generated your 100 test suite runs, generate a report that displays the test cases in sorted order, based on the number of failed tests discovered. Indicate the number of failed test cases in the output.
+
+**Note**: Warning, in order to do this you must have a working fuzzer well ahead of the deadline. If a test run takes 5--10 minutes to run, it might take a while to generate this analysis.
 
 ##### Constraints:
 
-* You cannot manually create the build job. You must use [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) or [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/).
-  
+* Do not fuzz the test cases themselves.
+* Do not accumulate changes, start from fresh each run.
+* You should discard changes that would result in compile failures.
+* You should have 100 test suite runs to perform your test suite analysis.
+
+### ✅ Implement a static analysis for checkbox.io
+
+Extend the checkbox.io build job to support a static analysis stage that is run before running `npm test`.
+
+##### Code smells
+
+Implement a static analysis using esprima and visitor patterns to calculate the following metrics.
+
+   * Long method: Detect long methods (>100 LOC).
+   * Message Chains: Detect message chains (for `.`) (>10 chains)
+   * MaxNestingDepth: Count the max number of if statements in a function (>5)
+
+##### Constraints:
+
+* Run the analysis on all javascript files inside of the server-side/ directory.
+* Fail the build if any of these metrics exceed a given threshold.
+
 ## Team responsibilities
 
 ### 👥 Task leaders 
@@ -95,10 +135,9 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 ##### Checkpoint
 
-There will be two checkpoints where you will be required to report interim progress (CHECKPOINT.md).
+There will be one checkpoints where you will be required to report interim progress (CHECKPOINT.md).
 
-* Checkpoint 1 due: 2/19
-* Checkpoint 2 due: 2/26
+* Checkpoint 1 due: 3/18th
 
 Document your current progress and team contributions. Note work you have completed and what work will be done next. You may find it useful to take screenshots of your GitHub Projects.
 
@@ -106,17 +145,16 @@ _Points will be deducted for teams not making steady progress throughout the mil
 
 ##### Milestone report
 
-As you learn how to setup configuration management for this project, document the experiences you have in learning about setting up the system and the issues you had in replicating this process automatically.
-
+Document the experiences you have in learning about setting up the system, and implementing your test and analysis techniques.
 This can be described in your submission's README.md.
 
 ## Evaluation
 
-* Automatically configure a jenkins server. (40%)
-* Automatically configure a build environment. (20%)
-* Create a build job. (20%)
-* Checkpoint and milestone report. (10%)
-* Screencast. (10%)
+* Automatically configure a build environment and build job (20%).
+* Test prioritization analysis (30%).
+* Static analysis (30%).
+* Checkpoint and milestone report (10%).
+* Screencast (10%).
 
 Points may be deducted for not following constraints, poor quality of implementation, poor task communication and delegation, or failing to include sufficient detail required to evaluate capabilities.
 
@@ -124,7 +162,7 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 ## Submission
 
-Commit your all your work related to your project into your designated repository before the final deadline. Create a branch called `M1` to hold a snapshot of your work related to this milestone.
+Commit your all your work related to your project into your designated repository before the final deadline. Create a branch called `M2` to hold a snapshot of your work related to this milestone.
 
 Ensure your repository contains:
 
@@ -133,4 +171,4 @@ Ensure your repository contains:
 * a CHECKPOINT.md, with your two checkpoint reports.
 * a link to screencast that demostrates each task.
 
-**Due Wednesday, March 4th, before midnight.**
+**Due Monday, March 30th, before midnight.**
