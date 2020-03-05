@@ -51,9 +51,9 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Feb 20   | Project Workday
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Feb 25   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58)
-| Feb 27   | Fuzzing workshop
-| Mar 3    | Test suites analysis and coverage workshop
-| Mar 5    | Static analysis workshop
+| Feb 27   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)
+| Mar 3    | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites)
+| Mar 5    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) | | [Test Milestone](Project/Pipeline2.md)
 | Mar 9--13| 🌱SPRING BREAK 🌱
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 17   | Infrastructure concepts
