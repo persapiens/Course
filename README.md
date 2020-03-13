@@ -54,22 +54,20 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Feb 27   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)
 | Mar 3    | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites)
 | Mar 5    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) | | [Test Milestone](Project/Pipeline2.md)
-| Mar 9--13| 🌱SPRING BREAK 🌱
-| <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Mar 17   | Infrastructure concepts
-| Mar 19   | Redis
-| Mar 24   | Deploy Strategies
-| Mar 26   | Clusters
+| Mar 9--19| 🌱SPRING BREAK 🌱
+| <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure+Deploy&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
+| Mar 24   | Infrastructure concepts
+| Mar 26   | Redis and feature flags
+| Mar 31   | Deploy Strategies
+| Apr 2    | Clusters
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
-| Mar 31   | Monitoring (*)
-| Apr 2    | Monitoring (*)
-| Apr 7    | Incidents
-| Apr 9    | Incidents
+| Apr 7    | Monitoring
+| Apr 9    | Monitoring
+| Apr 14   | Incidents
+| Apr 16   | Incidents
+| Apr 21   | Resilience engineering
+| Apr 23   | Chaos engineering
 | <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
-| Apr 14   | Resilience engineering
-| Apr 16   | Chaos engineering
-| Apr 21   | Demos
-| Apr 23   | Demos
 | May 5    | Final Exam (1:00--4:00pm)|          |                   |
 
 ### Project
