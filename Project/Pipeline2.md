@@ -14,7 +14,8 @@ Extend your node.js project to support the following commands:
 
 ```bash
 # Configure jenkins, build environments, build jobs
-$ pipeline setup
+# --gh-user and --gh-pass should be used for accessing iTrust repo on github.ncsu.edu
+$ pipeline setup --gh-user <username> --gh-pass <password>
 
 # Trigger a build job (named iTrust), wait for output, and print build log.
 $ pipeline build iTrust
