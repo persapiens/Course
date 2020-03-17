@@ -52,7 +52,7 @@ iTrust2 is a java application used in the undergrad software engineering system.
 
 The build job will need to run the following commands:
 * `mvn -f pom-data.xml process-test-classes` builds the database and creates sample data.
-* `mvn clean test verify checkstyle:checkstyle` runs the unit tests, launches the server, runs the integration tests, and then brings the server back down.
+* `mvn clean test verify org.apache.maven.plugins:maven-checkstyle-plugin:3.1.0:checkstyle` runs the unit tests, launches the server, runs the integration tests, and then brings the server back down.
 
 For debugging purposes, you can run `mvn jetty:run`, which will launch a http server and allow you to interact with the system at `http://localhost:8080/iTrust2`.
 
@@ -138,7 +138,7 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 There will be one checkpoints where you will be required to report interim progress (CHECKPOINT.md).
 
-* Checkpoint 1 due: 3/18th
+* Checkpoint 1 due: 3/25th
 
 Document your current progress and team contributions. Note work you have completed and what work will be done next. You may find it useful to take screenshots of your GitHub Projects.
 
@@ -172,4 +172,4 @@ Ensure your repository contains:
 * a CHECKPOINT.md, with your two checkpoint reports.
 * a link to screencast that demostrates each task.
 
-**Due Monday, March 30th, before midnight.**
+**Due Monday, April 6th, before midnight.**
