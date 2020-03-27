@@ -56,9 +56,9 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Mar 5    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) | | [Test Milestone](Project/Pipeline2.md)
 | Mar 9--19| 🌱SPRING BREAK 🌱
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure+Deploy&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Mar 24   | Infrastructure concepts
-| Mar 26   | Redis and feature flags
-| Mar 31   | Deploy Strategies
+| Mar 24   | [Infrastructure concepts](https://docs.google.com/presentation/d/1HjPY0979qEVkN7mJhcjxA7LYXubBpHWwj84BcItbzwo/edit#slide=id.g720af242e7_0_5)
+| Mar 26   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Course) | | [HW3](HW/HW3.md)
+| Mar 31   | Deploy Strategies and feature flags
 | Apr 2    | Clusters
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Apr 7    | Monitoring
