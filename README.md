@@ -59,7 +59,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Mar 24   | [Infrastructure concepts](https://docs.google.com/presentation/d/1HjPY0979qEVkN7mJhcjxA7LYXubBpHWwj84BcItbzwo/edit#slide=id.g720af242e7_0_5)
 | Mar 26   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches) | | [HW3](HW/HW3.md)
 | Mar 31   | [Deploy Strategies and Feature flags](https://docs.google.com/presentation/d/1O26CMKrFE-UCqV5AQ5VNiCWv3x-XF0IfI0McIhxlMcw/edit)
-| Apr 2    | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment) | [Deploy Milestone](Project/Pipeline3.md)
+| Apr 2    | | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment) | [Deploy Milestone](Project/Pipeline3.md)
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Apr 7    | Monitoring
 | Apr 9    | Monitoring
