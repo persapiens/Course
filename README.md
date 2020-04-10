@@ -62,9 +62,9 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Apr 2    | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment) | | [Deploy Milestone](Project/Pipeline3.md)
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Apr 7    | Monitoring
-| Apr 9    | Monitoring
-| Apr 14   | Incidents
-| Apr 16   | Incidents
+| Apr 9    | Monitoring Workshop
+| Apr 14   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
+| Apr 16   | 
 | Apr 21   | Resilience engineering
 | Apr 23   | Chaos engineering
 | <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
