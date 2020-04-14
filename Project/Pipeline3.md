@@ -104,4 +104,4 @@ Ensure your repository contains:
 * a CHECKPOINT.md, with your checkpoint report.
 * a link to screencast that demostrates each task.
 
-**Due Tuesday, April 28th, before midnight.**
+**Due Thursday, April 30th, before midnight.**
