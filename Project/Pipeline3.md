@@ -28,6 +28,13 @@ $ pipeline canary master broken
 ...
 ```
 
+**Note:** You should perform any necessary steps for setting up your ansible/jenkins-server in your `setup` command.
+```
+# Configure ansible, jenkins, build environments, build jobs, or scripts necessary for deployment.
+# --gh-user and --gh-pass should be used for accessing iTrust repo on github.ncsu.edu
+$ pipeline setup --gh-user <username> --gh-pass <password>
+```
+
 ### Provision cloud instances and monitoring control plane.
 
 Provision instances for your target infrastructure in a cloud provider. Implement a monitor VM with a dashboard that can report metrics associated with the deployed applications. Devise a strategy for collecting metrics from deployed applications (checkbox.io and iTrust).
