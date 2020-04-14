@@ -30,4 +30,4 @@ Your assignment is to complete the workshop with the following additional consid
 
 [Submit link](https://docs.google.com/forms/d/e/1FAIpQLSfCH_ADfq3PNZgbqYR634umfgqn1UAGUvWVjpNKMAmhmu_c9A/viewform?usp=sf_link) to your repository, including your code, README, and screencast.
 
-The assignment is due Wednesday, Apr 22th before midnight.
+The assignment is due Wednesday, Apr 22nd before midnight.
