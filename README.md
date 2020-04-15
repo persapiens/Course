@@ -64,7 +64,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Apr 7    | Monitoring
 | Apr 9    | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring) | | [HW4](HW/HW4-monitor.md)
 | Apr 14   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
-| Apr 16   | 
+| Apr 16   | [Incident call](https://www.pagerduty.com/blog/incident-response-reenactment/)
 | Apr 21   | Resilience engineering
 | Apr 23   | Chaos engineering
 | <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
