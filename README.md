@@ -61,7 +61,7 @@ Watch [Lecture Videos](https://www.engineeringonline.ncsu.edu/course/csc-519-dev
 | Mar 31   | [Deploy Strategies and Feature flags](https://docs.google.com/presentation/d/1O26CMKrFE-UCqV5AQ5VNiCWv3x-XF0IfI0McIhxlMcw/edit)
 | Apr 2    | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment) | | [Deploy Milestone](Project/Pipeline3.md)
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
-| Apr 7    | Monitoring
+| Apr 7    | [Monitoring](https://docs.google.com/presentation/d/1f_yw2KS02Uzt-3qnadk9wjiKS0sgBsxSOpQIxd8YaJ0/edit#slide=id.g73980477ab_0_0)
 | Apr 9    | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring) | | [HW4](HW/HW4-monitor.md)
 | Apr 14   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
 | Apr 16   | [Incident call](https://www.pagerduty.com/blog/incident-response-reenactment/)
