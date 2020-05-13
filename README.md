@@ -127,6 +127,7 @@ Details on requirements for milestones will be released throughout the course.  
 
 ## Past versions
 
+* [Spring 2020](https://github.com/CSC-DevOps/Course/tree/Spring2020)
 * [Spring 2019](https://github.com/CSC-DevOps/Course/tree/Spring2019)
 * [Spring 2018](https://github.com/CSC-DevOps/Course/tree/Spring2018)
 * [Fall 2017](https://github.com/CSC-DevOps/Course/tree/Fall2017)

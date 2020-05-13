@@ -15,15 +15,11 @@ Properly setting up your Mattermost, Stack Overflow, and Moodle profile.
 Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 
 1. Create a *private* repo called HW0-DevOps. 
-2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
+2. Go to Settings, Collaborators and Teams, and add the TA and instructor as a collaborator (using their unity id).
 
-Samim Mirhosseini Ghamsa <smirhos@ncsu.edu>, Jeremiah Percy Dsouza <jdsouza@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
+Samim Mirhosseini Ghamsa <smirhos@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
 
-## Asking a Question, Answering a Question (10)
-
-Practice asking a question (Q) on Stack Overflow Teams. Provide an answer (A) to at least one question on Stack Overflow Teams.
-
-## Opunit checks (10)
+## Opunit checks (20)
 
 * Acheive 100% pass rate for opunit profile checks:
 
@@ -68,16 +64,15 @@ You will receive a **ZERO** if a security token is found to be checked into your
 
 * Complete moodle, mattermost, stack overflow profiles by deadline (10).
 * Github repo and collobrator settings (10).
-* Ask and answer a question (10)
-* Opunit checks (10)
+* Opunit checks (20)
 * Provision code for two cloud providers (50)
 * Screencast (10)
 
 ## Submission
 
-Please a submit a [link to your repo here](https://docs.google.com/forms/d/e/1FAIpQLScpsVVjgEdDWxL1ejbi8tg1HArv3B4yva98_jhUd_hIF_CQnA/viewform?usp=sf_link).
+Please a submit a [link to your repo here](https://docs.google.com/forms/d/e/1FAIpQLSf1xyviPdQvjxLv_nUUx1ahkyhf5bz0dqsfT6I2L3Jo4jcf-A/viewform?usp=sf_link).
 
 In your repository, have your code, link to a screencast.
 
-The assignment is due Friday, Jan 17th before midnight.
+The assignment is due Friday, Jan 22nd before midnight.
 
