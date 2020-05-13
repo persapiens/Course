@@ -20,7 +20,7 @@ _If running nodejs on Windows, you may want to check the option to install devto
 Inside a [terminal](https://github.com/chrisparnin/EngineeringBasics/blob/master/Shells.md#shells), run:
 
 ```bash
-npm install opunit -g
+npm install ottomatica/opunit -g
 ```
 
 Now run:
