@@ -57,9 +57,9 @@ Jul 28 Exam -->
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
 |  ➡️       | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾
-| May 14    | [Intro+Computing Environments](https://docs.google.com/presentation/d/16PWFvEY_qVIbL1FsOgCATIsY-FgUiBaXhw2C1s1anQA/edit) | | [HW0](HW/HW0-Provision.md)
-| May 19    | [Provisioning](https://github.com/CSC-DevOps/Provision) | [Cloud Providers](HW/Cloud-Providers.md) |  
-| May 21  | [Continuous Deployment Concepts](https://docs.google.com/presentation/d/1w5QnWQUciQAq-NA12AI14gv6evv6oONnljcPCF29JDY/edit#slide=id.g6d986c4882_1_0) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
+| May 14    | [Intro+Computing Environments](https://docs.google.com/presentation/d/16PWFvEY_qVIbL1FsOgCATIsY-FgUiBaXhw2C1s1anQA/edit) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/fe2ceadb03df42db9996b0e759f3ddb81d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | [HW0](HW/HW0-Provision.md)
+| May 19    | [Provisioning](https://github.com/CSC-DevOps/Provision) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/6814ee512e9541fba526a248167e7e2d1d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | [Cloud Providers](HW/Cloud-Providers.md) |  
+| May 21  | [Continuous Deployment Concepts](https://docs.google.com/presentation/d/1w5QnWQUciQAq-NA12AI14gv6evv6oONnljcPCF29JDY/edit#slide=id.g6d986c4882_1_0) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/a5c95709dedc478c8bd6b8b9542c26611d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | May 26   | [Virtualization concepts](https://docs.google.com/presentation/d/1VdSRYFxTFvdJvxq4JZMn7itdYJjiutrpj525Kw2JX-U/edit) | | [HW1](HW/HW1-V.md)
 | May 28   | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
