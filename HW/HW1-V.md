@@ -86,7 +86,7 @@ When running `v ssh` it should ssh into your VM (25 points).
 
 You can complete some or all of the following activities for extra credit by modifying your code.
 
-* Create a second NIC with host-only networking enabled and set the IP added to 192.168.33.10. Demonstrate that you can use your IP address to visit `<address>:9000` to see your running App. (5 points)
+* Create a second NIC with host-only networking enabled and set the IP address to 192.168.33.10. Demonstrate that you can use your IP address to visit `<address>:9000` to see your running App. (5 points)
   > Note: to receive full credit, you must dynamically detect the host-only interface (or create it, if doesn't exist), instead of hard-coding the interface name (hint: see [here](https://www.virtualbox.org/manual/ch08.html#idp16668048)).
 
 * Create a shared sync folder. This is fairly involved, only attempt if experienced---limited help will be provided from teaching staff. (10 points)
