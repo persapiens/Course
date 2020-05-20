@@ -1,6 +1,6 @@
 # HW1
 
-This homework will all you to practice with basic virtualization technology and familiarize you with building node CLI programs.
+This homework will guide you to practice with basic virtualization technology and familiarize you with building node CLI programs.
 
 You will start with a starter code base and modify it to fulfill the homework criteria.
 
@@ -15,13 +15,13 @@ Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 1. Create a *private* repo called HW1-DevOps. 
 2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
 
-Samim Mirhosseini Ghamsa <smirhos@ncsu.edu>, Jeremiah Percy Dsouza <jdsouza@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
+Samim Mirhosseini <smirhos@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
 
 **Do not create any content, yet**
 
 ### Clone and set-url
 
-Clone the following repo. Then modify the remote so that it now will point to your HW1-DevOps repo.
+Clone the following repo. Then, modify the git remote url so that it now will point to your HW1-DevOps repo.
 
 ```bash
 git clone http://github.com/CSC-DevOps/V
@@ -59,7 +59,7 @@ Waiting 60000ms for machine to boot.
 
 #### VM setup (40 points)
 
-Add the following required components to your project by editing the `customize(name)` function inside commands/up.js. You will want to take advantage of the `VBoxManage.execute` wrapper to execute VirtualBox commands.
+Add the following required components to your project by editing the [`customize(name)`](https://github.com/CSC-DevOps/V/blob/14c48245080b6eb8968175bd07d48a810dc4c3ea/commands/up.js#L92-L95) function inside commands/up.js. You will want to take advantage of the `VBoxManage.execute` wrapper to execute VirtualBox commands.
 
 * Add a NIC with NAT networking.
 * Add a port forward from 2800 => 22 for guestssh.
@@ -67,7 +67,7 @@ Add the following required components to your project by editing the `customize(
 
 #### Post-Configuration (25 points)
 
-Add the following required components to your project by editing the `postconfiguration(name)` function inside the commands/up.js. You will want to take advantage of the ssh command wrapper to send commands to the VM.
+Add the following required components to your project by editing the [`postconfiguration(name)`](https://github.com/CSC-DevOps/V/blob/14c48245080b6eb8968175bd07d48a810dc4c3ea/commands/up.js#L97-L102) function inside the commands/up.js. You will want to take advantage of the ssh command wrapper to send commands to the VM.
 
 * Install nodejs, npm, git
 * Clone https://github.com/CSC-DevOps/App
@@ -86,7 +86,9 @@ When running `v ssh` it should ssh into your VM (25 points).
 
 You can complete some or all of the following activities for extra credit by modifying your code.
 
-* Create a second NIC with either host-only or bridged networking enabled. Demonstrate that you can use your IP address to visit `<address>:9000` to see your running App. (5 points)
+* Create a second NIC with host-only networking enabled and set the IP added to 192.168.33.10. Demonstrate that you can use your IP address to visit `<address>:9000` to see your running App. (5 points)
+  > Note: to receive full credit, you must dynamically detect the host-only interface (or create it, if doesn't exist), instead of hard-coding the interface name (hint: see [here](https://www.virtualbox.org/manual/ch08.html#idp16668048)).
+
 * Create a shared sync folder. This is fairly involved, only attempt if experienced---limited help will be provided from teaching staff. (10 points)
 
 ## Screencast (10)
