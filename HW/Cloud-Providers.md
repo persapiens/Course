@@ -25,6 +25,9 @@ AWS is a rich computation platform for supporting many services.
 
 AWS provides a [free tier plan](http://aws.amazon.com/free/), for 12 months, which is appropriate for learning the platform.
 
+Useful tip for getting your credentials if using education plan through vocareum:
+https://stackoverflow.com/questions/40515079/access-key-id-and-secret-access-key-for-aws-educate-account
+
 ### Azure
 
 You can use obtain a free student account through dreamspark for azure.
