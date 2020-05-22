@@ -63,7 +63,7 @@ Add the following required components to your project by editing the [`customize
 
 * Add a NIC with NAT networking.
 * Add a port forward from 2800 => 22 for guestssh.
-* Add a port forward from 8080 => 9000 for a node application.
+* Add a port forward from 9000 => 5001 for a node application.
 
 #### Post-Configuration (25 points)
 
@@ -79,14 +79,14 @@ Add a new command by creating a ssh.js inside the commands directory.
 When running `v ssh` it should ssh into your VM (25 points).
 
 * Implement and demonstrate running `v ssh`.
-* Manually run `node main.js start 9000`.
-* Demonstrate you can visit `localhost:8080` to see your running App.
+* Manually run `node main.js start 5001`.
+* Demonstrate you can visit `localhost:9000` to see your running App.
 
 #### Extra Requirements
 
 You can complete some or all of the following activities for extra credit by modifying your code.
 
-* Create a second NIC with host-only networking enabled and set the IP address to 192.168.33.10. Demonstrate that you can use your IP address to visit `<address>:9000` to see your running App. (5 points)
+* Create a second NIC with host-only networking enabled and set the IP address to 192.168.33.10. Demonstrate that you can use your IP address to visit [http://192.168.33.10:9000/](http://192.168.33.10:9000/) to see your running App. (5 points)
   > Note: to receive full credit, you must dynamically detect the host-only interface (or create it, if doesn't exist), instead of hard-coding the interface name (hint: see [here](https://www.virtualbox.org/manual/ch08.html#idp16668048)).
 
 * Create a shared sync folder. This is fairly involved, only attempt if experienced---limited help will be provided from teaching staff. (10 points)
