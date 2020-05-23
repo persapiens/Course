@@ -61,9 +61,9 @@ Jul 28 Exam -->
 | May 19    | [Provisioning](https://github.com/CSC-DevOps/Provision) [📹](https://drive.google.com/open?id=1gG7lI3gZgWwA7l6-zfJj1U2xT1FwYBZP) | [Cloud Providers](HW/Cloud-Providers.md) |  
 | May 21  | [Continuous Deployment Concepts](https://docs.google.com/presentation/d/1w5QnWQUciQAq-NA12AI14gv6evv6oONnljcPCF29JDY/edit#slide=id.g6d986c4882_1_0) [📹](https://drive.google.com/open?id=1SQ5jM1jeh7i2My79Ee-oNCaGG8UT2J8L) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
-| May 26   | [Virtualization concepts](https://docs.google.com/presentation/d/1VdSRYFxTFvdJvxq4JZMn7itdYJjiutrpj525Kw2JX-U/edit) | | [HW1](HW/HW1-V.md)
-| May 28   | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
-| Jun 2  | [Containers/Docker Workshop](https://github.com/CSC-DevOps/Containers)
+| May 26   | [Virtualization concepts](https://docs.google.com/presentation/d/1VdSRYFxTFvdJvxq4JZMn7itdYJjiutrpj525Kw2JX-U/edit) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/b75724be3a13485fab48caaaea3b1a141d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | [HW1](HW/HW1-V.md)
+| May 28   | [Virtualization Workshop](https://github.com/CSC-DevOps/VM) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/84517d0f60e448f5ae802678e1d2fb521d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+| Jun 2  | [Containers/Docker Workshop](https://github.com/CSC-DevOps/Containers) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/3a54fcfa8c964f9aac3636849b3df4311d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
 | Jun 4  | [Configuration Management](https://docs.google.com/presentation/d/1i18CWaZaiBBWPlT71iOuEPYYaZcK1VMvtdynwCLAVU0/edit#slide=id.g6e582f9f77_0_0) | | [HW2](HW/HW2-mm.md)
 | Jun 7   | [Building Configuration Server](https://github.com/CSC-DevOps/CM) | | 
 |   | [Ansible Playbooks](https://github.com/CSC-DevOps/CM/blob/master/Playbooks.md)
