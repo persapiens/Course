@@ -69,7 +69,7 @@ Add the following required components to your project by editing the [`postconfi
 * Clone https://github.com/CSC-DevOps/App
 * Install the npm packages
 
-Warning 💥: Be mindful of the deadly mix of quotes, platforms, and operators for combining (&&)---they are inconsistent on platforms and you may accidently be running the second command on your host system instead of remote system.
+**Warning** 💥: Be mindful of the deadly mix of quotes, platforms, and operators for combining (&&)---they are inconsistent on platforms and you may accidently be running the second command on your host system instead of remote system.
 
 #### SSH and App (25 points)
 
@@ -99,9 +99,9 @@ For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
 ## Checkpoint and Automated Checks
 
-Visit: http://go.ncsu.edu/csc519-jenkins
+**Visit**: ➡️  http://go.ncsu.edu/csc519-jenkins
 
-VPN 🛂: To access the jenkins server, you will need to setup and sign-in to the NCSU vpn service:
+_VPN_: 🛂 To access the jenkins server, you will need to setup and sign-in to the NCSU vpn service:
 https://oit.ncsu.edu/campus-it/campus-data-network/vpn/
 
 ### Jenkins job
@@ -110,11 +110,11 @@ You can click on your build job and "Build Now".
 
 You can see the status of whether your homework meets the base requirements.
 
-![status](imgs/success-failure.png)
+![status](/imgs/success-failure.png)
 
 To understand what is going on, you can click on "Console" and view the output of your program running.
 
-![jenkins](imgs/jenkins.png)
+![jenkins](/imgs/jenkins.png)
 
 ### Checkpoint bonus (+5)
 
