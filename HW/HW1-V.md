@@ -12,7 +12,7 @@ Please do the following before you start the homework.
 
 Sign into [NCSU's GitHub](https://github.ncsu.edu/).
 
-1. Go to the repository: https://github.ncsu.edu/cscdevops-summer2020/HW1-<unity>
+1. Go to the repository: `https://github.ncsu.edu/cscdevops-summer2020/HW1-<unity>`
 2. **Do not create any content, yet**
  
 ### Clone and set-url
