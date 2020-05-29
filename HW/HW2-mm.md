@@ -1,25 +1,14 @@
 # HW 2 - Configuration Management
 
-Automatically configuring a computing environment will be one of the most valuable skills for you to master in your career.  You have gained some experience using ansible to automatically run configuration tasks on a virtual machines.
+Automatically configuring a computing environment will be one of the most valuable skills for you to master in your career. You have gained some experience using Ansible to automatically run configuration tasks on a virtual machine.
 
-You will start with a starter code base and modify it to fulfill the homework criteria.
+You will start with a [starter code base](https://github.com/CSC-DevOps/CM-Template) and modify it to fulfill the homework criteria.
 
 ## Setup
 
 Please do the following before you start the homework.
 
-### Prepare your GitHub Repo.
-
-Sign into [NCSU's GitHub](https://github.ncsu.edu/).
-
-1. Create a *private* repo called HW2-DevOps. 
-2. Go to Settings, Collaborators and Teams, and add the TAs and instructor as a collaborator (using their unity id).
-
-Samim Mirhosseini Ghamsa <smirhos@ncsu.edu>, Jeremiah Percy Dsouza <jdsouza@ncsu.edu>, Christopher Parnin <cjparnin@ncsu.edu>
-
-**Do not create any content, yet**
-
-### Clone and set-url
+### Clone the starter code base and set-url
 
 Clone this repo:
 
@@ -27,10 +16,10 @@ Clone this repo:
 git clone https://github.com/CSC-DevOps/CM-Template
 ```
 
-Create a private `HW2-DevOps` GitHub repo, change the remote url of the repo you just cloned, and push:
+You have been assigned a GitHub repository `HW2-<unityid>`, change the remote url the repo you just cloned to your repository, and push:
 
 ```bash
-git remote set-url origin https://github.ncsu.edu/<unityid>/HW2-DevOps
+git remote set-url origin https://github.ncsu.edu/cscdevops-summer2020/HW2-<unityid>
 git push -u origin master
 ```
 
@@ -43,7 +32,7 @@ Read the instructions on [CM-Template](https://github.com/CSC-DevOps/CM-Template
 
 In this homework assignment, you will master these skills by completing the following tasks:
 
-**Using ansible**, be able to automatically configure a server running mattermost.
+**Using Ansible**, be able to automatically configure a server running mattermost.
 
 Perform the following tasks listed in the [installation guide](https://docs.mattermost.com/install/install-ubuntu-1804.html) for mattermost. 
 
@@ -51,21 +40,21 @@ Perform the following tasks listed in the [installation guide](https://docs.matt
 * Installing MySQL Database Server (5.7.x is recommended)
 * Installing Mattermost Server
 
-Your goal is to translate those instructions into ansible playbooks and roles.
+Your goal is to translate those instructions into Ansible playbooks and roles.
 
-### Demonstrating mattermost server
+### Demonstrating Mattermost server
 
 * Finalize configuring the mattermost server by browsing http://192.168.33.80:8065.
 * Create a team and users. 
-* Demonstrate you can actually use mattermost by posting some messages.
+* Demonstrate you can actually use Mattermost by posting some messages.
 
 ### Constraints 
 
 Follow the following constraints when creating your server:
 
-  - Use best practices (use modules to do work, avoid shell/commands, be idempotent, use your own roles when sensible, manage secrets)
+  - Use best practices (in your Ansible scripts, use modules to do work, avoid shell/commands, be idempotent, use your own roles when sensible, manage secrets)
   - Everything is setup automatically. No manual steps.
-  - **Limited use ansible galaxy roles**: You are limited to using galaxy roles for setting up mysql. Note you will need to update your ansible server setup script to install galaxy roles on your ansible-srv.
+  - **Limited use ansible galaxy roles**: You are limited to using galaxy roles for setting up MySQL. Note you will need to update your Ansible server setup script to install galaxy roles on your `ansible-srv` VM.
 
 ## Extra Requirements
 
@@ -73,7 +62,7 @@ You can also extend your implementation to meet the following extra requirements
 
 * Automate the creation of teams and other mattermost server configuration using the [mattermost CLI](https://docs.mattermost.com/administration/command-line-tools.html) (5 points)
 * Configure the ability to send email notifications (5 points).
-* Complete the section "Configuring NGINX as a proxy for Mattermost Server" in mattermost instalation instructions (10 points).
+* Complete the section "Configuring NGINX as a proxy for Mattermost Server" in mattermost installation instructions (10 points).
 * Complete the section "Configuring NGINX with SSL and HTTP/2". Note you can setup a local hosts file for enabling temporary testing of your ssl configuration. (5 points)
 
 Reminder that limited technical assistance will be provided by teaching staff when attempting the extra requirements. Make sure you have completed all the basic requirements before attempting any extra requirements.
@@ -134,8 +123,6 @@ Summary
 ```
 
 ## Submission
-
-Please [submit your repo here](https://docs.google.com/forms/d/e/1FAIpQLSewVxFQt4OhkcbYeDKy7NgkMyZkye2xtZXAaimFd1EF-sQ-Ow/viewform?usp=sf_link)
 
 The assignment is due Wednesday, Feburary 12th before midnight.
 
