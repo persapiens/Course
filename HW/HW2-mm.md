@@ -124,8 +124,6 @@ Summary
 
 ## Submission
 
-Please [submit your repo here](https://forms.gle/D3kJhF5St9jDHMELA)
-
 The assignment is due Wednesday, Feburary 12th before midnight.
 
 ## Evaluation
