@@ -62,7 +62,7 @@ You can also extend your implementation to meet the following extra requirements
 
 * Automate the creation of teams and other mattermost server configuration using the [mattermost CLI](https://docs.mattermost.com/administration/command-line-tools.html) (5 points)
 * Configure the ability to send email notifications (5 points).
-* Complete the section "Configuring NGINX as a proxy for Mattermost Server" in mattermost installation instructions (10 points).
+* Complete the section "Configuring NGINX as a proxy for Mattermost Server" in mattermost installation instructions (5 points).
 * Complete the section "Configuring NGINX with SSL and HTTP/2". Note you can setup a local hosts file for enabling temporary testing of your ssl configuration. (5 points)
 
 Reminder that limited technical assistance will be provided by teaching staff when attempting the extra requirements. Make sure you have completed all the basic requirements before attempting any extra requirements.
@@ -90,41 +90,56 @@ Checks
 	Basic checks for ansible server
 
 	version check
-	    ✔   ansible --version: 2.9.4 > ^2.9.x => true 
+	    ✔   ansible --version: 2.9.9 > ^2.9.x => true 
 	reachable check
-	    ✔   [/bakerx] status: true
-	    ✔   [/bakerx/cm/inventory.ini] status: true
+	    ✔   [/bakerx] status: true 
+	    ✔   [/bakerx/cm/inventory.ini] status: true 
 	contains check
 		Checking if you have MSDOS style newlines in your bash scripts. Fix with dos2unix
-	    ✔   [...run-ansible.sh] does not contain [\r] status: true message: NA
+	    ✔   [...run-ansible.sh]does not contain: [\r] status: true message: NA
 	contains check
-	    ✔   [...server-init.sh] does not contain [\r] status: true message: NA
+	    ✔   [...server-init.sh]does not contain: [\r] status: true message: NA
+	reachable check
+	    ✔   [.ssh/mm_rsa] status: true expected permission: 700 actual permission: 700 vagrant vagrant 
+
+Summary
+
+	100.0% of all checks passed.
+	6 passed · 0 failed
 
 Checks
 
 	Basic checks for dependencies
 
 	version check
-	    ✖   mysql --version: bash: mysql: command not found > ^5.7.x => false 
+	    ✖   mysql --version: bash: mysql: command not found > ^5.7.x => false Error : Command 'mysql' not found
 	availability check
-	    ✖   [vagrant] http://192.168.33.80:8065/ expected: 200 actual: ECONNREFUSED
+		From these 3 availability checks, only one of them has to pass...
+	    ✖   [vagrant] https://192.168.33.80:443/ expected: 200 actual: RequestError: connect ECONNREFUSED 192.168.33.80:443
 	reachable check
-	    ✖   [/opt/mattermost/data] status: false
-	    ✖   [/lib/systemd/system/mattermost.service] status: false
+	    ✖   [/opt/mattermost] status: false actual permission: Not found 
+	    ✖   [/lib/systemd/system/mattermost.service] status: false actual permission: Not found 
+	    ✖   [/opt/mattermost/config/config.json] status: false actual permission: Not found 
 	service check
-	    ✖   [mattermost] expected: active actual: null
+	    ✖   [mattermost.service] expected: active actual: null
+	service check
+	    ✖   [mysql] expected: active actual: null
 	contains check
-	    ✖   [...config.json]  contains ["DriverName" : "mysql"] status: false message: Error: file doesn't exist
+	    ✖   [...config.json] contains: ["DriverName": "mysql"] status: false message: Error: file doesn't exist
+	contains check
+	    ✖   [...config.json] query: .SqlSettings.DriverName  contains: [mysql] status: false message: error: can't read the file.
+	valid check
+	    ✖   [/opt/mattermost/config/config.json] valid: No such file or directory
 
 Summary
 
 	0.0% of all checks passed.
-	0 passed · 6 failed
+	0 passed · 10 failed
 ```
 
 ## Submission
 
-The assignment is due Wednesday, Feburary 12th before midnight.
+The assignment is due Friday, June 12th before midnight.
 
 ## Evaluation
 
@@ -132,4 +147,4 @@ The assignment is due Wednesday, Feburary 12th before midnight.
 - 30% Quality of scripts and following best practices.
 - 20% Screencast and following instructions.
 
-Max possible score: 125/100.
+Max possible score: 120/100.
