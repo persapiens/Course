@@ -28,10 +28,11 @@ You may find some parts of the template for [CM homework](https://github.com/CSC
 
 ##### Constraints
 
-* Use bakerx as local provisioner for your VM (named "jenkins-srv").
+* Use bakerx as local provisioner for your VM (named "config-srv").
 * Assign static ip address 192.168.33.20 for jenkins server. 
 * Use ansible for configuration. No credit given for use of ansible galaxy roles.
 * Run jenkins server on port 9000.
+* Use admin:admin as username and password for jenkins
 * There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
 
 ### 🛠️Automatically configure a build environment (checkbox.io)
