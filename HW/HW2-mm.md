@@ -71,7 +71,7 @@ Reminder that limited technical assistance will be provided by teaching staff wh
 
 Create a screencast of your assignment:
 
-* Demonstrate running your code to setup your environment and running your customization and post-configuration steps (`cm setup`), and running your mattermost playbook (`cm playbook cm/mattermost.yml cm/inventory.ini`). Demonstrate your mattermost server running on your browser. Demonstrate any extra requirements fulfilled. Note some extra requirements supercede the basic requirements.
+* Demonstrate running your code to setup your environment and running your customization and post-configuration steps (`cm setup`), and running your mattermost playbook (`cm playbook cm/playbook.yml cm/inventory.ini`). Demonstrate your mattermost server running on your browser. Demonstrate any extra requirements fulfilled. Note some extra requirements supercede the basic requirements.
 
 For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
