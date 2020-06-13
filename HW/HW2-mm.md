@@ -107,34 +107,36 @@ Summary
 	100.0% of all checks passed.
 	6 passed · 0 failed
 
+
+
 Checks
 
 	Basic checks for dependencies
 
 	version check
-	    ✖   mysql --version: bash: mysql: command not found > ^5.7.x => false Error : Command 'mysql' not found
+	    ✔   mysql --version: 5.7.30 > ^5.7.x => true 
 	availability check
 		From these 3 availability checks, only one of them has to pass...
-	    ✖   [vagrant] https://192.168.33.80:443/ expected: 200 actual: RequestError: connect ECONNREFUSED 192.168.33.80:443
+	    ✔   [vagrant] http://192.168.33.80:8065/ expected: 200 actual: 200
 	reachable check
-	    ✖   [/opt/mattermost] status: false actual permission: Not found 
-	    ✖   [/lib/systemd/system/mattermost.service] status: false actual permission: Not found 
-	    ✖   [/opt/mattermost/config/config.json] status: false actual permission: Not found 
+	    ✔   [/opt/mattermost] status: true expected permission: w for group=mattermost  actual permission: drwxrwxrwx mattermost mattermost 
+	    ✔   [/lib/systemd/system/mattermost.service] status: true expected permission: r for group=root  actual permission: -rw-r--r-- root root 
+	    ✔   [/opt/mattermost/config/config.json] status: true expected permission: w for group=mattermost  actual permission: -rwxrwxrwx mattermost mattermost 
 	service check
-	    ✖   [mattermost.service] expected: active actual: null
+	    ✔   [mattermost.service] expected: active actual: active
 	service check
-	    ✖   [mysql] expected: active actual: null
+	    ✔   [mysql] expected: active actual: active
 	contains check
-	    ✖   [...config.json] contains: ["DriverName": "mysql"] status: false message: Error: file doesn't exist
+	    ✔   [...config.json] contains: ["DriverName": "mysql"] status: true message: NA
 	contains check
-	    ✖   [...config.json] query: .SqlSettings.DriverName  contains: [mysql] status: false message: error: can't read the file.
+	    ✔   [...config.json] query: .SqlSettings.DriverName  contains: [mysql] status: true message: NA
 	valid check
-	    ✖   [/opt/mattermost/config/config.json] valid: No such file or directory
+	    ✔   [/opt/mattermost/config/config.json] valid: true
 
 Summary
 
-	0.0% of all checks passed.
-	0 passed · 10 failed
+	100.0% of all checks passed.
+	10 passed · 0 failed
 ```
 
 ## Submission
