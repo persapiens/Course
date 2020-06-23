@@ -72,10 +72,10 @@ Jul 28 Exam -->
 | Jun 11   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/7d49600376d6428ba904b788b6358ce31d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | [Workshop Attendance Form](https://docs.google.com/forms/d/e/1FAIpQLSexYYV6KYOuPfnZRDXxvXGphjBZfz82EWP_QZLoPtPT-hVTtg/viewform?usp=sf_link)
 | Jun 16   | [Jenkins](https://docs.google.com/presentation/d/1oEJQ953LUQ1rYhRMKL-B262Bx8rkENW2aaAj-2e_N7I/edit#slide=id.p) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/e215a5bfc6854596a08b5e1d8db240641d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Jun 23   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58) | | [Test Milestone](Project/Pipeline2.md)
-| Jun 25   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)
-| Jun 30   | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites)
-| Jul 2    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) | | 
+| Jun 23   | [Testing + Analysis concepts](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit#slide=id.g7e3970db34_0_58) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/6caeec26d87f49809d115dd8d0af5ea41d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | [Test Milestone](Project/Pipeline2.md)
+| Jun 25   | [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/56b99f9e8bb2474394635902f384abee1d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+| Jun 30   | [Test suites analysis and coverage workshop](https://github.com/CSC-DevOps/TestSuites) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/adb2773bb1e94675a45731cce5a9cf701d?catalog=c18556b27d6a4b26a9c4a347c82866b121)
+| Jul 2    | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity) [📹](https://mediasite.wolfware.ncsu.edu/online/Play/300d81b262cc486881a70575fc7f6f681d?catalog=c18556b27d6a4b26a9c4a347c82866b121) | | 
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure+Deploy&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Jul 7  | [Infrastructure concepts](https://docs.google.com/presentation/d/1HjPY0979qEVkN7mJhcjxA7LYXubBpHWwj84BcItbzwo/edit#slide=id.g720af242e7_0_5) | |  [Deploy Milestone](Project/Pipeline3.md)
 | Jul 9   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches) | | [HW3](HW/HW3.md) 

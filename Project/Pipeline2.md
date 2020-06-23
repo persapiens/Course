@@ -16,6 +16,7 @@ Extend your node.js project to support the following commands:
 # Configure jenkins, build environments, build jobs
 # --gh-user and --gh-pass should be used for accessing iTrust repo on github.ncsu.edu
 $ pipeline setup --gh-user <username> --gh-pass <password>
+# This command should copy a .vault-pass file, with the password "csc-devops-2020" from the host to VM home directory. The .vault-pass file should be excluded from source control_.
 
 # Trigger a build job (named iTrust), wait for output, and print build log.
 $ pipeline build iTrust
@@ -31,18 +32,17 @@ $ pipeline useful-tests -c 100
 ...
 
 # Trigger a build job (named checkbox.io), wait for output, and print build log. 
+# Extend existing build job to add a static analysis phase.
 # Static analysis should fail build job if any code smells are detected.
-$ pipeline build checkbox.io
-
+$ pipeline build checkbox.io -u <admin> -p <admin>
 ```
 
 ##### Constraints
 
-* Use bakerx as local provisioner for your VM (named "jenkins-srv").
+* Use bakerx as local provisioner for your VM (named "config-srv").
 * Assign static ip address 192.168.33.20 for jenkins server. 
 * Use ansible for configuration. No credit given for use of ansible galaxy roles.
 * Run jenkins server on port 9000. Note that iTrust will need port 8080.
-* There is no required jenkins plugin; however, you will want to install anything that makes creating your build job easier.
 
 ### 🛠️Automatically configure a build environment and build job (iTrust)
 
@@ -60,7 +60,6 @@ For debugging purposes, you can run `mvn jetty:run`, which will launch a http se
 
 * Configure the environment to run on the same build server.
 * You are free to construct the build environment for iTrust with any technology/tools, as long as it is done automatically.
-* You cannot manually create the build job. You must use [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) or [Jenkinsfile](https://jenkins.io/doc/book/pipeline/jenkinsfile/).
 * Your build job should pass all tests, including the integration tests.
   
 ### 🧪 Implement a test suite analysis for detecting useful tests
@@ -88,13 +87,13 @@ Generate 100 test suite runs---for each test suite run, perform the following st
 
 * Generate random changes with your code fuzzer.
 * If your changes would result in compile failures, discard changes and restart process.
-* Run tests with `mvn clean test verify`.
+* Run tests with `mvn clean test`.
 * Record which test cases have failed, and which have passed.
 * Reset code, discarding your changes.
 
 After you have generated your 100 test suite runs, generate a report that displays the test cases in sorted order, based on the number of failed tests discovered. Indicate the number of failed test cases in the output.
 
-**Note**: Warning, in order to do this you must have a working fuzzer well ahead of the deadline. If a test run takes 5--10 minutes to run, it might take a while to generate this analysis.
+**Note**: Warning, in order to do this you must have a working fuzzer well ahead of the deadline. If a test run takes 5--10 minutes to run (if integration tests are enabled), it might take a while to generate this analysis.
 
 ##### Constraints:
 
@@ -117,7 +116,8 @@ Implement a static analysis using esprima and visitor patterns to calculate the 
 
 ##### Constraints:
 
-* Run the analysis on all javascript files inside of the server-side/ directory.
+* Run the analysis on all javascript files inside of the server-side/ directory (excluding `node_modules/`).
+* Report all metrics discovered in build log.
 * Fail the build if any of these metrics exceed a given threshold.
 
 ## Team responsibilities
@@ -138,7 +138,7 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 There will be one checkpoints where you will be required to report interim progress (CHECKPOINT.md).
 
-* Checkpoint 1 due: 3/25th
+* Checkpoint 1 due: July 1st
 
 Document your current progress and team contributions. Note work you have completed and what work will be done next. You may find it useful to take screenshots of your GitHub Projects.
 
@@ -172,4 +172,4 @@ Ensure your repository contains:
 * a CHECKPOINT.md, with your two checkpoint reports.
 * a link to screencast that demostrates each task.
 
-**Due Monday, April 6th, before midnight.**
+**Due Monday, July 6th, before midnight.**

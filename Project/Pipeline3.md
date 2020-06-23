@@ -56,8 +56,8 @@ Create an automated analysis that can perform the following tasks and generate c
 
 1. Construct a computing environment with three VMs as shown in diagram (locally)
 2. Generate load to the proxy server by requesting the `/preview` service.
-3. For the first 5 minutes, send the load to the blue instance, collect health metrics.
-4. Next, send traffic to the green instance for 5 minutes, collect health metrics.
+3. For the first 1 minute, send the load to the blue instance, collect health metrics.
+4. Next, send traffic to the green instance for 1 minute, collect health metrics.
 5. Report a statistical comparision between health values and compute a canary score. Determine whether canary has "passed" or "failed".
 
 ## Team responsibilities
