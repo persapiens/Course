@@ -19,11 +19,11 @@ You must provide the following two commands:
 ```
 # Configure jenkins and build environment
 $ pipeline setup
-
-_This command should create a .vault-pass file, with the password "csc-devops-2020" inside the VM to decode any vaults_. 
+# This command should copy a .vault-pass file, with the password "csc-devops-2020" from the host to VM home directory. The .vault-pass file should be excluded from source control_. 
 
 # Trigger a build job (named checkbox.io), wait for output, and print build log.
-$ pipeline build checkbox.io
+$ pipeline build checkbox.io -u <admin> -p <admin>
+
 ```
 
 You may find some parts of the template for [CM homework](https://github.com/CSC-DevOps/CM-Template) useful for reuse. For triggering the build job and retrieving the build log, you may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
