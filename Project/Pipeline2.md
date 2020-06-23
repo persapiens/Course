@@ -19,7 +19,7 @@ $ pipeline setup --gh-user <username> --gh-pass <password>
 # This command should copy a .vault-pass file, with the password "csc-devops-2020" from the host to VM home directory. The .vault-pass file should be excluded from source control_.
 
 # Trigger a build job (named iTrust), wait for output, and print build log.
-$ pipeline build iTrust
+$ pipeline build iTrust -u <admin> -p <admin>
 
 # Initiate analysis of test suite for iTrust to run `-c` numbers of times.
 # Output list of tests, ordered from most useful to least useful, based on the number of times 
