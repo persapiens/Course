@@ -101,6 +101,7 @@ After you have generated your 100 test suite runs, generate a report that displa
 * Do not accumulate changes, start from fresh each run.
 * You should discard changes that would result in compile failures.
 * You should have 100 test suite runs to perform your test suite analysis.
+* You should calculate results for individual test cases and not test classes.
 
 ### ✅ Implement a static analysis for checkbox.io
 
