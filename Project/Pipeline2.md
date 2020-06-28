@@ -51,7 +51,7 @@ Create a build environment for [iTrust](https://github.ncsu.edu/engr-csc326-staf
 iTrust2 is a java application used in the undergrad software engineering system. It using enterprise Java technology. It has a rich set of unit tests. Using the [following guide](https://github.ncsu.edu/engr-csc326-staff/iTrust2-v6/wiki/developers-guide), to help you understand how to construct a build environment for running iTrust.
 
 The build job will need to run the following commands:
-* `mvn -f clean pom-data.xml process-test-classes` builds the database and creates sample data. Ensure database is dropped between builds.
+* `mvn clean -f pom-data.xml process-test-classes` builds the database and creates sample data. Ensure database is dropped between builds.
 * `mvn clean test verify org.apache.maven.plugins:maven-checkstyle-plugin:3.1.0:checkstyle` runs the unit tests, launches the server, runs the integration tests, and then brings the server back down.
 
 For debugging purposes, you can run `mvn jetty:run`, which will launch a http server and allow you to interact with the system at `http://localhost:8080/iTrust2`.
