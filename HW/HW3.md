@@ -30,6 +30,6 @@ Your assignment is to complete the workshop with the following additional consid
 
 ### Submission
 
-[Submit link](https://docs.google.com/forms/d/e/1FAIpQLSe30s_3WGuBNCMIycibJX7Aa_jVltrMkS0np6Udzq9yi6MvNQ/viewform?usp=sf_link) to your repository, including your code, README, and screencast.
+Please commit your code by the deadline, including a README.md describing what you implemented, and includes a link to a screencast.
 
-The assignment is due Monday, Apr 6th before midnight.
+The assignment is due Monday, July 13th before midnight.
