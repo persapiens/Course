@@ -55,36 +55,6 @@ Your `monitor-setup -i inventory.ini` command should deploy a monitoring dashboa
 
 Expose the dashboard endpoint on `http://<monitoring ip>/dashboard`.
 
-##### Local development
-
-For local development and testing purposes, you should be able to swap out your dynamically created inventory with this static one:
-
-```
-[monitor]
-192.168.33.24 ansible_ssh_private_key_file=~/.bakerx/insecure_private_key ansible_user=vagrant
-
-[itrust]
-192.168.33.22 ansible_ssh_private_key_file=~/.bakerx/insecure_private_key ansible_user=vagrant
-
-[checkbox]
-192.168.33.23 ansible_ssh_private_key_file=~/.bakerx/insecure_private_key ansible_user=vagrant
-```
-
-You can provision and configure your local instances with:
-
-```
-bakerx run monitor bionic --ip 192.168.33.24
-bakerx run checkbox bionic --ip 192.168.33.23
-bakerx run itrust bionic --ip 192.168.33.22
-
-pipeline setup --gh-user <username> --gh-pass <password>
-pipeline monitor-setup -i inventory.ini
-
-pipeline deploy checkbox.io -i inventory.ini
-pipeline build iTrust -u <admin> -p <admin>
-pipeline deploy iTrust -i inventory.ini
-```
-
 ### Deploy checkbox.io and iTrust
 
 Deploy checkbox.io and iTrust to your production environment provided in inventory.ini. You should be able to mostly reuse your previous roles for building the configuration server and production. Be mindful of places you may have hard-coded paths (e.g. `/home/vagrant`) and variables, as this likely to change for production.
@@ -121,6 +91,38 @@ Create an automated analysis that can perform the following tasks and generate c
 5. Report a statistical comparision between health values and compute a canary score. Determine whether canary has "passed" or "failed". 
 
 You should be able to reuse/extend code from the [Monitoring](https://github.com/CSC-DevOps/Monitoring) and [Deployment workshop](https://github.com/CSC-DevOps/Deployment). You might find [this package](https://github.com/juhis/genstats) useful for doing statistical tests. You are strongly encouraged to explore and measure multiple metrics in order to maximize your likelihood of detecting differences between the control and canary server.
+
+### Local development
+
+For local development and testing purposes, you should be able to swap out your dynamically created inventory with this static one:
+
+```
+[monitor]
+192.168.33.24 ansible_ssh_private_key_file=~/.bakerx/insecure_private_key ansible_user=vagrant
+
+[itrust]
+192.168.33.22 ansible_ssh_private_key_file=~/.bakerx/insecure_private_key ansible_user=vagrant
+
+[checkbox]
+192.168.33.23 ansible_ssh_private_key_file=~/.bakerx/insecure_private_key ansible_user=vagrant
+```
+
+You can provision and configure your local instances with:
+
+```
+bakerx run monitor bionic --ip 192.168.33.24
+bakerx run checkbox bionic --ip 192.168.33.23
+bakerx run itrust bionic --ip 192.168.33.22
+
+pipeline setup --gh-user <username> --gh-pass <password>
+pipeline monitor-setup -i inventory.ini
+
+pipeline deploy checkbox.io -i inventory.ini
+pipeline build iTrust -u <admin> -p <admin>
+pipeline deploy iTrust -i inventory.ini
+```
+
+You can also inspect the results on the class jenkins server.
 
 ## Team responsibilities
 
