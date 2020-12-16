@@ -68,36 +68,37 @@ May 6 (Thursday) Exam -->
 |----------|----------------------------------|------------| ----------------  |
 |  ➡️      | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾
 | Jan 19   | Intro | | HW0
-| Jan 21   |  | [Cloud Providers](HW/Cloud-Providers.md)
+| Jan 21   | Provision | [Cloud Providers](HW/Cloud-Providers.md)
 | Jan 26  | Continuous Deployment Concepts | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
-| Jan 28  | xxx |
+| Jan 28  | TBA |
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | Feb 2  | Virtualization concepts | | HW1
 | Feb 4  | Virtualization Workshop
+| Feb 9   | 😴
 | Feb 11  | Containers/Docker Workshop
 | Feb 16  | Configuration Management | | HW2
 | Feb 18  | Building Configuration Server
 |         | Ansible Playbooks
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
-| Feb 23    | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf)   | Build Milestone
+| Feb 23   | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 Build Milestone
 | Feb 25   | Building Basic Pipelines
 | Mar 2    | Jenkins
-| Mar 4    | xxx
+| Mar 4    | TBA
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Mar 9   | Testing + Analysis concepts | | Test Milestone
+| Mar 9   | Testing + Analysis concepts | | HW3
 | Mar 11   | Fuzzing workshop
-| Mar 16   | Test suites analysis and coverage workshop HW3
+| Mar 16   | Test suites analysis and coverage workshop | 💎Test Milestone
 | Mar 18   | Static analysis workshop
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Mar 23   | Infrastructure concepts | |  Deploy Milestone
-| Mar 25  | Building Caches and Queues with Redis  | | HW4
-| Mar 30
-| Apr 1
+| Mar 23   | Infrastructure concepts | | HW4
+| Mar 25  | Building Caches and Queues with Redis
+| Mar 30  | TBA
+| Apr 1   | TBA
 | <tr><th colspan=4> 📦&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🛎️</th></tr> |
-| Apr 6   | Deploy Strategies and Feature flags
+| Apr 6   | Deploy Strategies and Feature flags | |  💎Deploy Milestone, HW5
 | Apr 8    | Deployment Workshop
 | Apr 13    | Monitoring
-| Apr 15    | Monitoring Workshop  | | HW5
+| Apr 15    | Monitoring Workshop
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Apr 20   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
 | Apr 22   | [Incident call](https://www.pagerduty.com/blog/incident-response-reenactment/)
