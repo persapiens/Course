@@ -1,6 +1,19 @@
 
 ## Preliminary Course Setup
 
+```bash
+ ____  ____  _  _   __  ____  ____ 
+(    \(  __)/ )( \ /  \(  _ \/ ___)
+ ) D ( ) _) \ \/ /(  O )) __/\___ \
+(____/(____) \__/  \__/(__)  (____/
+
+The Ottomatica Distribution ttyS0
+
+v2021.1 - Kernel 5.10.1
+
+ncsu-csc login: ░
+```
+
 ### Communication channels
 
 1. We will use [Discord](https://discord.com/), a platform supporting instant messaging, group discussion in channels, and even voice, and video broadcasts, for course communication, clarification questions, class activities, and announcements. You can get the Desktop and mobile app or use the web version.  
