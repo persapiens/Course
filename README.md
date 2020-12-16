@@ -80,22 +80,22 @@ May 6 (Thursday) Exam -->
 | Feb 18  | Building Configuration Server
 |         | Ansible Playbooks
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
-| Feb 23   | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 Build Milestone
+| Feb 23   | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 Build Milestone, HW3
 | Feb 25   | Building Basic Pipelines
 | Mar 2    | Jenkins
 | Mar 4    | TBA
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Mar 9   | Testing + Analysis concepts | | HW3
+| Mar 9   | Testing + Analysis concepts | | HW4
 | Mar 11   | Fuzzing workshop
 | Mar 16   | Test suites analysis and coverage workshop | | 💎Test Milestone
 | Mar 18   | Static analysis workshop
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Mar 23   | Infrastructure concepts | | HW4
+| Mar 23   | Infrastructure concepts | | HW5
 | Mar 25  | Building Caches and Queues with Redis
 | Mar 30  | TBA
 | Apr 1   | TBA
 | <tr><th colspan=4> 📦&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🛎️</th></tr> |
-| Apr 6   | Deploy Strategies and Feature flags | |  💎Deploy Milestone, HW5
+| Apr 6   | Deploy Strategies and Feature flags | |  💎Deploy Milestone, HW6
 | Apr 8    | Deployment Workshop
 | Apr 13    | Monitoring
 | Apr 15    | Monitoring Workshop
