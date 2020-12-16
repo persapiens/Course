@@ -1,12 +1,8 @@
 ### Communication channels
 
-1. We will use Stack Overflow Teams (a private space for the class) to ask and answer technical questions about the course assignments and topics. 
+1.  We will use [Discord](https://discord.com/), a platform supporting instant messaging, group discussion in channels, and even voice, and video broadcasts, for course communication, clarification questions, class activities, and announcements. You can get the Desktop and mobile app or use the web version.  
 
-    Sign up! https://stackoverflow.com/c/ncsu/join
-
-2.  We will use mattermost, an open-source slack alternative, for course communication, clarification questions, in-class discussion, and announcements. You can get the Desktop and mobile app.  
-
-    You can join the team using this signup link:
+    You can join the server using this signup link:
     (_Provided in email._)
 
 ### Preliminary Course Setup
