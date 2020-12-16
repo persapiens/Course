@@ -64,9 +64,25 @@ Apr 29
 
 May 6 (Thursday) Exam -->
 
+<img>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" 
+     xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink"
+     width="100" height="50"
+>
+  <text font-size="16" x="10" y="20">
+    <tspan fill="red">Hello</tspan>,
+    <tspan fill="green">world</tspan>!
+  </text>
+</svg>
+</img>
+
+Test:  `#ffffff`
+
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-|  ➡️      | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾
+|  ➡️      | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾 
 | Jan 19   | Intro | | HW0
 | Jan 21   | Provision | [Cloud Providers](HW/Cloud-Providers.md)
 | Jan 26  | Continuous Deployment Concepts | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
