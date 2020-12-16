@@ -93,7 +93,7 @@ May 6 (Thursday) Exam -->
 | Mar 25  | Building Caches and Queues with Redis  | | HW4
 | Mar 30
 | Apr 1
-| <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
+| <tr><th colspan=4> 📦&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🛎️</th></tr> |
 | Apr 6   | Deploy Strategies and Feature flags
 | Apr 8    | Deployment Workshop
 | Apr 13    | Monitoring
