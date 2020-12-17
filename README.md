@@ -21,7 +21,7 @@ After the course, students are able to:
 * Monitor and analyze **telemetry** data.
 * Implement **resilience testing** on production environments (e.g., Chaos Monkey).
 
-## Schedule and Topics—Summer 2020
+## Schedule and Topics—Spring 2021
 
 *The following schedule is subject to change.*
 
