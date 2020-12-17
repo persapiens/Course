@@ -66,11 +66,11 @@ May 6 (Thursday) Exam -->
 
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
-|  ➡️      | [Setup](Boot.md)             | 🥾[Engineering Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾 
-| Jan 19   | Intro | | HW0
-| Jan 21   | Provision | [Cloud Providers](HW/Cloud-Providers.md)
-| Jan 26  | Continuous Deployment Concepts | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
-| Jan 28  | TBA |
+|  ➡️      | [Setup](Boot.md) 
+| Jan 19  | Intro | | HW0 
+| Jan 21  🥾[Basics](https://github.com/chrisparnin/EngineeringBasics) 🥾 
+| Jan 26  | Provision | [Cloud Providers](HW/Cloud-Providers.md) 
+| Jan 28  | Continuous Deployment Concepts | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  | 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | Feb 2  | Virtualization concepts | | HW1
 | Feb 4  | Virtualization Workshop
