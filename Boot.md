@@ -33,7 +33,7 @@ _If running nodejs on Windows, you may want to check the option to install devto
 
 We will use notebooks for some learning exercises.
 
-3. Please follow [install instructions](https://github.com/ottomatica/docable-notebooks/blob/master/docs/install.md).
+3. Please follow [install instructions](https://github.com/ottomatica/docable-notebooks/blob/master/docs/install.md) to install [docable notebooks](https://github.com/ottomatica/docable-notebooks).
 
 ![docable](imgs/docable-term.jpeg)
 
