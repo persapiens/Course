@@ -31,16 +31,18 @@ _If running nodejs on Windows, you may want to check the option to install devto
 
 ### Docable Notebooks
 
-![docable](imgs/docable-term.jpeg)
-
 We will use notebooks for some learning exercises.
 
 3. Please follow [install instructions](https://github.com/ottomatica/docable-notebooks/blob/master/docs/install.md).
 
+![docable](imgs/docable-term.jpeg)
+
 
 ### Opunit checks
 
-Do you have a functioning development environment needed for the course? We have a tool that can help check.
+Do you have a functioning development environment needed for the course? 
+
+We have a tool that can help check.
 
 4. Inside a [terminal](https://github.com/chrisparnin/EngineeringBasics/blob/master/Shells.md#shells), run:
 
