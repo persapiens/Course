@@ -27,7 +27,13 @@ Sara Ghodsi <sghodsi@ncsu.edu>, Rohit Nair <rnair2@ncsu.edu>, Christopher Parnin
 
 ### Do Basics workshop exercises (10)
 
-* Exercise: Data Science with Bash
+* Setup: Practice: Installing useful software
+* Setup: Exercise: Customize your bash prompt
+* Shells: Exercise: Data Science with Bash
+* Git: Practice: Creating a Repo
+* Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
+
+**Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level scrreen in your Homework submission (+10) points.
 
 ### Opunit checks (20)
 
@@ -95,6 +101,7 @@ You will be graded for completing the following tasks:
 * [ ] Complete provision workshop (20)
 * [ ] Provisioning for another cloud provider (20)
 * [ ] Screencast (10)
+* [ ] Bonus: Git: Complete all levels in https://learngitbranching.js.org/ (+10)
 
 ## Submission
 
