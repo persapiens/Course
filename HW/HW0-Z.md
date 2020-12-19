@@ -46,6 +46,13 @@ By completed the Basics workshop, you should have be able to perform all setup t
 * What is heredoc, and why might it be useful?
 * Explain what does it mean by "Commits are NOT diffs"?
 * What are signs of a bad kanban board?
+* 
+* a
+* a 
+* Explain "Fast to Deploy, Slow to Release"
+* a
+* b
+* c
 
 
 ### Complete provisioning workshop (20)
@@ -69,7 +76,7 @@ Depending on your cloud provider, there may be some manual one-time configuratio
 Create a screencast of your assignment:
 
 * Create a screencast demoing your opunit profile check.
-* Demonstrate running your code that provisions the two servers across the different platforms, including the cloud provider interface before and after running the code. Demonstrate being able to ssh into your box with your registered ssh key.
+* Demonstrate running your code that provisions the two servers across the different platforms, including the cloud provider interface before and after running the code.
 
 For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
