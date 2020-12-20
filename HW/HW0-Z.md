@@ -22,16 +22,18 @@ Sara Ghodsi <sghodsi@ncsu.edu>, Rohit Nair <rnair2@ncsu.edu>, Christopher Parnin
 
 ### Do class activities (10)
 
-* Make an brief introduction of yourself in #welcome
-* Pick and explain the difference between nightly builds, continuous integration, continuous delivery, and continuous deployment in Breakout.
+* [ ] Make an brief introduction of yourself in #welcome
+* [ ] Discuss remote swag in #gadgets
+* [ ] Pick and explain the difference between nightly builds, continuous integration, continuous delivery, and continuous deployment in Breakout.
+* [ ] Discussion: Living with Continuous Deployment.
 
 ### Do Basics workshop exercises (10)
 
-* Setup: Practice: Installing useful software
-* Setup: Exercise: Customize your bash prompt
-* Shells: Exercise: Data Science with Bash
-* Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
-* Online Tools: Practice: Set up a Task List and Trello Board (create issue and project board in your repository for this homework.)
+* [ ] Setup: Practice: Installing useful software
+* [ ] Setup: Exercise: Customize your bash prompt
+* [ ] Shells: Exercise: Data Science with Bash
+* [ ] Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
+* [ ] Online Tools: Practice: Set up a Task List and Trello Board (create issue and project board in your repository for this homework.)
 
 **Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level screen in your Homework submission (+10) points.
 
@@ -55,7 +57,7 @@ By completed the Basics workshop, you should have be able to perform all setup t
 * 
 * a
 * a 
-* Explain "Fast to Deploy, Slow to Release"
+* Explain "Every Feature is an Experiment"
 * a
 * b
 * c
