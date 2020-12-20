@@ -51,17 +51,16 @@ By completed the Basics workshop, you should have be able to perform all setup t
 
 ### Answer conceptual questions (10)
 
-* What is heredoc, and why might it be useful?
-* Explain what does it mean by "Commits are NOT diffs"?
-* What are signs of a bad kanban board?
-* 
-* a
-* a 
-* Explain "Every Feature is an Experiment"
-* a
-* b
-* c
-
+* 1. Explain class philosophy of "Understand how it works"
+* 2. What is heredoc, and why might it be useful?
+* 3. Explain what does it mean by "Commits are NOT diffs"?
+* 4. What are signs of a bad kanban board?
+* 5. Why are nightly builds useful?
+* 6. Explain "Every Feature is an Experiment"
+* 7. What does it mean by "Comfort the Customer with Discomfort"
+* 8. Explain "You are the Support Person"
+* 9. Why can sharing an api key be problematic?
+* 10. What differences did you observe between the two cloud provider apis you tried?
 
 ### Complete provisioning workshop (20)
 
