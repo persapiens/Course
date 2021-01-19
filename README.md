@@ -67,7 +67,7 @@ May 6 (Thursday) Exam -->
 | Class    | Topics                           |  Resources | Assignments       |
 |----------|----------------------------------|------------| ----------------  |
 |  ➡️      | [Setup](Boot.md) 
-| Jan 19  | Intro | | HW0 
+| Jan 19  | [Intro](https://drive.google.com/file/d/1ieVJug_pqDZjZyATphZ6s16c2oNVhxGc/view?usp=sharing) | | [HW0](HW/HW0-Z.md) 
 | Jan 21  | [Basics workshop](https://github.com/chrisparnin/EngineeringBasics) 🥾 
 | Jan 26  | What's DevOps? | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  |
 | Jan 28  | Cloud Provisioning Workshop | [Cloud Providers](HW/Cloud-Providers.md) 
