@@ -23,7 +23,6 @@ Sara Ghodsi <sghodsi@ncsu.edu>, Rohit Nair <rnair2@ncsu.edu>, Christopher Parnin
 ### Do class activities (10)
 
 * [ ] Make an brief introduction of yourself in #welcome
-* [ ] Discuss remote swag in #gadgets
 * [ ] Pick and explain the difference between nightly builds, continuous integration, continuous delivery, and continuous deployment in Breakout.
 * [ ] Discussion: Living with Continuous Deployment.
 
