@@ -8,7 +8,7 @@ This homework will prepare you for basic setup for the course.
 
 Properly setting up your Discord and Moodle profile.
 
-* For Moodle, upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile, which will help the teaching staff learn your name. Use [US passport photo guidelines](http://travel.state.gov/passport/pptphotoreq/photocomptemplate/photocomptemplate_5297.html).
+* For Moodle, upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile, which will help the teaching staff learn your name. Use [US passport photo guidelines](https://travel.state.gov/content/travel/en/passports/how-apply/photos.html).
 * For Discord, make sure you have your first and last name as part of your profile.
 
 ### Github (5)
