@@ -69,7 +69,7 @@ May 6 (Thursday) Exam -->
 |  ➡️      | [Setup](Boot.md) 
 | Jan 19  | [Intro](https://drive.google.com/file/d/1ieVJug_pqDZjZyATphZ6s16c2oNVhxGc/view?usp=sharing) | | [HW0](HW/HW0-Z.md) 
 | Jan 21  | [Basics workshop](https://github.com/chrisparnin/EngineeringBasics) 🥾 
-| Jan 26  | [What's DevOps?](https://drive.google.com/file/d/195ZTHWSdExT4crsfm7K47N6Fk5BqP8Bn/view?usp=sharing) [History](https://drive.google.com/file/d/1vUti511jC2R9zXTlSgpw6Ssx7JrP8IrO/view?usp=sharing) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  |
+| Jan 26  | [What's DevOps?](https://drive.google.com/file/d/195ZTHWSdExT4crsfm7K47N6Fk5BqP8Bn/view?usp=sharing)—[History](https://drive.google.com/file/d/1vUti511jC2R9zXTlSgpw6Ssx7JrP8IrO/view?usp=sharing) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  |
 | Jan 28  | Cloud Provisioning Workshop | [Cloud Providers](HW/Cloud-Providers.md) 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
 | Feb 2  | Virtualization concepts | | HW1
