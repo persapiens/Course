@@ -32,7 +32,7 @@ Sara Ghodsi <sghodsi@ncsu.edu>, Rohit Nair <rnair2@ncsu.edu>, Christopher Parnin
 * [ ] Setup: Exercise: Customize your bash prompt
 * [ ] Shells: Exercise: Data Science with Bash
 * [ ] Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
-* [ ] Online Tools: Practice: Set up a Task List and Trello Board (create issue and project board in your repository for this homework.)
+* [ ] Online Tools: Practice: Set up a Task List and Github Project(create issue and project board in your repository for this homework.)
 
 **Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level screen in your Homework submission (+10) points.
 
