@@ -48,6 +48,10 @@ https://arjie.com/2014/04/10/using-the-vcl-xml-rpc-interface-with-python/
 
 Is a platform that attempts to provide a open source implementation of cloud components and infrastructure, which has various venders that implement the standard. See here: https://www.openstack.org/marketplace/public-clouds/
 
+### Linode
+
+Linode is a US based cloud hosting company. Their name is a portmanteau of Linux and node. They offer a streamlined web interface to your virtual machines and a simple creation process. Check out their website [here](https://www.linode.com/), and their API [ documentation](https://www.linode.com/docs/api/). Do not forget to search for promo codes before you make an account!
+
 ### Other platforms
 
 In general, for this assignment, we will not be using Platform as a Service providers such as Heroku. If you identify another platform you'd like to try, bring it to the attention of the professor first as a pull request to this assignment.
