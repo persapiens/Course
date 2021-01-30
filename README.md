@@ -117,11 +117,6 @@ Details on requirements for milestones will be released throughout the course.  
 
 [ CM ] -> [ BUILD+TEST+ANALYSIS ] -> [ DEPLOY ] -> [ SPECIAL ]
 
-### Communication channels
-
-* [Mattermost](https://chat.alt-code.org)  
-* [NC State - Stack Overflow](https://stackoverflow.com/c/ncsu/)
-
 ##### Papers
 
 * [An empirical study on principles and practices of continuous delivery and deployment](https://peerj.com/preprints/1889.pdf)
