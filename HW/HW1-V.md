@@ -2,10 +2,29 @@
 
 This homework will guide you to practice with basic virtualization technology and familiarize you with building node CLI programs.
 
+## Class activities (50)
+
+Complete the following class activities. Document in your HW's README.md
+
+* [ ] Discussion: Describe a situation where it was difficult to run code from someone else (4)
+* [ ] Complete "On your own": Ubuntu up script (10)
+* [ ] Complete the [CLI notebook](https://docable.cloud/chrisparnin/notebooks/nodejs/CLI/cli.md) (6)
+* [ ] Complete "Docker workshop" (10)
+
+Answer the following conceptual questions (20)
+
+* Why can code be difficult to run on another machine? 
+* Explain the concepts of a computing environment and headless infrastructure.
+* Compare full emulation virtualization vs. binary translation
+* What are some use cases associated with microvms and unikernels?
+* In VM workshop, why can't the eth0 ip address be pinged from the host?
+* How can bakerx access the virtual machine through ssh?
+* What are the limitations of using chroot for os-virtualization?
+* Why is the builder pattern useful for building images?
+
+## Virtual Machine provisioning with CLI program (40)
+
 You will start with a starter code base and modify it to fulfill the homework criteria.
-
-## Setup
-
 Please do the following before you start the homework.
 
 ### Prepare your GitHub Repo.
@@ -39,7 +58,7 @@ Try it out.
 v up
 ```
 
-You will see a virtual machine being prepared and booted; however, it will hang as the network and port forwarding for ssh is not ready.
+You will see a virtual machine being prepared and booted; however, **it will hang as the network and port forwarding for ssh is not ready**.
 
 ```
 Executing VBoxManage import "/Users/cjparnin/.bakerx/.persist/images/bionic/box.ovf" --vsys 0 --vmname V
@@ -51,9 +70,7 @@ Executing VBoxManage startvm V --type headless
 Waiting for ssh to be ready on localhost:2800...
 ```
 
-## Base Requirements
-
-#### VM setup (40 points)
+#### VM setup (15 points)
 
 Add the following required components to your project by editing the [`customize(name)`](https://github.com/CSC-DevOps/V/blob/14c48245080b6eb8968175bd07d48a810dc4c3ea/commands/up.js#L92-L95) function inside commands/up.js. You will want to take advantage of the `VBoxManage.execute` wrapper to execute VirtualBox commands.
 
@@ -61,7 +78,7 @@ Add the following required components to your project by editing the [`customize
 * Add a port forward from 2800 => 22 for guestssh.
 * Add a port forward from 9000 => 5001 for a node application.
 
-#### Post-Configuration (25 points)
+#### Post-Configuration (10 points)
 
 Add the following required components to your project by editing the [`postconfiguration(name)`](https://github.com/CSC-DevOps/V/blob/master/commands/up.js#L100) function inside the commands/up.js. You will want to take advantage of the ssh command wrapper to send commands to the VM.
 
@@ -71,7 +88,7 @@ Add the following required components to your project by editing the [`postconfi
 
 **Warning** 💥: Be mindful of the deadly mix of quotes, platforms, and operators for combining (&&)---they are inconsistent on platforms and you may accidently be running the second command on your host system instead of remote system.
 
-#### SSH and App (25 points)
+#### SSH and App (15 points)
 
 Add a new command by creating a ssh.js inside the commands directory. 
 When running `v ssh` it should ssh into your VM (25 points).
@@ -97,44 +114,17 @@ Create a screencast of your assignment:
 
 For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
 
-## Checkpoint and Automated Checks
-
-**Visit**: ➡️  http://go.ncsu.edu/csc519-jenkins
-
-_VPN_: 🛂 To access the jenkins server, you will need to setup and sign-in to the NCSU vpn service:
-https://oit.ncsu.edu/campus-it/campus-data-network/vpn/
-
-### Jenkins job
-
-You can click on your build job and "Build Now".
-
-You can see the status of whether your homework meets the base requirements.
-
-![status](/imgs/success-failure.png)
-
-To understand what is going on, you can click on "Console" and view the output of your program running.
-
-![jenkins](/imgs/jenkins.png)
-
-### Checkpoint bonus (+5)
-
-Have a build job that demonstrates passing the initial configuration step in "Complete VM setup" by **Friday May 28th**, before midnight.
-
-Note the build job in your README.md or in your screencast.
-
 ## Evaluation
 
-* Compete VM setup (40)
-* Post-Configuration (25)
-* SSH/APP (25)
+* Class activities (50)
+* VM code (40)
 * Screencast (10)
 * Extra requirements (+5/+5)
-* Early checkpoint (+5)
 
-Max possible score: 115/100.
+Max possible score: 110/100.
 
 ## Submission
 
 Please commit your code by the deadline, including a README.md describing what you implemented, and includes a link to a screencast.
 
-The assignment is due Tuesday, June 2nd before midnight.
+The assignment is due Friday, Feb 12th---before midnight.
