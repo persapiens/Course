@@ -72,7 +72,7 @@ May 6 (Thursday) Exam -->
 | Jan 26  | [What's DevOps?](https://drive.google.com/file/d/195ZTHWSdExT4crsfm7K47N6Fk5BqP8Bn/view?usp=sharing)—[History](https://drive.google.com/file/d/1vUti511jC2R9zXTlSgpw6Ssx7JrP8IrO/view?usp=sharing) | [Summit I](https://github.com/CSC-DevOps/Course/blob/master/Readings/AdagesI.pdf), [Summit II-III](https://github.com/CSC-DevOps/Course/blob/master/Readings/CACM_DevOps.pdf)  |
 | Jan 28  | [Cloud Provisioning Workshop](https://github.com/CSC-DevOps/Provision) [📓](https://docable.cloud/chrisparnin/notebooks/provision/do.md) | [Cloud Providers](HW/Cloud-Providers.md) 
 | <tr><th colspan=4> 🧱&nbsp;&nbsp;&nbsp;Computing Environments&nbsp;&nbsp;&nbsp; ☢️</th></tr> |
-| Feb 2  | [Computing environments](https://drive.google.com/file/d/1JHVo22qVY1H6pm71aDhByaLCh5eYSnhR/view?usp=sharing) | | HW1
+| Feb 2  | [Computing environments](https://drive.google.com/file/d/1JHVo22qVY1H6pm71aDhByaLCh5eYSnhR/view?usp=sharing) | | [HW1](HW/HW1-V.md)
 | Feb 4  | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
 | Feb 9   | 😴
 | Feb 11  | Containers/Docker Workshop
