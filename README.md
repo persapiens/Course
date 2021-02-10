@@ -75,7 +75,7 @@ May 6 (Thursday) Exam -->
 | Feb 2  | [Computing environments](https://drive.google.com/file/d/1JHVo22qVY1H6pm71aDhByaLCh5eYSnhR/view?usp=sharing) | | [HW1](HW/HW1-V.md)
 | Feb 4  | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
 | Feb 9   | 😴
-| Feb 11  | Containers/Docker Workshop
+| Feb 11  | [Containers/Docker Workshop](https://github.com/CSC-DevOps/Containers)
 | Feb 16  | Configuration Management | | HW2
 | Feb 18  | Building Configuration Server
 |         | Ansible Playbooks
