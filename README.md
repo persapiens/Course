@@ -82,7 +82,7 @@ May 6 (Thursday) Exam -->
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
 | Feb 25  | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 Build Milestone, HW3
 | Mar 2   | Building Basic Pipelines
-| Mar 4   | Jenkins
+| Mar 4   | Jenkins + GitOps
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Mar 9   | Testing + Analysis concepts | | HW4
 | Mar 11   | Fuzzing workshop
