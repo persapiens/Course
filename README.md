@@ -76,8 +76,8 @@ May 6 (Thursday) Exam -->
 | Feb 4  | [Virtualization Workshop](https://github.com/CSC-DevOps/VM)
 | Feb 9   | 😴
 | Feb 11  | [Containers/Docker Workshop](https://github.com/CSC-DevOps/Containers)
-| Feb 16  | Configuration Management | | HW2
-| Feb 18  | Building Configuration Server
+| Feb 16  | [Configuration Management](https://drive.google.com/file/d/1UXvPSku5R2_Ls_Hl75ukHJ53OtWOjpBF/view?usp=sharing) | | [HW2](HW/HW2-cm.md)
+| Feb 18  | [Building Configuration Server](https://github.com/CSC-DevOps/CM)
 | Feb 23  | Ansible Playbooks
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
 | Feb 25  | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 Build Milestone, HW3
