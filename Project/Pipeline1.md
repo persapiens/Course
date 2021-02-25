@@ -26,7 +26,10 @@ $ pipeline build checkbox.io -u <admin> -p <admin>
 
 ```
 
-You may find some parts of the template for [CM homework](https://github.com/CSC-DevOps/CM-Template) useful for reuse. For triggering the build job and retrieving the build log, you may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
+**CM-Template**: Please clone and extend the following template for ensuring a uniform environment running projects across the class:
+https://github.com/CSC-DevOps/CM-Template
+
+For triggering the build job and retrieving the build log, you may consider using the [jenkins](https://www.npmjs.com/package/jenkins) npm package or using curl with the [remote api](https://wiki.jenkins.io/display/JENKINS/Remote+access+API).
 
 ##### Constraints
 
@@ -55,7 +58,7 @@ The production site has dependencies on nginx, node, monogodb, and additional en
 * You are free to construct the build environment for checkbox.io with any technology/tools, as long as it is done automatically.
 
 
-### 📋Create a build job.
+### 📋Create a build job for jenkins.
 
 The build job should perform the following build steps.
 
@@ -64,13 +67,12 @@ The build job should perform the following build steps.
 * Start mongodb (if not already running as service).
 * Start `server-side/site/server.js`.
 * Successfully pass `npm test` (as provided in server-side/site/package.json)
-* Tear down services (e.g., checkbox.io server.js).
 
 ##### Constraints:
 
-* You cannot manually create the build job. You must use [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) or a template of the config.xml file.
 * Use a pipeline style build job.
-  
+* You cannot manually create the build job in Jenkins. You may consider using [jenkins-job-builder](https://docs.openstack.org/infra/jenkins-job-builder/) to as a tool for adding/updating the build job in Jenkins.
+
 ## Team responsibilities
 
 ### 👥 Task leaders 
@@ -89,7 +91,7 @@ _Points will be deducted for non-contributing members, including receiving zero 
 
 There will be checkpoints where you will be required to report interim progress (CHECKPOINT.md).
 
-* Checkpoint 1 due: June 17th
+* Checkpoint 1 due: March 9th
 
 Document your current progress and team contributions. Note work you have completed and what work will be done next. You may find it useful to take screenshots of your GitHub Projects.
 
@@ -126,4 +128,4 @@ Ensure your repository contains:
 * a CHECKPOINT.md, with your two checkpoint reports.
 * a link to screencast that demostrates each task.
 
-**Due Monday, June 22nd, before midnight.**
+**Due Thursday, March 18nd, before midnight.**
