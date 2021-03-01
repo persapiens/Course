@@ -80,8 +80,8 @@ May 6 (Thursday) Exam -->
 | Feb 18  | [Building Configuration Server](https://github.com/CSC-DevOps/CM)
 | Feb 23  | [Ansible Playbooks (Part 3)](https://github.com/CSC-DevOps/CM/blob/master/Playbooks.md)
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
-| Feb 25  | Pipelines, CI/CD | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 [Build Milestone](Project/Pipeline1.md), HW3
-| Mar 2   | Building Basic Pipelines
+| Feb 25  | [Pipelines, CI/CD](https://drive.google.com/file/d/110EJzu-hNUOxDIhmjftraqo68RRvFhC-/view?usp=sharing) | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 [Build Milestone](Project/Pipeline1.md), [HW3](HW/HW3-P.md)
+| Mar 2   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
 | Mar 4   | Jenkins + GitOps
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Mar 9   | Testing + Analysis concepts | | HW4
