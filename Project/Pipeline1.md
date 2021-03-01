@@ -39,6 +39,7 @@ For triggering the build job and retrieving the build log, you may consider usin
 * Run jenkins server on port 9000.
 * Use `admin:admin` as username and password for jenkins
 * Install jenkins-plugins needed to use Pipelines style build jobs.
+* Use base image `focal`.
 
 ### 🛠️Automatically configure a build environment (checkbox.io)
 
