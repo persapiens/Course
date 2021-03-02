@@ -126,7 +126,7 @@ Ensure your repository contains:
 
 * a top-level node.js project supporting the required commands for running your build server.
 * a README.md, with your report details.
-* a CHECKPOINT.md, with your two checkpoint reports.
+* a CHECKPOINT.md, with your checkpoint reports.
 * a link to screencast that demostrates each task.
 
 **Due Thursday, March 18nd, before midnight.**
