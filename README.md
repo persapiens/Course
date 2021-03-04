@@ -82,7 +82,7 @@ May 6 (Thursday) Exam -->
 | <tr><th colspan=4> 🚰 &nbsp;&nbsp;&nbsp;Pipelines&nbsp;&nbsp;&nbsp; 🚀</th></tr> |
 | Feb 25  | [Pipelines, CI/CD](https://drive.google.com/file/d/110EJzu-hNUOxDIhmjftraqo68RRvFhC-/view?usp=sharing) | [Verifying Pipelines](Readings/DesirableProperties.pdf) | 💎 [Build Milestone](Project/Pipeline1.md), [HW3](HW/HW3-P.md)
 | Mar 2   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
-| Mar 4   | Jenkins + GitOps
+| Mar 4   | [Jenkins](https://github.com/CSC-DevOps/Jenkins)
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Mar 9   | Testing + Analysis concepts | | HW4
 | Mar 11   | Fuzzing workshop
