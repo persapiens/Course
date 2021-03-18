@@ -85,8 +85,8 @@ May 6 (Thursday) Exam -->
 | Mar 4   | [Jenkins](https://github.com/CSC-DevOps/Jenkins)
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Mar 9   | Testing + Analysis concepts | | [HW4](HW/HW4-TA.md)
-| Mar 11   | [Coverage workshop](https://github.com/CSC-DevOps/TestNAnalysis) ; [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)
-| Mar 16   | [Test suites analysis](https://github.com/CSC-DevOps/TestSuites)  | | 💎[Test Milestone[Project/Pipeline2.md]
+| Mar 11   | [Coverage workshop](https://github.com/CSC-DevOps/TestNAnalysis) 
+| Mar 16   | [Test suites analysis](https://github.com/CSC-DevOps/TestSuites); [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)  | | 💎[Test Milestone](Project/Pipeline2.md)
 | Mar 18   | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity)
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 23   | Infrastructure concepts | | HW5
