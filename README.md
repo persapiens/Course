@@ -86,7 +86,7 @@ May 6 (Thursday) Exam -->
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
 | Mar 9   | Testing + Analysis concepts | | HW4
 | Mar 11   | Fuzzing workshop
-| Mar 16   | Test suites analysis and coverage workshop | | 💎Test Milestone
+| Mar 16   | Test suites analysis and coverage workshop | | 💎[Test Milestone[Project/Pipeline2.md]
 | Mar 18   | Static analysis workshop
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 23   | Infrastructure concepts | | HW5
