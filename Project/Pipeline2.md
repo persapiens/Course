@@ -2,6 +2,8 @@
 
 For this milestone and project, you will continue to work in teams of 3 people.
 
+> Note: your project should retain the functionality of the previous milestone.
+
 ## General Tasks
 
 * Automatically configure a build environment and build job for a Java application (iTrust).
@@ -15,6 +17,8 @@ Extend your node.js project to support the following commands:
 ```bash
 # Configure jenkins, build environments, build jobs
 # --gh-user and --gh-pass should be used for accessing iTrust repo on github.ncsu.edu
+# It is recommended that you generate a developer token.
+# Store password in Jenkins vault.
 $ pipeline setup --gh-user <username> --gh-pass <password>
 # This command should copy a .vault-pass file, with the password "csc-devops-2020" from the host to VM home directory. The .vault-pass file should be excluded from source control_.
 
@@ -34,7 +38,7 @@ $ pipeline useful-tests -c 100
 # Trigger a build job (named checkbox.io), wait for output, and print build log. 
 # Extend existing build job to add a static analysis phase.
 # Static analysis should fail build job if any code smells are detected.
-$ pipeline build checkbox.io -u <admin> -p <admin>
+$ pipeline build checkbox.io -u <admin> -p <admin> --with-static
 ```
 
 ##### Constraints
