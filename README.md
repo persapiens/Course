@@ -84,15 +84,15 @@ May 6 (Thursday) Exam -->
 | Mar 2   | [Building Basic Pipelines](https://github.com/CSC-DevOps/Pipelines)
 | Mar 4   | [Jenkins](https://github.com/CSC-DevOps/Jenkins)
 | <tr><th colspan=4> 🧪&nbsp;&nbsp;&nbsp;Testing+Analysis&nbsp;&nbsp;&nbsp; ✅</th></tr> |
-| Mar 9   | Testing + Analysis concepts | | [HW4](HW/HW4-TA.md)
+| Mar 9   | [Testing + Analysis concepts](https://drive.google.com/file/d/1Pw3Yxlu0lFxfnIGYHK9jKBj1tHmMd8gG/view?usp=sharing) | | [HW4](HW/HW4-TA.md)
 | Mar 11   | [Coverage workshop](https://github.com/CSC-DevOps/TestNAnalysis) 
 | Mar 16   | [Test suites analysis](https://github.com/CSC-DevOps/TestSuites); [Fuzzing workshop](https://github.com/CSC-DevOps/Fuzzing)  | | 💎[Test Milestone](Project/Pipeline2.md)
 | Mar 18   | [Static analysis workshop](https://github.com/CSC-DevOps/Complexity)
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Mar 23   | Infrastructure concepts | | HW5
-| Mar 25  | Building Caches and Queues with Redis
-| Mar 30  | TBA
-| Apr 1   | TBA
+| Mar 23  | 😴           | | 
+| Mar 25  | Project Work
+| Mar 30  | [Infrastructure concepts](https://drive.google.com/file/d/1-59EGq1SAsbHWCFiQ7r5nqgxdI6XzKpV/view?usp=sharing) | | HW5
+| Apr 1   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches)
 | <tr><th colspan=4> 📦&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🛎️</th></tr> |
 | Apr 6   | Deploy Strategies and Feature flags | |  💎Deploy Milestone, HW6
 | Apr 8    | Deployment Workshop
