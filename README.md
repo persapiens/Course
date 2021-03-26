@@ -92,7 +92,7 @@ May 6 (Thursday) Exam -->
 | Mar 23  | 😴           | | 
 | Mar 25  | Project Work
 | Mar 30  | Infrastructure concepts | | HW5
-| Apr 1   | Building Caches and Queues with Redis
+| Apr 1   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches)
 | <tr><th colspan=4> 📦&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🛎️</th></tr> |
 | Apr 6   | Deploy Strategies and Feature flags | |  💎Deploy Milestone, HW6
 | Apr 8    | Deployment Workshop
