@@ -95,9 +95,9 @@ May 6 (Thursday) Exam -->
 | Apr 1   | [Building Caches and Queues with Redis](https://github.com/CSC-DevOps/Caches)
 | <tr><th colspan=4> 📦&nbsp;&nbsp;&nbsp;Deploy&nbsp;&nbsp;&nbsp; 🛎️</th></tr> |
 | Apr 6   | [Deploy Strategies and Feature flags](https://drive.google.com/file/d/1kDEL9Kvzxr8HdaJkBfG8DVJryan_wRuv/view?usp=sharing) | |  
-| Apr 8    | Deployment Workshop
-| Apr 13    | [Monitoring](https://drive.google.com/file/d/1YKw_rom7h0Tw7YHWPhlSQRV_mgr5mM0q/view?usp=sharing) | | 💎Deploy Milestone, HW6
-| Apr 15    | Monitoring Workshop
+| Apr 8    | [Deployment Workshop](https://github.com/CSC-DevOps/Deployment)
+| Apr 13    | [Monitoring](https://drive.google.com/file/d/1YKw_rom7h0Tw7YHWPhlSQRV_mgr5mM0q/view?usp=sharing) | | [💎 Deploy Milestone](Project/Pipeline3.md)
+| Apr 15    | [Monitoring Workshop](https://github.com/CSC-DevOps/Monitoring)
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Apr 20   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
 | Apr 22   | [Incident call](https://www.pagerduty.com/blog/incident-response-reenactment/)
