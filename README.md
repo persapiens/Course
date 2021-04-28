@@ -101,7 +101,7 @@ May 6 (Thursday) Exam -->
 | <tr><th colspan=4> 📈&nbsp;&nbsp;&nbsp;Ops&nbsp;&nbsp;&nbsp; 🧯</th></tr> |
 | Apr 20   | [Incidents](https://learning.acm.org/techtalks/reliability) | [Slides](https://learning.acm.org/binaries/content/assets/leaning-center/webinar-slides/2020/oops_techtalk_lorinhochstein_slides.pdf) |
 | Apr 22   | [Incident call](https://www.pagerduty.com/blog/incident-response-reenactment/)
-| Apr 27   | Feature experiments and chaos engineering
+| Apr 27   | [Feature experiments and chaos engineering](https://drive.google.com/file/d/14lUcOLnwd6JmY1Iuc_oSLc75Fbsrc1mN/view?usp=sharing)
 | Apr 29   | Chaos engineering workshop
 | <tr><th colspan=4> 🎬&nbsp;&nbsp;&nbsp;Closing&nbsp;&nbsp;&nbsp; 💯</th></tr> |
 | May 6    | Final Exam (6am--23:59pm) |          |                   |
