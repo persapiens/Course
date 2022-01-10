@@ -4,20 +4,22 @@ This homework will prepare you for basic setup for the course.
 
 **The assignment is due Friday, Jan 14th, before midnight**.
 
-## Course setup
+## Components
 
-### Profile setup (5)
+### Profile setup (10)
 
 Properly setting up your Discord and Moodle profile.
 
-* For Moodle, upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile, which will help the teaching staff learn your name. Use [US passport photo guidelines](https://travel.state.gov/content/travel/en/passports/how-apply/photos.html).
-* **For Discord**, make sure you have your first and last name as part of your profile.
+* **For Moodle**, upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile, which will help the teaching staff learn your name. Use [US passport photo guidelines](https://travel.state.gov/content/travel/en/passports/how-apply/photos.html).
 
-### First commit (5)
+* **For Discord**, make sure you have your first and last name as part of your profile (Documented in profile note, or local server user name).
 
-* Go to the repository: `https://github.ncsu.edu/CSC-DevOps-S22/HW0-<unity>-DevOps`.
+### First commit (10)
 
-Make a commit by.
+A repository has been created for you and hosted on NCSU's GitHub Enterprise instance. 
+Verify your repository exists: `https://github.ncsu.edu/CSC-DevOps-S22/HW0-<unity>-DevOps`.
+
+Make a commit by ...
 
 ### Opunit checks (20)
 
@@ -57,10 +59,31 @@ Include screenshot of command output in your submission.
 * 4. What are signs of a bad kanban board?
 
 
-## Screencast (10)
+### Screencast (10)
 
 Create a screencast of your assignment:
 
 * Create a screencast demoing your opunit profile check.
 
 For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
+
+
+## Evaluation
+
+You will be graded for completing the following tasks:
+
+* [ ] Complete moodle and discord account setup (10).
+* [ ] First commit by early deadline (10).
+* [ ] Complete class activities (30).
+* [ ] Answer conceptual questions (20).
+* [ ] Pass all `opunit` checks (20).
+* [ ] Screencast (10).
+* [ ] Bonus: Complete all "main" levels in https://learngitbranching.js.org/ (+10)
+
+## Submission
+
+Submit your homework materials, checked into your repository by the deadline.
+
+In your repository, check in all relevant code, and provide answers, link to relevant files, and link to your screencast the repository's README.md.
+
+The assignment is due Friday, Jan 29th, before midnight.
