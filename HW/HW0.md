@@ -31,4 +31,36 @@ opunit profile CSC-DevOps/profile:519.yml
 
 Include screenshot of command output in your submission.
 
-By completed the Basics workshop, you should have be able to perform all setup tasks necessary to pass the checks.
+### Classroom exercises (30)
+
+* [ ] Customizing Shell. 
+* [ ] Installing packages! 
+* [ ] Node Essentials: Async
+* [ ] Git playground
+
+* [ ] Setup: Practice: Installing useful software
+* [ ] Setup: Exercise: Customize your bash prompt
+* [ ] Shells: Exercise: Data Science with Bash
+* [ ] Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
+* [ ] Online Tools: Practice: Set up a Task List and Github Project(create issue and project board in your repository for this homework.)
+
+**Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level screen in your Homework submission (+10) points.
+
+### Conceptual Questions (20)
+
+* [ ] Markdown
+* [ ] Shells
+
+* 1. Explain class philosophy of "Understand how it works"
+* 2. What is heredoc, and why might it be useful?
+* 3. Explain what does it mean by "Commits are NOT diffs"?
+* 4. What are signs of a bad kanban board?
+
+
+## Screencast (10)
+
+Create a screencast of your assignment:
+
+* Create a screencast demoing your opunit profile check.
+
+For guidelines, software, and recommendations see [Screencasts](Screencasts.md).
