@@ -38,7 +38,7 @@ Sara Ghodsi <sghodsi@ncsu.edu>, Rohit Nair <rnair2@ncsu.edu>, Christopher Parnin
 
 ### Opunit checks (20)
 
-* Acheive 100% pass rate for opunit profile checks:
+* Achieve 100% pass rate for opunit profile checks:
 
 ```sh
 opunit profile CSC-DevOps/profile:519.yml
