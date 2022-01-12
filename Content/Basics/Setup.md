@@ -24,7 +24,7 @@ Whether you're a Mac, Windows, or Linux user---you should be able to find a way 
 
 Click the following to start the exercise.
 
-<a href="https://staging.docable.cloud/chrisparnin/v/61c127300cd38e085f371fc2">
+<a href="https://devops.docable.cloud/chrisparnin/v/61c127300cd38e085f371fc2">
 <img src="resources/imgs/customize-prompt-notebook-preview.png">
 </a>
 
