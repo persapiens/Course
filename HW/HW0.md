@@ -35,14 +35,11 @@ Include screenshot of command output in your submission.
 
 ### Classroom exercises (30)
 
-* [ ] Customizing Shell. 
-* [ ] Installing packages! 
-* [ ] Node Essentials: Async
-* [ ] Git playground
+* [ ] [Setup: Customizing shell prompt](https://devops.docable.cloud/chrisparnin/v/61b3ed6a7db4f2fc6edefd59).
+* [ ] [Setup: Installing packages challenge](https://devops.docable.cloud/chrisparnin/c/61c127300cd38e085f371fc2)
+* [ ] [Shells: Data Wrangling with Bash](https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356)
+* [ ] [Git: playground]
 
-* [ ] Setup: Practice: Installing useful software
-* [ ] Setup: Exercise: Customize your bash prompt
-* [ ] Shells: Exercise: Data Science with Bash
 * [ ] Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
 * [ ] Online Tools: Practice: Set up a Task List and Github Project(create issue and project board in your repository for this homework.)
 
