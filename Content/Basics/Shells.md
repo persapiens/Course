@@ -96,7 +96,9 @@ pbcopy < ~/.ssh/id_rsa
 clip < %HOME%/.ssh/id_rsa
 ```
 
-### Online Exercise
+### 📒 Online Exercise
+
+Click the following to start the exercise.
 
 <a href="https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356">
 <img src="imgs/data-science-notebook-preview.png">
