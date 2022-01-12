@@ -96,21 +96,12 @@ pbcopy < ~/.ssh/id_rsa
 clip < %HOME%/.ssh/id_rsa
 ```
 
+### Online Exercise
 
+<a href="https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356">
+<img src="imgs/data-science-notebook-preview.png">
+</a>
 
-|  | screen |	tmux|
-|--|--------|-------|
-|create session and attach|	`$ screen`	| `$ tmux`
-|create session _foo_ and attach	| `$ screen -S foo`	| `$ tmux new -s foo`
-| create detached session _foo_ |	`$ screen -S foo -d -m`	| `$ tmux new -s foo -d` |
-| list sessions	| `$ screen -list` |	`$ tmux ls` |
-| attach |	`$ screen -r`	| `$ tmux attach` |
-| attach to session _foo_	| `$ screen -r foo`	| `$ tmux attach -t foo` |
-| attach to session by _pid_ |	`$ screen -r pid`	|
-| kill session _foo_	| `$ screen -r foo -X quit` |	`$ tmux kill-session -t foo` |
-| send multiplexer command to session _foo_ |	`$ screen -r foo -X command` |	`$ tmux command -t foo` |
-| run `ls` in session _foo_	 | `$ screen -r foo -X stuff "ls $(echo -ne '\015')"`	| `$ tmux send-keys -t foo 'ls' C-m` |
-| run `vi` in new window	| `$ screen vi /etc/motd`	| `$ tmux new-window vi /etc/motd` |
 
 ## Resources
 
