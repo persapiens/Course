@@ -14,6 +14,20 @@ Whether you're a Mac, Windows, or Linux user---you should be able to find a way 
 
 *Tip*: IDES, such as VS Code provide easy access to a terminal (View ⇨ Terminal).
 
+**Deciding on a Terminal/Shell for Windows?**
+
+📒 See more: [Understanding your terminal in Windows](https://devops.docable.cloud/chrisparnin/v/61dcea308f429d8b25b56bf4).
+
+
+### 📒 Online Exercise: Customize your prompt
+
+
+Click the following to start the exercise.
+
+<a href="https://staging.docable.cloud/chrisparnin/v/61c127300cd38e085f371fc2">
+<img src="resources/imgs/customize-prompt-notebook-preview.png">
+</a>
+
 ### 2. Privileged commands
 
 Some commands require adminstrative or super user privileges.
@@ -24,9 +38,31 @@ Some commands require adminstrative or super user privileges.
 
    *Tip*: If opening up a cmd shell in admin mode, make sure you do not perform operations, such as `git clone` in your current directory (`C:\WINDOWS\system32`). Otherwise, you will be writing to a location that only admin will have access to which will make it difficult to run the commands/tasks you are intending on doing.
 
-### 3. Deciding on a Terminal/Shell for Windows
+##### Checking your System's Execution Policy (Windows)
 
+We are going to check your execution policy for your machine, which determines what scripts or software are allowed to run.
 
+We are going to run the following command in the `powershell` shell, and check that your policy is not `Restricted` for your user.
+
+```bash|{type: 'command', platform:'win32', shell: 'powershell', failed_when: "stdout.includes('Restricted')||exitCode==1"}
+Get-ExecutionPolicy -List
+```
+
+If you are going to be running future commands or scripts, you definately want to fix this. Here are some options:
+
+* `AllSigned`. Requires that all scripts and configuration files are signed by a trusted publisher, including scripts written on the local computer.
+* `RemoteSigned`. Requires that all scripts and configuration files downloaded from the Internet are signed by a trusted publisher. The default execution policy for Windows server computers.
+* `ByPass`. Nothing is blocked and there are no warnings or prompts. You can use this to _temporarily_ skip security checks: `Set-ExecutionPolicy Bypass -Scope Process`.
+
+We recommend running one of the following: 
+
+```bash|{type: 'command', platform:'win32', shell: 'powershell', privileged: true}
+Set-ExecutionPolicy AllSigned -Scope CurrentUser
+```
+
+```bash|{type: 'command', platform:'win32', shell: 'powershell', privileged: true}
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
 
 ### 4. Package Managers.
 
@@ -39,11 +75,109 @@ When possible, using a package manager can allow you to automate and streamline 
 
 We will learn how to use package managers to help use manage our system.
 
+*Package managers* are tools for installing libraries and tools, which help manage dependencies and configuration of files and environment variables. 
+
+There are generally two flavors of package managers. 
+
+* *Binary* package managers typically install platform specific dependencies: (`brew`, `choco`, `apt-get`) 
+* *Source* package managers typically install libraries you can use in your code: (`npm`, `pip`, `maven`)
+
+## Install a Package Manager on Your System
+
+If you're using Linux, you typically already have a package manager, such as `yum` or `apt-get`. You can skip this section.
+
+#### Installing HomeBrew on Mac OS X
+
+Homebrew is a popular package manager for MacOS. 
+
+Let's check if we have `brew` installed on the system. If not, use the [Homebrew Install Instructions](install-brew.md).
+```bash|{type: 'command', platform:'darwin'}
+brew --version
+```
+
+
+Here is an example of how to install the utility `wget`.
+```bash|{type: 'command', platform:'darwin'}
+brew install wget
+```
+
+#### Installing Chocolatey on Windows
+
+Chocolatey is a package manager for Windows. Once Chocolatey is installed, you can use it to install other tools on your system using `choco install <package-name>`.
+
+We will check if we have choco installed. If not, use the [Chocolatey Install Instructions](install-choco.md).
+
+```bash|{type: 'command', platform:'win32', failed_when:"!stdout.includes('Chocolatey v')"}
+choco --V
+```
+
+
+
+Important, when running commands that will make changes to your system, you may need to "Run (them) as Administrator". Notice, how when we run this command, `choco` warns us that we are not running inside an elevated shell.
+
+```bash|{type: 'command',platform:'win32', stream: true}
+choco install wget -y
+```
+
+We can try again, but this time, with a shell that has administrative priliveges:
+
+```bash|{type: 'command', privileged: true, platform:'win32', stream: true}
+choco install wget -y
+```
+
+Finally, we can remove `wget` using the `remove` parameter.
+
+```bash|{type: 'command', privileged: true, platform:'win32'}
+choco uninstall wget -y --remove-dependencies
+```
+
+## Practice: Installing useful software
+
+See if you can find the packages for these tools with your package manager and install them (if you do not already have them).
+
+* `wget`, a tool for performing web requests.
+* `nc`, a general networking tool (package name might be `netcat`).
+* `jq`, a tool for querying and manipulating and JSON files.
+* `git`, a tool for man
+
+We'll help you open up the appropriate shell you will need for you system.
+
+Windows (Admin)
+
+```bash|{type: 'command', platform:'win32', privileged: true}
+start
+```
+
+Mac/Linux:
+
+```bash|{type: 'command', platform:'darwin'}
+open -a "Terminal" .
+```
+
+After you've installed the appropriate commands, let's check if we have installed these programs on the system...
+
+```bash|{type: 'command'}
+git --version
+```
+
+```bash|{type: 'command'}
+jq --version
+```
+
+```bash|{type: 'command'}
+wget -V
+```
+
+### 📒 Online Exercise: Install the packages!
+
+Click the following to start the exercise.
+
+<a href="https://devops.docable.cloud/chrisparnin/v/61b3ed6a7db4f2fc6edefd59">
+<img src="resources/imgs/install-packages-notebook-preview.png">
+</a>
+
 
 ### 5. Path and Environment Variables.
-
-## Environment Variables
-
 Environment variables are dynamically configurable elements that are available to processes on your system.
 
 Mac/Linux: `echo $PATH`
@@ -106,5 +240,3 @@ To summarize (Mac/Linux):
 * Set permenant variables inside a start script such as `~/.bashrc`.
 
 
-5. Exercise: Customize your prompt
-5. Exercise: Practice install packages.
