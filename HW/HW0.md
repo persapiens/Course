@@ -31,7 +31,7 @@ https://devops.docable.cloud/chrisparnin/v/61a94512048892b30f3add22
 opunit profile CSC-DevOps/profile:519.yml
 ```
 
-Include screenshot of command output in your submission.
+Document passing checks in your screencast (see below).
 
 ### Classroom exercises (30)
 
@@ -39,22 +39,22 @@ Include screenshot of command output in your submission.
 * [ ] [Setup: Installing packages challenge](https://devops.docable.cloud/chrisparnin/c/61c127300cd38e085f371fc2)
 * [ ] [Shells: Data Wrangling with Bash](https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356)
 * [ ] [Git: playground]
-
-* [ ] Markdown: Practice: Create an About Me Page (AboutMe.md) in your homework submission.
+* [ ] Markdown: Practice: Create an `About Me` Section in your homework submission.
 * [ ] Online Tools: Practice: Set up a Task List and Github Project(create issue and project board in your repository for this homework.)
 
 **Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level screen in your Homework submission (+10) points.
 
 ### Conceptual Questions (20)
 
-* [ ] Markdown
-* [ ] Shells
-
 * 1. Explain class philosophy of "Understand how it works"
-* 2. What is heredoc, and why might it be useful?
-* 3. Explain what does it mean by "Commits are NOT diffs"?
-* 4. What are signs of a bad kanban board?
-
+* 2. What is the difference between a terminal and shell?
+* 3. Even if you're not a windows user, after [seeing information about windows](https://devops.docable.cloud/chrisparnin/v/61dcea308f429d8b25b56bf4) what would be your preferred environment for running commands and why?
+* 4. What are some reasons why a change to a environment variable may not be immediately visible?
+* 5. What is the difference between `stdout` and `stderr` in a running process?
+* 6. Explain what does it mean by "Commits are NOT diffs"?
+* 7. What are signs of a _bad_ kanban board?
+* 8. What is `heredoc`, and why might it be useful?
+* 9. What was a new feature, challenge, or interesting learning experience that you encountered while doing the homework or classroom exercises?
 
 ### Screencast (10)
 
