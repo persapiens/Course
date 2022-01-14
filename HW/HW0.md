@@ -2,7 +2,7 @@
 
 This homework will prepare you for basic setup for the course.
 
-**The assignment is due Friday, Jan 14th, before midnight**.
+**The assignment is due Monday, Jan 24th, before midnight**.
 
 ## Components
 
@@ -19,7 +19,7 @@ Properly setting up your Discord and Moodle profile.
 A repository has been created for you and hosted on NCSU's GitHub Enterprise instance. 
 Verify your repository exists: `https://github.ncsu.edu/CSC-DevOps-S22/HW0-<unity>-DevOps`.
 
-Make a commit by ...
+**Make a commit to your respository by Jan 19th**.
 
 ### Opunit checks (20)
 
@@ -38,9 +38,9 @@ Document passing checks in your screencast (see below).
 * [ ] [Setup: Customizing shell prompt](https://devops.docable.cloud/chrisparnin/v/61b3ed6a7db4f2fc6edefd59).
 * [ ] [Setup: Installing packages challenge](https://devops.docable.cloud/chrisparnin/c/61c127300cd38e085f371fc2)
 * [ ] [Shells: Data Wrangling with Bash](https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356)
-* [ ] [Git: playground]
+* [ ] [Git: Understanding Git](https://devops.docable.cloud/chrisparnin/v/61df4667eb4da9e40a359a5d)
 * [ ] Markdown: Practice: Create an `About Me` Section in your homework submission.
-* [ ] Online Tools: Practice: Set up a Task List and Github Project(create issue and project board in your repository for this homework.)
+* [ ] Online Tools: Practice: Set up a Task List and Github Project (create an issue and project board in your repository for this homework.)
 
 **Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level screen in your Homework submission (+10) points.
 
@@ -83,4 +83,4 @@ Submit your homework materials, checked into your repository by the deadline.
 
 In your repository, check in all relevant code, and provide answers, link to relevant files, and link to your screencast the repository's README.md.
 
-The assignment is due Friday, Jan 29th, before midnight.
+The assignment is due Monday, Jan 24th, before midnight.
