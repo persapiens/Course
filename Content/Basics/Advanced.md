@@ -38,11 +38,7 @@ echo "result is: $e"
 
 **Activity**: Imagine you wanted to write a "dead" startup checker using the product hunt data. Using the script below, you would be able check if a startup's url was still alive. Create an executable file called 'checker.sh', that is `chmod +x checker.sh`.
 
-Download data with `wget`.
-
-```bash|{type:'command', stream: true}
-wget -nc https://s3-us-west-2.amazonaws.com/producthunt-downloads/ph-export--2016-04-01.tar.gz --show-progress --progress=bar:force 2>&1
-```
+Download load the [product-hunt data set](https://drive.google.com/file/d/0BzraDEDPx5BcUlhKMkpJWDFNYUk/view?usp=sharing&resourcekey=0-IbDV9LSj2WTpE8oE70KKlA) and save on your drive.
 
 Create a directory to store the tar file contents
 
