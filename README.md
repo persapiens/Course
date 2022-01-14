@@ -29,7 +29,7 @@ After the course, students are able to:
 |----------|----------------------------------|------------| ----------------  |
 |  ➡️       | [Setup](https://devops.docable.cloud/chrisparnin/v/61a94512048892b30f3add22)
 | Jan 10   | [Intro](https://docs.google.com/presentation/d/1u17QwNV-msmyFp2WvRciVr_qTnuiT2z5WePoVERsCFE/edit?usp=sharing)
-| Jan 12   | [Basics](Content/Basics/README.md)
+| Jan 12   | [Basics](Content/Basics/README.md) | Basics workshop | [HW-Basics](HW/HW-Basics.md)
 |          | 
 | Jan 17   | No class
 | Jan 19   | 
