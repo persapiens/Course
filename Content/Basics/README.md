@@ -13,8 +13,8 @@ The primary goal of this workshop is for you have to have installed and learned 
    > Overview of markdown basics, lists, code, tables. Recommended editors for code. Creating Github Pages.
 4. [Version Control with Git](Git.md#git)  
    > Basic overview of git. Interactive tutorials for learning commands.
-5. ~Virtual Environments~
-   >Tools for creating and managing virtual computing environments.
+5. [Virtual Environments](Environments.md)
+   > Tools for creating and managing virtual computing environments.
 6. [Task Management](OnlineTools.md#online-tools)  
    > Using Github issues and Github projects for task management.
 7. [Advanced shell topics](Advanced.md#advanced)
