@@ -1,4 +1,4 @@
-# HW0
+# HW-Basics
 
 This homework will prepare you for basic setup for the course.
 
@@ -10,7 +10,7 @@ This homework will prepare you for basic setup for the course.
 
 Properly setting up your Discord and Moodle profile.
 
-* **For Moodle**, upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile, which will help the teaching staff learn your name. Use [US passport photo guidelines](https://travel.state.gov/content/travel/en/passports/how-apply/photos.html).
+* **For Moodle**, upload a current headshot picture of you (not anyone else, not a cartoon picture of you, etc.) to your Moodle profile, which will help the teaching staff learn your name. Use [US passport photo guidelines](https://travel.state.gov/content/travel/en/passports/how-apply/photos.html) as a guideline for an ideal headshot photo.
 
 * **For Discord**, make sure you have your first and last name as part of your profile (Documented in profile note, or local server user name).
 
@@ -35,12 +35,16 @@ Document passing checks in your screencast (see below).
 
 ### Classroom exercises (30)
 
+Review the [Basics workshop content](https://github.com/CSC-DevOps/Course/tree/master/Content/Basics#basics), and make sure to complete the following interactive components:
+
 * [ ] [Setup: Customizing shell prompt](https://devops.docable.cloud/chrisparnin/v/61b3ed6a7db4f2fc6edefd59).
 * [ ] [Setup: Installing packages challenge](https://devops.docable.cloud/chrisparnin/c/61c127300cd38e085f371fc2)
 * [ ] [Shells: Data Wrangling with Bash](https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356)
 * [ ] [Git: Understanding Git](https://devops.docable.cloud/chrisparnin/v/61df4667eb4da9e40a359a5d)
-* [ ] Markdown: Practice: Create an `About Me` Section in your homework submission.
+* [ ] Markdown: Practice: Create an `About Me` Section in your homework submission, with listed components.
 * [ ] Online Tools: Practice: Set up a Task List and Github Project (create an issue and project board in your repository for this homework.)
+
+After completing the interactive components, either include relevant snippets/answers in your README.md or include screenshots of the completed activity.
 
 **Bonus**: Git: Complete all levels in https://learngitbranching.js.org/ ---just include a screenshot of completed level screen in your Homework submission (+10) points.
 
