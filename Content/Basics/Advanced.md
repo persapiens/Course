@@ -1,4 +1,6 @@
-# Advanced Shells 
+[Setup](Setup.md#setup) | [Shells](Shells.md#shells) | [Markdown and IDEs](MarkdownEditors.md#markdown) | [Git](Git.md#git) |[Virtual Environments](Environments.md#environments) | [Task Management](OnlineTools.md#online-tools) | [Advanced Shells](Advanced.md#advanced)
+
+# Advanced
 
 
 ## Shell Programming

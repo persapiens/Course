@@ -1,4 +1,4 @@
-[Setup](Setup.md#setup) | [Shells](Shells.md#shells) |  [Git](Git.md#git) | [Markdown and IDEs](MarkdownEditors.md#markdown) |  [Virtual Environments](Environments.md#environments) | [Task Management](OnlineTools.md#online-tools)
+[Setup](Setup.md#setup) | [Shells](Shells.md#shells) | [Markdown and IDEs](MarkdownEditors.md#markdown) | [Git](Git.md#git) |[Virtual Environments](Environments.md#environments) | [Task Management](OnlineTools.md#online-tools) | [Advanced Shells](Advanced.md#advanced)
 
 # Shells
 

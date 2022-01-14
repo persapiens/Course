@@ -1,4 +1,5 @@
-[Setup](Setup.md#setup) | [Shells](Shells.md#shells) |  [Git](Git.md#git) | [Markdown and IDEs](MarkdownEditors.md#markdown) |  [Virtual Environments](Environments.md#environments) | [Task Management](OnlineTools.md#online-tools)
+[Setup](Setup.md#setup) | [Shells](Shells.md#shells) | [Markdown and IDEs](MarkdownEditors.md#markdown) | [Git](Git.md#git) |[Virtual Environments](Environments.md#environments) | [Task Management](OnlineTools.md#online-tools) | [Advanced Shells](Advanced.md#advanced)
+
 # Git
 
 ![image](https://cloud.githubusercontent.com/assets/742934/15635543/d1044ff6-25ae-11e6-9680-077830cff8f5.png)
@@ -19,23 +20,16 @@
 </a>
 
 
-## Practice: Creating a Repo
+## Practice: Creating a Repo from Scratch
 
-Let's try the basics. Let's create a new local git repository.
-
-Create a new directory (Basics) and file (README.md).
-
-```bash|{type:'file', path: 'Basics/README.md'}
-# Project 0
-Hello!
-```
+Let's create a new local git repository.
 
 We are going to create a new git repository, but maybe not the way you've done it before. 
-In the next set of commands, we will be working inside the `Basics/` directory.
 
 This will create a new .git directory to store commits and other objects.
 
 ```bash|{type:'command'}
+mkdir Basics
 cd Basics
 git init
 ```
@@ -110,18 +104,6 @@ While having a local git repository is cool, we should connect it to another rem
 * Get new data and merge into working tree: `git pull <remote> <refspec>`
 
 *Hot Take*: Avoid `git pull` on large repositories! You may want to handle merges yourself into your target branch instead of having git mess with your working tree.
-
-**Exercise**: Let's open a terminal and perform the following steps.
-
-Windows:
-```bash|{type:'command', path: 'Basics', platform: 'win32'}
-start bash
-```
-
-Mac/Linux:
-```bash|{type:'command', path: 'Basics'}
-open -a "Terminal" .
-```
 
 1. Create a repo on GitHub (If you are a NCSU student, use GitHub Enterprise: https://github.ncsu.edu). 
 

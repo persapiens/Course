@@ -9,12 +9,12 @@ The primary goal of this workshop is for you have to have installed and learned 
    > Getting started. Learn about terminals. Get some tools on your machine, and windows shell tips.
 2. [Shells](Shells.md#shells)  
    > Basic overview of unix shells, data wrangling.
-3. [Version Control with Git](Git.md#git)  
-   > Basic overview of git. Interactive tutorials for learning commands.
-4. [Markdown and IDES](MarkdownEditors.md#markdown)  
+3. [Markdown and IDES](MarkdownEditors.md#markdown)  
    > Overview of markdown basics, lists, code, tables. Recommended editors for code. Creating Github Pages.
+4. [Version Control with Git](Git.md#git)  
+   > Basic overview of git. Interactive tutorials for learning commands.
 5. ~Virtual Environments~
    >Tools for creating and managing virtual computing environments.
 6. [Task Management](OnlineTools.md#online-tools)  
    > Using Github issues and Github projects for task management.
-7. [Advanced shell topics](Advanced.md)
+7. [Advanced shell topics](Advanced.md#advanced)
