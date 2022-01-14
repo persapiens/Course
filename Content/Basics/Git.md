@@ -12,7 +12,7 @@
 
 ## 📒 Online Exercise: Understanding Git's Object Model
 
-Click the following to start the exercise.
+↳ Click the following to start the exercise.
 
 <a href="https://devops.docable.cloud/chrisparnin/v/61df4667eb4da9e40a359a5d">
 <img src="resources/imgs/git-online-notebook-preview.png">
