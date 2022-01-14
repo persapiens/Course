@@ -155,15 +155,13 @@ brew install visual-studio-code
 
 ## Practice: Create an About Me Page
 
-Update your README.md in 'Basics/' in your favorite editor. Using your new markdown skills, include the following details:
+Open/create a markdown file in your favorite editor. Using your new markdown skills, include the following details:
 
 * Something about you.
 * Where you are from.
 * A picture.
 * A list of skills
-* If brave, a table and a favorite code snippet.
-
-Commit and push the code to your remote repository.
+* A favorite code snippet.
 
 ## Advanced: Creating a WebPage using GitHub Pages
 
