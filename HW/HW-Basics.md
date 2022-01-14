@@ -23,9 +23,8 @@ Verify your repository exists: `https://github.ncsu.edu/CSC-DevOps-S22/HW0-<unit
 
 ### Opunit checks (20)
 
-* Achieve 100% pass rate for opunit profile checks:
-
-https://devops.docable.cloud/chrisparnin/v/61a94512048892b30f3add22
+* Achieve 100% pass rate for [opunit profile checks](https://devops.docable.cloud/chrisparnin/v/61a94512048892b30f3add22
+):
 
 ```sh
 opunit profile CSC-DevOps/profile:519.yml
