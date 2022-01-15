@@ -31,7 +31,7 @@ After the course, students are able to:
 | Jan 10   | [Intro](https://docs.google.com/presentation/d/1u17QwNV-msmyFp2WvRciVr_qTnuiT2z5WePoVERsCFE/edit?usp=sharing)
 |          | _Course overview_                  | Passing opunit checks 
 | Jan 12   | [Basics](Content/Basics/README.md) | Basics workshop | [HW-Basics](HW/HW-Basics.md)
-|          | _Terminals, making windows awesome, package managers_  | Customize your prompt, install the things, shells | 
+|          | _Terminals, making windows awesome, package managers, shells_  | Customize your prompt, install the things | 
 |          | _markdown, git, virtualization, kanban_       |
 | Jan 17   | No class
 | Jan 19   | Basics continued; What's DevOps?
