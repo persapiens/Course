@@ -37,7 +37,7 @@ Document passing checks in your screencast (see below).
 Review the [Basics workshop content](https://github.com/CSC-DevOps/Course/tree/master/Content/Basics#basics), and make sure to complete the following interactive components:
 
 * [ ] [Setup: Customizing shell prompt](https://devops.docable.cloud/chrisparnin/v/61b3ed6a7db4f2fc6edefd59).
-* [ ] [Setup: Installing packages challenge](https://devops.docable.cloud/chrisparnin/c/61c127300cd38e085f371fc2)
+* [ ] [Setup: Installing packages challenge](https://devops.docable.cloud/chrisparnin/v/61c127300cd38e085f371fc2)
 * [ ] [Shells: Data Wrangling with Bash](https://devops.docable.cloud/chrisparnin/v/61deeb28033cc264a107b356)
 * [ ] [Git: Understanding Git](https://devops.docable.cloud/chrisparnin/v/61df4667eb4da9e40a359a5d)
 * [ ] Markdown: Practice: Create an `About Me` Section in your homework submission, with listed components.
