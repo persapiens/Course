@@ -23,6 +23,8 @@ After the course, students are able to:
 
 ## Schedule and Topics—Spring 2022
 
+📹 [Live stream and recorded videos](https://ncsu.hosted.panopto.com/Panopto/Pages/Sessions/List.aspx#folderID=36084064-ad92-4b46-a9d0-adff0182a317)
+
 *The following schedule is subject to change.*
 
 | Class    | Topics                           |  Activities | Assignments       |
