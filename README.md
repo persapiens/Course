@@ -32,7 +32,7 @@ After the course, students are able to:
 |          | Course overview                  | Passing opunit checks 
 | Jan 12   | [Basics](Content/Basics/README.md) | Basics workshop | [HW-Basics](HW/HW-Basics.md)
 |          | Terminals, making windows awesome, package managers  | Customize your prompt, install the things. | 
-           | Shells, Markdown, Git, Virtualization, Kanban.       |
+|          | Shells, Markdown, Git, Virtualization, Kanban.       |
 | Jan 17   | No class
 | Jan 19   | Basics continued; What's DevOps?
 | Jan 24   | 
