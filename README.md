@@ -29,11 +29,13 @@ After the course, students are able to:
 |----------|----------------------------------|------------| ----------------  |
 |  ➡️       | [Setup](https://devops.docable.cloud/chrisparnin/v/61a94512048892b30f3add22)
 | Jan 10   | [Intro](https://docs.google.com/presentation/d/1u17QwNV-msmyFp2WvRciVr_qTnuiT2z5WePoVERsCFE/edit?usp=sharing)
+|          | Course overview                  | Passing opunit checks 
 | Jan 12   | [Basics](Content/Basics/README.md) | Basics workshop | [HW-Basics](HW/HW-Basics.md)
-|          | 
+|          | Terminals, making windows awesome, package managers  | Customize your prompt, install the things. | 
+           | Shells, Markdown, Git, Virtualization, Kanban.       |
 | Jan 17   | No class
-| Jan 19   | 
-| Jan 24   |
+| Jan 19   | Basics continued; What's DevOps?
+| Jan 24   | 
 | Jan 26   |
 | Jan 31   |
 | Feb 2    |
