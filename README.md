@@ -36,7 +36,7 @@ After the course, students are able to:
 |          | _Terminals, making windows awesome, package managers, shells_  | Customize your prompt, install the things | 
 |          | _markdown, git, virtualization, kanban_       |
 | Jan 17   | No class
-| Jan 19   | Basics continued; What's DevOps?
+| Jan 19   | Basics continued; [What's DevOps?](https://docs.google.com/presentation/d/1pdykQwiow19pw9ipN7YnqMQ6Nk6Wj_huDM0huZdURBk/edit#slide=id.gb1b1a3196c_1_3)
 | Jan 24   | 
 | Jan 26   |
 | Jan 31   |
