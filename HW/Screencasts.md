@@ -4,14 +4,24 @@ Here are some guidelines and links for creating good screencasts. It is good to 
 
 A general guideline: Do whatever it would do if you were teaching someone how to do something. For example, you don’t have to show people you typing and creating the whole commit, but you might want to show the contents of the hook in a text editor, before doing a commit.
  
-##### Software
+### Recording Software
 
-* camtasia
-* https://github.com/justinfrankel/licecap (for simple .gif that you can stitch together in video...)
-* screencastomatic
-* Add more recommendations in Mattermost/NC Stack Overflow Questions
+There are several ways to record a screencast:
+
+* Zoom meeting with yourself, share your screen, and record!
+* Screencast-o-matic or screencastify
+* Quicktime (Mac) or suprisingly, Xbox Game Bar (Windows)
+* https://github.com/justinfrankel/licecap (record a .gif that you can stitch together in slideshow... record video and provide a voice over)
+* OBS
+* Camtasia
+* or suggest any more recommendations in class communication channels.
  
-##### Guidelines for both multimedia formats:
+### Video Hosting
+
+* Add exported video to Google Drive and share with teaching staff
+* Host as unlisted video on Youtube.
+
+### Guidelines for both multimedia formats:
 
 * Keep the content simple - A regular software engineer without knowing anything about your tool should be able to follow you
 
