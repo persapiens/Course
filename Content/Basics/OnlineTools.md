@@ -2,11 +2,11 @@
 
 # Task Management
 
-In software engineering work there is often many intangible sets of things *todo* that have to be captured, assigned, prioritized, and tracked. Stickies are not going to cut it!
+In software engineering work there are often many intangible sets of things *todo* that have to be captured, assigned, prioritized, and tracked. Stickies are not going to cut it!
 
 ## Github Issues
 
-Issue trackers, such as Bugzilla, originated as a bug reporting tools. A project hosted on github comes with an issue tracker too. Any one can report an issue, add labels, and assign any team member(s) can be assigned to an issue.
+Issue trackers, such as Bugzilla, originated as bug reporting tools. A project hosted on github comes with an issue tracker too. Any one can report an issue, add labels, and assign any team member(s) to an issue.
 
 ![image](https://cloud.githubusercontent.com/assets/742934/15636814/9b3b210e-25d8-11e6-9180-3d5eba933357.png)
 
