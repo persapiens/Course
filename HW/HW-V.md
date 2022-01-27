@@ -24,7 +24,7 @@ npm link
 
 Try it out.
 ```
-v up
+v up [image]
 ```
 
 You will see a virtual machine being prepared and booted; however, **the program is incomplete and will not fully work**.
@@ -33,9 +33,12 @@ You will see a virtual machine being prepared and booted; however, **the program
 
 Based on your local development environment, you will need to use a different virtualization platform. For most cases, you will be able to take advantage of the venerable _VirtualBox_, but for others, you might have to travel on a _different road_.
 
-### Base requirements
+---
 
-#### VirtualBox base requirements 👣
+## :star: VirtualBox base requirements 👣
+
+---
+
 
 Add the following required components to your project by editing the `customize(name)` function inside lib/provider/vbox.js. You will want to take advantage of the `VBoxManage.execute` wrapper to execute VirtualBox commands.
 
@@ -56,7 +59,11 @@ When running `v ssh` it should ssh into your VM.
 * Manually run `node main.js start 5001`.
 * Demonstrate you can visit `localhost:9000` to see your running App.
 
-#### Virtualization Framework base requirements 👣
+---
+
+## :star: Virtualization Framework base requirements 👣
+
+---
 
 * Download [ubuntu focal image for M1](https://github.com/CSC-DevOps/VM/releases/download/v1.0.0/ubuntu-focal-m1.tar.gz) for testing.
 
