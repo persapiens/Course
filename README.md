@@ -37,8 +37,10 @@ After the course, students are able to:
 |          | _markdown, git, virtualization, kanban_       |
 | Jan 17   | No class
 | Jan 19   | Basics continued; [What's DevOps?](https://docs.google.com/presentation/d/1pdykQwiow19pw9ipN7YnqMQ6Nk6Wj_huDM0huZdURBk/edit#slide=id.gb1b1a3196c_1_3)
-| Jan 24   | 
-| Jan 26   |
+| Jan 24   | [Computing Environments](https://docs.google.com/presentation/d/1McFvP0k3o1hhn-0CxQfURYm3H9RQa6dcLxqUuqavF04/edit?usp=sharing)
+|          | _Headless infrastructure, virtualization concepts_  | Practice: Node Essentials: Promises |
+| Jan 26   | [VM workshop]()                                     |  | [HW-V](HW/HW-V.md)
+|          | _Virtual Box and Virtualization Framework Internals_| Build vagrant from scratch and bash provisioning script |
 | Jan 31   |
 | Feb 2    |
 | Feb 7    |
