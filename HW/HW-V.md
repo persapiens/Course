@@ -17,7 +17,7 @@ Please do the following before you start the homework.
 git clone http://github.com/CSC-DevOps/V
 cd V
 git remote -v
-git remote set-url origin https://github.ncsu.edu/cscdevops-spring2021/HW1-<unity>-DevOps
+git remote set-url origin https://github.ncsu.edu/CSC-DevOps-S22/HW1-<unity>-DevOps
 ```
 
 ### Install and test
