@@ -75,7 +75,7 @@ bakerx pull focal cloud-images.ubuntu.com
 * Install the npm packages for App
 
 3) Add a new command by creating a ssh.js inside the commands directory. 
-When running `v ssh` it should ssh into your VM.
+When running `v ssh` it should provide an interactive ssh session into your VM.
 
 * Implement and demonstrate running `v ssh`.
 * Manually run `node main.js start 5001`.
@@ -122,14 +122,14 @@ Write code to update the /etc/resolv.conf file:
   nameserver 8.8.4.4
   ```
 
-Add the following required components to your project by editing the `postcustomize()` function inside lib/provider/vf.js. You will want to take advantage of the `sshExe` command wrapper to send commands to the VM.
+3) Add the following required components to your project by editing the `postcustomize()` function inside lib/provider/vf.js. You will want to take advantage of the `sshExe` command wrapper to send commands to the VM.
 
 * Install nodejs and git
 * Clone https://github.com/CSC-DevOps/App
 * Install the npm packages for App
 
-Add a new command by creating a ssh.js inside the commands directory. 
-When running `v ssh` it should ssh into your VM.
+4) Add a new command by creating a ssh.js inside the commands directory. 
+When running `v ssh` it should provide an interactive ssh session into your VM.
 
 * Implement and demonstrate running `v ssh`.
 * Manually run `node main.js start 9000`.
