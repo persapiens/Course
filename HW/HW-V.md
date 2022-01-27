@@ -59,13 +59,32 @@ When running `v ssh` it should ssh into your VM.
 
 #### Virtualization Framework requirements 👣
 
-* Download alpine-virt, rootfs.
-* extract with 7z, dd to make img.
-* options.kernel, options.initrd, options.rootfs, options.kernel_cmdline, 
+* Download [ubuntu focal image for M1](https://github.com/CSC-DevOps/VM/releases/download/v1.0.0/ubuntu-focal-m1.tar.gz)
 
-* configure network...
+* Fix cmd_line
 
+* options.kernel, options.initrd, options.rootfs, options.kernel_cmdline
+* Fix dns.
 
+  Currently, the VM does not have a proper nameserver configured, meaning while you can access external networks, you can't resolve domain names. 
+  ```
+  ubuntu@localhost:~$ ping 8.8.8.8
+  PING 8.8.8.8 (8.8.8.8): 56 data bytes
+  64 bytes from 8.8.8.8: icmp_seq=0 ttl=114 time=27.117 ms
+  ubuntu@localhost:~$ host google.com
+  ;; connection timed out; no servers could be reached
+  ```
+
+  Write code to update the /etc/resolv.conf file:
+
+  ```
+nameserver 8.8.8.8
+nameserver 8.8.4.4
+  ```
+
+* Install git, nodejs
+* clone repo...
+ 
 ## Screencast (10)
 
 Create a screencast of your assignment:
