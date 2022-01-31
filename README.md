@@ -42,7 +42,7 @@ After the course, students are able to:
 |          | _Headless infrastructure, virtualization concepts_  | [Practice: Node Essentials: Promises](https://devops.docable.cloud/chrisparnin/v/61a91ec418321edaed0f8ea6) |
 | Jan 26   | [VM workshop](https://github.com/CSC-DevOps/VM)                                     |  | [HW-V](HW/HW-V.md)
 |          | _Virtual Box and Virtualization Framework Internals_| Build vagrant from scratch and bash provisioning script |
-| Jan 31   | [Debugging Virutalization Problems](https://docs.google.com/presentation/d/1fkg-5dD790lHlkDr9A0zmIUm_kvzTJbqynzZTtqhZyQ/edit?usp=sharing)
+| Jan 31   | [Debugging Virtualization Problems](https://docs.google.com/presentation/d/1fkg-5dD790lHlkDr9A0zmIUm_kvzTJbqynzZTtqhZyQ/edit?usp=sharing)
 |    xxx   | Images and OS Virtualization | 
 |          | _Containers, overlayfs, cgroup_                | Build docker from scratch |
 |          | _Building disk images, initrd, rootfs, kernel_ | Build packer from scratch |
