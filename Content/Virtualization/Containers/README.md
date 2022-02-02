@@ -7,7 +7,7 @@
 ↳ Click the following to start the exercise.
 
 <a href="https://devops.docable.cloud/chrisparnin/v/61fa97d5b405b677b416a7c5">
-<img src="containers-notebook-preview.png">
+<img src="imgs/containers-notebook-preview.png">
 </a>
 
 ## Introducing Docker containers.
@@ -231,7 +231,7 @@ We can confirm the code is greatly out of date and does not work with Java 11!
 
 Recall we want to maintain efficiency and isolation. Here is how Docker enables this.
 
-![docker-vs-vm](docker-vs-vm.png)
+![docker-vs-vm](imgs/docker-vs-vm.png)
 
 ##### Images
 
