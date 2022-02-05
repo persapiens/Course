@@ -17,10 +17,19 @@ A virtual machine image
 | ISO | A disk image packaged as ISO 9660/CD-ROM | Installers
 
 
+### Disk concepts
+
 Sparse files.
 Note about copy.
 
-Unpacked
+Paritiptions
+
+### Firmware, Bootloaders
+
+| BIOS     | ... | |
+| EFI/UEFI | Expects firmware program, and bootable kernel on disk partition.  |
+| GRUB     | Extensive bootloader
+| syslinux | Simple bootloader, often used with bootable ISO disks.
 
 ### Packaging as iso
 
