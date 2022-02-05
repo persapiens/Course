@@ -18,5 +18,7 @@ RUN rm -rf /var/cache/apk/*
 #RUN echo "tty0::respawn:/sbin/agetty -a root -L tty0 38400 vt100" > /etc/inittab
 RUN echo "hvc0::respawn:/sbin/agetty -a root -L hvc0 38400 linux" >> /etc/inittab
 
+RUN echo "Welcome to initramfs" > /etc/motd
+
 # Our init
-COPY init /init
+COPY simple_init /init
