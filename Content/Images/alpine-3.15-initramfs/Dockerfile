@@ -11,6 +11,7 @@ RUN apk add --update alpine-baselayout alpine-conf alpine-keys busybox busybox-i
 
 # Copy kernel for later use
 RUN cp /boot/vmlinuz-virt /vmlinuz
+RUN cp /boot/*con* /config
 
 # Cleanup
 RUN rm -rf /boot
