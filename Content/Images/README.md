@@ -1,20 +1,32 @@
-# Building images
+# Virtual Machine Images
+
+A virtual machine image 
+
+### Image formats
+
+| Format | Description | Commonly used in |
+| ---- | ------- | ------ |
+| RAW  | Fast performance, limited features | Many linux distributions
+| VHD  | Raw disk with header. | Hyper-V, Azure.
+| VHDX | Supports resizing, large disks. |Hyper-V, Azure.
+| VMDK | Supports resizing, large disks. | VMWare/Oracle products. 
+| qcow2| Uses copy-on-write, useful for snapshots | QEMU/KVM
+| OVA/OVF | Contains virtual machine information in addition to disks | Used in VMware and several cloud providers.
+| BOX | A tar file containing, OVF | Used by vagrant 
+| AMI | Amazon machine image | AWS
+| ISO | A disk image packaged as ISO 9660/CD-ROM | Installers
 
 
-### Making initramfs
+Sparse files.
+Note about copy.
 
-Building initramfs
+Unpacked
 
-```
-find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
-```
+### Packaging as iso
 
-
-The `/init` process and hand-off.  Process zero.
 
 
 ### THe boot process
-
 
 start_kernel()
 => arch_call_rest_init
@@ -114,37 +126,30 @@ Loading, please wait...
 Starting version 245.4-4ubuntu3.15
 ```
 
+The `/init` process and hand-off.  Process zero.
 
+## Building images
 
-### Making rootfs disk
+### Making initramfs
 
-See notebooks...
+Building initramfs
 
 ```
-dd if=/dev/zero of=disk.img bs=1M count=50
-mkfs.ext4 disk.img
-mkdir -p /mnt/disk
-mount -o loop disk.img /mnt/disk
-wget https://dl-cdn.alpinelinux.org/alpine/v3.15/releases/x86_64/alpine-minirootfs-3.15.0-x86_64.tar.gz
-
-tar -zxvf alpine-minirootfs-3.15.0-x86_64.tar.gz -C /mnt/disk/
-
-
-chroot /mnt/disk ash -c 'echo "nameserver 8.8.4.4" | tee /etc/resolv.conf'
-chroot /mnt/disk apk update
-chroot /mnt/disk mkdir -p /lib/apk/db /run
-chroot /mnt/disk apk add --initdb dhcpcd openssh
+find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
 ```
 
-### Other types of disk formats...
+### 📒 Online Exercise: Creating a rootfs
+
+↳ Click the following to start the exercise.
+
+<a href="https://devops.docable.cloud/chrisparnin/v/61fa97d5b405b677b416a7c5">
+<img src="doc/rootfs-notebook-preview.png">
+</a>
 
 
-### Packaging as iso
 
 
-
-
-### References
+## References
 
 http://www.aclevername.com/articles/linux-xilinx-tutorial/minimalist-initramfs.html
 
