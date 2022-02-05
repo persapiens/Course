@@ -23,3 +23,11 @@ chroot rootfs build
 4. Package kernel, initrd, rootfs + bootloader as iso
 
 5. Demonstrate building and booting iso in screencast.
+
+
+# Diagram of concepts
+
+Draw diagram of your program's architecture.
+
+Draw diagram explaining VM and docker concepts.
+
