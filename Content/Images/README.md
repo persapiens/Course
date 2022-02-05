@@ -9,6 +9,7 @@ Building initramfs
 find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
 ```
 
+
 The `/init` process and hand-off.  Process zero.
 
 
@@ -38,7 +39,7 @@ start_kernel(void)
 MP Thu Jan 13 18:28:08 UTC 2022 (Ubuntu 5.4.0-97.110-generic 5.4.162)
 ```
 
-
+```
 ...	boot_cpu_init();
 	page_address_init();
 	pr_notice("%s", linux_banner);
