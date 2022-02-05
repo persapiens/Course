@@ -1,23 +1,24 @@
 FROM alpine:3.15
 RUN mkdir -p /lib/apk/db /run
+
+# Simple service management system
 RUN apk add --initdb openrc
+# Kernel files
 RUN apk add linux-virt dbus-libs kbd-bkeymaps
 
-# busybox-initscripts busybox-suid
-#RUN apk add --update alpine-baselayout alpine-keys apk-tools busybox busybox-initscripts alpine-conf ca-certificates rng-tools  util-linux
+# Basic files needed for initramfs runtime
 RUN apk add --update alpine-baselayout alpine-conf alpine-keys busybox busybox-initscripts rng-tools util-linux
 
 # Copy kernel for later use
 RUN cp /boot/vmlinuz-virt /vmlinuz
-# Nuke boot
-RUN rm -rf /boot
 
-# Deleted cached packages
+# Cleanup
+RUN rm -rf /boot
 RUN rm -rf /var/cache/apk/*
 
-#RUN echo "tty0::respawn:/sbin/agetty -a root -L tty0 38400 vt100" > /etc/inittab
+# Automatic login for root on terminal
+RUN echo "tty0::respawn:/sbin/agetty -a root -L tty0 38400 linux" >> /etc/inittab
 RUN echo "hvc0::respawn:/sbin/agetty -a root -L hvc0 38400 linux" >> /etc/inittab
-
 RUN echo "Welcome to initramfs" > /etc/motd
 
 # Our init
