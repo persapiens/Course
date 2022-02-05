@@ -1,15 +1,24 @@
 # Building images
 
 
-WOrksop..
+### Making initramfs
 
-http://www.aclevername.com/articles/linux-xilinx-tutorial/minimalist-initramfs.html
+Building initramfs
 
-https://cloud-images.ubuntu.com/focal/current/
+```
+find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
+```
 
-https://tldp.org/LDP/lfs/LFS-BOOK-6.1.1-HTML/chapter06/devices.html
+The `/init` process and hand-off.  Process zero.
 
-# mount the disk on the loopback device (e.g. put the CDROM into the DRIVE)
+
+### THe boot process
+
+Annonated boot log subset.
+
+
+
+### Making rootfs disk
 
 ```
 dd if=/dev/zero of=disk.img bs=1M count=50
@@ -27,7 +36,18 @@ chroot /mnt/disk mkdir -p /lib/apk/db /run
 chroot /mnt/disk apk add --initdb dhcpcd openssh
 ```
 
+### Other types of disk formats...
 
-```
-find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
-```
+
+### Packaging as iso
+
+
+
+
+### References
+
+http://www.aclevername.com/articles/linux-xilinx-tutorial/minimalist-initramfs.html
+
+https://cloud-images.ubuntu.com/focal/current/
+
+https://tldp.org/LDP/lfs/LFS-BOOK-6.1.1-HTML/chapter06/devices.html
