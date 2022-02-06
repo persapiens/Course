@@ -1,5 +1,9 @@
 # Virtual Machine Images
 
+In this workshop, we'll cover a few core concepts related to virtual machine images, including their storage formats and the operations needed to boot them. We will cover how they are built from scratch and practice a few of the steps.
+
+## Understanding Virtual Machine Images
+
 A _virtual machine image_ is a file, containing contents and structure for an operating system, suitable for running in a virtualization platform or OS hypervisor. The file may simply be a _disk image_ (sectors, volumes, partitions) or contain additional information about the virtual machine configuration (networking, memory, etc).
 
 ### Common formats
@@ -65,6 +69,9 @@ $ rsync --sparse source_file new_file
 $ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 ```
 
+## Booting a Virtual Machine Image
+
+
 
 ### Firmware, Bootloaders
 
@@ -77,7 +84,6 @@ Bootloaders. Run on firmware to load operating system.
 * GRUB, Bootloader with many features.
 * syslinux, Simple bootloader, often used with bootable ISO disks.
 
-### Packaging as iso
 
 
 
@@ -201,8 +207,9 @@ find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
 <img src="doc/rootfs-notebook-preview.png">
 </a>
 
+### Packaging as iso
 
-
+...
 
 ## References
 
