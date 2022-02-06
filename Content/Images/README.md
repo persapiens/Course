@@ -237,14 +237,9 @@ root           3  0.0  0.0      0     0 ?        I<   03:33   0:00 [rcu_gp]
 
 ![init kernel panic](doc/kernel-panic.png)
 
-## Building images
+## Exercise: Packaging as iso
 
-### Making initramfs
-
-
-### Packaging as iso
-
-Package.
+Create an bootable iso.
 
 ...
 
