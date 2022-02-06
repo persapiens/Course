@@ -146,19 +146,15 @@ grub-mkimage -d /usr/lib/grub/x86_64-efi -O x86_64-efi -o BOOTX64.EFI -p /EFI/BO
 cp BOOTX64.EFI $ESP/EFI/BOOT/BOOTX64.EFI
 ```
 
-
 ### The kernel initialization process
 
-start_kernel()
+1) Start kernel. Initialize primary devices, cpu, memory systems, scheduler, etc. Unpacking initramfs.
+
+[start_kernel()](https://github.com/torvalds/linux/blob/1c52283265a462a100ae63ddf58b4e5884acde86/init/main.c#L927)
 => arch_call_rest_init
-  => arch_call_rest_init
-    => kernel_init (as thread)
+   => kernel_init (as thread)
 
-
-
-Kernel booting, unpacking initramfs, and initializing devices, kernel modules, and networking.
-
-```
+```c++
 start_kernel(void)
 {
 	char *command_line;
@@ -166,88 +162,68 @@ start_kernel(void)
 
     set_task_stack_end_magic(&init_task);
     smp_setup_processor_id();
+    ...
+    boot_cpu_init(); // prepare cpu state
+    ...
+    mm_init();       // memory systems
+    ...
+    sched_init();    // process scheduler
+    ...
+    
+    struct file *file = filp_open("/dev/console", O_RDWR, 0);
+
+    pid = kernel_thread(kernel_init, NULL, CLONE_FS);
 
 [    0.000000] Booting Linux on physical CPU 0x0000000000 [0x00000000]
 [    0.000000] Linux version 5.4.0-97-generic (buildd@bos02-arm64-018) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #110-Ubuntu S
 MP Thu Jan 13 18:28:08 UTC 2022 (Ubuntu 5.4.0-97.110-generic 5.4.162)
-```
-
-```
-...	boot_cpu_init();
-	page_address_init();
-	pr_notice("%s", linux_banner);
-	early_security_init();
-	setup_arch(&command_line);
-	setup_boot_config();
-	setup_command_line(command_line);
-	setup_nr_cpu_ids();
-	setup_per_cpu_areas();
-	smp_prepare_boot_cpu();	/* arch-specific boot-cpu hooks */
-	boot_cpu_hotplug_init();
-
-	pr_notice("Kernel command line: %s\n", saved_command_line);
-	/* parameters may set static keys */
-	jump_label_init();
-	parse_early_param();
-	after_dashes = parse_args("Booting kernel",
-				  static_command_line, __start___param,
-				  __stop___param - __start___param,
-				  -1, -1, NULL, &unknown_bootoption);
-	print_unknown_bootoptions();
-```
-
-
-```
-[    0.000000] Booting Linux on physical CPU 0x0000000000 [0x00000000]
-[    0.000000] Linux version 5.4.0-97-generic (buildd@bos02-arm64-018) (gcc version 9.3.0 (Ubuntu 9.3.0-17ubuntu1~20.04)) #110-Ubuntu S
-MP Thu Jan 13 18:28:08 UTC 2022 (Ubuntu 5.4.0-97.110-generic 5.4.162)
-[    0.000000] efi: Getting EFI parameters from FDT:
-[    0.000000] efi: UEFI not found.
-```
-
-```
-dev_symlink("/proc/self/fd", "fd");
-[    0.059653] devtmpfs: initialized
-```
-
-```
-[    0.222929] cacheinfo: Unable to detect cache hierarchy for CPU 0
-[    0.319762] loop: module loaded
-[    0.320170] libphy: Fixed MDIO Bus: probed
-[    0.320241] tun: Universal TUN/TAP device driver, 1.6
-[    0.320408] PPP generic driver version 2.4.2
-[    0.320526] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
-[    0.320676] ehci-pci: EHCI PCI platform driver
-[    0.320822] ehci-orion: EHCI orion driver
-[    0.320898] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
-[    0.320987] ohci-pci: OHCI PCI platform driver
-[    0.321069] uhci_hcd: USB Universal Host Controller Interface driver
-[    0.321213] mousedev: PS/2 mouse device common for all mice
-[    0.321356] i2c /dev entries driver
-[    0.321586] device-mapper: uevent: version 1.0.3
-[    0.321717] device-mapper: ioctl: 4.41.0-ioctl (2019-09-16) initialised: dm-devel@redhat.com
-[    0.321902] ledtrig-cpu: registered to indicate activity on CPUs
-[    0.322181] drop_monitor: Initializing network drop monitor service
-[    0.322439] NET: Registered protocol family 10
-[    0.328465] Segment Routing with IPv6
-[    0.328556] NET: Registered protocol family 17
-[    0.328677] Key type dns_resolver registered
-[    0.328852] registered taskstats version 1
-....
-```
-
-Moun
-
-```
 [    0.350045] hctosys: unable to open rtc device (rtc0)
+```
+
+2. Start `/init` program in user space and complete remaining configuration, loading disks, rootfs, networking, and start services.
+
+```c++
+kernel_init(void *unused)
+{
+	int ret;
+
+	/*
+	 * Wait until kthreadd is all set-up.
+	 */
+	wait_for_completion(&kthreadd_done);
+
+	kernel_init_freeable();
+    ...
+    ret = run_init_process(ramdisk_execute_command);
+    ...
 [    0.351563] Freeing unused kernel memory: 6912K
 [    0.361641] Checked W+X mappings: passed, no W+X pages found
 [    0.361728] Run /init as init process
 Loading, please wait...
 Starting version 245.4-4ubuntu3.15
+[    0.418366] virtio_blk virtio2: [vda] 20971520 512-byte logical blocks (10.7 GB/10.0 GiB)
+[    0.427783] virtio_blk virtio3: [vdb] 732 512-byte logical blocks (375 kB/366 KiB)
+[    0.440743] virtio_net virtio0 enp0s1: renamed from eth0
 ```
 
-The `/init` process and hand-off.  Process zero.
+3. The init process will start a simple program that will become the parent of all future processes. If this process crashes or exits, a kernel panic can occur!
+
+```bash
+ubuntu@basicvm:~$ ps -aux
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.5 102512 10392 ?        Ss   03:33   0:02 /sbin/init
+root           2  0.0  0.0      0     0 ?        S    03:33   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   03:33   0:00 [rcu_gp]
+```
+
+![init kernel panic](doc/kernel-panic.png)
+
+### Not so simple---initramfs
+
+To make an operating system easier to start up the kernel will also bring along a special image, called initramfs (previoulsy initrd). _InitRamFs_ is an initial in-memory filesystem that can contain basic programs, essential kernel modules, and settings that will make it easier to initialize the operating system.
+
+Typically, the p
+
 
 ## Building images
 
@@ -259,7 +235,7 @@ Building initramfs
 find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
 ```
 
-### 📒 Online Exercise: Creating a rootfs
+### 📒 Online Exercise: Creating a raw disk with rootfs
 
 ↳ Click the following to start the exercise.
 
@@ -283,3 +259,6 @@ https://kicherer.org/joomla/index.php/en/blog/47-the-essential-steps-in-the-linu
 
 
 http://henryomd.blogspot.com/2014/11/linux-kernel-startup.html
+
+https://answers.microsoft.com/en-us/windows/forum/all/uefi-secure-boot-in-windows-81/65d74e19-9572-4a91-85aa-57fa783f0759
+
