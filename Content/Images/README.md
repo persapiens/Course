@@ -20,18 +20,18 @@ A _virtual machine image_ is a file, containing contents and structure for an op
 
 ### Sparse files
 
-A sparse file is a specialized file that contains mostly empty-data. Sparse files allow for storage efficient disk images, and is one method for resizing a disk image.
+A _sparse file_ is a specialized file that contains mostly empty-data. Sparse files allow for storage efficient disk images, and is one method for resizing a disk image.
 
 Imagine you downloaded an [Ubuntu Focal image](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-arm64.tar.gz), containing a disk image. You notice that it is `1.3G` in size.
 
-```
+```bash
 ls -lh ~/focal-server-cloudimg-arm64.img 
 -rw-r--r--@ 1 cjparnin  staff   1.3G Dec 16 17:55 ~/focal-server-cloudimg-arm64.img
 ```
 
 Unfortunately, when you boot the virtual machine, you're already running out of space and can't even successfully boot: `No space left on device`.
 
-```
+```bash
 [FAILED] Failed to start Network Name Resolution.
 See 'systemctl status systemd-resolved.service' for details.
 [  OK  ] Stopped Network Name Resolution.
@@ -43,7 +43,7 @@ See 'systemctl status systemd-resolved.service' for details.
 
 🧰 The fix is surprisingly simple! Create a sparse file using `dd`. The existing disk image will be extended to be 10G in size.
 
-```
+```bash
 $ dd if=/dev/zero of=rootfs seek=10240 obs=1m count=0
 ...
 $ ls -lhs ~/.basicvm/VMs/v1/rootfs 
@@ -56,10 +56,10 @@ After booting and installing packages, the actual size on disk is still just `34
 
 If copying a sparse file, make sure you use provide sparse option for the command:
 
-```
-cp --sparse=always source_file new_file
-rsync --sparse source_file new_file
-dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
+```bash
+$ cp --sparse=always source_file new_file
+$ rsync --sparse source_file new_file
+$ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 ```
 
 
