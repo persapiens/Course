@@ -1,35 +1,78 @@
 # Virtual Machine Images
 
-A virtual machine image 
+A _virtual machine image_ is a file, containing contents and structure for an operating system, suitable for running in a virtualization platform or OS hypervisor. The file may simply be a _disk image_ (sectors, volumes, partitions) or contain additional information about the virtual machine configuration (networking, memory, etc).
 
-### Image formats
+### Common formats
 
 | Format | Description | Commonly used in |
 | ---- | ------- | ------ |
-| RAW  | Fast performance, limited features | Many linux distributions
+| Disks images
+| RAW  | Disk image with fast performance, limited features | Many linux distributions
 | VHD  | Raw disk with header. | Hyper-V, Azure.
 | VHDX | Supports resizing, large disks. |Hyper-V, Azure.
 | VMDK | Supports resizing, large disks. | VMWare/Oracle products. 
 | qcow2| Uses copy-on-write, useful for snapshots | QEMU/KVM
+| ISO | A disk image packaged as ISO 9660/CD-ROM | Installers, live distributions
+| Machine images
 | OVA/OVF | Contains virtual machine information in addition to disks | Used in VMware and several cloud providers.
 | BOX | A tar file containing, OVF | Used by vagrant 
 | AMI | Amazon machine image | AWS
-| ISO | A disk image packaged as ISO 9660/CD-ROM | Installers
 
+### Sparse files
 
-### Disk concepts
+A sparse file is a specialized file that contains mostly empty-data. Sparse files allow for storage efficient disk images, and is one method for resizing a disk image.
 
-Sparse files.
-Note about copy.
+Imagine you downloaded an [Ubuntu Focal image](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-arm64.tar.gz), containing a disk image. You notice that it is `1.3G` in size.
 
-Paritiptions
+```
+ls -lh ~/focal-server-cloudimg-arm64.img 
+-rw-r--r--@ 1 cjparnin  staff   1.3G Dec 16 17:55 ~/focal-server-cloudimg-arm64.img
+```
+
+Unfortunately, when you boot the virtual machine, you're already running out of space and can't even successfully boot: `No space left on device`.
+
+```
+[FAILED] Failed to start Network Name Resolution.
+See 'systemctl status systemd-resolved.service' for details.
+[  OK  ] Stopped Network Name Resolution.
+[FAILED] Failed to start Network Name Resolution.
+See 'systemctl status systemd-resolved.service' for details.
+         Starting Initial cloud-ini… (metadata service crawler)...
+[    5.050102] cloud-init[512]: OSError: [Errno 28] No space left on device
+```
+
+🧰 The fix is surprisingly simple! Create a sparse file using `dd`. The existing disk image will be extended to be 10G in size.
+
+```
+$ dd if=/dev/zero of=rootfs seek=10240 obs=1m count=0
+...
+$ ls -lhs ~/.basicvm/VMs/v1/rootfs 
+3416152 -rw-r--r--  1 cjparnin  staff    10G Feb  6 09:22 ~/.basicvm/VMs/v1/rootfs
+```
+
+After booting and installing packages, the actual size on disk is still just `3416152 blocks * 512 bytes = ~1.75G`.
+
+⚠️ Coping a sparse file may result in using the fully allocated space. So your 1.7G file might actually be 10G when you copy it! Also note, some programs do not work well with sparse files, and overtime, a sparse file may become fragmented.
+
+If copying a sparse file, make sure you use provide sparse option for the command:
+
+```
+cp --sparse=always source_file new_file
+rsync --sparse source_file new_file
+dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
+```
+
 
 ### Firmware, Bootloaders
 
-| BIOS     | ... | |
-| EFI/UEFI | Expects firmware program, and bootable kernel on disk partition.  |
-| GRUB     | Extensive bootloader
-| syslinux | Simple bootloader, often used with bootable ISO disks.
+| BIOS     | Legacy firmware | |
+| EFI/UEFI | Standard for firmware, making easier to write bootloaders. |
+| [EFI Image](https://github.com/ottomatica/slim/blob/master/scripts/make-efi.sh)| Disk partipition with firmware program, and bootable kernel.
+
+Bootloaders. Run on firmware to load operating system.
+
+* GRUB, Bootloader with many features.
+* syslinux, Simple bootloader, often used with bootable ISO disks.
 
 ### Packaging as iso
 
