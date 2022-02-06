@@ -20,8 +20,6 @@ A _virtual machine image_ is a file, containing contents and structure for an op
 
 ### Sparse files
 
-A _sparse file_ is a specialized file that contains mostly empty-data. Sparse files allow for storage efficient disk images, and is one method for resizing a disk image.
-
 Imagine you downloaded an [Ubuntu Focal image](https://cloud-images.ubuntu.com/focal/current/focal-server-cloudimg-arm64.tar.gz), containing a disk image. You notice that it is `1.3G` in size.
 
 ```bash
@@ -41,7 +39,11 @@ See 'systemctl status systemd-resolved.service' for details.
 [    5.050102] cloud-init[512]: OSError: [Errno 28] No space left on device
 ```
 
-🧰 The fix is surprisingly simple! Create a sparse file using `dd`. The existing disk image will be extended to be 10G in size.
+🧰 What can we do? The fix is surprisingly simple, use a sparse file! 
+
+A _sparse file_ is a specialized file that contains mostly empty-data. Sparse files allow for storage efficient disk images, and is one method for resizing a disk image.
+
+Create a sparse file using `dd`. The existing disk image will be extended to be 10G in size.
 
 ```bash
 $ dd if=/dev/zero of=rootfs seek=10240 obs=1m count=0
