@@ -232,6 +232,9 @@ Building initramfs
 find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
 ```
 
+### Packaging as iso
+
+
 ### 📒 Online Exercise: Creating a raw disk with rootfs
 
 ↳ Click the following to start the exercise.
@@ -240,7 +243,6 @@ find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
 <img src="doc/rootfs-notebook-preview.png">
 </a>
 
-### Packaging as iso
 
 ...
 
