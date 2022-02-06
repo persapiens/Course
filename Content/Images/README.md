@@ -180,7 +180,11 @@ MP Thu Jan 13 18:28:08 UTC 2022 (Ubuntu 5.4.0-97.110-generic 5.4.162)
 [    0.350045] hctosys: unable to open rtc device (rtc0)
 ```
 
+
+
 2. Start `/init` program in user space and complete remaining configuration, loading disks, rootfs, networking, and start services.
+
+> To make an operating system easier to start up the kernel will also bring along a special image, called [initramfs](https://wiki.ubuntu.com/Initramfs) (previoulsy initrd). _InitRamFs_ is an initial in-memory filesystem that can contain basic programs, essential kernel modules, and settings that will make it easier to initialize the operating system.
 
 ```c++
 kernel_init(void *unused)
@@ -217,13 +221,6 @@ root           3  0.0  0.0      0     0 ?        I<   03:33   0:00 [rcu_gp]
 ```
 
 ![init kernel panic](doc/kernel-panic.png)
-
-### Not so simple---initramfs
-
-To make an operating system easier to start up the kernel will also bring along a special image, called initramfs (previoulsy initrd). _InitRamFs_ is an initial in-memory filesystem that can contain basic programs, essential kernel modules, and settings that will make it easier to initialize the operating system.
-
-Typically, the p
-
 
 ## Building images
 
