@@ -71,6 +71,9 @@ $ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 
 ## Booting a Virtual Machine Image
 
+In most cases, we want a virtual machine image so we can run the operating system is that stored inside. How exactly does this happen?
+
+
 
 
 ### Firmware, Bootloaders
