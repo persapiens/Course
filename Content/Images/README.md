@@ -59,7 +59,7 @@ $ ls -lhs ~/.basicvm/VMs/v1/rootfs
 
 After booting and installing packages, the actual size on disk is still just `3416152 blocks * 512 bytes = ~1.75G`.
 
-> ⚠️ Coping a sparse file may result in using the fully allocated space. So your 1.7G file might actually be 10G when you copy it! Also note, some programs do not work well with sparse files, and overtime, a sparse file may become fragmented.
+> ⚠️ Coping a sparse file may result in using the fully allocated space. So your 1.7G file might actually be 10G when you copy it! Also note, some programs do not work well with sparse files, and overtime, a sparse file may become fragmented and potentially corrupt!
 
 If copying a sparse file, make sure you use provide sparse option for the command:
 
