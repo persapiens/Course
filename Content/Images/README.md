@@ -69,6 +69,14 @@ $ rsync --sparse source_file new_file
 $ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 ```
 
+### 📒 Online Exercise: Creating a raw disk with rootfs
+
+↳ Click the following to start the exercise.
+
+<a href="https://devops.docable.cloud/chrisparnin/v/61fa97d5b405b677b416a7c5">
+<img src="doc/rootfs-notebook-preview.png">
+</a>
+
 ## Booting a Virtual Machine Image
 
 In most cases, we want a virtual machine image so that we can run the operating system stored inside. How exactly does this happen?
@@ -186,6 +194,13 @@ MP Thu Jan 13 18:28:08 UTC 2022 (Ubuntu 5.4.0-97.110-generic 5.4.162)
 
 > To make an operating system easier to start up the kernel will also bring along a special image, called [initramfs](https://wiki.ubuntu.com/Initramfs) (previoulsy initrd). _InitRamFs_ is an initial in-memory filesystem that can contain basic programs, essential kernel modules, and settings that will make it easier to initialize the operating system.
 
+```
+find . | cpio -o -H newc 2>/dev/null | gzip > ../initramfs
+```
+
+> Creating a initramfs, simply involves combining files together (using cpio), and optionally compresses with gzip.
+
+
 ```c++
 kernel_init(void *unused)
 {
@@ -226,23 +241,10 @@ root           3  0.0  0.0      0     0 ?        I<   03:33   0:00 [rcu_gp]
 
 ### Making initramfs
 
-Building initramfs
-
-```
-find . | cpio -o -H newc 2>/dev/null | gzip > ../initrd
-```
 
 ### Packaging as iso
 
-
-### 📒 Online Exercise: Creating a raw disk with rootfs
-
-↳ Click the following to start the exercise.
-
-<a href="https://devops.docable.cloud/chrisparnin/v/61fa97d5b405b677b416a7c5">
-<img src="doc/rootfs-notebook-preview.png">
-</a>
-
+Package.
 
 ...
 
