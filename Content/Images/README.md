@@ -74,7 +74,7 @@ $ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 ↳ Click the following to start the exercise.
 
 <a href="https://devops.docable.cloud/chrisparnin/v/61fa97d5b405b677b416a7c5">
-<img src="doc/rootfs-notebook-preview.png">
+<img width=600 src="doc/rootfs-notebook-preview.png">
 </a>
 
 ## Booting a Virtual Machine Image
@@ -236,6 +236,8 @@ root           3  0.0  0.0      0     0 ?        I<   03:33   0:00 [rcu_gp]
 ```
 
 ![init kernel panic](doc/kernel-panic.png)
+
+Example [miminal initramfs](http://www.aclevername.com/articles/linux-xilinx-tutorial/minimalist-initramfs.html).
 
 ## Exercise: Packaging as iso
 
