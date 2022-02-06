@@ -96,13 +96,37 @@ Some bootloaders include:
 
 Some virtualization platforms, such as VirtualBox or Hyper-V, require that disk images contain bootloaders in order to run.
 
-Essentially, the disk is split into partitions and labeled with an identifiers to indicated what type of bootloader.
+To create a bootable disk image, the disk is split into partitions, with some partitions containing the bootloader and kernel, and the other partitions containing the remaining content (libraries, binaries, configuration, etc)
 
+```bash
+echo "Creating disk sized $1M"
+dd if=/dev/zero of=rootfs.ext4 bs=1M count=$1
 
+# Create two partitions (ESP for boot and second for rootfs).
+sgdisk --clear \
+  --new 1::+100M --typecode=1:ef00 --change-name=1:'EFI System' \
+  --new 2::-0 --typecode=2:8300 --change-name=2:'slim-rootfs' \
+  --attributes 1:set:2 \
+  rootfs.ext4
+```
 
-| [EFI Image](https://github.com/ottomatica/slim/blob/master/scripts/make-efi.sh)| Disk partipition with firmware program, and bootable kernel.
+After setup, the result will look something like this.
 
+```bash
+--------------------
+|  GPT Header      |
+|  GPT entries     |
+--------------------
+| EFI partition    |  => /EFI/BOOT/BOOTX64.EFI (bootloader)
+|                  |  => /EFI/BOOT/VMLINUZ (kernel)
+--------------------
+| LINUX partition  |
+|                  |  => /bin
+|                  |     /lib
+... 
+```
 
+An example configuration for the GRUB2 bootloader, including the location of the kernel, kernel cmdline parameters. A command for building the bootloader follows.
 
 ```bash
 # GRUB 
