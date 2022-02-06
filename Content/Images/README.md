@@ -71,26 +71,59 @@ $ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 
 ## Booting a Virtual Machine Image
 
-In most cases, we want a virtual machine image so we can run the operating system is that stored inside. How exactly does this happen?
+In most cases, we want a virtual machine image so that we can run the operating system stored inside. How exactly does this happen?
 
+The key ingredients involve a bootloader and a kernel.
 
+A _bootloader_ is a program that runs on the computer's firmware (low-level software etched onto hardware) in order to initially load an operating system into memory. A _kernel_ is the core of an operating system, which managements devices, services, and user programs.
 
+You typically will see two common types of firmware:
 
-### Firmware, Bootloaders
-
+|     |     |
+| --- | --- |
 | BIOS     | Legacy firmware | |
 | EFI/UEFI | Standard for firmware, making easier to write bootloaders. |
+
+Some bootloaders include:
+
+* `BOOTMGR`, Microsoft Windows bootloader.
+* `GRUB2`, Bootloader with many features, such as mutli-boot menus.
+* `syslinux`, a simple bootloader, often used with bootable ISO disks.
+
+![boot process](doc/UEFI.png)
+
+### Bootable disk images
+
+Some virtualization platforms, such as VirtualBox or Hyper-V, require that disk images contain bootloaders in order to run.
+
+Essentially, the disk is split into partitions and labeled with an identifiers to indicated what type of bootloader.
+
+
+
 | [EFI Image](https://github.com/ottomatica/slim/blob/master/scripts/make-efi.sh)| Disk partipition with firmware program, and bootable kernel.
 
-Bootloaders. Run on firmware to load operating system.
-
-* GRUB, Bootloader with many features.
-* syslinux, Simple bootloader, often used with bootable ISO disks.
 
 
+```bash
+# GRUB 
+cat >> $ESP/EFI/BOOT/grub.cfg <<EOF
+set timeout=0
+set gfxpayload=text
+menuentry 'Slim' {
+	linuxefi /EFI/BOOT/vmlinuz root=/dev/sda2 console=tty0 console=ttyS0,115200n8 earlyprintk=ttyS0,115200 rootdelay=300 text
+  initrdefi /EFI/BOOT/initrd
+}
+EOF
+
+GRUB_MODULES="part_gpt part_msdos efi_uga gptsync fat ext2 lvm iso9660 lsefi gzio linux linuxefi acpi normal cpio crypto disk boot crc64 \
+search_fs_uuid tftp xzio lzopio xfs video scsi multiboot hfsplus udf"
+
+grub-mkimage -d /usr/lib/grub/x86_64-efi -O x86_64-efi -o BOOTX64.EFI -p /EFI/BOOT ${GRUB_MODULES} linuxefi;
+cp BOOTX64.EFI $ESP/EFI/BOOT/BOOTX64.EFI
+```
 
 
-### THe boot process
+### The kernel initialization process
 
 start_kernel()
 => arch_call_rest_init
