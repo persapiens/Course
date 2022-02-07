@@ -2,7 +2,13 @@
 
 In this workshop, we'll cover a few core concepts related to virtual machine images, including their storage formats and the operations needed to boot them. We will cover how they are built from scratch and practice a few of the steps.
 
-## Understanding Virtual Machine Images
+Why?
+
+1. Understanding how images are built and booted will be invaluable to helping you debug failures that might otherwise seem impossible to approach.
+
+2. Will help with design your own computing environments, by understanding the tradeoffs, challenges, benefits involved with different configurations.
+
+## What's a virtual machine image?
 
 A _virtual machine image_ is a file, containing contents and structure for an operating system, suitable for running in a virtualization platform or OS hypervisor. The file may simply be a _disk image_ (sectors, volumes, partitions) or contain additional information about the virtual machine configuration (networking, memory, etc).
 
