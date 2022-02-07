@@ -14,11 +14,14 @@ p build
 - mkiofs
 - mkfs.ext4
 
-2. Download and build rootfs. Run packaging script.
+2. Create a rootfs
 
-chroot rootfs build
+https://jupyter.org/install
 
-3. Pack cpio. Format disk.
+or docker desktop?
+
+
+3. Pack cpio.
 
 4. Package kernel, initrd, rootfs + bootloader as iso
 
