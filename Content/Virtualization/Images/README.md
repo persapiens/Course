@@ -243,7 +243,12 @@ Example [miminal initramfs](http://www.aclevername.com/articles/linux-xilinx-tut
 
 Create an bootable iso.
 
-...
+We'll create a bootable iso image using isolinux, which is a bootloader based on syslinux.
+
+```
+mkisofs -o alpine.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J iso
+```
+
 
 ## References
 
@@ -260,3 +265,11 @@ http://henryomd.blogspot.com/2014/11/linux-kernel-startup.html
 
 https://answers.microsoft.com/en-us/windows/forum/all/uefi-secure-boot-in-windows-81/65d74e19-9572-4a91-85aa-57fa783f0759
 
+## Other
+
+
+```bash
+chris@DESKTOP-L4TUAS6 MINGW64 /c/users/chris/xorriso-exe-for-windows-master
+
+$ ./xorriso -as mkisofs -o alpine.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J iso
+```
