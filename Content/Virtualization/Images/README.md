@@ -256,6 +256,110 @@ mkisofs -o alpine.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boo
 ```
 
 
+## Packer
+
+`Packer` is a tool that will create a virtual machine image by a) booting a machine, b) sending keyboard sequences and configuration options, run additional commands through ssh, and then export the virtual machine image.
+
+While immensively useful, packer is also slower, because it basically requires allocating a new VM to build an image, and running the install wizard to configure the VM.
+
+```json
+{
+"variables": {
+	"version": "1.0",
+	"Date": "17/04/2020",
+
+	"vm_name": "test-vm",
+	"CPUs": "2",		
+	"cpu_cores": "2",
+	"RAM": "2048",
+	"disk_size": "20480",			
+
+	"sshusername": "redacted",
+	"sshpassword": "redacted",
+},
+"builders": [
+	{
+		"type": "vsphere-iso",
+
+		"vcenter_server": "{{user `vcenter_server`}}",
+		"username": "{{user `username`}}",
+		"password": "{{user `password`}}",
+		"cluster": "{{user `cluster`}}",
+		"host": "{{user `host`}}",
+		"datastore": "{{user `ds`}}",
+
+		"vm_name":"{{user `vm_name`}}",
+
+		"guest_os_type": "debian10_64Guest",
+
+		"shutdown_command": "sudo shutdown -P now",
+		"ssh_port": 22,
+		"ssh_username": "{{user `sshusername`}}",
+		"ssh_password": "{{user `sshpassword`}}",
+		"ssh_timeout": "30m",
+
+
+		"CPUs":  "{{user `CPUs`}}",
+		"cpu_cores": "{{user `cpu_cores`}}",
+		"RAM": "{{user `RAM`}}",
+		"RAM_reserve_all": true,
+
+		"disk_controller_type":  "pvscsi",
+		"disk_size": "{{user `disk_size`}}",
+		"disk_thin_provisioned": true,
+
+		"network_adapters" : [
+			{
+				"network" : "Some Network",
+				"network_card": "vmxnet3"
+			},
+			{
+				"network" : "Some Network",
+				"network_card": "vmxnet3"	
+			}
+		],
+
+		"iso_paths": [
+			"[DS1] ISOs/Linux/debian-10.2.0-amd64-netinst.iso"
+		],
+
+		"boot_wait": "15s",
+
+		"boot_command": [
+			"<esc><wait>",
+			"install ",
+			"debian-installer/locale string en_GB ",
+			"debian-installer/language=en ",
+			"debian-installer/country=GB ",
+			"debian-installer/locale=en_GB.UTF-8 ",
+			"clock-setup/utc=true ",
+			"time/zone=GB/London ",
+			"console-setup/ask_detect=false ",
+			"keyboard-configuration/xkb-keymap=gb ",
+			"preseed/url=http://some.internal.hostname.com/buster/preseed.cfg ",
+			"netcfg/choose_interface=ens192 ",
+			"netcfg/disable_autoconfig=true ",
+			"netcfg/get_ipaddress=192.168.100.142 ",
+			"netcfg/get_netmask=255.255.255.0 ",
+			"netcfg/get_gateway=192.168.100.240 ",
+			"netcfg/get_nameservers=192.168.100.240 ",
+			"netcfg/confirm_static=true ",
+			"netcfg/get_hostname=test-vm ",
+			"netcfg/get_domain=internal.domain.com ",
+			"<enter>"
+		]
+	}
+],
+"provisioners": [
+	{
+		"type": "shell",
+		"inline": ["ls /"]
+	}
+]
+}
+```
+
+
 ## References
 
 http://www.aclevername.com/articles/linux-xilinx-tutorial/minimalist-initramfs.html
@@ -270,6 +374,10 @@ https://kicherer.org/joomla/index.php/en/blog/47-the-essential-steps-in-the-linu
 http://henryomd.blogspot.com/2014/11/linux-kernel-startup.html
 
 https://answers.microsoft.com/en-us/windows/forum/all/uefi-secure-boot-in-windows-81/65d74e19-9572-4a91-85aa-57fa783f0759
+
+
+
+
 
 ## Other
 
