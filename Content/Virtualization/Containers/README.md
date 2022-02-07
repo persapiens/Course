@@ -252,3 +252,7 @@ Recall we want to maintain efficiency and isolation. Here is how Docker enables 
 * A docker container only stays alive as long as there is an active process being run in it. You can keep a long running container by running a process that does not exist (a server), or running in daemon mode (`-d`).
 * A container cannot generally access other processes, the host filesystem, or other resources. The entry point is PID 1. 
 * While greatly useful, running programs inside containers can result in many different quirky behavior.
+
+## Docker on your system.
+
+If you'd like to have docker on your system, see [options for docker on your system](DockerOptions.md) for different choices you have available for your platform.
