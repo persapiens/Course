@@ -114,13 +114,16 @@ sns.catplot(x ="Sex", hue ="Survived",
 kind ="count", data = titanic)
 ```
 
+Depending on how your have configured your VM, you'll either need to set a port forward to 8888 so you can access from your localhost, or if your VM has an ip address, you can specify the ip address when you start the server:
+`jupyter-notebook --ip 192.168.64.67`.
+
 2) Demonstrate running your provisioning workshop code, obtaining an ip address, pinging ip address, and deleting vm.
 
 ## Evaluation
 
 You will be graded for completing the following tasks:
 
-* [ ] CLI program (70).
+* [ ] CLI packaging program (70).
 * [ ] Complete provision script (20).
 * [ ] Screencast (10).
 
