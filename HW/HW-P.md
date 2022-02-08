@@ -1,6 +1,6 @@
 # Packaging and Provisioning
 
-## Building a Virtual Machine Image
+## Building a Virtual Machine Image (70) 💿
 
 ### Setup
 
@@ -91,15 +91,25 @@ mkisofs -o jn.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -b
 
 4. Persist your rootfs as a raw image, with ext4 filesystem.
 
-## Screencast
+## Provisioning Script (20) 🌊
 
-Demonstrate building, booting iso in screencast.
+Complete all the steps in the provision workshop using [digitalocean](https://developers.digitalocean.com/v2/) api. You must be able to obtain your [own api key](https://www.digitalocean.com/docs/api/create-personal-access-token/) after creating your account.
 
+## Screencast (10) 📹
 
+1) Demonstrate building, booting iso + raw disk in screencast.
+Inside vm, start `jupyter notebook`, visit server in a web browser, and run the following snippet. You may connect from the serial console in VirtualBox, or attached in basicvm or you can configure ssh and add an authorized ssh key.
 
-# Diagram of concepts
+```python
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
 
-Draw diagram of your program's architecture.
+titanic = pd.read_csv('/data/titantic.csv')
 
-Draw diagram explaining VM and docker concepts.
+# Countplot
+sns.catplot(x ="Sex", hue ="Survived",
+kind ="count", data = titanic)
+```
 
+2) Demonstrate running your provisioning workshop code, obtaining an ip address, pinging ip address, and deleting vm.
