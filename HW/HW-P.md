@@ -136,3 +136,15 @@ Submit your homework materials, checked into your repository by the deadline.
 In your repository, check in all relevant code, and provide answers, link to relevant files, and link to your screencast the repository's README.md.
 
 The assignment is due Friday, Feb 18th, before midnight.
+
+
+## Landmines and Potholes
+
+You may run in the following situations:
+
+* `/etc/resolv.conf` is a symlink, you may have to remove first before writing.
+* Some operations will require that you start your docker container with `--privileged`.
+* Make sure you label for your disk, e.g. `-L cloudimg-rootfs`.
+* Be mindful how what your containers are leaving behind after running. `docker container prune` might surprise you.
+* In a chroot, `flash-kernel` might not be happy. `FK_MACHINE=none apt install linux-virtual -y`
+* In a chroot, you might want to `mount --bind /proc ...` to have access to your host environment's cpu settings when installing kernel.
