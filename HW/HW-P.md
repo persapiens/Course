@@ -1,5 +1,7 @@
 # Packaging and Provisioning
 
+The assignment is due Friday, Feb 18th, before midnight.
+
 ## Building a Virtual Machine Image (70) 💿
 
 ### Setup
@@ -113,3 +115,19 @@ kind ="count", data = titanic)
 ```
 
 2) Demonstrate running your provisioning workshop code, obtaining an ip address, pinging ip address, and deleting vm.
+
+## Evaluation
+
+You will be graded for completing the following tasks:
+
+* [ ] CLI program (70).
+* [ ] Complete provision script (20).
+* [ ] Screencast (10).
+
+## Submission
+
+Submit your homework materials, checked into your repository by the deadline.
+
+In your repository, check in all relevant code, and provide answers, link to relevant files, and link to your screencast the repository's README.md.
+
+The assignment is due Friday, Feb 18th, before midnight.
