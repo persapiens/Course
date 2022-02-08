@@ -35,7 +35,7 @@ Extend the program to perform the following tasks.
 
 1. Build Docker image.
 
-Build a docker image that will contain all the tools needed for performing your image build. For example, you will want to install `mkiofs` for creating an ISO, and `e2fsprogs` for formating a filesystem of a raw image.
+Build a docker image that will contain all the tools needed for performing your image build. For example, you will want to install `mkisofs` for creating an ISO, and `e2fsprogs` for formating a filesystem of a raw image.
 
 Extend the `images/Dockerfile` to complete this step.
 
