@@ -4,6 +4,8 @@ The assignment is due Friday, Feb 18th, before midnight.
 
 ## Building a Virtual Machine Image (70) 💿
 
+![demo](imgs/jupyter-notebook.png)
+
 ### Setup
 
 1. Find a suitable option for [running docker on your system](../Content/Virtualization/Containers/DockerOptions.md).
