@@ -89,7 +89,7 @@ c. Generate iso
 mkisofs -o jn.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -boot-load-size 4 -boot-info-table -J iso
 ```
 
-
+4. Persist your rootfs as a raw image, with ext4 filesystem.
 
 ## Screencast
 
