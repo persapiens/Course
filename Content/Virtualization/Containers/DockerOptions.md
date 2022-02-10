@@ -21,11 +21,27 @@ If you want to run docker on your system, what's the best available option?
 
    3. You can simply install the `docker-cli` tools and run the docker engine in a VM in VirtualBox. To use the docker-engine, you just need to set your environment variables to set the ip address of your VM.
 
+   Prepare your docker vm
+   ```
+   bakerx run docker-vm focal --ip 192.168.99.101
+   bakerx ssh docker-vm
+   
+   #Update the docker daemon to listen to outside connections:
+   vagrant@ubuntu-focal:/etc/systemd$ cat /lib/systemd/system/docker.service | grep dockerd
+    ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H tcp://0.0.0.0:2375
+   # Restart service 
+ 
+   # Check dockerd is running with additional host
+   vagrant@ubuntu-focal:/etc/systemd$ ps -aux | grep dockerd
+    root       10440  0.8  6.9 1087792 69368 ?       Ssl  18:08   0:00 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H tcp://0.0.0.0:2375
+   ```
+
+   Install docker command line tools and point it to the docker engine running in your VM:
    ```
    choco install docker-cli -y
-
-   SETX DOCKER_TLS_VERIFY 1
-   SETX DOCKER_HOST tcp://192.168.99.101:2376
+   SETX DOCKER_HOST tcp://192.168.99.101:2375
+   
+   docker run run-hello
    ```
-
+  
    You can also use the `docker-machine` tool to manage this process for you. [See more here](https://github.com/ottomatica/docable-notebooks/blob/master/docs/examples/advanced/installs/docker-engine.md).
