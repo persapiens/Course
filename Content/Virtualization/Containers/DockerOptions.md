@@ -22,6 +22,7 @@ If you want to run docker on your system, what's the best available option?
    3. You can simply install the `docker-cli` tools and run the docker engine in a VM in VirtualBox. To use the docker-engine, you just need to set your environment variables to set the ip address of your VM.
 
    Prepare your docker vm
+   
    ```
    bakerx run docker-vm focal --ip 192.168.99.101
    bakerx ssh docker-vm
@@ -44,4 +45,5 @@ If you want to run docker on your system, what's the best available option?
    docker run run-hello
    ```
   
+   *Using docker-machine*  
    You can also use the `docker-machine` tool to manage this process for you. [See more here](https://github.com/ottomatica/docable-notebooks/blob/master/docs/examples/advanced/installs/docker-engine.md).
