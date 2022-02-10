@@ -2,13 +2,18 @@
 
 If you want to run docker on your system, what's the best available option?
 
+### Linux Options
+
 🐧 If you're running Linux, there isn't much more to do---you can simply install the docker-cli tool and take advantage of a few extra native options.
+
+### Mac Options
 
 🍏 If you're running a Mac, whether Intel or M1/Arm64, using Docker Desktop for Mac will be your best option. You can take advantage of paravirtualization offered by Mac OS, meaning your docker environment will be relatively performant. You can also still use VirtualBox images.
 
+### Windows Options...
+
 🪟 If you're Windows, you can run Docker, by there isn't a simple solution that let's you fully take advantage of everything you'd want to do.
 
-### Windows Options...
 
 1. You can install Docker Desktop for Windows---however, you won't be able to easily run virtualization software, such as VirtualBox at the same time.
 
