@@ -31,12 +31,26 @@ If you want to run docker on your system, what's the best available option?
    Prepare your docker vm
    
    ```
-   bakerx run docker-vm focal --ip 192.168.99.101
-   bakerx ssh docker-vm
+   bakerx run docker-vm --ip 192.168.99.101
+   bakerx stop docker-vm
+
+   # Map your project to your directories
+   vboxmanage sharedfolder add docker-vm --name "scripts" --hostpath C:/users/chris/classes/519/P-done/lib/scripts --automount
+   vboxmanage sharedfolder add docker-vm --name "downloads" --hostpath C:/users/chris/classes/519/P-done/tmp --automount
    
+   bakerx run docker-vm --ip 192.168.99.101
+   bakerx ssh docker-vm
+
+   # Get docker
+   curl -sSL https://get.docker.com/ | sh
+
+   # Add yourself to shared directories
+   vagrant@ubuntu-focal: sudo adduser $USER vboxsf
+
    #Update the docker daemon to listen to outside connections:
    vagrant@ubuntu-focal:/etc/systemd$ cat /lib/systemd/system/docker.service | grep dockerd
     ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H tcp://0.0.0.0:2375
+    
    # Restart service 
  
    # Check dockerd is running with additional host
