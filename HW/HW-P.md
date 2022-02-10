@@ -150,3 +150,18 @@ You may run in the following situations:
 * Be mindful how what your containers are leaving behind after running. `docker container prune` might surprise you.
 * In a chroot, `flash-kernel` might not be happy. `FK_MACHINE=none apt install linux-virtual -y`
 * In a chroot, you might want to `mount --bind /proc ...` to have access to your host environment's cpu settings when installing kernel.
+  
+You may want to manually create a VM and tweak in VirtualBox, or running some of the VirtualBox commands, to setup your machine for testing your ISO and disk.
+```
+VBoxManage createvm --name jn --register
+VBoxManage storagectl jn --name IDE --add ide
+VBoxManage storageattach jn --storagectl IDE --port 0 --device 0 --type dvddrive --medium tmp/jn.iso
+
+VBoxManage storagectl jn --name SCSI --add scsi
+VBoxManage storageattach jn --storagectl SCSI --port 1 --device 0 --type hdd --medium tmp/disk.vmdk
+
+VBoxManage modifyvm jn --memory 1024 --cpus 1
+VBoxManage modifyvm jn --uart1 0x3f8 4 --uartmode1 disconnected
+VBoxManage modifyvm jn --nic1 nat
+VBoxManage modifyvm jn --nictype1 virtio
+```
