@@ -8,7 +8,9 @@ If you want to run docker on your system, what's the best available option?
 
 🪟 If you're Windows, you can run Docker, by there isn't a simple solution that let's you fully take advantage of everything you'd want to do.
 
-   1. You can install Docker Desktop for Windows---however, you won't be able to easily run virtualization software, such as VirtualBox at the same time.
+### Windows Options...
+
+1. You can install Docker Desktop for Windows---however, you won't be able to easily run virtualization software, such as VirtualBox at the same time.
 
    In this scenario, you can toggle between using Docker or VirtualBox, by toggling whether you have a hypervisor running, and then rebooting each time you change it.
    
@@ -17,9 +19,9 @@ If you want to run docker on your system, what's the best available option?
    bcdedit /set hypervisorlaunchtype off
    ```
 
-   2. Alternatively, you can try to use Hyper-V as a virtualization provider. The primary limitation of this approach is that not many linux distributions provide out of the box headless VM images that will work in Hyper-V. But if you did get it working, you can use Docker and Hyper-V at the same time.
+2. Alternatively, you can try to use Hyper-V as a virtualization provider. The primary limitation of this approach is that not many linux distributions provide out of the box headless VM images that will work in Hyper-V. But if you did get it working, you can use Docker and Hyper-V at the same time.
 
-   3. You can simply install the `docker-cli` tools and run the docker engine in a VM in VirtualBox. To use the docker-engine, you just need to set your environment variables to set the ip address of your VM.
+3. You can simply install the `docker-cli` tools and run the docker engine in a VM in VirtualBox. To use the docker-engine, you just need to set your environment variables to set the ip address of your VM.
 
    Prepare your docker vm
    
