@@ -94,6 +94,8 @@ mkisofs -o jn.iso -b isolinux/isolinux.bin -c isolinux/boot.cat -no-emul-boot -b
 ```
 
 4. Persist your rootfs as a raw image, with ext4 filesystem.
+  
+For virtualbox, you will need to convert to a VMDK disk: `VBoxManage convertdd rootfs.img disk.vmdk`
 
 ## Provisioning Script (20) 🌊
 
