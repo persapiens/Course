@@ -10,10 +10,6 @@
 <img src="imgs/containers-notebook-preview.png">
 </a>
 
-## Intermission: Images demo...
-
-live class demo.
-
 ## Introducing Docker containers.
 
 If we worked on our script for several more years and took advantage of other capabilities of the Linux kernel, such as cgroups and namespaces, we could overcome many of the limitations we saw with our homegrown containers. Thankfully, someone has done this work for us.

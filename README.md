@@ -43,12 +43,11 @@ After the course, students are able to:
 | Jan 26   | [VM workshop](https://github.com/CSC-DevOps/VM)                                     |  | [HW-V](HW/HW-V.md)
 |          | _Virtual Box and Virtualization Framework Internals_| Build vagrant from scratch and bash provisioning script |
 | Jan 31   | [Debugging Virtualization Problems](https://docs.google.com/presentation/d/1fkg-5dD790lHlkDr9A0zmIUm_kvzTJbqynzZTtqhZyQ/edit?usp=sharing)
-|    xxx   | Images and OS Virtualization | 
+| Feb 2   | [OS Virtualization](Content/Virtualization/Containers/README.md) | 
 |          | _Containers, overlayfs, cgroup_                | Build docker from scratch |
+| Feb 7         | [Images](Content/Virtualization/Images/README.md) |
 |          | _Building disk images, initrd, rootfs, kernel_ | Build packer from scratch |
-| xxx    | Cloud provisioning                             | Build doctl from scratch  |   HW-D/P    
-| Feb 7    |
-| Feb 9    |
+| Feb 9    |  [Cloud provisioning](https://github.com/CSC-DevOps/Provision)  | Build doctl from scratch  |   [HW-P](HW/HW-P.md)    
 | Feb 14   |
 | Feb 16   |
 | Feb 21   |

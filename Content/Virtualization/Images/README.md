@@ -79,7 +79,7 @@ $ dd if=srcFile of=dstFile iflag=direct oflag=direct bs=64K conv=sparse
 
 ↳ Click the following to start the exercise.
 
-<a href="https://devops.docable.cloud/chrisparnin/v/61fa97d5b405b677b416a7c5">
+<a href="https://devops.docable.cloud/chrisparnin/v/61fd88ad259883bc45ee6989">
 <img width=600 src="doc/rootfs-notebook-preview.png">
 </a>
 
