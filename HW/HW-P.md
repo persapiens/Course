@@ -150,6 +150,7 @@ You may run in the following situations:
 * Be mindful how what your containers are leaving behind after running. `docker container prune` might surprise you.
 * In a chroot, `flash-kernel` might not be happy. `FK_MACHINE=none apt install linux-virtual -y`
 * In a chroot, you might want to `mount --bind /proc ...` to have access to your host environment's cpu settings when installing kernel.
+* If you don't have a network connection, you might want to provide a /etc/netplan/01-config.yaml file.
   
 You may want to manually create a VM and tweak in VirtualBox, or running some of the VirtualBox commands, to setup your machine for testing your ISO and disk.
 ```
