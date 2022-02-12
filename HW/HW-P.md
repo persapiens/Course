@@ -72,7 +72,7 @@ kind ="count", data = titanic)
 You will run a script to package your virtual machine content as an ISO.
 Perform the following steps.
 
-a. Modify your rootfs script to install the `linux-virt` apt package. This will create a vmlinuz and initrd file in the /boot directory of your rootfs. 
+a. Modify your rootfs script to install the `linux-virtual` apt package. This will create a vmlinuz and initrd file in the /boot directory of your rootfs. 
 
 b. Make a directory called `iso`. Structure your content as:
 
