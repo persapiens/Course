@@ -146,7 +146,7 @@ You may run in the following situations:
 
 * `/etc/resolv.conf` is a symlink, you may have to remove first before writing.
 * Some operations will require that you start your docker container with `--privileged`.
-* Make sure you label for your disk, e.g. `-L cloudimg-rootfs`.
+* Make sure you label for your disk, e.g. `-L cloudimg-rootfs`, or provide an explicit root parameter for your boot params, e.g. `root=/dev/sda`
 * Be mindful how what your containers are leaving behind after running. `docker container prune` might surprise you.
 * In a chroot, `flash-kernel` might not be happy. `FK_MACHINE=none apt install linux-virtual -y`
 * In a chroot, you might want to `mount --bind /proc ...` to have access to your host environment's cpu settings when installing kernel.
