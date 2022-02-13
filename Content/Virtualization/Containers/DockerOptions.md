@@ -52,6 +52,11 @@ If you want to run docker on your system, what's the best available option?
     ExecStart=/usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock -H tcp://0.0.0.0:2375
     
    # Restart service 
+   # Reload the systemd daemon.
+   vagrant@ubuntu-focal:/etc/systemd$  sudo systemctl daemon-reload
+
+   # Restart Docker.
+   vagrant@ubuntu-focal:/etc/systemd$  sudo systemctl restart docker
  
    # Check dockerd is running with additional host
    vagrant@ubuntu-focal:/etc/systemd$ ps -aux | grep dockerd
