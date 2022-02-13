@@ -63,7 +63,7 @@ If you want to run docker on your system, what's the best available option?
    choco install docker-cli -y
    SETX DOCKER_HOST tcp://192.168.99.101:2375
    
-   docker run run-hello
+   docker run hello-world
    ```
   
    *Using docker-machine*  
