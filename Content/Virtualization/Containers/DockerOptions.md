@@ -31,14 +31,14 @@ If you want to run docker on your system, what's the best available option?
    Prepare your docker vm
    
    ```
-   bakerx run docker-vm --ip 192.168.99.101
+   bakerx run docker-vm focal --ip 192.168.99.101
    bakerx stop docker-vm
 
    # Map your project to your directories
    vboxmanage sharedfolder add docker-vm --name "scripts" --hostpath C:/users/chris/classes/519/P-done/lib/scripts --automount
    vboxmanage sharedfolder add docker-vm --name "downloads" --hostpath C:/users/chris/classes/519/P-done/tmp --automount
    
-   bakerx run docker-vm --ip 192.168.99.101
+   bakerx run docker-vm focal --ip 192.168.99.101
    bakerx ssh docker-vm
 
    # Get docker
