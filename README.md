@@ -48,7 +48,7 @@ After the course, students are able to:
 | Feb 7         | [Images](Content/Virtualization/Images/README.md) |
 |          | _Building disk images, initrd, rootfs, kernel_ | Build packer from scratch |
 | Feb 9    |  [Cloud provisioning](https://github.com/CSC-DevOps/Provision)  | Build doctl from scratch  |   [HW-P](HW/HW-P.md)    
-| Feb 14   | Pipelines
+| Feb 14   | [Pipelines](https://docs.google.com/presentation/d/1d8-fjqal6FQcrUeH3N4DTOGl0o9hQblIanGwv1WlCuE/edit#slide=id.gc0bfd9f574_0_143)
 | Feb 16   | 
 | Feb 21   | 
 | Feb 23   |
