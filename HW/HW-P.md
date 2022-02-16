@@ -60,7 +60,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-titanic = pd.read_csv('/data/titantic.csv')
+titanic = pd.read_csv('/data/titanic.csv')
 
 # Countplot
 sns.catplot(x ="Sex", hue ="Survived",
