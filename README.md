@@ -48,16 +48,19 @@ After the course, students are able to:
 | Feb 7         | [Images](Content/Virtualization/Images/README.md) |
 |          | _Building disk images, initrd, rootfs, kernel_ | Build packer from scratch |
 | Feb 9    |  [Cloud provisioning](https://github.com/CSC-DevOps/Provision)  | Build doctl from scratch  |   [HW-P](HW/HW-P.md)    
+| <tr><th colspan=4> 🚰🚀 &nbsp;&nbsp;&nbsp;Pipelines, CI/CD&nbsp;&nbsp;&nbsp; 🧪✅</th></tr> |
 | Feb 14   | [Pipelines](https://docs.google.com/presentation/d/1d8-fjqal6FQcrUeH3N4DTOGl0o9hQblIanGwv1WlCuE/edit#slide=id.gc0bfd9f574_0_143)
-| Feb 16   | 
-| Feb 21   | 
-| Feb 23   |
-| Feb 28   |
-| Mar 2    |
-| Mar 7    |
-| Mar 9    |
+| Feb 16   | [Pipelines Workshop](https://github.com/CSC-DevOps/Pipelines) | Build a deployment pipeline from scratch | 
+|          | _git hooks, pre-commit, post-receive, bare repositories, process managers_ |
+| Feb 21   | Configuration Management  | | [M1](Project/M1.md)
+| Feb 23   | CM, Ansible
+| Feb 28   | Testing+Analysis
+| Mar 2    | Fuzzing
+| Mar 7    | Static Analysis/Code Complexity
+| Mar 9    | Snapshot Testing
 | Mar 14   | Spring break
 | Mar 16   | Spring break
+| <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure + Operations&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 21   |
 | Mar 23   |
 | Mar 28   |
