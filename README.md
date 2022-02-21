@@ -52,7 +52,7 @@ After the course, students are able to:
 | Feb 14   | [Pipelines](https://docs.google.com/presentation/d/1d8-fjqal6FQcrUeH3N4DTOGl0o9hQblIanGwv1WlCuE/edit#slide=id.gc0bfd9f574_0_143)
 | Feb 16   | [Pipelines Workshop](https://github.com/CSC-DevOps/Pipelines) | Build a deployment pipeline from scratch | 
 |          | _git hooks, pre-commit, post-receive, bare repositories, process managers_ |
-| Feb 21   | Configuration Management  | | [M1](Project/M1.md)
+| Feb 21   | [Configuration Management](https://docs.google.com/presentation/d/11_0xv1-1Ws8APcpsBlENLDicCkZv2ZZwxH2wRCjnbaw/edit?usp=sharing)  | | [M1](Project/M1.md)
 | Feb 23   | CM, Ansible
 | Feb 28   | Testing+Analysis
 | Mar 2    | Fuzzing
