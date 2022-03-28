@@ -61,7 +61,7 @@ After the course, students are able to:
 | Mar 14   | Spring break
 | Mar 16   | Spring break
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure + Operations&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
-| Mar 21   | Infrastructure concepts                                           | [M2](Project/M2.md)
+| Mar 21   | Infrastructure concepts                                          | | [M2](Project/M2.md)
 | Mar 23   | Redis
 | Mar 28   | Deployment strategies
 | Mar 30   |
