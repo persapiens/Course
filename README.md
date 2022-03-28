@@ -53,17 +53,17 @@ After the course, students are able to:
 | Feb 16   | [Pipelines Workshop](https://github.com/CSC-DevOps/Pipelines) | Build a deployment pipeline from scratch | 
 |          | _git hooks, pre-commit, post-receive, bare repositories, process managers_ |
 | Feb 21   | [Configuration Management](https://docs.google.com/presentation/d/11_0xv1-1Ws8APcpsBlENLDicCkZv2ZZwxH2wRCjnbaw/edit?usp=sharing)  | | [M1](Project/M1.md)
-| Feb 23   | CM, Ansible
-| Feb 28   | Testing+Analysis
-| Mar 2    | Fuzzing
-| Mar 7    | Static Analysis/Code Complexity
-| Mar 9    | Code coverage
+| Feb 23   | [CM, Ansible](https://github.com/CSC-DevOps/CM)
+| Feb 28   | [Testing+Analysis](https://docs.google.com/presentation/d/1PY5D1TAn9W7spSMS--B4zt8JwBXAJY4apx36N9so55I/edit?usp=sharing)
+| Mar 2    | [Fuzzing](https://github.com/CSC-DevOps/Fuzzing)
+| Mar 7    | [Static Analysis/Code Complexity](https://github.com/CSC-DevOps/Complexity)
+| Mar 9    | [Code coverage](https://devops.docable.cloud/chrisparnin/v/621f95745872b78ccff50677)
 | Mar 14   | Spring break
 | Mar 16   | Spring break
 | <tr><th colspan=4> 🚧&nbsp;&nbsp;&nbsp;Infrastructure + Operations&nbsp;&nbsp;&nbsp; 🏗️</th></tr> |
 | Mar 21   | [Infrastructure concepts](https://discord.com/channels/929425673901178900/929428348197814352/955471473194205204)                                          | | [M2](Project/M2.md)
 | Mar 23   | Redis
-| Mar 28   | Deployment strategies
+| Mar 28   | [Deployment strategies](https://docs.google.com/presentation/d/1Dg7x-70LT5KZ5GfojpzByhDa3abt1_mEdSmI8C2ojRE/edit?usp=sharing)
 | Mar 30   |
 | Apr 4    |
 | Apr 6    |
