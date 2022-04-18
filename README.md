@@ -64,13 +64,13 @@ After the course, students are able to:
 | Mar 21   | [Infrastructure concepts](https://discord.com/channels/929425673901178900/929428348197814352/955471473194205204)                                          | | [M2](Project/M2.md)
 | Mar 23   | Redis
 | Mar 28   | [Deployment strategies](https://docs.google.com/presentation/d/1Dg7x-70LT5KZ5GfojpzByhDa3abt1_mEdSmI8C2ojRE/edit?usp=sharing)
-| Mar 30   |
-| Apr 4    |
-| Apr 6    |
-| Apr 11   |
-| Apr 13   |
-| Apr 18   |
-| Apr 20   |
-| Apr 25   | Last class
-| May 4    | Final Exam (12pm--2:30pm)        |            |                   |
+| Mar 30   | Deployment workshop
+| Apr 4    | Monitoring
+| Apr 6    | Monitoring workshop
+| Apr 11   | Incidents
+| Apr 13   |   
+| Apr 18   | Chao engineering/feature experimentation | | [M3](Project/M3.md)
+| Apr 20   | Chao experiment
+| Apr 25   | No class
+| May 4    | [Final Exam](Project/F0.md)        |            |                   |
 
