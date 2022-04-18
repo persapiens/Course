@@ -68,7 +68,6 @@ After the course, students are able to:
 | Apr 4    | Monitoring
 | Apr 6    | Monitoring workshop
 | Apr 11   | Incidents
-| Apr 13   |   
 | Apr 18   | Chao engineering/feature experimentation | | [M3](Project/M3.md)
 | Apr 20   | Chao experiment
 | Apr 25   | No class
